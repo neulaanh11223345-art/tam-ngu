@@ -1,0 +1,288 @@
+# HSK 4 (HSK 2.0) — phần 1
+# Định dạng: chữ Hán|chủ đề|nghĩa tiếng Việt|nghĩa tiếng Anh|câu ví dụ|dịch tiếng Việt|dịch tiếng Anh
+爱情|feel|tình yêu|love (romantic)|这是一个关于爱情的故事。|Đây là một câu chuyện về tình yêu.|This is a story about love.
+安排|work|sắp xếp, bố trí|to arrange; arrangement|明天的工作我已经安排好了。|Công việc ngày mai tôi đã sắp xếp xong.|I've already arranged tomorrow's work.
+安全|desc|an toàn|safe; safety|开车要注意安全。|Lái xe phải chú ý an toàn.|Drive safely.
+按时|time|đúng giờ, đúng hạn|on time|请按时吃药。|Hãy uống thuốc đúng giờ.|Please take your medicine on time.
+按照|link|theo, dựa theo|according to|请按照要求填写表格。|Hãy điền vào mẫu đơn theo yêu cầu.|Please fill in the form as required.
+暗|desc|tối|dark|房间里太暗了，开灯吧。|Trong phòng tối quá, bật đèn đi.|It's too dark in the room, turn on the light.
+包括|link|bao gồm|to include|房费包括早饭。|Tiền phòng đã bao gồm bữa sáng.|The room rate includes breakfast.
+保护|nature|bảo vệ|to protect|我们要保护环境。|Chúng ta phải bảo vệ môi trường.|We must protect the environment.
+保证|talk|đảm bảo, cam đoan|to guarantee; to promise|我保证下次不迟到了。|Tôi cam đoan lần sau không đến muộn nữa.|I promise I won't be late next time.
+报道|talk|đưa tin; bài báo|to report; report|报纸上报道了这个消息。|Báo chí đã đưa tin này.|The newspaper reported this news.
+报名|study|đăng ký|to sign up|我已经报名参加汉语比赛了。|Tôi đã đăng ký tham gia cuộc thi tiếng Hán rồi.|I've signed up for the Chinese competition.
+抱|act|ôm, bế|to hug; to hold in one's arms|妈妈抱着孩子在门口等。|Mẹ bế con đợi ở cửa.|Mom is waiting at the door holding the baby.
+抱歉|talk|xin lỗi, áy náy|sorry|很抱歉，让你久等了。|Rất xin lỗi đã để bạn đợi lâu.|Sorry to keep you waiting so long.
+倍|num|lần (gấp ... lần)|times; -fold|今年的收入是去年的两倍。|Thu nhập năm nay gấp đôi năm ngoái.|This year's income is twice last year's.
+本来|link|vốn dĩ, ban đầu|originally|我本来想去，后来有事没去成。|Ban đầu tôi định đi, sau có việc nên không đi được.|I originally wanted to go, but something came up.
+笨|feel|ngốc, vụng về|stupid; clumsy|我真笨，又把钥匙忘了。|Tôi ngốc thật, lại quên chìa khóa rồi.|How silly of me, I forgot my keys again.
+笔记本|study|sổ ghi chép; máy tính xách tay|notebook; laptop|我把电话号码写在笔记本上了。|Tôi đã ghi số điện thoại vào sổ.|I wrote the phone number in my notebook.
+毕业|study|tốt nghiệp|to graduate|她大学毕业以后当了老师。|Sau khi tốt nghiệp đại học cô ấy làm giáo viên.|After graduating from university, she became a teacher.
+遍|num|lần, lượt (từ đầu đến cuối)|time (from start to finish)|这本书我看了三遍。|Cuốn sách này tôi đã đọc ba lượt.|I've read this book three times.
+标准|desc|tiêu chuẩn; chuẩn|standard|他的发音很标准。|Phát âm của anh ấy rất chuẩn.|His pronunciation is very standard.
+表达|talk|biểu đạt, diễn đạt|to express|我不知道怎么表达我的感谢。|Tôi không biết bày tỏ lòng biết ơn thế nào.|I don't know how to express my gratitude.
+表格|work|biểu mẫu, bảng biểu|form; table|请先填一下这张表格。|Xin hãy điền vào mẫu đơn này trước.|Please fill out this form first.
+表扬|talk|khen ngợi, biểu dương|to praise|老师表扬了他。|Thầy giáo đã khen cậu ấy.|The teacher praised him.
+饼干|food|bánh quy|biscuit; cookie|孩子们很喜欢吃饼干。|Bọn trẻ rất thích ăn bánh quy.|The kids love eating cookies.
+并且|link|hơn nữa, và|and; moreover|他很聪明，并且非常努力。|Anh ấy rất thông minh, hơn nữa lại vô cùng chăm chỉ.|He's smart and also very hard-working.
+博士|study|tiến sĩ|doctor (PhD)|他是一位医学博士。|Ông ấy là một tiến sĩ y học.|He has a doctorate in medicine.
+不但|link|không những|not only|他不但会说汉语，而且会说英语。|Anh ấy không những biết nói tiếng Hán mà còn biết nói tiếng Anh.|He can speak not only Chinese but also English.
+不得不|link|đành phải, buộc phải|to have to|下雨了，我们不得不回家。|Trời mưa rồi, chúng tôi đành phải về nhà.|It started raining, so we had to go home.
+不管|link|bất kể, dù|no matter|不管多忙，他都每天锻炼。|Dù bận đến mấy, ngày nào anh ấy cũng tập thể dục.|No matter how busy he is, he exercises every day.
+不过|link|nhưng mà, có điều|but; however|这件衣服很漂亮，不过有点儿贵。|Bộ đồ này rất đẹp, có điều hơi đắt.|This outfit is lovely, but a bit expensive.
+不仅|link|không chỉ|not only|这不仅是我的问题，也是大家的问题。|Đây không chỉ là vấn đề của tôi mà còn là của mọi người.|This isn't only my problem but everyone's.
+部分|num|bộ phận, phần|part|大部分学生都同意这个计划。|Phần lớn học sinh đều đồng ý kế hoạch này.|Most students agree with this plan.
+擦|home|lau, chùi|to wipe|吃完饭请把桌子擦干净。|Ăn xong xin hãy lau bàn sạch sẽ.|Please wipe the table clean after eating.
+猜|talk|đoán|to guess|你猜猜我今年多大了？|Bạn đoán xem năm nay tôi bao nhiêu tuổi?|Guess how old I am this year.
+材料|work|tài liệu, vật liệu|material; materials|开会需要的材料都准备好了。|Tài liệu cần cho cuộc họp đều đã chuẩn bị xong.|All the materials for the meeting are ready.
+参观|travel|tham quan|to visit (a place)|我们明天去参观博物馆。|Ngày mai chúng ta đi tham quan bảo tàng.|We're visiting the museum tomorrow.
+差不多|link|xấp xỉ, gần như|about the same; almost|我们俩差不多高。|Hai chúng tôi cao xấp xỉ nhau.|The two of us are about the same height.
+尝|food|nếm, thử|to taste|你尝尝我做的菜。|Bạn nếm thử món tôi nấu xem.|Try the dish I made.
+场|num|trận, buổi (lượng từ)|(measure word for events)|昨天晚上下了一场大雨。|Tối qua có một trận mưa to.|There was a heavy rain last night.
+超过|num|vượt quá|to exceed|今天的气温超过了三十五度。|Nhiệt độ hôm nay vượt quá ba mươi lăm độ.|Today's temperature went over 35 degrees.
+吵|feel|ồn ào; cãi nhau|noisy; to quarrel|外面太吵了，我睡不着。|Bên ngoài ồn quá, tôi không ngủ được.|It's too noisy outside; I can't sleep.
+成功|work|thành công|success; to succeed|祝你成功！|Chúc bạn thành công!|I wish you success!
+成熟|desc|chín; trưởng thành, chín chắn|ripe; mature|他比以前成熟多了。|Anh ấy chín chắn hơn trước nhiều rồi.|He's much more mature than before.
+成为|act|trở thành|to become|我想成为一名医生。|Tôi muốn trở thành một bác sĩ.|I want to become a doctor.
+诚实|feel|thành thật|honest|做人要诚实。|Làm người phải thành thật.|One should be honest.
+乘坐|travel|đi (tàu, xe, máy bay)|to ride; to take (transport)|欢迎乘坐本次航班。|Chào mừng quý khách đi chuyến bay này.|Welcome aboard this flight.
+吃惊|feel|ngạc nhiên, giật mình|surprised; shocked|听到这个消息，大家都很吃惊。|Nghe tin này, mọi người đều rất ngạc nhiên.|Everyone was shocked by the news.
+抽烟|act|hút thuốc|to smoke|这里禁止抽烟。|Ở đây cấm hút thuốc.|Smoking is forbidden here.
+出差|work|đi công tác|to go on a business trip|经理下周要去上海出差。|Tuần sau giám đốc phải đi công tác Thượng Hải.|The manager is going on a business trip to Shanghai next week.
+出发|travel|xuất phát, khởi hành|to set off|我们早上七点出发。|Chúng ta khởi hành lúc bảy giờ sáng.|We'll set off at 7 a.m.
+出生|ppl|sinh ra, ra đời|to be born|我出生在一个小城市。|Tôi sinh ra ở một thành phố nhỏ.|I was born in a small city.
+传真|work|fax|fax|请把这份材料传真给我。|Hãy fax tài liệu này cho tôi.|Please fax me this document.
+窗户|home|cửa sổ|window|打开窗户吧，房间里太热了。|Mở cửa sổ ra đi, trong phòng nóng quá.|Open the window, it's too hot in here.
+词典|study|từ điển|dictionary|这本词典对学汉语很有帮助。|Cuốn từ điển này rất có ích cho việc học tiếng Hán.|This dictionary is very helpful for learning Chinese.
+从来|link|từ trước đến nay|always; (with negation) never|我从来没去过那儿。|Tôi chưa bao giờ đến đó.|I've never been there.
+粗心|feel|cẩu thả, sơ ý|careless|考试的时候不要粗心。|Khi thi đừng cẩu thả.|Don't be careless during the exam.
+答案|study|đáp án|answer|这个问题的答案是什么？|Đáp án của câu hỏi này là gì?|What's the answer to this question?
+打扮|shop|trang điểm, ăn diện|to dress up|她今天打扮得很漂亮。|Hôm nay cô ấy ăn diện rất đẹp.|She's dressed up beautifully today.
+打扰|talk|làm phiền|to disturb|对不起，打扰一下。|Xin lỗi, làm phiền một chút.|Sorry to bother you.
+打印|work|in (bằng máy in)|to print|请帮我把这份材料打印出来。|Làm ơn in tài liệu này ra giúp tôi.|Please print this document for me.
+打折|shop|giảm giá|to give a discount|这家店的衣服正在打折。|Quần áo cửa hàng này đang giảm giá.|Clothes in this store are on sale.
+打针|body|tiêm|to give or get an injection|孩子打针的时候哭了。|Đứa bé khóc khi bị tiêm.|The child cried when getting the injection.
+大夫|body|bác sĩ|doctor|大夫说我需要多休息。|Bác sĩ nói tôi cần nghỉ ngơi nhiều hơn.|The doctor said I need more rest.
+大概|link|khoảng, có lẽ|probably; roughly|他大概明天才能到。|Có lẽ mai anh ấy mới tới được.|He probably won't arrive until tomorrow.
+大使馆|travel|đại sứ quán|embassy|我要去大使馆办签证。|Tôi phải đến đại sứ quán làm visa.|I need to go to the embassy for a visa.
+大约|num|khoảng chừng|approximately|从这儿到机场大约要一个小时。|Từ đây đến sân bay mất khoảng một tiếng.|It takes about an hour from here to the airport.
+代表|work|đại biểu; đại diện|representative; to represent|他代表我们班参加比赛。|Anh ấy đại diện lớp chúng tôi tham gia cuộc thi.|He's representing our class in the competition.
+代替|act|thay thế|to replace|今天我代替王老师上课。|Hôm nay tôi dạy thay thầy Vương.|Today I'm teaching in place of Mr. Wang.
+戴|shop|đeo, đội|to wear (hat, glasses, gloves)|外面很冷，戴上手套吧。|Bên ngoài rất lạnh, đeo găng tay vào đi.|It's cold outside—put on your gloves.
+弹|fun|đánh, chơi (đàn)|to play (piano, guitar)|她弹钢琴弹得很好。|Cô ấy chơi piano rất hay.|She plays the piano very well.
+当|link|khi; làm, đảm nhiệm|when; to serve as|当我回家的时候，妈妈已经睡了。|Khi tôi về nhà thì mẹ đã ngủ rồi.|When I got home, Mom was already asleep.
+当地|place|địa phương, bản địa|local|我们去尝尝当地的小吃吧。|Chúng ta đi nếm thử đồ ăn vặt địa phương nhé.|Let's go try the local snacks.
+当时|time|lúc đó, khi ấy|at that time|当时我才十岁。|Khi ấy tôi mới mười tuổi.|I was only ten at the time.
+刀|home|dao|knife|用刀的时候要小心。|Khi dùng dao phải cẩn thận.|Be careful when using a knife.
+导游|travel|hướng dẫn viên du lịch|tour guide|导游给我们介绍了这座城市的历史。|Hướng dẫn viên giới thiệu cho chúng tôi lịch sử của thành phố này.|The guide told us about the city's history.
+到处|place|khắp nơi|everywhere|春天到处都是花。|Mùa xuân khắp nơi đều là hoa.|In spring there are flowers everywhere.
+到底|link|rốt cuộc|after all; on earth|你到底想不想去？|Rốt cuộc bạn có muốn đi hay không?|Do you want to go or not?
+道歉|talk|xin lỗi|to apologize|你应该向他道歉。|Bạn nên xin lỗi anh ấy.|You should apologize to him.
+地球|nature|trái đất|the Earth|地球是我们共同的家。|Trái đất là ngôi nhà chung của chúng ta.|The Earth is our common home.
+地址|place|địa chỉ|address|请把你的地址写在这儿。|Hãy viết địa chỉ của bạn vào đây.|Please write your address here.
+得意|feel|đắc ý|pleased with oneself|考了第一名，他很得意。|Thi được hạng nhất, cậu ấy rất đắc ý.|He came first in the exam and is very pleased with himself.
+等|link|vân vân; đợi|etc.; to wait|我买了苹果、香蕉、葡萄等水果。|Tôi mua táo, chuối, nho và các loại hoa quả khác.|I bought apples, bananas, grapes and other fruit.
+底|place|đáy; cuối (tháng, năm)|bottom; end (of month, year)|我月底要去北京。|Cuối tháng tôi phải đi Bắc Kinh.|I'm going to Beijing at the end of the month.
+调查|work|điều tra, khảo sát|to investigate; survey|我们做了一个关于学生生活的调查。|Chúng tôi đã làm một cuộc khảo sát về đời sống sinh viên.|We did a survey about student life.
+掉|act|rơi, rớt; mất|to fall; to drop|我的手机掉在地上了。|Điện thoại của tôi rơi xuống đất rồi.|My phone fell on the ground.
+丢|act|mất, đánh rơi|to lose|我的钱包丢了。|Ví tiền của tôi bị mất rồi.|I lost my wallet.
+动作|body|động tác|movement; action|这个动作有点儿难。|Động tác này hơi khó.|This movement is a bit difficult.
+堵车|travel|tắc đường|traffic jam|下班的时候经常堵车。|Giờ tan tầm thường xuyên tắc đường.|There are often traffic jams after work.
+肚子|body|bụng|belly; stomach|我肚子疼，不想吃饭。|Tôi đau bụng, không muốn ăn cơm.|I have a stomachache and don't want to eat.
+断|act|đứt, gãy; cắt đứt|to break; to cut off|他的腿摔断了。|Chân anh ấy bị ngã gãy rồi.|He fell and broke his leg.
+对|link|đối với; đúng|to; towards; correct|抽烟对身体不好。|Hút thuốc có hại cho sức khỏe.|Smoking is bad for your health.
+对话|talk|đối thoại, hội thoại|dialogue|请听下面的对话。|Hãy nghe đoạn hội thoại sau.|Please listen to the following dialogue.
+对面|place|đối diện|opposite; across|银行就在超市对面。|Ngân hàng ở ngay đối diện siêu thị.|The bank is right across from the supermarket.
+顿|num|bữa, trận (lượng từ)|(measure word for meals, scoldings)|我请你吃顿饭吧。|Tôi mời bạn một bữa cơm nhé.|Let me treat you to a meal.
+朵|num|đóa, bông (lượng từ cho hoa, mây)|(measure word for flowers, clouds)|她头上戴着一朵花。|Trên đầu cô ấy cài một bông hoa.|She's wearing a flower in her hair.
+儿童|ppl|trẻ em, nhi đồng|child|六月一日是儿童节。|Ngày một tháng sáu là Tết thiếu nhi.|June 1st is Children's Day.
+而|link|mà, còn (liên từ)|and; but; whereas|他喜欢运动，而我喜欢看书。|Anh ấy thích thể thao, còn tôi thích đọc sách.|He likes sports, whereas I like reading.
+发|act|gửi; phát|to send; to issue|我给你发了一个短信。|Tôi đã gửi cho bạn một tin nhắn.|I sent you a text message.
+发生|act|xảy ra|to happen|这里发生了什么事？|Ở đây đã xảy ra chuyện gì vậy?|What happened here?
+发展|work|phát triển|to develop; development|这个城市发展得很快。|Thành phố này phát triển rất nhanh.|This city is developing very fast.
+法律|work|pháp luật|law|每个人都应该遵守法律。|Mỗi người đều nên tuân thủ pháp luật.|Everyone should obey the law.
+翻译|study|phiên dịch; dịch|to translate; translator|你能帮我翻译一下这句话吗？|Bạn dịch giúp tôi câu này được không?|Could you help me translate this sentence?
+烦恼|feel|phiền muộn, buồn phiền|worried; worries|别为小事烦恼。|Đừng phiền lòng vì chuyện nhỏ.|Don't worry over small things.
+反对|talk|phản đối|to oppose|父母反对他去国外工作。|Bố mẹ phản đối việc anh ấy ra nước ngoài làm việc.|His parents oppose him working abroad.
+反映|talk|phản ánh|to reflect; to report|这本小说反映了当时的社会生活。|Cuốn tiểu thuyết này phản ánh đời sống xã hội lúc bấy giờ.|This novel reflects the social life of that time.
+范围|num|phạm vi|scope; range|这次考试的范围是第一课到第十课。|Phạm vi kỳ thi lần này là từ bài một đến bài mười.|This exam covers lessons one to ten.
+方法|study|phương pháp|method|你有什么好的学习方法？|Bạn có phương pháp học nào hay không?|Do you have any good study methods?
+方面|link|phương diện, mặt|aspect; side|在学习方面，他一直很努力。|Về mặt học tập, cậu ấy luôn rất chăm chỉ.|In terms of study, he's always worked hard.
+方向|place|phương hướng|direction|我们走错方向了。|Chúng ta đi nhầm hướng rồi.|We're going in the wrong direction.
+访问|travel|thăm viếng; phỏng vấn|to visit; to interview|一位记者访问了这位作家。|Một phóng viên đã phỏng vấn nhà văn này.|A journalist interviewed this writer.
+放弃|act|từ bỏ|to give up|不要轻易放弃。|Đừng dễ dàng bỏ cuộc.|Don't give up easily.
+放暑假|study|nghỉ hè|to have summer vacation|放暑假以后，我打算去旅游。|Sau khi nghỉ hè, tôi định đi du lịch.|Once summer vacation starts, I plan to travel.
+分之|num|phần (trong phân số)|(fraction)|班里三分之二的学生是女生。|Hai phần ba học sinh trong lớp là nữ.|Two-thirds of the students in the class are girls.
+份|num|phần, bản (lượng từ)|portion; copy (measure word)|我要一份牛肉面。|Cho tôi một phần mì bò.|I'd like one order of beef noodles.
+丰富|desc|phong phú|rich; abundant|他的工作经验很丰富。|Kinh nghiệm làm việc của anh ấy rất phong phú.|He has a wealth of work experience.
+风景|travel|phong cảnh|scenery|这里的风景美极了。|Phong cảnh ở đây đẹp tuyệt vời.|The scenery here is gorgeous.
+否则|link|nếu không thì|otherwise|快点儿走，否则就迟到了。|Đi nhanh lên, nếu không sẽ muộn mất.|Hurry up, otherwise we'll be late.
+符合|desc|phù hợp|to match; to conform to|他的条件完全符合要求。|Điều kiện của anh ấy hoàn toàn phù hợp với yêu cầu.|He fully meets the requirements.
+父亲|ppl|cha, bố|father|我的父亲是一名医生。|Bố tôi là bác sĩ.|My father is a doctor.
+负责|work|phụ trách, chịu trách nhiệm|to be in charge of|这件事由我负责。|Việc này do tôi phụ trách.|I'm in charge of this matter.
+复印|work|photo, sao chụp|to photocopy|请把护照复印一份。|Hãy photo hộ chiếu một bản.|Please make a copy of your passport.
+复杂|desc|phức tạp|complicated|这个问题比我想的复杂。|Vấn đề này phức tạp hơn tôi nghĩ.|This problem is more complicated than I thought.
+富|desc|giàu|rich|他家很富。|Nhà anh ấy rất giàu.|His family is very rich.
+改变|act|thay đổi|to change|这次旅行改变了我的想法。|Chuyến đi này đã thay đổi suy nghĩ của tôi.|This trip changed my way of thinking.
+感动|feel|cảm động|moved; touching|这个电影让我很感动。|Bộ phim này khiến tôi rất cảm động.|This movie really moved me.
+感觉|feel|cảm giác; cảm thấy|feeling; to feel|我感觉有点儿冷。|Tôi cảm thấy hơi lạnh.|I feel a bit cold.
+感情|feel|tình cảm|emotion; affection|他们俩的感情很好。|Tình cảm của hai người họ rất tốt.|The two of them are very close.
+感谢|talk|cảm ơn, cảm tạ|to thank; gratitude|非常感谢你的帮助。|Vô cùng cảm ơn sự giúp đỡ của bạn.|Thank you so much for your help.
+干|act|làm (việc)|to do|你在干什么呢？|Bạn đang làm gì thế?|What are you doing?
+干杯|food|cạn ly|cheers|为我们的友谊干杯！|Vì tình bạn của chúng ta, cạn ly!|To our friendship, cheers!
+干燥|nature|khô, hanh khô|dry|北方的冬天很干燥。|Mùa đông ở miền bắc rất hanh khô.|Winters in the north are very dry.
+刚刚|time|vừa mới|just now|我刚刚到家。|Tôi vừa mới về đến nhà.|I just got home.
+高级|desc|cao cấp|advanced; high-level|这是一家高级饭店。|Đây là một khách sạn cao cấp.|This is a high-end hotel.
+个子|body|vóc dáng, chiều cao|height; build|他个子很高。|Anh ấy dáng người rất cao.|He's very tall.
+各|link|mỗi, các|each; every|各位同学，请安静！|Các em học sinh, xin hãy trật tự!|Students, please be quiet!
+工具|work|công cụ|tool|手机已经成了重要的工具。|Điện thoại đã trở thành công cụ quan trọng.|Phones have become an important tool.
+工资|work|tiền lương|wages; salary|这个月的工资已经发了。|Lương tháng này đã được trả rồi.|This month's salary has been paid.
+公里|num|ki-lô-mét|kilometer|我家离公司二十公里。|Nhà tôi cách công ty hai mươi cây số.|My home is 20 km from the office.
+共同|link|chung, cùng nhau|common; together|我们有很多共同的爱好。|Chúng tôi có nhiều sở thích chung.|We have many hobbies in common.
+购物|shop|mua sắm|shopping|很多人喜欢在网上购物。|Nhiều người thích mua sắm trên mạng.|Many people like shopping online.
+够|num|đủ|enough|钱够不够？|Tiền có đủ không?|Is there enough money?
+估计|talk|ước tính, đoán chừng|to estimate; to reckon|我估计他今天不会来了。|Tôi đoán chừng hôm nay anh ấy sẽ không đến.|I reckon he won't come today.
+孤单|feel|cô đơn|lonely|一个人在国外，有时候会觉得孤单。|Một mình ở nước ngoài, đôi khi cảm thấy cô đơn.|Living abroad alone, I sometimes feel lonely.
+鼓励|talk|khích lệ, động viên|to encourage|老师经常鼓励我们多说汉语。|Thầy cô thường động viên chúng tôi nói tiếng Hán nhiều hơn.|Our teacher often encourages us to speak more Chinese.
+鼓掌|fun|vỗ tay|to applaud|观众们热情地鼓掌。|Khán giả nhiệt tình vỗ tay.|The audience applauded warmly.
+故意|feel|cố ý|deliberately|对不起，我不是故意的。|Xin lỗi, tôi không cố ý.|Sorry, I didn't mean to.
+顾客|shop|khách hàng|customer|这家店的顾客很多。|Cửa hàng này rất đông khách.|This store has many customers.
+挂|act|treo; cúp (máy)|to hang; to hang up|墙上挂着一张地图。|Trên tường treo một tấm bản đồ.|There's a map hanging on the wall.
+关键|desc|then chốt, mấu chốt|key; crucial|学好语言的关键是多练习。|Mấu chốt để học tốt ngôn ngữ là luyện tập nhiều.|The key to learning a language well is practice.
+观众|fun|khán giả|audience|观众们都很喜欢这个节目。|Khán giả đều rất thích chương trình này.|The audience really likes this program.
+管理|work|quản lý|to manage; management|他在一家大公司做管理工作。|Anh ấy làm công tác quản lý ở một công ty lớn.|He works in management at a big company.
+光|desc|ánh sáng; hết sạch|light; used up|钱都花光了。|Tiền đã tiêu hết sạch rồi.|The money has all been spent.
+广播|talk|phát thanh|broadcast; radio|我每天早上听广播。|Sáng nào tôi cũng nghe đài phát thanh.|I listen to the radio every morning.
+广告|work|quảng cáo|advertisement|电视上的广告太多了。|Quảng cáo trên TV nhiều quá.|There are too many ads on TV.
+逛|shop|đi dạo, đi chơi (phố)|to stroll; to window-shop|周末我喜欢去逛街。|Cuối tuần tôi thích đi dạo phố.|On weekends I like to go window-shopping.
+规定|work|quy định|rule; to stipulate|公司规定上班不能迟到。|Công ty quy định đi làm không được đến muộn.|Company rules say you can't be late for work.
+国际|work|quốc tế|international|这是一个国际会议。|Đây là một hội nghị quốc tế.|This is an international conference.
+果然|link|quả nhiên|as expected|天气预报说今天下雨，果然下了。|Dự báo nói hôm nay mưa, quả nhiên trời mưa thật.|The forecast said rain today, and sure enough it rained.
+过|act|qua; trải qua; đón (lễ)|to pass; to spend; to celebrate|你们春节怎么过？|Tết các bạn đón thế nào?|How do you celebrate the Spring Festival?
+过程|work|quá trình|process|学习是一个长期的过程。|Học tập là một quá trình lâu dài.|Learning is a long process.
+咳嗽|body|ho|to cough|他感冒了，一直咳嗽。|Anh ấy bị cảm, ho suốt.|He's got a cold and keeps coughing.
+海洋|nature|đại dương, biển|ocean|海洋里有很多动物。|Trong đại dương có rất nhiều động vật.|There are many animals in the ocean.
+害羞|feel|xấu hổ, ngượng ngùng|shy|她很害羞，不敢跟陌生人说话。|Cô ấy rất nhút nhát, không dám nói chuyện với người lạ.|She's shy and doesn't dare talk to strangers.
+寒假|study|kỳ nghỉ đông|winter vacation|寒假你打算回家吗？|Kỳ nghỉ đông bạn có định về nhà không?|Are you planning to go home for winter break?
+汗|body|mồ hôi|sweat|跑完步，我出了一身汗。|Chạy bộ xong, tôi đổ mồ hôi khắp người.|After running, I was covered in sweat.
+航班|travel|chuyến bay|flight|我的航班晚上八点起飞。|Chuyến bay của tôi cất cánh lúc tám giờ tối.|My flight takes off at 8 p.m.
+好处|desc|lợi ích, cái lợi|benefit|多运动对身体有很多好处。|Vận động nhiều có rất nhiều lợi ích cho sức khỏe.|Exercising more has many health benefits.
+好像|link|hình như, dường như|to seem; as if|天好像要下雨了。|Hình như trời sắp mưa rồi.|It looks like it's going to rain.
+号码|num|số (điện thoại, phòng...)|number|你的手机号码是多少？|Số điện thoại của bạn là bao nhiêu?|What's your phone number?
+合格|study|đạt yêu cầu, đủ tiêu chuẩn|qualified; up to standard|这次考试我合格了。|Kỳ thi lần này tôi đã đạt.|I passed this exam.
+合适|desc|thích hợp, vừa|suitable; fitting|这双鞋大小正合适。|Đôi giày này cỡ vừa khít.|These shoes are just the right size.
+盒子|home|hộp|box|盒子里装着什么？|Trong hộp đựng gì vậy?|What's in the box?
+猴子|nature|con khỉ|monkey|猴子很聪明。|Khỉ rất thông minh.|Monkeys are very clever.
+后悔|feel|hối hận|to regret|我很后悔没有好好学习。|Tôi rất hối hận vì đã không học hành chăm chỉ.|I really regret not studying hard.
+后来|time|sau đó, về sau|afterwards; later|我们以前是同学，后来成了好朋友。|Trước đây chúng tôi là bạn học, về sau trở thành bạn thân.|We were classmates, and later became good friends.
+厚|desc|dày|thick|这本书很厚。|Cuốn sách này rất dày.|This book is very thick.
+忽然|link|bỗng nhiên|suddenly|他忽然想起了一件事。|Anh ấy bỗng nhớ ra một chuyện.|He suddenly remembered something.
+互相|link|lẫn nhau|each other|同学之间应该互相帮助。|Bạn học nên giúp đỡ lẫn nhau.|Classmates should help each other.
+护士|body|y tá|nurse|护士对病人很热情。|Y tá rất nhiệt tình với bệnh nhân.|The nurse is very kind to the patients.
+怀疑|feel|nghi ngờ|to doubt; to suspect|我怀疑他说的不是真话。|Tôi nghi ngờ điều anh ta nói không phải sự thật.|I suspect he isn't telling the truth.
+回忆|talk|hồi ức, nhớ lại|to recall; memory|那是一段美好的回忆。|Đó là một kỷ niệm đẹp.|That's a beautiful memory.
+活动|fun|hoạt động|activity; to exercise|学校周末有很多活动。|Cuối tuần trường có nhiều hoạt động.|The school has lots of activities on weekends.
+活泼|feel|hoạt bát|lively|她是一个活泼的女孩子。|Cô ấy là một cô gái hoạt bát.|She's a lively girl.
+火|nature|lửa|fire|小心火！|Cẩn thận lửa!|Watch out for fire!
+获得|work|giành được, đạt được|to obtain; to win|他获得了第一名。|Anh ấy đã giành được giải nhất.|He won first place.
+积极|feel|tích cực|active; positive|他上课回答问题很积极。|Trong giờ học cậu ấy trả lời câu hỏi rất tích cực.|He answers questions actively in class.
+积累|study|tích lũy|to accumulate|学语言要慢慢积累。|Học ngôn ngữ phải tích lũy từ từ.|Language learning takes gradual accumulation.
+基础|study|cơ sở, nền tảng|foundation; basis|他的汉语基础很好。|Nền tảng tiếng Hán của anh ấy rất tốt.|He has a solid foundation in Chinese.
+激动|feel|xúc động, phấn khích|excited; moved|听到这个好消息，她激动得哭了。|Nghe được tin vui này, cô ấy xúc động đến bật khóc.|She was so moved by the good news that she cried.
+及时|time|kịp thời|timely; promptly|有问题要及时告诉我。|Có vấn đề phải báo cho tôi kịp thời.|Tell me promptly if there's a problem.
+即使|link|cho dù, ngay cả khi|even if|即使下雨，我们也要去。|Cho dù trời mưa, chúng tôi cũng phải đi.|Even if it rains, we'll still go.
+极其|desc|cực kỳ|extremely|这个问题极其重要。|Vấn đề này cực kỳ quan trọng.|This issue is extremely important.
+集合|act|tập hợp, tập trung|to gather; to assemble|明天早上八点在学校门口集合。|Tám giờ sáng mai tập trung ở cổng trường.|Gather at the school gate at 8 tomorrow morning.
+计划|work|kế hoạch; lên kế hoạch|plan; to plan|你有什么计划？|Bạn có kế hoạch gì không?|What are your plans?
+记者|work|phóng viên, nhà báo|journalist|她是一名新闻记者。|Cô ấy là một phóng viên thời sự.|She's a news reporter.
+技术|work|kỹ thuật, công nghệ|technology; skill|现在的科学技术发展得很快。|Khoa học kỹ thuật ngày nay phát triển rất nhanh.|Science and technology are developing rapidly.
+既然|link|đã... thì|since (now that)|既然你不舒服，就早点儿休息吧。|Bạn đã không khỏe thì nghỉ sớm đi.|Since you're not feeling well, rest early.
+继续|act|tiếp tục|to continue|休息一下，我们再继续。|Nghỉ một lát rồi chúng ta tiếp tục.|Let's take a break and then continue.
+寄|act|gửi (qua bưu điện)|to mail; to send|我给家里寄了一些礼物。|Tôi đã gửi một ít quà về nhà.|I mailed some gifts home.
+加班|work|tăng ca|to work overtime|他这个星期每天都加班。|Tuần này ngày nào anh ấy cũng tăng ca.|He's worked overtime every day this week.
+加油站|travel|trạm xăng|gas station|前面有一个加油站。|Phía trước có một trạm xăng.|There's a gas station ahead.
+家具|home|đồ nội thất|furniture|我们买了一些新家具。|Chúng tôi đã mua một ít đồ nội thất mới.|We bought some new furniture.
+假|desc|giả|fake; false|这个包是假的。|Cái túi này là hàng giả.|This bag is a fake.
+价格|shop|giá cả|price|这里的价格比较便宜。|Giá cả ở đây khá rẻ.|Prices here are fairly cheap.
+坚持|feel|kiên trì|to persist|学习要坚持，不能放弃。|Học tập phải kiên trì, không được bỏ cuộc.|Keep at your studies; don't give up.
+减肥|body|giảm cân|to lose weight|我在减肥，不吃甜的。|Tôi đang giảm cân, không ăn đồ ngọt.|I'm on a diet, so no sweets.
+减少|num|giảm bớt|to reduce|我们应该减少使用塑料袋。|Chúng ta nên giảm bớt việc dùng túi ni-lông.|We should use fewer plastic bags.
+将来|time|tương lai|future|将来你想做什么工作？|Tương lai bạn muốn làm nghề gì?|What job do you want to do in the future?
+奖金|work|tiền thưởng|bonus|年底公司发了奖金。|Cuối năm công ty phát tiền thưởng.|The company paid bonuses at year-end.
+降低|num|hạ thấp, giảm|to lower|天气变冷，温度降低了。|Thời tiết trở lạnh, nhiệt độ đã giảm.|It's getting cold and the temperature has dropped.
+交|act|nộp; kết (bạn)|to hand in; to make (friends)|明天要交作业。|Ngày mai phải nộp bài tập.|The homework is due tomorrow.
+交流|talk|giao lưu, trao đổi|to exchange; to communicate|我们经常用汉语交流。|Chúng tôi thường trao đổi bằng tiếng Hán.|We often communicate in Chinese.
+交通|travel|giao thông|traffic; transportation|这里的交通很方便。|Giao thông ở đây rất thuận tiện.|Transportation here is very convenient.
+骄傲|feel|kiêu ngạo; tự hào|proud; arrogant|父母为你感到骄傲。|Bố mẹ cảm thấy tự hào về con.|Your parents are proud of you.
+饺子|food|sủi cảo, bánh chẻo|dumplings|过年的时候我们一起包饺子。|Dịp Tết chúng tôi cùng nhau gói sủi cảo.|We make dumplings together at New Year.
+教授|study|giáo sư|professor|王教授的课很受欢迎。|Lớp của giáo sư Vương rất được yêu thích.|Professor Wang's classes are very popular.
+教育|study|giáo dục|education; to educate|父母很重视孩子的教育。|Bố mẹ rất coi trọng việc giáo dục con cái.|Parents attach great importance to their children's education.
+接受|act|tiếp nhận, chấp nhận|to accept|我接受你的道歉。|Tôi chấp nhận lời xin lỗi của bạn.|I accept your apology.
+节约|shop|tiết kiệm|to save; to economize|我们要节约用水。|Chúng ta phải tiết kiệm nước.|We should save water.
+结果|link|kết quả|result|比赛的结果怎么样？|Kết quả trận đấu thế nào?|How did the match turn out?
+解释|talk|giải thích|to explain|请你解释一下这个词的意思。|Bạn hãy giải thích ý nghĩa của từ này.|Please explain the meaning of this word.
+尽管|link|mặc dù|although|尽管很累，他还是坚持完成了工作。|Mặc dù rất mệt, anh ấy vẫn kiên trì làm xong công việc.|Although tired, he kept going and finished the work.
+紧张|feel|căng thẳng, hồi hộp|nervous; tense|第一次上台表演，我很紧张。|Lần đầu lên sân khấu biểu diễn, tôi rất hồi hộp.|I was nervous performing on stage for the first time.
+进行|act|tiến hành|to carry out|会议正在进行。|Cuộc họp đang được tiến hành.|The meeting is in progress.
+禁止|work|cấm|to prohibit|图书馆里禁止大声说话。|Trong thư viện cấm nói to.|Talking loudly is forbidden in the library.
+京剧|fun|kinh kịch|Peking opera|你看过京剧吗？|Bạn đã xem kinh kịch bao giờ chưa?|Have you ever seen Peking opera?
+经济|work|kinh tế|economy|这几年中国经济发展很快。|Mấy năm nay kinh tế Trung Quốc phát triển rất nhanh.|China's economy has grown quickly in recent years.
+经历|ppl|trải qua; trải nghiệm|to experience; experience|这次旅行是一次难忘的经历。|Chuyến đi này là một trải nghiệm khó quên.|This trip was an unforgettable experience.
+经验|work|kinh nghiệm|experience|他有很多工作经验。|Anh ấy có rất nhiều kinh nghiệm làm việc.|He has a lot of work experience.
+精彩|desc|đặc sắc, hấp dẫn|wonderful; brilliant|昨天的比赛非常精彩。|Trận đấu hôm qua vô cùng hấp dẫn.|Yesterday's match was brilliant.
+精神|feel|tinh thần; tỉnh táo, hăng hái|spirit; energetic|休息了一天，他看起来很有精神。|Nghỉ ngơi một ngày, trông anh ấy rất tỉnh táo.|After a day's rest, he looks full of energy.
+警察|work|cảnh sát|police officer|有问题可以找警察。|Có vấn đề có thể tìm cảnh sát.|If you have a problem, you can go to the police.
+竞争|work|cạnh tranh|to compete; competition|现在找工作的竞争很大。|Bây giờ tìm việc cạnh tranh rất gắt.|Competition for jobs is fierce these days.
+竟然|link|vậy mà, không ngờ|unexpectedly|他竟然一个人吃完了整个蛋糕。|Không ngờ anh ấy một mình ăn hết cả chiếc bánh.|He actually ate the whole cake by himself.
+镜子|home|gương|mirror|她站在镜子前面看了很久。|Cô ấy đứng trước gương ngắm rất lâu.|She stood in front of the mirror for a long time.
+究竟|link|rốt cuộc, cuối cùng|after all; exactly|这究竟是怎么回事？|Rốt cuộc chuyện này là thế nào?|What on earth is going on?
+举办|work|tổ chức|to hold; to host|学校下个月举办运动会。|Tháng sau trường tổ chức hội thao.|The school is holding a sports meet next month.
+拒绝|talk|từ chối|to refuse|他拒绝了我的邀请。|Anh ấy đã từ chối lời mời của tôi.|He declined my invitation.
+距离|place|khoảng cách; cách|distance; to be apart from|学校距离我家不远。|Trường cách nhà tôi không xa.|The school isn't far from my home.
+开玩笑|talk|nói đùa|to joke|别生气，我在开玩笑呢。|Đừng giận, tôi đang đùa thôi mà.|Don't be mad, I'm just joking.
+看法|talk|cách nhìn, quan điểm|view; opinion|你对这件事有什么看法？|Bạn có quan điểm gì về việc này?|What's your view on this?
+考虑|talk|suy nghĩ, cân nhắc|to consider|让我考虑一下再回答你。|Để tôi cân nhắc một chút rồi trả lời bạn.|Let me think it over before I answer you.
+科学|study|khoa học|science|他对科学很感兴趣。|Cậu ấy rất hứng thú với khoa học.|He's very interested in science.
+棵|num|cây (lượng từ cho cây)|(measure word for trees)|院子里有一棵苹果树。|Trong sân có một cây táo.|There's an apple tree in the yard.
+可怜|feel|đáng thương|pitiful|这只小狗真可怜。|Chú chó nhỏ này thật đáng thương.|This little dog is so pitiful.
+可是|link|nhưng|but|我很想去，可是没有时间。|Tôi rất muốn đi nhưng không có thời gian.|I'd love to go, but I don't have time.
+可惜|feel|tiếc, đáng tiếc|it's a pity|真可惜，你没看到那场比赛。|Thật tiếc là bạn đã không xem trận đấu đó.|What a pity you didn't see that match.
+肯定|link|chắc chắn; khẳng định|certainly; to affirm|他肯定会同意的。|Anh ấy chắc chắn sẽ đồng ý.|He'll definitely agree.
+空气|nature|không khí|air|雨后的空气特别新鲜。|Không khí sau mưa đặc biệt trong lành.|The air is especially fresh after rain.
+恐怕|link|e rằng, sợ rằng|I'm afraid; perhaps|恐怕他今天来不了了。|E rằng hôm nay anh ấy không đến được.|I'm afraid he can't come today.
+苦|food|đắng; khổ|bitter; hardship|这个药太苦了。|Thuốc này đắng quá.|This medicine is too bitter.
+宽|desc|rộng|wide|这条马路很宽。|Con đường này rất rộng.|This road is very wide.
+困|feel|buồn ngủ|sleepy|我困了，想睡觉。|Tôi buồn ngủ rồi, muốn đi ngủ.|I'm sleepy and want to go to bed.
+困难|desc|khó khăn|difficulty; difficult|遇到困难不要怕。|Gặp khó khăn đừng sợ.|Don't be afraid when you meet difficulties.
+扩大|num|mở rộng|to expand|公司打算扩大生产。|Công ty dự định mở rộng sản xuất.|The company plans to expand production.
+垃圾桶|home|thùng rác|trash can|请把垃圾扔进垃圾桶。|Hãy vứt rác vào thùng rác.|Please throw the garbage in the trash can.
+拉|act|kéo|to pull|这个门要拉，不要推。|Cửa này phải kéo, đừng đẩy.|This door is pull, not push.
+辣|food|cay|spicy|四川菜很辣。|Món Tứ Xuyên rất cay.|Sichuan food is very spicy.
+来不及|time|không kịp|too late; not enough time|快走吧，要来不及了！|Đi nhanh lên, sắp không kịp rồi!|Hurry, we're running out of time!
+来得及|time|kịp|there's still time|别着急，还来得及。|Đừng vội, vẫn còn kịp.|Don't worry, there's still time.
+懒|feel|lười|lazy|他太懒了，什么都不想做。|Anh ta lười quá, chẳng muốn làm gì cả.|He's so lazy he doesn't want to do anything.
+浪费|shop|lãng phí|to waste|不要浪费时间。|Đừng lãng phí thời gian.|Don't waste time.
+浪漫|feel|lãng mạn|romantic|这个地方很浪漫。|Nơi này rất lãng mạn.|This place is very romantic.
+老虎|nature|con hổ|tiger|老虎是一种很危险的动物。|Hổ là một loài động vật rất nguy hiểm.|The tiger is a very dangerous animal.
+冷静|feel|bình tĩnh|calm|遇到问题要冷静。|Gặp vấn đề phải bình tĩnh.|Stay calm when problems arise.
+礼貌|ppl|lễ phép, lịch sự|polite; manners|这个孩子很有礼貌。|Đứa bé này rất lễ phép.|This child is very polite.
+理发|body|cắt tóc|to get a haircut|我明天去理发。|Mai tôi đi cắt tóc.|I'm getting a haircut tomorrow.
+理解|talk|hiểu, thấu hiểu|to understand|谢谢你的理解。|Cảm ơn sự thấu hiểu của bạn.|Thank you for your understanding.
+理想|feel|lý tưởng, ước mơ|ideal; dream|我的理想是当一名老师。|Ước mơ của tôi là trở thành giáo viên.|My dream is to become a teacher.
+力气|body|sức lực|strength|他力气很大。|Anh ấy rất khỏe.|He's very strong.
+厉害|desc|lợi hại, giỏi; dữ dội|formidable; awesome; severe|你真厉害，一下子就做完了！|Bạn giỏi thật, làm xong ngay một lúc!|You're amazing—you finished it in no time!
+例如|link|ví dụ như|for example|我喜欢很多运动，例如游泳和跑步。|Tôi thích nhiều môn thể thao, ví dụ như bơi lội và chạy bộ.|I like many sports, such as swimming and running.
+俩|num|hai người, hai cái|two (people)|你们俩是什么关系？|Hai bạn có quan hệ gì vậy?|What's the relationship between you two?
+连|link|ngay cả; liền|even; in succession|他忙得连饭都没时间吃。|Anh ấy bận đến mức ngay cả cơm cũng không có thời gian ăn.|He's so busy he doesn't even have time to eat.
+联系|talk|liên hệ|to contact; connection|到了以后跟我联系。|Đến nơi thì liên lạc với tôi nhé.|Contact me when you arrive.
+凉快|nature|mát mẻ|nice and cool|秋天的天气很凉快。|Thời tiết mùa thu rất mát mẻ.|Autumn weather is nice and cool.
+亮|desc|sáng|bright|天亮了，快起床吧。|Trời sáng rồi, mau dậy đi.|It's light out—get up!
+聊天|talk|nói chuyện phiếm, tán gẫu|to chat|我们一边喝茶一边聊天。|Chúng tôi vừa uống trà vừa trò chuyện.|We chatted while drinking tea.
+另外|link|ngoài ra; khác|in addition; other|另外，我还有一个问题。|Ngoài ra, tôi còn một câu hỏi nữa.|Also, I have another question.
+流泪|feel|rơi nước mắt|to shed tears|看到这里，很多观众都流泪了。|Xem đến đây, nhiều khán giả đã rơi nước mắt.|Many viewers were in tears at this part.
+流利|study|lưu loát, trôi chảy|fluent|她的汉语说得很流利。|Cô ấy nói tiếng Hán rất lưu loát.|She speaks Chinese very fluently.
+流行|fun|thịnh hành, phổ biến|popular; to be in fashion|这首歌现在很流行。|Bài hát này hiện rất thịnh hành.|This song is very popular now.
+留|act|ở lại; để lại|to stay; to leave (behind)|我给你留了一些饭。|Tôi để phần cho bạn ít cơm.|I saved some food for you.
+留学|study|du học|to study abroad|她在中国留学了两年。|Cô ấy đã du học ở Trung Quốc hai năm.|She studied in China for two years.
+律师|work|luật sư|lawyer|他想当一名律师。|Anh ấy muốn trở thành luật sư.|He wants to become a lawyer.
+乱|desc|lộn xộn, bừa bãi|messy; in disorder|你的房间太乱了。|Phòng của bạn bừa bộn quá.|Your room is too messy.
