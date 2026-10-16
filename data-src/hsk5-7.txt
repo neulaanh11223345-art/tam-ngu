@@ -1,0 +1,165 @@
+# HSK 5 (HSK 2.0) — phần 7
+# Định dạng: chữ Hán|chủ đề|nghĩa tiếng Việt|nghĩa tiếng Anh|câu ví dụ|dịch tiếng Việt|dịch tiếng Anh
+王子|ppl|hoàng tử|prince|女儿最喜欢听王子和公主的故事。|Con gái tôi thích nhất là nghe chuyện hoàng tử và công chúa.|My daughter loves stories about princes and princesses.
+往返|travel|đi về, khứ hồi|to go back and forth; round trip|我买了一张去上海的往返机票。|Tôi đã mua một vé máy bay khứ hồi đi Thượng Hải.|I bought a round-trip plane ticket to Shanghai.
+危害|body|gây hại, làm hại; tác hại|to harm; to endanger; harm|抽烟会严重危害身体健康。|Hút thuốc sẽ gây hại nghiêm trọng đến sức khỏe.|Smoking seriously damages your health.
+威胁|soc|đe dọa; mối đe dọa|to threaten; threat|电子书的出现威胁到了传统书店的生意。|Sự xuất hiện của sách điện tử đã đe dọa đến việc kinh doanh của các hiệu sách truyền thống.|The arrival of e-books has threatened the business of traditional bookshops.
+微笑|feel|mỉm cười; nụ cười|to smile; smile|她总是微笑着跟每个人打招呼。|Cô ấy lúc nào cũng mỉm cười chào hỏi mọi người.|She always greets everyone with a smile.
+围巾|home|khăn quàng cổ|scarf|天冷了，出门别忘了戴围巾。|Trời lạnh rồi, ra ngoài đừng quên quàng khăn nhé.|It's getting cold—don't forget your scarf when you go out.
+围绕|talk|vây quanh, quay quanh; xoay quanh (vấn đề)|to surround; to revolve around; to center on|大家围绕这个问题讨论了一上午。|Mọi người đã thảo luận xoay quanh vấn đề này suốt cả buổi sáng.|Everyone spent the whole morning discussing this issue.
+违反|soc|vi phạm (luật lệ, quy định)|to violate; to break (a rule or law)|开车时打电话是违反交通规则的。|Gọi điện thoại khi lái xe là vi phạm luật giao thông.|Making phone calls while driving breaks traffic rules.
+唯一|desc|duy nhất|only; sole|小王是我们班唯一会说法语的人。|Tiểu Vương là người duy nhất trong lớp chúng tôi biết nói tiếng Pháp.|Xiao Wang is the only person in our class who can speak French.
+维护|soc|bảo vệ, giữ gìn, duy trì|to safeguard; to defend; to maintain|消费者应该学会维护自己的权利。|Người tiêu dùng nên biết cách bảo vệ quyền lợi của mình.|Consumers should learn how to defend their rights.
+伟大|desc|vĩ đại|great; mighty|母爱是世界上最伟大的爱。|Tình mẹ là tình yêu vĩ đại nhất trên đời.|A mother's love is the greatest love in the world.
+尾巴|nature|đuôi, cái đuôi|tail|小狗一看见主人就摇尾巴。|Chú chó con hễ thấy chủ là vẫy đuôi.|The puppy wags its tail whenever it sees its owner.
+委屈|feel|tủi thân, oan ức; để (ai) chịu thiệt thòi|to feel wronged; to treat unfairly; grievance|被老师误会以后，他觉得非常委屈。|Bị thầy giáo hiểu lầm, cậu ấy cảm thấy vô cùng tủi thân.|After being misunderstood by his teacher, he felt very wronged.
+委托|work|ủy thác, nhờ (làm thay)|to entrust; to commission|王经理委托我替他参加明天的会议。|Giám đốc Vương nhờ tôi thay ông ấy dự cuộc họp ngày mai.|Manager Wang has asked me to attend tomorrow's meeting on his behalf.
+卫生间|home|nhà vệ sinh, phòng tắm|bathroom; restroom; toilet|不好意思，请问卫生间在哪儿？|Xin lỗi, cho hỏi nhà vệ sinh ở đâu ạ?|Excuse me, where's the restroom?
+未必|link|chưa chắc, chưa hẳn|not necessarily|贵的东西未必就是好东西。|Đồ đắt chưa chắc đã là đồ tốt.|Expensive things aren't necessarily good.
+未来|time|tương lai; sắp tới|future; coming|你对未来有什么打算？|Bạn có dự định gì cho tương lai?|What are your plans for the future?
+位置|place|vị trí, chỗ|position; location; place|我们学校的位置很好，交通非常方便。|Trường chúng tôi có vị trí rất tốt, giao thông vô cùng thuận tiện.|Our school is in a great location with very convenient transport.
+胃|body|dạ dày|stomach|饭要按时吃，不然对胃不好。|Phải ăn đúng bữa, nếu không sẽ không tốt cho dạ dày.|Eat your meals on time, or it'll be bad for your stomach.
+温暖|feel|ấm áp|warm|不管走到哪里，家都是最温暖的地方。|Dù đi đến đâu, nhà vẫn luôn là nơi ấm áp nhất.|Wherever you go, home is always the warmest place.
+温柔|feel|dịu dàng, hiền dịu|gentle; tender|妈妈说话的声音总是那么温柔。|Giọng nói của mẹ lúc nào cũng dịu dàng như thế.|Mom's voice is always so gentle.
+文件|work|văn bản, tài liệu; tệp (máy tính)|document; file|请把这份文件复印三份。|Hãy photo tài liệu này thành ba bản.|Please make three copies of this document.
+文具|study|văn phòng phẩm, đồ dùng học tập|stationery|开学前，妈妈给我买了很多新文具。|Trước khi khai giảng, mẹ mua cho tôi rất nhiều đồ dùng học tập mới.|Before school started, Mom bought me lots of new stationery.
+文明|arts|văn minh; nền văn minh|civilization; civilized|中国有五千多年的文明历史。|Trung Quốc có lịch sử văn minh hơn năm nghìn năm.|China has a civilization dating back more than five thousand years.
+文学|arts|văn học|literature|她在大学里学的是中国古代文学。|Ở đại học, cô ấy học chuyên ngành văn học cổ đại Trung Quốc.|She studied classical Chinese literature at university.
+闻|act|ngửi, ngửi thấy|to smell; to sniff|一进门，我就闻到了饭菜的香味。|Vừa bước vào cửa, tôi đã ngửi thấy mùi thơm của đồ ăn.|As soon as I walked in, I could smell the food.
+吻|ppl|hôn; nụ hôn|to kiss; kiss|睡觉前，妈妈在孩子的脸上轻轻吻了一下。|Trước khi con đi ngủ, mẹ khẽ hôn lên má con một cái.|At bedtime, the mother gave her child a gentle kiss on the cheek.
+稳定|desc|ổn định|stable; steady|他想找一份收入稳定的工作。|Anh ấy muốn tìm một công việc có thu nhập ổn định.|He wants to find a job with a steady income.
+问候|talk|hỏi thăm, gửi lời chào|to send one's regards; to greet|请代我问候你的父母。|Cho tôi gửi lời hỏi thăm bố mẹ bạn nhé.|Please give my regards to your parents.
+卧室|home|phòng ngủ|bedroom|儿子长大了，需要一个自己的卧室。|Con trai lớn rồi, cần có một phòng ngủ riêng.|Our son is growing up and needs a bedroom of his own.
+屋子|home|phòng, căn phòng|room; house|屋子里太乱了，快收拾一下吧。|Trong phòng bừa bộn quá, mau dọn dẹp một chút đi.|The room is a mess—hurry up and tidy it.
+无奈|feel|bất lực, đành chịu, không biết làm sao|helpless; to have no choice|飞机又晚点了，大家只能无奈地等着。|Máy bay lại bị trễ, mọi người chỉ đành bất lực chờ đợi.|The flight was delayed again, and everyone could only wait helplessly.
+无数|num|vô số, không đếm xuể|countless; innumerable|为了这次比赛，他已经练习了无数次。|Vì cuộc thi lần này, anh ấy đã luyện tập vô số lần.|He has practiced countless times for this competition.
+武器|soc|vũ khí|weapon; arms|博物馆里有很多古代的武器。|Trong bảo tàng có rất nhiều vũ khí thời cổ đại.|The museum has many ancient weapons.
+武术|fun|võ thuật|martial arts|他从小就跟爷爷学武术。|Từ nhỏ cậu ấy đã học võ thuật với ông nội.|He has been learning martial arts from his grandfather since he was little.
+物理|study|vật lý|physics|我的物理成绩一直不太好。|Điểm môn vật lý của tôi trước giờ không tốt lắm.|My physics grades have never been very good.
+物质|soc|vật chất|matter; material (things)|人们的物质生活越来越丰富了。|Đời sống vật chất của con người ngày càng sung túc.|People's material lives are getting richer and richer.
+雾|nature|sương mù|fog; mist|今天早上雾很大，路上的车开得很慢。|Sáng nay sương mù dày đặc, xe cộ trên đường chạy rất chậm.|It was very foggy this morning, so the traffic moved slowly.
+吸收|study|hấp thụ, tiếp thu|to absorb; to take in|孩子们吸收新知识的速度很快。|Trẻ em tiếp thu kiến thức mới rất nhanh.|Children absorb new knowledge very quickly.
+戏剧|arts|kịch, kịch nghệ|drama; play; theater|这部戏剧讲的是一个普通家庭的故事。|Vở kịch này kể câu chuyện về một gia đình bình thường.|This play tells the story of an ordinary family.
+系|study|khoa (ở trường đại học)|department (of a university); faculty|我是中文系二年级的学生。|Tôi là sinh viên năm hai khoa tiếng Trung.|I'm a second-year student in the Chinese department.
+系领带|home|thắt cà vạt|to wear a tie; to tie a necktie|爸爸每天上班都要系领带。|Ngày nào đi làm bố cũng phải thắt cà vạt.|Dad has to wear a tie to work every day.
+系统|sci|hệ thống|system|电脑系统出了问题，需要重新安装。|Hệ thống máy tính gặp sự cố, cần phải cài đặt lại.|There's a problem with the computer system, and it needs to be reinstalled.
+细节|work|chi tiết|detail|做事一定要注意细节。|Làm việc gì cũng phải chú ý đến từng chi tiết.|Whatever you do, pay attention to the details.
+瞎|desc|mù; (làm, nói) bừa, linh tinh|blind; groundlessly; foolishly|你不了解情况，就别瞎说。|Bạn không nắm rõ tình hình thì đừng nói linh tinh.|If you don't know the situation, don't talk nonsense.
+下载|sci|tải xuống, tải về|to download|你可以在网上免费下载这个软件。|Bạn có thể tải phần mềm này miễn phí trên mạng.|You can download this software online for free.
+吓|feel|dọa, làm sợ, làm giật mình|to scare; to frighten|你突然站在我后面，吓了我一跳！|Bạn đột nhiên đứng sau lưng làm tôi giật cả mình!|You gave me a fright, suddenly standing behind me like that!
+鲜艳|desc|tươi thắm, rực rỡ (màu sắc)|bright-colored; vivid|春天到了，公园里开满了鲜艳的花。|Mùa xuân đến rồi, công viên nở đầy những bông hoa rực rỡ.|Spring is here, and the park is full of brightly colored flowers.
+显得|desc|trông có vẻ, tỏ ra|to seem; to look; to appear|穿上这件衣服，你显得年轻多了。|Mặc bộ đồ này vào, trông bạn trẻ ra nhiều.|You look much younger in these clothes.
+显然|link|rõ ràng, hiển nhiên|obviously; clearly|他没有回答，显然是不想说。|Anh ấy không trả lời, rõ ràng là không muốn nói.|He didn't answer—obviously he didn't want to say.
+显示|sci|hiển thị; cho thấy|to show; to display|调查结果显示，大部分人喜欢网上购物。|Kết quả khảo sát cho thấy phần lớn mọi người thích mua sắm trên mạng.|The survey results show that most people like shopping online.
+县|place|huyện|county|李阿姨在县里的一所中学当老师。|Dì Lý làm giáo viên ở một trường trung học trong huyện.|Auntie Li teaches at a middle school in the county.
+现金|shop|tiền mặt|cash|对不起，我们这儿只收现金。|Xin lỗi, chỗ chúng tôi chỉ nhận tiền mặt.|Sorry, we only accept cash here.
+现实|talk|hiện thực, thực tế|reality; realistic|你的想法很好，但是不太现实。|Ý tưởng của bạn rất hay nhưng không thực tế lắm.|Your idea is good, but not very realistic.
+现象|sci|hiện tượng|phenomenon|这是一种很少见的自然现象。|Đây là một hiện tượng tự nhiên rất hiếm gặp.|This is a very rare natural phenomenon.
+相处|ppl|chung sống, cư xử (với nhau)|to get along (with sb)|他性格很好，跟同事们相处得很愉快。|Anh ấy tính tình rất tốt, hòa thuận vui vẻ với các đồng nghiệp.|He's good-natured and gets along well with his colleagues.
+相当|link|khá, tương đối; tương đương|quite; considerably; equivalent to|外面的风相当大，多穿点儿衣服吧。|Bên ngoài gió khá to, mặc thêm áo vào đi.|It's quite windy outside—put on some more clothes.
+相对|link|tương đối; đối lập|relatively; relative; opposite|郊区的房价相对便宜一些。|Giá nhà ở ngoại ô tương đối rẻ hơn.|Housing prices in the suburbs are relatively lower.
+相关|desc|liên quan|related; relevant|请把跟这个项目相关的材料发给我。|Hãy gửi cho tôi các tài liệu liên quan đến dự án này.|Please send me the materials related to this project.
+相似|desc|giống nhau, tương tự|similar; alike|这两个词意思相似，但用法不同。|Hai từ này nghĩa giống nhau nhưng cách dùng khác nhau.|These two words have similar meanings but are used differently.
+享受|fun|tận hưởng, hưởng thụ|to enjoy; enjoyment|退休以后，我父母终于可以好好享受生活了。|Nghỉ hưu rồi, bố mẹ tôi cuối cùng cũng có thể tận hưởng cuộc sống.|Now that they've retired, my parents can finally enjoy life.
+想念|feel|nhớ, nhớ nhung|to miss; to long for|出国留学以后，我常常想念妈妈做的菜。|Từ khi đi du học, tôi thường nhớ những món mẹ nấu.|Since going abroad to study, I often miss my mom's cooking.
+想象|talk|tưởng tượng; trí tưởng tượng|to imagine; imagination|很难想象没有手机的生活会是什么样子。|Thật khó tưởng tượng cuộc sống không có điện thoại di động sẽ ra sao.|It's hard to imagine what life would be like without mobile phones.
+项|num|hạng mục (lượng từ cho việc, nhiệm vụ)|(measure word for tasks, items, rules)|公司交给我一项非常重要的任务。|Công ty giao cho tôi một nhiệm vụ vô cùng quan trọng.|The company has given me a very important task.
+项链|home|dây chuyền, vòng cổ|necklace|生日那天，男朋友送了她一条项链。|Hôm sinh nhật, bạn trai tặng cô ấy một sợi dây chuyền.|On her birthday, her boyfriend gave her a necklace.
+项目|work|dự án; hạng mục; môn thi đấu|project; item; (sports) event|这个项目大概需要三个月才能完成。|Dự án này phải mất khoảng ba tháng mới hoàn thành được.|This project will take about three months to complete.
+象棋|fun|cờ tướng|Chinese chess|爷爷每天下午都在公园里跟朋友下象棋。|Chiều nào ông nội cũng chơi cờ tướng với bạn bè trong công viên.|Every afternoon Grandpa plays Chinese chess with his friends in the park.
+象征|arts|tượng trưng; biểu tượng|to symbolize; symbol|在中国，红色象征着幸福和好运。|Ở Trung Quốc, màu đỏ tượng trưng cho hạnh phúc và may mắn.|In China, red symbolizes happiness and good luck.
+橡皮|study|cục tẩy, cục gôm|eraser|你能借我用一下橡皮吗？|Bạn cho tôi mượn cục tẩy một chút được không?|Could I borrow your eraser for a moment?
+消费|econ|tiêu dùng, tiêu xài|to consume; to spend; consumption|年轻人的消费观念跟老人很不一样。|Quan niệm tiêu dùng của người trẻ rất khác với người già.|Young people's attitudes to spending are very different from older people's.
+消化|body|tiêu hóa|to digest; digestion|晚饭吃得太多，不容易消化。|Bữa tối ăn quá nhiều thì khó tiêu hóa.|If you eat too much at dinner, it's hard to digest.
+消灭|act|tiêu diệt, diệt trừ|to wipe out; to eliminate|家里蚊子太多了，得想办法把它们消灭掉。|Trong nhà nhiều muỗi quá, phải tìm cách diệt sạch chúng.|There are too many mosquitoes in the house—we need to find a way to get rid of them.
+消失|act|biến mất, mất đi|to disappear; to vanish|听到这个消息，他脸上的笑容消失了。|Nghe tin này, nụ cười trên mặt anh ấy biến mất.|When he heard the news, the smile vanished from his face.
+销售|econ|bán hàng, tiêu thụ; doanh số|to sell; sales|我们公司的产品主要销售到国外。|Sản phẩm của công ty chúng tôi chủ yếu được bán ra nước ngoài.|Our company's products are mainly sold overseas.
+小吃|food|món ăn vặt, đồ ăn nhẹ|snack; street food|来北京旅游，一定要尝尝这里的小吃。|Đến Bắc Kinh du lịch, nhất định phải nếm thử các món ăn vặt ở đây.|If you visit Beijing, you must try the local snacks.
+小伙子|ppl|chàng trai, cậu thanh niên|young man; lad|隔壁的小伙子又聪明又能干。|Chàng trai nhà bên vừa thông minh vừa giỏi giang.|The young man next door is smart and capable.
+小麦|nature|lúa mì|wheat|中国北方的农民主要种小麦。|Nông dân miền Bắc Trung Quốc chủ yếu trồng lúa mì.|Farmers in northern China mainly grow wheat.
+小气|feel|keo kiệt, bủn xỉn; hẹp hòi|stingy; petty|他太小气了，连一杯咖啡都舍不得请。|Anh ta keo kiệt quá, đến một cốc cà phê cũng tiếc không mời.|He's so stingy he won't even buy anyone a cup of coffee.
+小偷|soc|kẻ trộm|thief; pickpocket|在公共汽车上要小心小偷。|Trên xe buýt phải cẩn thận kẻ trộm.|Watch out for pickpockets on the bus.
+孝顺|ppl|hiếu thảo|filial; devoted to one's parents|她是个孝顺的女儿，每个周末都回家看父母。|Cô ấy là một người con gái hiếu thảo, cuối tuần nào cũng về thăm bố mẹ.|She's a devoted daughter who goes home to see her parents every weekend.
+效率|work|hiệu suất, năng suất|efficiency|用了新方法以后，工作效率提高了不少。|Sau khi dùng phương pháp mới, hiệu suất làm việc đã tăng lên đáng kể.|Since switching to the new method, work efficiency has improved quite a bit.
+歇|act|nghỉ, nghỉ ngơi|to rest; to take a break|走了这么久，我们坐下来歇一会儿吧。|Đi lâu thế rồi, chúng ta ngồi xuống nghỉ một lát đi.|We've been walking for ages—let's sit down and rest a bit.
+协调|work|phối hợp, điều phối; hài hòa|to coordinate; harmonious|举办这次活动需要几个部门互相协调。|Tổ chức sự kiện lần này cần mấy bộ phận phối hợp với nhau.|Organizing this event requires several departments to coordinate with one another.
+斜|desc|nghiêng, lệch, xiên|slanting; tilted; crooked|墙上的照片挂得有点儿斜。|Bức ảnh trên tường treo hơi bị lệch.|The photo on the wall is hanging a bit crooked.
+心理|feel|tâm lý|psychology; mentality|考试前很多学生都有心理压力。|Trước kỳ thi, nhiều học sinh đều chịu áp lực tâm lý.|Many students feel psychological pressure before exams.
+心脏|body|tim, quả tim|heart (organ)|经常运动对心脏有好处。|Thường xuyên vận động có lợi cho tim.|Regular exercise is good for your heart.
+欣赏|arts|thưởng thức, ngắm; đánh giá cao|to appreciate; to admire; to enjoy|站在山顶上，可以欣赏到整个城市的美景。|Đứng trên đỉnh núi, có thể ngắm nhìn cảnh đẹp của cả thành phố.|From the top of the mountain, you can enjoy a beautiful view of the whole city.
+信封|home|phong bì|envelope|别忘了在信封上写上地址。|Đừng quên ghi địa chỉ lên phong bì.|Don't forget to write the address on the envelope.
+信号|sci|tín hiệu; sóng (điện thoại)|signal|这里手机信号不好，我听不清楚。|Ở đây sóng điện thoại yếu, tôi nghe không rõ.|The phone signal is poor here, so I can't hear you clearly.
+信息|sci|thông tin; tin nhắn|information; message|我在网上查到了很多有用的信息。|Tôi đã tra được rất nhiều thông tin hữu ích trên mạng.|I found a lot of useful information online.
+行动|act|hành động; đi lại|action; to act; to move about|光说不做没有用，我们要马上行动起来。|Chỉ nói mà không làm thì vô ích, chúng ta phải hành động ngay.|Talk without action is useless—we need to act right away.
+行人|travel|người đi bộ|pedestrian|下班时间，路上的行人和汽车都很多。|Giờ tan tầm, người đi bộ và xe cộ trên đường đều rất đông.|At rush hour, the streets are full of pedestrians and cars.
+行为|soc|hành vi|behavior; conduct|每个人都应该为自己的行为负责。|Mỗi người đều nên chịu trách nhiệm về hành vi của mình.|Everyone should take responsibility for their own behavior.
+行业|work|ngành, ngành nghề|industry; profession; trade|我哥哥在旅游行业工作了十多年。|Anh trai tôi đã làm trong ngành du lịch hơn mười năm.|My older brother has worked in the tourism industry for over ten years.
+形成|sci|hình thành, tạo thành|to form; to take shape|你知道雨是怎么形成的吗？|Bạn có biết mưa được hình thành như thế nào không?|Do you know how rain forms?
+形容|talk|miêu tả, diễn tả|to describe|那里的风景美得无法用语言形容。|Phong cảnh ở đó đẹp đến mức không lời nào tả xiết.|The scenery there is so beautiful that words can't describe it.
+形式|study|hình thức|form; format|今年考试的形式跟以前不一样。|Hình thức thi năm nay khác với trước đây.|This year's exam format is different from before.
+形势|econ|tình hình, cục diện|situation; circumstances|根据市场形势，公司决定调整计划。|Dựa vào tình hình thị trường, công ty quyết định điều chỉnh kế hoạch.|In light of market conditions, the company has decided to adjust its plans.
+形象|ppl|hình ảnh, hình tượng; sinh động|image; figure; vivid|在观众心中，这位演员的形象一直很好。|Trong lòng khán giả, diễn viên này luôn có hình ảnh rất tốt.|This actor has always had a very good image with audiences.
+形状|desc|hình dạng, hình dáng|shape; form|这块石头的形状很像一只兔子。|Hòn đá này có hình dạng rất giống một con thỏ.|This stone is shaped just like a rabbit.
+幸亏|link|may mà, may sao|fortunately; luckily|幸亏你提醒我，不然我就忘了。|May mà bạn nhắc tôi, không thì tôi quên mất rồi.|Luckily you reminded me, or I'd have forgotten.
+幸运|feel|may mắn|lucky; fortunate|能遇到这么好的老师，我真幸运。|Gặp được người thầy tốt như vậy, tôi thật may mắn.|I'm really lucky to have such a good teacher.
+性质|desc|tính chất, bản chất|nature; character (of sth)|开玩笑和骗人的性质完全不同。|Nói đùa và lừa gạt người khác có tính chất hoàn toàn khác nhau.|Joking and deceiving people are completely different in nature.
+兄弟|ppl|anh em trai|brothers|他们兄弟俩长得一点儿也不像。|Hai anh em họ trông chẳng giống nhau chút nào.|The two brothers don't look alike at all.
+胸|body|ngực|chest|走路的时候要抬头挺胸，这样显得有精神。|Khi đi phải ngẩng cao đầu, ưỡn ngực, như thế trông mới có tinh thần.|Walk with your head up and chest out—it makes you look full of energy.
+雄伟|desc|hùng vĩ, nguy nga, đồ sộ|grand; magnificent; imposing|北京有很多雄伟的古代建筑。|Bắc Kinh có rất nhiều công trình kiến trúc cổ nguy nga.|Beijing has many magnificent ancient buildings.
+休闲|fun|giải trí, thư giãn|leisure; recreation; casual|爬山是我最喜欢的休闲活动。|Leo núi là hoạt động giải trí tôi thích nhất.|Hiking is my favorite leisure activity.
+修改|study|sửa đổi, chỉnh sửa|to revise; to modify; to amend|老师让我把作文再修改一下。|Thầy giáo bảo tôi sửa lại bài văn thêm một chút.|The teacher asked me to revise my essay again.
+虚心|feel|khiêm tốn, cầu thị|modest; open-minded|对待别人的批评，要虚心接受。|Đối với lời phê bình của người khác, cần khiêm tốn tiếp thu.|Accept criticism from others with an open mind.
+叙述|talk|thuật lại, kể lại|to narrate; to recount|请你把事情的经过详细地叙述一遍。|Bạn hãy kể lại chi tiết diễn biến sự việc một lượt.|Please give a detailed account of what happened.
+宣布|talk|tuyên bố, công bố|to announce; to declare|校长宣布明天放假一天。|Hiệu trưởng tuyên bố ngày mai được nghỉ một ngày.|The principal announced that tomorrow will be a day off.
+宣传|econ|tuyên truyền, quảng bá|to publicize; to promote; publicity|为了宣传新产品，公司做了很多广告。|Để quảng bá sản phẩm mới, công ty đã chạy rất nhiều quảng cáo.|The company ran a lot of ads to promote its new product.
+选举|soc|bầu cử; bầu (chọn)|to elect; election|明天班里要选举新的班长。|Ngày mai cả lớp sẽ bầu lớp trưởng mới.|Our class is electing a new class monitor tomorrow.
+学期|study|học kỳ|semester; term|下个学期我打算多选几门课。|Học kỳ sau tôi định đăng ký thêm vài môn học.|Next semester I plan to take a few more courses.
+学术|study|học thuật|academic; scholarly|张老师下个月要去北京参加学术会议。|Tháng sau thầy Trương sẽ đi Bắc Kinh dự hội thảo học thuật.|Next month Teacher Zhang is going to Beijing for an academic conference.
+学问|study|học vấn, kiến thức|learning; knowledge; scholarship|这位老教授很有学问，大家都很尊敬他。|Vị giáo sư già này rất có học vấn, mọi người đều rất kính trọng ông.|This old professor is very learned, and everyone respects him.
+寻找|act|tìm kiếm|to look for; to seek|很多年轻人离开家乡去大城市寻找机会。|Nhiều người trẻ rời quê lên thành phố lớn tìm kiếm cơ hội.|Many young people leave their hometowns to look for opportunities in big cities.
+询问|talk|hỏi, hỏi han|to inquire; to ask about|医生仔细地询问了我的情况。|Bác sĩ đã hỏi han kỹ lưỡng về tình trạng của tôi.|The doctor asked me in detail about my condition.
+迅速|desc|nhanh chóng, mau lẹ|rapid; swift|近几年，中国的经济发展十分迅速。|Mấy năm gần đây, kinh tế Trung Quốc phát triển vô cùng nhanh chóng.|China's economy has developed very rapidly in recent years.
+训练|fun|huấn luyện, tập luyện|to train; training|运动员们每天都要训练六个小时。|Các vận động viên mỗi ngày đều phải tập luyện sáu tiếng.|The athletes train for six hours every day.
+延长|time|kéo dài, gia hạn|to extend; to prolong|我想把签证再延长一个月。|Tôi muốn gia hạn visa thêm một tháng nữa.|I'd like to extend my visa by another month.
+严肃|feel|nghiêm túc, nghiêm nghị|serious; solemn; stern|张老师平时很严肃，很少笑。|Thầy Trương bình thường rất nghiêm nghị, ít khi cười.|Teacher Zhang is usually very stern and rarely smiles.
+宴会|food|tiệc, yến tiệc|banquet; dinner party|公司为新员工举办了一场欢迎宴会。|Công ty đã tổ chức một bữa tiệc chào mừng nhân viên mới.|The company held a welcome banquet for the new employees.
+阳台|home|ban công|balcony|奶奶在阳台上种了很多花。|Bà nội trồng rất nhiều hoa trên ban công.|Grandma grows lots of flowers on the balcony.
+痒|body|ngứa|itchy; to itch|我的眼睛有点儿痒，可能是过敏了。|Mắt tôi hơi ngứa, có lẽ bị dị ứng rồi.|My eyes are a bit itchy—maybe it's an allergy.
+样式|shop|kiểu dáng, mẫu mã|style; design; pattern|那家店的衣服样式很多，价格也不贵。|Quần áo ở cửa hàng đó có nhiều kiểu dáng, giá cũng không đắt.|That shop has clothes in lots of styles, and the prices aren't high either.
+腰|body|eo, thắt lưng|waist; lower back|整天坐在电脑前，我的腰疼得厉害。|Ngồi trước máy tính cả ngày, lưng tôi đau dữ dội.|From sitting at the computer all day, my lower back hurts badly.
+摇|act|lắc, vẫy, đung đưa|to shake; to wave; to rock|我问他去不去，他摇了摇头。|Tôi hỏi anh ấy có đi không, anh ấy lắc đầu.|I asked if he was going, and he shook his head.
+咬|act|cắn|to bite|别怕，这只狗从来不咬人。|Đừng sợ, con chó này chưa bao giờ cắn người.|Don't be afraid—this dog never bites.
+要不|link|hay là; nếu không thì|how about; otherwise; or else|今天太晚了，要不我们明天再去吧？|Hôm nay muộn quá rồi, hay là mai chúng ta hẵng đi nhé?|It's too late today—how about we go tomorrow?
+要是|link|nếu, nếu như|if|要是你有空，就来我家吃饭吧。|Nếu bạn rảnh thì đến nhà tôi ăn cơm nhé.|If you're free, come over to my place for dinner.
+业务|work|nghiệp vụ, công việc chuyên môn|business; professional work|她的业务能力很强，很快就当上了经理。|Cô ấy rất giỏi chuyên môn, chẳng bao lâu đã lên làm quản lý.|She's highly skilled at her work and soon became a manager.
+业余|fun|nghiệp dư; ngoài giờ làm|spare-time; amateur|业余时间你一般喜欢做什么？|Thời gian rảnh bạn thường thích làm gì?|What do you usually like to do in your spare time?
+夜|time|đêm, ban đêm|night|昨天夜里下了一场大雪。|Đêm qua có một trận tuyết lớn.|There was a heavy snowfall last night.
+液体|sci|chất lỏng|liquid|坐飞机的时候不能带太多液体。|Khi đi máy bay không được mang quá nhiều chất lỏng.|You can't bring too much liquid on a plane.
+一辈子|time|cả đời, suốt đời|all one's life; lifetime|我一辈子也不会忘记这一天。|Cả đời tôi cũng sẽ không quên ngày hôm nay.|I'll never forget this day as long as I live.
+一旦|link|một khi, hễ|once; in case|一旦做出决定，就不要轻易改变。|Một khi đã đưa ra quyết định thì đừng dễ dàng thay đổi.|Once you've made a decision, don't change it lightly.
+一路|travel|dọc đường, suốt chặng đường|all the way; the whole journey|祝你一路平安，到了给我打个电话！|Chúc bạn thượng lộ bình an, đến nơi thì gọi điện cho tôi nhé!|Have a safe trip, and give me a call when you get there!
+一致|talk|nhất trí, thống nhất|unanimous; in agreement; consistent|经过讨论，大家的意见终于一致了。|Sau khi thảo luận, ý kiến của mọi người cuối cùng đã thống nhất.|After some discussion, everyone finally reached agreement.
+依然|link|vẫn, vẫn như cũ|still; as before|虽然过了很多年，她依然那么年轻漂亮。|Tuy đã nhiều năm trôi qua, cô ấy vẫn trẻ đẹp như xưa.|Although many years have passed, she's still as young and beautiful as ever.
+移动|act|di chuyển, dời; di động|to move; to shift; mobile|请帮我把桌子往左边移动一点儿。|Bạn giúp tôi dịch cái bàn sang bên trái một chút.|Please help me move the table a little to the left.
+移民|soc|di cư, nhập cư; người nhập cư|to emigrate; to immigrate; immigrant|他们全家十年前就移民到国外了。|Cả nhà họ đã di cư ra nước ngoài từ mười năm trước.|Their whole family emigrated abroad ten years ago.
+遗憾|feel|tiếc, đáng tiếc; nuối tiếc|regret; pity; to be sorry|很遗憾，我不能参加你的婚礼了。|Rất tiếc, tôi không thể dự đám cưới của bạn được.|I'm so sorry I won't be able to come to your wedding.
+疑问|talk|thắc mắc, nghi vấn|question; doubt|大家如果还有什么疑问，可以随时问我。|Nếu mọi người còn thắc mắc gì, có thể hỏi tôi bất cứ lúc nào.|If you have any questions, feel free to ask me at any time.
+乙|num|ất; thứ hai, B (bên B, đội B)|second (in order); B|甲队和乙队的比赛马上就要开始了。|Trận đấu giữa đội A và đội B sắp bắt đầu rồi.|The match between Team A and Team B is about to start.
+以及|link|cùng với, và|as well as; and|请写下你的姓名、地址以及电话号码。|Hãy ghi lại họ tên, địa chỉ cùng số điện thoại của bạn.|Please write down your name, address, and phone number.
+以来|time|từ… đến nay, kể từ|since|入冬以来，今天是最冷的一天。|Từ khi vào đông đến nay, hôm nay là ngày lạnh nhất.|Today is the coldest day since winter set in.
+义务|soc|nghĩa vụ; tình nguyện (không công)|duty; obligation; volunteer|保护环境是我们每个人的义务。|Bảo vệ môi trường là nghĩa vụ của mỗi chúng ta.|Protecting the environment is the duty of every one of us.
+议论|talk|bàn tán, bàn luận|to discuss; to comment on; to gossip|别在背后议论别人，这样很不礼貌。|Đừng bàn tán sau lưng người khác, như vậy rất bất lịch sự.|Don't talk about people behind their backs—it's very rude.
+意外|feel|bất ngờ, ngoài ý muốn; tai nạn|unexpected; accident; mishap|听说他要结婚了，大家都感到很意外。|Nghe nói anh ấy sắp cưới, mọi người đều rất bất ngờ.|Everyone was surprised to hear that he's getting married.
+意义|talk|ý nghĩa|meaning; significance|帮助别人让我觉得生活很有意义。|Giúp đỡ người khác khiến tôi thấy cuộc sống thật có ý nghĩa.|Helping others makes me feel that my life is meaningful.
+因而|link|vì thế, do đó|therefore; thus|这条路经常堵车，因而很多人选择坐地铁上班。|Con đường này thường xuyên tắc nghẽn, do đó nhiều người chọn đi tàu điện ngầm đi làm.|This road is often congested, so many people choose to take the subway to work.
+因素|talk|nhân tố, yếu tố|factor; element|价格是顾客买东西时考虑的重要因素。|Giá cả là yếu tố quan trọng mà khách hàng cân nhắc khi mua hàng.|Price is an important factor that customers consider when shopping.
+银|nature|bạc (kim loại)|silver|银戒指比金戒指便宜多了。|Nhẫn bạc rẻ hơn nhẫn vàng nhiều.|Silver rings are much cheaper than gold ones.
+应付|work|đối phó, ứng phó; làm qua loa|to cope with; to deal with; to do perfunctorily|工作太多了，我一个人应付不过来。|Việc nhiều quá, một mình tôi xoay xở không nổi.|There's too much work—I can't cope on my own.
+应聘|work|ứng tuyển, xin việc|to apply for a job|小李正在准备去一家银行应聘。|Tiểu Lý đang chuẩn bị đi ứng tuyển vào một ngân hàng.|Xiao Li is getting ready to apply for a job at a bank.
+应用|sci|ứng dụng, áp dụng|to apply; application; applied|新技术已经被广泛地应用到日常生活中。|Công nghệ mới đã được ứng dụng rộng rãi vào đời sống hằng ngày.|New technology has been widely applied in everyday life.
+英俊|desc|đẹp trai, tuấn tú|handsome|姐姐的男朋友又高又英俊。|Bạn trai của chị gái tôi vừa cao vừa đẹp trai.|My older sister's boyfriend is tall and handsome.
+英雄|ppl|anh hùng|hero|在孩子眼里，爸爸就是最了不起的英雄。|Trong mắt con trẻ, bố chính là người anh hùng tuyệt vời nhất.|In a child's eyes, Dad is the greatest hero of all.
+迎接|act|đón, đón tiếp, chào đón|to welcome; to meet; to greet|人们都在忙着准备迎接新年。|Mọi người đều đang tất bật chuẩn bị đón năm mới.|Everyone is busy getting ready to welcome the New Year.
+营养|food|dinh dưỡng|nutrition; nourishment|早饭一定要吃，而且要吃得有营养。|Bữa sáng nhất định phải ăn, hơn nữa phải ăn cho đủ chất dinh dưỡng.|You must eat breakfast, and it should be nutritious.
+营业|shop|kinh doanh, mở cửa (bán hàng)|to do business; to be open|这家超市二十四小时营业。|Siêu thị này mở cửa hai mươi bốn giờ.|This supermarket is open 24 hours a day.
+影子|nature|cái bóng, hình bóng|shadow; reflection|太阳下山的时候，影子会变得很长。|Lúc mặt trời lặn, cái bóng sẽ trở nên rất dài.|When the sun goes down, shadows become very long.

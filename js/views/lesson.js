@@ -43,6 +43,16 @@ export function render(ctx) {
     button('Luyện viết', { href: `#/write/lesson/${l.id}`, icon: 'pen', variant: 'secondary' }),
   );
 
+  const dlgCard = l.dlg
+    ? h(
+        'a',
+        { class: 'card dlg-card', href: `#/dialogue/${l.id}` },
+        h('span', { class: 'tile current', 'aria-hidden': 'true' }, icon('talk', 22)),
+        h('span', { class: 'row-main' }, h('span', { class: 'row-title' }, 'Hội thoại của bài'), h('span', { class: 'row-sub' }, 'Đọc, nghe, nhập vai và điền từ với chính các từ trong bài')),
+        icon('chevron', 18),
+      )
+    : null;
+
   const list = h(
     'div',
     { class: 'list stagger', style: { marginTop: '16px' } },
@@ -64,7 +74,7 @@ export function render(ctx) {
     h('span', null, h('i', { style: { background: 'var(--good)', borderRadius: '50%' } }), 'Đã thuộc'),
   );
 
-  const el = h('div', { class: 'view' }, head, intro, actions, h('section', { class: 'section' }, h('div', { class: 'section-head' }, h('h2', null, 'Từ vựng trong bài'), legend), list));
+  const el = h('div', { class: 'view' }, head, intro, actions, dlgCard, h('section', { class: 'section' }, h('div', { class: 'section-head' }, h('h2', null, 'Từ vựng trong bài'), legend), list));
   return { el, title: lessonTitle(l) };
 }
 

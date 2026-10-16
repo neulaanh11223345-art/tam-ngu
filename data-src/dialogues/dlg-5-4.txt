@@ -1,0 +1,209 @@
+## 5-work-5
+title: 实习生的第一天 | Ngày đầu của thực tập sinh | An Intern's First Day
+scene: Ở văn phòng công ty, giám đốc Vương nói chuyện với Tiểu Lưu, thực tập sinh mới. | In a company office, Manager Wang talks with Xiao Liu, a new intern.
+cast: 王经理, 小刘
+王经理: 小刘，欢迎你来我们部门实习！ | Tiểu Lưu, chào mừng em đến thực tập ở phòng chúng tôi! | Xiao Liu, welcome to your internship in our department!
+小刘: 谢谢王经理！人事部让我先跟您确认一下这周的日程。 | Em cảm ơn giám đốc Vương! Phòng nhân sự bảo em xác nhận trước với anh lịch làm việc tuần này. | Thank you, Manager Wang! HR asked me to confirm this week's schedule with you first.
+王经理: 周三有个客户会议，缺一个记录人员，你打字熟练吗？ | Thứ Tư có một cuộc họp với khách hàng, đang thiếu một người ghi biên bản, em đánh máy có thành thạo không? | There's a client meeting on Wednesday and we need someone to take notes. Are you a skilled typist?
+小刘: 打字还算熟练，我也比较善于整理资料。 | Đánh máy thì em cũng khá thành thạo, em cũng khá giỏi sắp xếp tài liệu. | I'm fairly proficient at typing, and I'm quite good at organizing materials.
+王经理: 很好。公司很重视年轻人才，去年的实习生还拿过荣誉证书呢。 | Tốt lắm. Công ty rất coi trọng những người trẻ có tài, thực tập sinh năm ngoái còn được nhận giấy khen nữa đấy. | Very good. The company values young talent, and last year's intern even received a certificate of honor.
+小刘: 说实话，我有点紧张。现在找工作不容易，很多同学担心毕业就失业。 | Nói thật là em hơi căng thẳng. Bây giờ tìm việc không dễ, nhiều bạn cùng lớp lo vừa tốt nghiệp đã thất nghiệp. | To be honest, I'm a bit nervous. Jobs are hard to find now, and many classmates worry they'll be unemployed right after graduating.
+王经理: 别担心。把每个任务都当成挑战，你的目标一定能实现。 | Đừng lo. Hãy coi mỗi nhiệm vụ là một thử thách, mục tiêu của em nhất định sẽ thành hiện thực. | Don't worry. Treat every task as a challenge, and you'll definitely achieve your goals.
+小刘: 谢谢您的鼓励，我一定好好努力！ | Cảm ơn anh đã động viên, em nhất định sẽ cố gắng hết sức! | Thank you for the encouragement. I'll definitely work hard!
+
+## 5-work-6
+title: 退休前的交接 | Bàn giao trước khi nghỉ hưu | Handing Over Before Retirement
+scene: Ở văn phòng, cô Lý sắp nghỉ hưu bàn giao công việc cho Tiểu Trương. | In the office, Aunt Li, who is about to retire, hands her work over to Xiao Zhang.
+cast: 李阿姨, 小张
+李阿姨: 小张，下个月我就退休了，这个项目以后就委托给你了。 | Tiểu Trương à, tháng sau cô nghỉ hưu rồi, dự án này sau này cô giao lại cho cháu nhé. | Xiao Zhang, I retire next month, so I'm entrusting this project to you.
+小张: 您放心。不过这个业务我还不太熟，怕应付不过来。 | Cô cứ yên tâm. Nhưng mảng nghiệp vụ này cháu còn chưa rành lắm, sợ là xoay xở không nổi. | Don't worry. But I'm not very familiar with this line of work yet, and I'm afraid I won't be able to cope.
+李阿姨: 别急，相关文件我都整理好了，放在桌上那个蓝色文件夹里。 | Đừng vội, tài liệu liên quan cô sắp xếp xong hết rồi, để trong cái kẹp hồ sơ màu xanh trên bàn. | Don't rush. I've organized all the related documents; they're in the blue folder on the desk.
+小张: 太好了！有没有什么需要特别注意的细节？ | Tốt quá! Có chi tiết nào cần đặc biệt chú ý không cô? | Great! Are there any details I should pay special attention to?
+李阿姨: 最重要的是跟各个部门协调好，效率自然就高了。 | Quan trọng nhất là phối hợp tốt với các phòng ban, như vậy hiệu suất tự nhiên sẽ cao. | The most important thing is to coordinate well with every department; then efficiency takes care of itself.
+小张: 您在这个行业做了三十年，经验就是您最大的优势。 | Cô làm trong ngành này ba mươi năm rồi, kinh nghiệm chính là lợi thế lớn nhất của cô. | You've worked in this industry for thirty years; experience is your greatest strength.
+李阿姨: 你也不差。还记得你来应聘那天，回答问题又快又清楚。 | Cháu cũng đâu có kém. Cô vẫn nhớ hôm cháu đến ứng tuyển, trả lời câu hỏi vừa nhanh vừa rõ ràng. | You're not bad yourself. I still remember the day you came to apply; you answered questions quickly and clearly.
+小张: 谢谢您！以后遇到问题，我还能打电话问您吗？ | Cháu cảm ơn cô! Sau này gặp vấn đề, cháu vẫn có thể gọi điện hỏi cô chứ ạ? | Thank you! If I run into problems later, can I still call you?
+李阿姨: 当然可以，退休以后我时间多得是！ | Tất nhiên là được, nghỉ hưu rồi cô có khối thời gian! | Of course. Once I'm retired, I'll have plenty of time!
+
+## 5-work-7
+title: 开咖啡馆的梦想 | Ước mơ mở quán cà phê | The Dream of Opening a Café
+scene: Hai người bạn ngồi ở quán trà, Tiểu Lý kể về kế hoạch mở quán cà phê. | Two friends sit in a teahouse as Xiao Li talks about her plan to open a café.
+cast: 朋友, 小李
+朋友: 听说你辞职了？打算以后怎么挣钱啊？ | Nghe nói cậu nghỉ việc rồi à? Sau này định kiếm tiền thế nào? | I heard you quit your job. How are you planning to make money now?
+小李: 我想开一家小咖啡馆。昨晚家里专门召开了家庭会议。 | Mình muốn mở một quán cà phê nhỏ. Tối qua cả nhà còn mở hẳn một cuộc họp gia đình. | I want to open a small café. Last night my family even held a special family meeting about it.
+朋友: 哈哈，那讨论的结果怎么样？ | Haha, thế kết quả thảo luận thế nào? | Ha, so how did the discussion turn out?
+小李: 大家展开了热烈的讨论，最后都同意了。 | Mọi người thảo luận rất sôi nổi, cuối cùng ai cũng đồng ý. | Everyone had a lively discussion, and in the end they all agreed.
+朋友: 开店可不简单，你制定好计划了吗？ | Mở quán đâu có đơn giản, cậu đã lập xong kế hoạch chưa? | Opening a shop isn't easy. Have you drawn up a plan?
+小李: 计划写好了，我还去咨询了一位开店的专家。 | Kế hoạch viết xong rồi, mình còn đi hỏi ý kiến một chuyên gia về mở quán nữa. | The plan is written, and I also consulted an expert on opening shops.
+朋友: 他怎么说？办营业执照需要什么资格吗？ | Anh ấy nói sao? Làm giấy phép kinh doanh có cần điều kiện gì không? | What did he say? Do you need any qualifications to get a business license?
+小李: 条件不难，关键是计划要认真执行。我争取年底开业！ | Điều kiện không khó, quan trọng là phải thực hiện kế hoạch nghiêm túc. Mình cố gắng khai trương vào cuối năm! | The requirements aren't hard; the key is to carry out the plan seriously. I'm aiming to open by the end of the year!
+朋友: 太好了，到时候我第一个去给你捧场！ | Tuyệt quá, đến lúc đó mình sẽ là người đầu tiên đến ủng hộ cậu! | That's great. When the time comes, I'll be your first customer!
+
+## 5-soc-1
+title: 文明养狗 | Nuôi chó văn minh | Responsible Dog Ownership
+scene: Trong sân khu chung cư, cô Lý bàn với một người hàng xóm về chuyện nuôi chó. | In a residential courtyard, Aunt Li talks with a neighbor about dog owners.
+cast: 李阿姨, 邻居
+李阿姨: 最近总有人遛狗不清理，草地上脏得很。 | Dạo này cứ có người dắt chó đi dạo mà không dọn dẹp, bãi cỏ bẩn lắm. | Lately people keep walking their dogs without cleaning up, and the lawn is really dirty.
+邻居: 是啊，这不光是卫生问题，也是道德问题。 | Đúng vậy, đây không chỉ là chuyện vệ sinh mà còn là chuyện đạo đức. | Yes, it's not just a hygiene problem; it's a moral one too.
+李阿姨: 所以居委会决定采取一些措施，成立一个志愿者小组。 | Vì thế tổ dân phố quyết định áp dụng một số biện pháp, thành lập một nhóm tình nguyện viên. | So the residents' committee decided to take some measures and set up a volunteer group.
+邻居: 好主意！我也想参与，需要做些什么？ | Ý hay đấy! Tôi cũng muốn tham gia, cần làm những gì ạ? | Good idea! I'd like to take part too. What do I need to do?
+李阿姨: 每天早晚在小区里转一转，向大家传播文明养狗的知识。 | Mỗi sáng tối đi một vòng quanh khu, phổ biến cho mọi người kiến thức nuôi chó văn minh. | Walk around the neighborhood every morning and evening and spread knowledge about responsible dog ownership.
+邻居: 要是有人就是不听呢？ | Nếu có người nhất định không nghe thì sao? | What if some people just won't listen?
+李阿姨: 新规定下周就公布，屡次不清理的可能要罚款。 | Quy định mới tuần sau sẽ công bố, ai nhiều lần không dọn có thể bị phạt tiền. | The new rules will be announced next week, and people who repeatedly don't clean up may be fined.
+邻居: 这样大家肯定会更注意。我明天就去报名！ | Như vậy chắc chắn mọi người sẽ chú ý hơn. Mai tôi đi đăng ký luôn! | That will surely make everyone more careful. I'll sign up tomorrow!
+
+## 5-soc-2
+title: 拔河比赛前 | Trước trận kéo co | Before the Tug-of-War
+scene: Trên sân trường, thầy Trương dặn dò học sinh trước trận kéo co của lớp. | On the school field, Teacher Zhang talks to a student before the class tug-of-war.
+cast: 张老师, 学生
+张老师: 下午的拔河比赛是集体项目，大家一定要团结。 | Trận kéo co chiều nay là môn thi tập thể, mọi người nhất định phải đoàn kết. | This afternoon's tug-of-war is a team event, so everyone must stick together.
+学生: 张老师，听说三班力气特别大，我们能赢吗？ | Thầy Trương ơi, nghe nói lớp Ba khỏe lắm, chúng em có thắng được không ạ? | Teacher Zhang, I heard Class Three is really strong. Can we win?
+张老师: 输赢不重要，关键是守纪律，听裁判的话。 | Thắng thua không quan trọng, quan trọng là giữ kỷ luật, nghe lời trọng tài. | Winning or losing doesn't matter. The key is to keep discipline and listen to the referee.
+学生: 比赛规则是什么？每个班可以上几个人？ | Luật thi đấu thế nào ạ? Mỗi lớp được mấy người ra sân? | What are the rules? How many people can each class send?
+张老师: 每班十个人，五男五女，这样才公平。 | Mỗi lớp mười người, năm nam năm nữ, như vậy mới công bằng. | Ten per class, five boys and five girls. That's what makes it fair.
+学生: 我们班有两个留学生，不同国籍的同学也能参加吗？ | Lớp em có hai bạn du học sinh, các bạn khác quốc tịch cũng được tham gia chứ ạ? | Our class has two international students. Can classmates of other nationalities take part too?
+张老师: 当然能！每个人都是集体的一员，都可以为班级做贡献。 | Tất nhiên là được! Ai cũng là một thành viên của tập thể, đều có thể đóng góp cho lớp. | Of course! Everyone is part of the group, and everyone can contribute to the class.
+学生: 明白了！我这就去叫大家排好队，守规矩。 | Em hiểu rồi! Em đi gọi mọi người xếp hàng ngay ngắn, giữ nề nếp đây ạ. | Got it! I'll go get everyone to line up and behave properly.
+张老师: 好，加油！通过比赛建立信心，比拿第一更重要。 | Tốt, cố lên! Qua trận đấu mà xây dựng được sự tự tin còn quan trọng hơn giành giải nhất. | Good, go for it! Building confidence through the match matters more than coming first.
+
+## 5-soc-3
+title: 社区图书室 | Phòng đọc sách của khu phố | The Community Reading Room
+scene: Tiểu Vương gặp một bác hàng xóm đang chuyển sách đến phòng sinh hoạt khu phố. | Xiao Wang meets a neighbor carrying books to the community room.
+cast: 小王, 邻居
+小王: 您搬这么多书去哪儿啊？我帮您拿吧。 | Bác chuyển nhiều sách thế này đi đâu ạ? Để cháu cầm giúp bác. | Where are you taking all these books? Let me help you carry them.
+邻居: 谢谢！社区正在建设一个图书室，我把家里的旧书捐出来了。 | Cảm ơn cháu! Khu phố đang xây một phòng đọc sách, bác đem sách cũ ở nhà ra quyên góp. | Thanks! The community is building a reading room, so I'm donating the old books from home.
+小王: 真不错！是社区自己办的吗？ | Hay quá! Là khu phố tự làm ạ? | That's great! Is the community running it on its own?
+邻居: 是社区和附近的小学联合办的，钱和书都是大家凑的。 | Khu phố cùng với trường tiểu học gần đây chung sức làm, tiền và sách đều do mọi người góp. | The community and the nearby primary school are running it together; everyone chipped in the money and books.
+小王: 那图书室以后对谁开放？ | Thế sau này phòng đọc mở cửa cho những ai ạ? | So who will the reading room be open to?
+邻居: 对所有人开放，老人孩子都一样，人人平等。 | Mở cửa cho tất cả mọi người, người già hay trẻ em đều như nhau, ai cũng bình đẳng. | It's open to everyone. Old or young, everyone is treated equally.
+小王: 开放时间是怎么定的？ | Giờ mở cửa thì quyết định thế nào ạ? | How was the opening time decided?
+邻居: 上周大家开会，用民主的方式投票决定的，晚上开到九点。 | Tuần trước mọi người họp, bỏ phiếu một cách dân chủ để quyết định, buổi tối mở đến chín giờ. | Everyone met last week and decided democratically by vote: it stays open until nine in the evening.
+小王: 这样最符合大家的利益。我家也有不少书，明天我也来捐一些！ | Như vậy là hợp với lợi ích của mọi người nhất. Nhà cháu cũng có khá nhiều sách, mai cháu cũng mang đến góp một ít! | That's best for everyone's interests. We have lots of books at home too, so I'll come and donate some tomorrow!
+
+## 5-soc-4
+title: 办居住证 | Làm thẻ cư trú | Getting a Residence Permit
+scene: Tiểu Trương mới chuyển đến Thượng Hải, kể với bạn chuyện đi làm thẻ cư trú. | Xiao Zhang, who has just moved to Shanghai, tells a friend about getting a residence permit.
+cast: 朋友, 小张
+朋友: 你今天去办居住证了？顺利吗？ | Hôm nay cậu đi làm thẻ cư trú à? Có suôn sẻ không? | You went to get your residence permit today? Did it go smoothly?
+小张: 挺顺利的，手续比我想象的简单多了。 | Suôn sẻ lắm, thủ tục đơn giản hơn mình tưởng nhiều. | Pretty smoothly. The procedures were much simpler than I expected.
+朋友: 现在实行网上预约，不用排长队了。 | Bây giờ áp dụng đặt lịch hẹn qua mạng, không phải xếp hàng dài nữa. | They've introduced online appointments now, so you don't have to stand in long lines.
+小张: 对，我只带了身份证和租房合同，半小时就办完了。 | Ừ, mình chỉ mang chứng minh thư với hợp đồng thuê nhà, nửa tiếng là làm xong. | Right. I only brought my ID card and rental contract, and it was done in half an hour.
+朋友: 办了居住证，你就能享受很多权利，比如孩子在这儿上学。 | Có thẻ cư trú rồi, cậu sẽ được hưởng nhiều quyền lợi, ví dụ như con cái được đi học ở đây. | With a residence permit, you'll enjoy many rights, such as your kids going to school here.
+小张: 是啊。工作人员说，来上海工作的年轻人越来越多了。 | Đúng thế. Nhân viên ở đó nói người trẻ đến Thượng Hải làm việc ngày càng đông. | Yes. The staff said more and more young people are coming to work in Shanghai.
+朋友: 这是个大趋势，城市人口一直在增长。 | Đó là xu hướng lớn mà, dân số thành phố cứ tăng mãi. | That's a big trend; the city's population keeps growing.
+小张: 他们还提倡大家用统一的手机平台办事，挺方便的。 | Họ còn khuyến khích mọi người dùng một nền tảng điện thoại thống nhất để làm thủ tục, khá tiện. | They also encourage people to use a single unified phone platform for paperwork, which is quite convenient.
+朋友: 那恭喜你，以新上海人的身份开始新生活！ | Vậy chúc mừng cậu bắt đầu cuộc sống mới với tư cách người Thượng Hải mới nhé! | Then congratulations on starting a new life as a new Shanghai resident!
+
+## 5-soc-5
+title: 地铁站丢了钱包 | Mất ví ở ga tàu điện ngầm | A Lost Wallet at the Subway Station
+scene: Ở ga tàu điện ngầm, một hành khách tìm cảnh sát vì không thấy ví đâu. | At a subway station, a passenger goes to a police officer because her wallet is missing.
+cast: 乘客, 警察
+乘客: 警察同志，我的钱包不见了，可能是被小偷偷了！ | Anh cảnh sát ơi, ví của tôi không thấy đâu nữa, có thể bị kẻ trộm lấy mất rồi! | Officer, my wallet is gone. A thief may have stolen it!
+警察: 别着急，钱包里有什么重要的东西吗？ | Chị đừng lo, trong ví có thứ gì quan trọng không? | Don't worry. Was there anything important in the wallet?
+乘客: 有点儿现金，还有我的证件，身份证和银行卡都在里面。 | Có ít tiền mặt, còn có giấy tờ của tôi, chứng minh thư và thẻ ngân hàng đều ở trong đó. | Some cash and my papers. My ID card and bank card are both in it.
+警察: 我们查一下监控。在地铁里偷东西是违反法律的行为，跑不了。 | Chúng tôi sẽ kiểm tra camera. Trộm cắp trên tàu điện ngầm là hành vi vi phạm pháp luật, không thoát được đâu. | We'll check the security cameras. Stealing on the subway is illegal behavior; nobody gets away with it.
+乘客: 谢谢！你们每天在这里维护秩序，真是辛苦了。 | Cảm ơn anh! Các anh ngày nào cũng giữ gìn trật tự ở đây, thật là vất vả. | Thank you! You keep order here every day; it must be hard work.
+警察: 应该的。刚才有位义务帮忙的志愿者捡到一个钱包，是这个吗？ | Việc của chúng tôi mà. Vừa nãy có một tình nguyện viên giúp đỡ không công nhặt được một cái ví, có phải cái này không? | It's our job. A volunteer who helps out here just found a wallet. Is this it?
+乘客: 就是它！原来是我自己掉的。我得好好谢谢那位志愿者。 | Đúng nó rồi! Hóa ra là tôi tự đánh rơi. Tôi phải cảm ơn tình nguyện viên ấy thật chu đáo mới được. | That's it! Turns out I dropped it myself. I really must thank that volunteer.
+警察: 他们帮忙从不图物质回报，您说声谢谢就够了。 | Họ giúp đỡ chưa bao giờ mong được đền đáp vật chất, chị nói một tiếng cảm ơn là đủ rồi. | They never help in hopes of material reward; just saying thank you is enough.
+乘客: 好的。以后坐地铁，我一定把包看好。 | Vâng. Sau này đi tàu điện ngầm, tôi nhất định sẽ giữ túi cẩn thận. | All right. From now on, I'll definitely keep a close eye on my bag on the subway.
+
+## 5-soc-6
+title: 垃圾分类新规定 | Quy định mới về phân loại rác | New Rules on Sorting Rubbish
+scene: Ở nhà, hai vợ chồng bàn về quy định phân loại rác mới của khu chung cư. | At home, a husband and wife talk about their neighborhood's new rubbish-sorting rules.
+cast: 妻子, 丈夫
+妻子: 你看通知了吗？下个月起，小区要开始垃圾分类了。 | Anh xem thông báo chưa? Từ tháng sau khu mình bắt đầu phân loại rác rồi. | Have you seen the notice? Starting next month, our neighborhood will begin sorting rubbish.
+丈夫: 看到了，这是政府的新政策，全市都要做。 | Thấy rồi, đây là chính sách mới của chính quyền, cả thành phố đều phải làm. | I saw it. It's a new government policy, and the whole city has to do it.
+妻子: 业主委员会主席说，以后会有专人在垃圾站检查。 | Chủ tịch ban quản trị chung cư nói sau này sẽ có người chuyên kiểm tra ở điểm tập kết rác. | The chairman of the owners' committee said someone will be checking at the rubbish station from now on.
+丈夫: 有了这个制度，垃圾站的秩序应该会好很多。 | Có quy chế này rồi, trật tự ở điểm tập kết rác chắc sẽ tốt hơn nhiều. | With this system in place, things at the rubbish station should be much more orderly.
+妻子: 可是要是有人偷偷乱扔怎么办？ | Nhưng nếu có người lén vứt bừa thì sao? | But what if someone secretly dumps things wherever they like?
+丈夫: 垃圾站装了摄像头，有证据就能找到是谁扔的。 | Điểm tập kết rác có lắp camera, có bằng chứng là tìm ra ai vứt. | There are cameras at the rubbish station. With evidence, they can find out who did it.
+妻子: 听起来像在抓罪犯一样，哈哈。 | Nghe cứ như đang bắt tội phạm ấy, haha. | Sounds like they're catching criminals, haha.
+丈夫: 哪有那么严重！只要大家自觉遵守，就不会有问题。 | Làm gì nghiêm trọng thế! Chỉ cần mọi người tự giác tuân thủ thì sẽ không có vấn đề gì. | It's not that serious! As long as everyone follows the rules on their own, there won't be any problems.
+妻子: 好，那我们从今天就开始练习分类吧！ | Được, vậy nhà mình bắt đầu tập phân loại từ hôm nay đi! | OK, then let's start practicing sorting from today!
+
+## 5-travel-1
+title: 从机场到酒店 | Từ sân bay về khách sạn | From the Airport to the Hotel
+scene: David vừa ra khỏi sân bay Bắc Kinh, gặp tài xế khách sạn đến đón. | David has just come out of Beijing airport and meets the hotel driver who is picking him up.
+cast: 司机, 大卫
+司机: 您好，是大卫先生吗？酒店派我来接您。 | Chào anh, anh là David phải không? Khách sạn cử tôi đến đón anh. | Hello, are you Mr. David? The hotel sent me to pick you up.
+大卫: 对，不好意思，过海关的人太多，让您久等了。 | Vâng, xin lỗi, người làm thủ tục hải quan đông quá, để anh phải chờ lâu. | Yes, sorry. There were so many people going through customs; I kept you waiting.
+司机: 没关系，等候客人是我的工作。您的航班是几点到达的？ | Không sao, chờ khách là công việc của tôi mà. Chuyến bay của anh đến lúc mấy giờ? | No problem, waiting for guests is my job. What time did your flight arrive?
+大卫: 三点就到了。我乘的这班飞机人特别多，取行李也慢。 | Ba giờ là đến rồi. Chuyến bay tôi đi đông người lắm, lấy hành lý cũng chậm. | It got in at three. The flight I took was really full, and getting my luggage was slow too.
+司机: 从这儿上高速，大概四十分钟就能到酒店。 | Từ đây lên đường cao tốc, khoảng bốn mươi phút là đến khách sạn. | We'll get on the expressway here; it's about forty minutes to the hotel.
+大卫: 师傅，您的驾驶技术真好，开得又快又稳。 | Anh tài xế, anh lái xe giỏi thật, vừa nhanh vừa êm. | You're a really good driver; fast and smooth.
+司机: 过奖了。看，前面那个标志就是出口，拐弯就到了。 | Anh quá khen. Nhìn kìa, cái biển báo phía trước là lối ra, rẽ một cái là tới. | You flatter me. Look, that sign ahead is the exit; we're there right after the turn.
+大卫: 太好了。到了酒店，我是不是要先去前台登记？ | Tốt quá. Đến khách sạn, tôi có phải ra quầy lễ tân đăng ký trước không? | Great. When we get to the hotel, do I check in at the front desk first?
+司机: 对，带上护照就行。听说您明天还要坐高铁去上海？ | Đúng rồi, mang theo hộ chiếu là được. Nghe nói mai anh còn đi tàu cao tốc đến Thượng Hải à? | Yes, just bring your passport. I hear you're taking the high-speed train to Shanghai tomorrow?
+大卫: 是的，票上写着八号车厢，我得早点儿出发。 | Vâng, trên vé ghi toa số tám, tôi phải đi sớm một chút. | Yes, the ticket says carriage eight. I'll need to leave a bit early.
+
+## 5-travel-2
+title: 骑摩托车去海边 | Đi xe máy ra biển | Riding a Motorbike to the Sea
+scene: Trong chuyến du lịch, Anna và Tiểu Vương thuê xe máy đi tìm bãi biển. | On a trip, Anna and Xiao Wang rent a motorbike to look for the beach.
+cast: 小王, 安娜
+小王: 我们好像迷路了，这个路口刚才是不是来过？ | Hình như chúng ta lạc đường rồi, ngã tư này lúc nãy có phải đi qua rồi không? | I think we're lost. Didn't we already come through this intersection?
+安娜: 好像是。早知道就跟旅游团了，不过自己骑摩托车更能体验当地生活。 | Hình như vậy. Biết thế đã đi theo đoàn du lịch, nhưng tự đi xe máy thì trải nghiệm cuộc sống địa phương rõ hơn. | Looks like it. We should have joined a tour group, but riding a motorbike ourselves lets us experience local life better.
+小王: 而且前面那条路被一辆卡车挡住了，只能绕过去。 | Mà con đường phía trước lại bị một chiếc xe tải chắn mất, chỉ có thể đi vòng thôi. | And the road ahead is blocked by a truck, so we'll have to go around.
+安娜: 汽油也快用完了。我去拦辆车问问路吧。 | Xăng cũng sắp hết rồi. Để mình ra vẫy một chiếc xe hỏi đường xem. | We're almost out of petrol, too. I'll flag down a car and ask the way.
+小王: 好，我在这儿看着车等你。 | Được, mình ở đây trông xe đợi cậu. | OK, I'll wait here and watch the bike.
+安娜: 问到了！加油站就在前面，沙滩离那儿只有五分钟。 | Hỏi được rồi! Trạm xăng ở ngay phía trước, bãi biển cách đó chỉ năm phút. | Got it! The petrol station is just ahead, and the beach is only five minutes from there.
+小王: 太好了！到了海边，我要买几张明信片寄给家里人。 | Tuyệt quá! Ra đến biển, mình sẽ mua mấy tấm bưu thiếp gửi về cho gia đình. | Great! When we get to the sea, I'll buy some postcards to send to my family.
+安娜: 你看天上，有架飞机正在降落，机场就在附近吧？ | Cậu nhìn trời kìa, có chiếc máy bay đang hạ cánh, sân bay ở gần đây à? | Look up there, a plane is landing. Is the airport nearby?
+小王: 原来我们绕了一大圈，又回到机场附近了。 | Hóa ra chúng ta đi vòng một vòng lớn, lại quay về gần sân bay rồi. | So we went all the way around in a big circle and ended up near the airport again.
+安娜: 没关系，迷路也是一种体验嘛！ | Không sao, lạc đường cũng là một trải nghiệm mà! | Never mind, getting lost is an experience too!
+
+## 5-travel-3
+title: 去长城的路上 | Trên đường đi Vạn Lý Trường Thành | On the Way to the Great Wall
+scene: Trên xe du lịch đi Vạn Lý Trường Thành, hướng dẫn viên trò chuyện với một du khách. | On a tour bus to the Great Wall, the tour guide chats with a passenger.
+cast: 导游, 乘客
+导游: 各位，今天我们去长城游览，往返大概需要八个小时。 | Thưa mọi người, hôm nay chúng ta đi tham quan Vạn Lý Trường Thành, cả đi lẫn về mất khoảng tám tiếng. | Everyone, today we're touring the Great Wall. The round trip takes about eight hours.
+乘客: 这么久？我以前坐长途汽车，坐得腰都疼了。 | Lâu vậy sao? Trước đây tôi đi xe khách đường dài, ngồi đến đau cả lưng. | That long? I once took a long-distance coach and my back ached from sitting.
+导游: 别担心，中间我们会停下来休息。门票我也都预订好了。 | Đừng lo, giữa chừng chúng ta sẽ dừng lại nghỉ. Vé vào cửa tôi cũng đặt trước hết rồi. | Don't worry, we'll stop for a rest on the way. I've also booked all the entrance tickets.
+乘客: 太好了。你看前面，警察在指挥交通，是不是堵车了？ | Tốt quá. Anh nhìn phía trước kìa, cảnh sát đang điều khiển giao thông, có phải tắc đường rồi không? | Great. Look ahead, a police officer is directing traffic. Is there a jam?
+导游: 应该是前面有运输货物的大车，过了这段就不拥挤了。 | Chắc là phía trước có xe lớn chở hàng, qua đoạn này là hết đông đúc thôi. | There are probably big trucks carrying goods ahead. Once we're past this stretch, it won't be crowded.
+乘客: 路边行人也不少，司机开车得特别小心。 | Bên đường người đi bộ cũng nhiều, tài xế phải lái thật cẩn thận. | There are plenty of pedestrians by the road too; the driver must be extra careful.
+导游: 放心，我们师傅拿驾驶执照都二十年了，开车特别稳。 | Yên tâm, bác tài của chúng ta có bằng lái được hai mươi năm rồi, lái xe rất vững. | Don't worry, our driver has had his license for twenty years, and he drives very steadily.
+乘客: 那我就放心了，可以好好看看风景。 | Vậy thì tôi yên tâm rồi, có thể ngắm cảnh cho thỏa. | Then I can relax and enjoy the scenery.
+导游: 祝大家一路顺利，玩得开心！ | Chúc mọi người suốt chặng đường thuận lợi, đi chơi vui vẻ! | I wish everyone a smooth journey and a great time!
+
+## 5-place-1
+title: 买帽子问路 | Mua mũ, hỏi đường | Buying a Hat and Asking the Way
+scene: Anna vào một cửa hàng nhỏ mua mũ và hỏi đường đến viện bảo tàng. | Anna goes into a small shop to buy a hat and asks the way to the museum.
+cast: 安娜, 售货员
+安娜: 您好，我想买一顶帽子，今天太阳太大了。 | Chào chị, tôi muốn mua một chiếc mũ, hôm nay nắng to quá. | Hello, I'd like to buy a hat. The sun is so strong today.
+售货员: 这顶白色的怎么样？很多游客都喜欢。 | Chiếc màu trắng này thế nào? Nhiều du khách thích lắm. | How about this white one? Lots of tourists like it.
+安娜: 不错，就要这顶。请问，博物馆离这儿远吗？ | Được đấy, lấy chiếc này. Cho hỏi viện bảo tàng có xa đây không? | Nice, I'll take this one. Excuse me, is the museum far from here?
+售货员: 不远。您出门朝东走，过了广场就到了。 | Không xa. Chị ra khỏi cửa đi về hướng đông, qua quảng trường là tới. | Not far. Go east when you leave, and it's just past the square.
+安娜: 广场旁边是不是有个操场？我刚才好像看到了。 | Cạnh quảng trường có phải có một sân thể thao không? Hình như lúc nãy tôi thấy. | Is there a sports ground next to the square? I think I saw it earlier.
+售货员: 对，那是一所中学的操场，博物馆就在学校隔壁。 | Đúng, đó là sân của một trường trung học, viện bảo tàng ở ngay sát bên trường. | Yes, that's a middle school's sports ground. The museum is right next door to the school.
+安娜: 博物馆里主要介绍什么呢？ | Viện bảo tàng chủ yếu giới thiệu về gì vậy? | What does the museum mainly cover?
+售货员: 主要介绍这个地区的历史，比如古代的村子都是怎么分布的。 | Chủ yếu giới thiệu lịch sử của vùng này, ví dụ các làng thời xưa phân bố như thế nào. | Mainly the history of this area, such as how the villages were spread out in ancient times.
+安娜: 听起来很有意思！对了，附近有厕所吗？ | Nghe thú vị quá! À đúng rồi, gần đây có nhà vệ sinh không? | Sounds interesting! Oh, by the way, is there a restroom nearby?
+售货员: 广场东边就有一个公共厕所，很干净。 | Phía đông quảng trường có một nhà vệ sinh công cộng, sạch lắm. | There's a public restroom on the east side of the square, and it's very clean.
+
+## 5-place-2
+title: 逛北京胡同 | Dạo ngõ nhỏ Bắc Kinh | Strolling Through Beijing's Hutongs
+scene: Tiểu Trương dẫn David đi dạo các con ngõ cổ ở Bắc Kinh. | Xiao Zhang takes David for a walk through the old hutongs of Beijing.
+cast: 大卫, 小张
+大卫: 这条胡同真窄啊！两边都是老建筑吧？ | Con ngõ này hẹp thật! Hai bên toàn là nhà cổ phải không? | This hutong is so narrow! Are the buildings on both sides all old?
+小张: 对，很多都有一百多年了。小心，前面有根树枝横在路上。 | Đúng, nhiều nhà đã hơn một trăm năm rồi. Cẩn thận, phía trước có cành cây nằm chắn ngang đường. | Yes, many are over a hundred years old. Careful, there's a branch lying across the path ahead.
+大卫: 谢谢提醒！住在这儿的人，空间够用吗？ | Cảm ơn cậu nhắc! Người sống ở đây có đủ chỗ ở không? | Thanks for the warning! Do the people living here have enough space?
+小张: 确实小了点儿，所以不少年轻人搬到郊区去了，那边房子大，设施也新。 | Đúng là hơi chật, nên nhiều người trẻ đã chuyển ra ngoại ô, ở đó nhà rộng, cơ sở vật chất cũng mới. | It is a bit small, so many young people have moved to the suburbs, where homes are bigger and facilities newer.
+大卫: 这让我想起了家乡，那里的老房子也越来越少了。 | Điều này làm mình nhớ đến quê nhà, ở đó nhà cổ cũng ngày càng ít đi. | This reminds me of my hometown; the old houses there are disappearing too.
+小张: 你是来自一个海边城市吧？那儿有什么名胜吗？ | Cậu đến từ một thành phố ven biển phải không? Ở đó có danh lam thắng cảnh nào không? | You come from a seaside city, right? Are there any famous sights there?
+大卫: 有，最有名的是一座老灯塔，有空你一定要去看看。 | Có, nổi tiếng nhất là một ngọn hải đăng cổ, có dịp cậu nhất định phải đến xem. | Yes, the most famous is an old lighthouse. You must go see it sometime.
+小张: 好啊！走，胡同尽头有家老店，我请你喝豆汁儿。 | Được đấy! Đi nào, cuối ngõ có một quán lâu đời, mình mời cậu uống đậu chấp. | Sure! Come on, there's an old shop at the end of the hutong. I'll treat you to some douzhi.
+
+## 5-place-3
+title: 县城里的老寺庙 | Ngôi chùa cổ ở thị trấn huyện | The Old Temple in the County Town
+scene: Một du khách đi taxi ở một thị trấn huyện và trò chuyện với tài xế. | A tourist takes a taxi in a county town and chats with the driver.
+cast: 乘客, 司机
+乘客: 师傅，去县里的那座老寺庙，远吗？ | Bác tài ơi, đến ngôi chùa cổ của huyện có xa không ạ? | Driver, is it far to the county's old temple?
+司机: 不远，寺庙就在县城中心，开车十分钟。 | Không xa, chùa ở ngay trung tâm huyện, lái xe mười phút thôi. | Not far. The temple is right in the center of the county town, ten minutes by car.
+乘客: 听说寺庙后面有一座很老的塔？ | Nghe nói phía sau chùa có một ngọn tháp rất cổ phải không ạ? | I heard there's a very old pagoda behind the temple?
+司机: 对，有八百多年了。不过要爬两百多级台阶才能上去。 | Đúng, hơn tám trăm năm rồi. Nhưng phải leo hơn hai trăm bậc thềm mới lên được. | Yes, it's over eight hundred years old. But you have to climb more than two hundred steps to get up there.
+乘客: 没关系，就当锻炼身体。从塔上看风景好吗？ | Không sao, coi như tập thể dục. Từ trên tháp nhìn cảnh có đẹp không ạ? | No problem, I'll treat it as exercise. Is the view good from the pagoda?
+司机: 特别好！那个位置最高，整个县城都能看见。 | Đẹp lắm! Chỗ đó cao nhất, nhìn thấy được cả thị trấn. | Wonderful! It's the highest spot, and you can see the whole town.
+乘客: 对了，附近有邮局吗？我想寄几张明信片。 | À, gần đó có bưu điện không ạ? Cháu muốn gửi mấy tấm bưu thiếp. | Oh, is there a post office nearby? I'd like to mail a few postcards.
+司机: 有，出了寺庙门往前直走，大概两百米，邮局就在右手边。 | Có, ra khỏi cổng chùa cứ đi thẳng về phía trước khoảng hai trăm mét, bưu điện ở ngay bên tay phải. | Yes. Leave the temple gate and go straight ahead about two hundred meters; the post office is on your right.
+乘客: 太好了，谢谢师傅！ | Tốt quá, cháu cảm ơn bác tài! | Great, thank you, driver!

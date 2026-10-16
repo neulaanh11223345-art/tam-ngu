@@ -1,4 +1,4 @@
-import { data, lessonWords, studyOrder, word } from '../data.js';
+import { data, lessonWords, levelsAvailable, studyOrder, word } from '../data.js';
 import { bar, button, h, icon, ring, zh } from '../dom.js';
 import { dayKey } from '../srs.js';
 import { streak } from '../store.js';
@@ -70,7 +70,19 @@ export function render(ctx) {
 
   const next = nextLesson(store, db);
   const continueSec = next
-    ? h('section', { class: 'section' }, h('div', { class: 'section-head' }, h('h2', null, 'Tiếp tục học'), h('a', { href: '#/lessons' }, 'Tất cả bài')), lessonRow(next, store, { current: true }))
+    ? h(
+        'section',
+        { class: 'section' },
+        h('div', { class: 'section-head' }, h('h2', null, 'Tiếp tục học'), h('a', { href: '#/lessons' }, 'Tất cả bài')),
+        h(
+          'div',
+          { class: 'list' },
+          lessonRow(next, store, { current: true }),
+          next.dlg
+            ? h('a', { href: `#/dialogue/${next.id}`, class: 'row-link' }, h('span', { class: 'tile', 'aria-hidden': 'true' }, icon('talk', 22)), h('span', { class: 'row-main' }, h('span', { class: 'row-title' }, 'Hội thoại của bài này'), h('span', { class: 'row-sub' }, store.state.dialogues[next.id] ? 'Đã đọc · luyện thêm nhập vai, điền từ' : 'Đọc, nghe và nhập vai với từ của bài')), icon('chevron', 18))
+            : null,
+        ),
+      )
     : null;
 
   // gợi ý chữ để luyện viết: chữ trong các từ đang học, nếu chưa có thì lấy từ bài tiếp theo
@@ -103,7 +115,7 @@ export function render(ctx) {
     h(
       'div',
       { class: 'card', style: { display: 'flex', flexDirection: 'column', gap: '14px' } },
-      [3, 4].map((lv) => {
+      levelsAvailable().map((lv) => {
         const ids = db.lessonsByLevel[lv].flatMap((l) => l.words);
         const n = learnedCount(store, ids);
         return h(

@@ -1,6 +1,6 @@
-import { data, search } from '../data.js';
+import { data, levelsAvailable, search } from '../data.js';
 import { emptyState, h, icon, pinyinWord, ring, segmented, zh } from '../dom.js';
-import { learnedCount, lessonRow, nextLesson, wordState } from './common.js';
+import { learnedCount, lessonRow, lessonsTabs, nextLesson, wordState } from './common.js';
 
 let lastLevel = null;
 
@@ -8,7 +8,7 @@ export function render(ctx) {
   const { store, query } = ctx;
   const db = data();
   let level = Number(query.get('level')) || lastLevel || store.state.settings.levels[0] || 3;
-  if (!db.lessonsByLevel[level]) level = 3;
+  if (!db.lessonsByLevel[level]) level = levelsAvailable()[0];
 
   const summary = h('section', { class: 'card level-summary', style: { marginTop: '16px' } });
   const list = h('div', { class: 'list stagger', style: { marginTop: '16px' } });
@@ -63,15 +63,13 @@ export function render(ctx) {
     'div',
     { class: 'view' },
     h('header', { class: 'topbar' }, h('h1', { class: 'grow' }, 'Bài học')),
-    h('label', { class: 'search' }, icon('search', 20), input),
+    lessonsTabs('words', ctx.navigate),
+    h('label', { class: 'search', style: { marginTop: '14px' } }, icon('search', 20), input),
     h(
       'div',
       { style: { marginTop: '16px' } },
       segmented(
-        [
-          [3, 'HSK 3'],
-          [4, 'HSK 4'],
-        ],
+        levelsAvailable().map((lv) => [lv, `HSK ${lv}`]),
         level,
         (v) => {
           level = v;

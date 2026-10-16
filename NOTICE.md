@@ -9,7 +9,7 @@ Tam Ngữ dùng các dữ liệu và thư viện mở sau. Toàn văn giấy ph�
 | [Make Me a Hanzi](https://github.com/skishore/makemeahanzi) `dictionary.txt` | Bộ thủ, nghĩa gốc từng chữ | LGPL-3.0 (dựa trên Unihan, CJKlib) | `data-src/COPYING-makemeahanzi.txt` |
 | [hanzi-writer-data](https://github.com/chanind/hanzi-writer-data) | Nét viết từng chữ (`data/strokes/`) | Arphic Public License | `data/LICENSE-stroke-data-ARPHICPL.txt` |
 | [Hanzi Writer](https://hanziwriter.org) 3.7.3 (David Chanin) | Bảng viết, hoạt hình thứ tự nét, chấm nét | MIT | `vendor/LICENSE-hanzi-writer.txt` |
-| [pypinyin](https://github.com/mozillazg/python-pinyin) | Chú âm câu ví dụ khi dựng dữ liệu (không đóng gói vào app) | MIT | |
+| [pypinyin](https://github.com/mozillazg/python-pinyin) | Chú âm câu ví dụ và hội thoại khi dựng dữ liệu, cách đọc mặc định trong `data/lexicon.json` | MIT | |
 | Be Vietnam Pro, Noto Serif SC (Google Fonts) | Phông chữ giao diện | SIL Open Font License | |
 
-Nghĩa tiếng Việt, nghĩa tiếng Anh, chủ đề và câu ví dụ (`data-src/hsk3.txt`, `data-src/hsk4-*.txt`) được soạn riêng cho Tam Ngữ.
+Nghĩa tiếng Việt, nghĩa tiếng Anh, chủ đề, câu ví dụ (`data-src/hsk*.txt`) và hội thoại theo bài (`data-src/dialogues/`) được soạn riêng cho Tam Ngữ, không lấy từ giáo trình nào.

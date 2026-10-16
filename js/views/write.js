@@ -1,5 +1,5 @@
 // Luyện viết chữ Hán: xem thứ tự nét → tô theo mẫu → tự viết từ trí nhớ.
-import { charInfo, data, lesson, lessonTitle, lessonWords, search, studyOrder, word } from '../data.js';
+import { charInfo, data, lesson, lessonTitle, lessonWords, levelsAvailable, search, studyOrder, word } from '../data.js';
 import { button, emptyState, h, icon, pinyinWord, segmented, toast, vibrate, zh } from '../dom.js';
 import { speak } from '../speech.js';
 import { createWriter, loadCharData } from '../writer.js';
@@ -93,10 +93,7 @@ function renderHub(ctx) {
       };
       area.replaceChildren(
         segmented(
-          [
-            [3, 'HSK 3'],
-            [4, 'HSK 4'],
-          ],
+          levelsAvailable().map((lv) => [lv, `HSK ${lv}`]),
           level,
           drawLessons,
           'Chọn cấp HSK',

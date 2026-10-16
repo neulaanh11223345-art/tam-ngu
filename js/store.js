@@ -5,7 +5,7 @@ import { dayKey, newCard, schedule } from './srs.js';
 const KEY = 'tamngu:v1';
 
 export const DEFAULT_SETTINGS = {
-  levels: [3, 4],
+  levels: [3, 4, 5],
   newPerDay: 10,
   front: { py: true, hv: false, en: false, vi: false },
   toneColors: true,
@@ -13,11 +13,15 @@ export const DEFAULT_SETTINGS = {
   autoSpeak: true,
   rate: 0.9,
   dailyGoal: 15,
+  // các lớp hiện trong hội thoại
+  dlg: { py: true, vi: true, en: false },
 };
+
+const STATE_VERSION = 2;
 
 function emptyState() {
   return {
-    version: 1,
+    version: STATE_VERSION,
     created: Date.now(),
     // mốc thời gian để gộp tiến độ giữa các thiết bị
     resetAt: 0,
@@ -28,6 +32,10 @@ function emptyState() {
     log: {},
     writing: {},
     saved: {},
+    // tiến độ hội thoại theo bài: {id: {reads, last, best}}
+    dialogues: {},
+    // hội thoại người học tự nhập: {id: {title, lines, created, updated, deleted?}}
+    mine: {},
   };
 }
 
@@ -56,13 +64,24 @@ export function normalize(raw) {
   const out = { ...base, ...raw };
   out.settings = { ...base.settings, ...(raw.settings || {}) };
   out.settings.front = { ...base.settings.front, ...((raw.settings && raw.settings.front) || {}) };
-  for (const k of ['cards', 'log', 'writing', 'saved']) {
+  out.settings.dlg = { ...base.settings.dlg, ...((raw.settings && raw.settings.dlg) || {}) };
+  for (const k of ['cards', 'log', 'writing', 'saved', 'dialogues', 'mine']) {
     out[k] = raw[k] && typeof raw[k] === 'object' ? raw[k] : {};
   }
   for (const k of ['resetAt', 'settingsAt', 'savedAt']) {
     out[k] = Number(raw[k]) || 0;
   }
+  // bản 1 chỉ có HSK 3–4: ai đang học cả hai cấp thì được thêm HSK 5
+  if ((Number(raw.version) || 1) < 2) {
+    if (out.settings.levels.length === 2 && out.settings.levels.includes(3) && out.settings.levels.includes(4)) out.settings.levels = [3, 4, 5];
+  }
+  out.version = STATE_VERSION;
   return out;
+}
+
+/** Bản ghi mới hơn theo trường thời gian cho trước. */
+function newerBy(field) {
+  return (x, y) => (!x ? y : !y ? x : (y[field] || 0) > (x[field] || 0) ? y : x);
 }
 
 function newerCard(x, y) {
@@ -104,12 +123,13 @@ export function mergeStates(a, b) {
     const y = b.log[day] || {};
     out.log[day] = Object.fromEntries(LOG_FIELDS.map((f) => [f, Math.max(x[f] || 0, y[f] || 0)]));
   }
-  out.writing = {};
-  for (const ch of new Set([...Object.keys(a.writing), ...Object.keys(b.writing)])) {
-    const x = a.writing[ch];
-    const y = b.writing[ch];
-    out.writing[ch] = !x ? y : !y ? x : (y.last || 0) > (x.last || 0) ? y : x;
-  }
+  const mergeMap = (key, pick) => {
+    out[key] = {};
+    for (const id of new Set([...Object.keys(a[key]), ...Object.keys(b[key])])) out[key][id] = pick(a[key][id], b[key][id]);
+  };
+  mergeMap('writing', newerBy('last'));
+  mergeMap('dialogues', newerBy('last'));
+  mergeMap('mine', newerBy('updated'));
   return out;
 }
 
@@ -226,6 +246,31 @@ export function createStore(storage = safeStorage(), now = () => Date.now()) {
       today().writes += 1;
       changed();
     },
+    /** Ghi lại một lần đọc/luyện hội thoại; score: tỉ lệ đúng khi điền từ (0–1). */
+    recordDialogue(id, score) {
+      const d = state.dialogues[id] || { reads: 0, last: 0, best: null };
+      d.reads += 1;
+      d.last = now();
+      if (typeof score === 'number') d.best = d.best === null ? score : Math.max(d.best, score);
+      state.dialogues[id] = d;
+      changed();
+      return d;
+    },
+    /** Lưu hội thoại tự nhập (tạo mới nếu chưa có id). Trả về id. */
+    saveMine(id, data) {
+      const t = now();
+      const key = id || `m${t.toString(36)}`;
+      const prev = state.mine[key];
+      state.mine[key] = { ...data, created: prev?.created || t, updated: t };
+      changed();
+      return key;
+    },
+    deleteMine(id) {
+      if (!state.mine[id]) return;
+      // giữ dấu đã xóa để máy khác đồng bộ cũng xóa theo
+      state.mine[id] = { deleted: true, created: state.mine[id].created, updated: now() };
+      changed();
+    },
     toggleSaved(id) {
       if (state.saved[id]) delete state.saved[id];
       else state.saved[id] = now();
@@ -253,9 +298,12 @@ export function createStore(storage = safeStorage(), now = () => Date.now()) {
     reset() {
       const keep = state.settings;
       const keepAt = state.settingsAt;
+      const mine = state.mine;
       state = emptyState();
       state.settings = keep;
       state.settingsAt = keepAt;
+      // hội thoại tự nhập là nội dung của người học, không phải tiến độ: giữ lại
+      state.mine = mine;
       state.resetAt = now();
       changed();
       persist();

@@ -1,0 +1,207 @@
+## 5-body-2
+title: 戒烟以后 | Sau khi cai thuốc | After quitting smoking
+scene: Tiểu Lý gặp David đang chạy bộ trong công viên buổi sáng. | Xiao Li runs into David jogging in the park one morning.
+cast: 小李, 大卫
+小李: 大卫，你把胡须刮了？看起来年轻了好几岁！ | David, cậu cạo râu rồi à? Trông trẻ ra mấy tuổi luôn! | David, you shaved off your beard? You look years younger!
+大卫: 是啊，我最近戒烟了，想换个新样子。 | Ừ, dạo này tớ cai thuốc lá rồi, muốn đổi diện mạo mới. | Yes, I've quit smoking recently and wanted a new look.
+小李: 真不容易！戒烟以后感觉怎么样？ | Giỏi thật đấy! Cai thuốc rồi thấy thế nào? | That's not easy! How do you feel since you quit?
+大卫: 呼吸顺畅多了，精力也比以前好，每天都来跑步。 | Thở dễ hơn nhiều, sức lực cũng tốt hơn trước, ngày nào tớ cũng ra chạy bộ. | I breathe much more easily and have more energy than before, so I come running every day.
+小李: 我最近总坐办公室，肩膀的肌肉特别紧。 | Dạo này tớ toàn ngồi văn phòng, cơ vai căng cứng lắm. | I've been sitting in the office all the time lately, and my shoulder muscles are really tight.
+大卫: 你跟我一起跑吧，平时多活动活动，很快就能缓解。 | Cậu chạy cùng tớ đi, bình thường vận động nhiều vào là sẽ đỡ ngay thôi. | Run with me, then — if you move around more, it'll ease up soon.
+小李: 好啊，不过春天花多，我对花粉过敏。 | Được đấy, nhưng mùa xuân nhiều hoa, tớ lại bị dị ứng phấn hoa. | Sure, but there are lots of flowers in spring, and I'm allergic to pollen.
+大卫: 那就戴上口罩。坚持一个月，你的状态一定能恢复。 | Thế thì đeo khẩu trang vào. Kiên trì một tháng, phong độ của cậu chắc chắn sẽ hồi phục. | Then wear a mask. Keep it up for a month and you'll definitely get back in shape.
+
+## 5-body-3
+title: 看内科 | Đi khám khoa nội | Seeing an internist
+scene: Anna đến khám ở khoa nội của bệnh viện, bác sĩ Lưu tiếp cô. | Anna visits the hospital's internal medicine department, where Dr. Liu sees her.
+cast: 安娜, 刘医生
+安娜: 医生，请问这里是内科吗？我最近总是很疲劳。 | Bác sĩ ơi, cho hỏi đây có phải khoa nội không ạ? Dạo này tôi lúc nào cũng thấy mệt mỏi. | Doctor, is this internal medicine? I've been feeling tired all the time lately.
+刘医生: 是的，请坐。你晚上睡得好吗？ | Đúng rồi, mời cô ngồi. Buổi tối cô ngủ có ngon không? | Yes, please sit down. Do you sleep well at night?
+安娜: 不好，我经常失眠，脑袋也昏昏沉沉的。 | Không ạ, tôi hay bị mất ngủ, đầu óc cũng cứ nặng trịch, mơ màng. | No, I often can't sleep, and my head feels heavy and foggy.
+刘医生: 嗓子疼不疼？把舌头伸出来让我看看。 | Họng có đau không? Cô thè lưỡi ra cho tôi xem nào. | Does your throat hurt? Stick out your tongue and let me have a look.
+安娜: 嗓子有点儿干，不过不疼。 | Họng hơi khô, nhưng không đau ạ. | My throat is a bit dry, but it doesn't hurt.
+刘医生: 你是不是最近在减肥？你的身材本来就很苗条啊。 | Có phải dạo này cô đang giảm cân không? Dáng người cô vốn đã rất thon thả rồi mà. | Have you been dieting lately? You already have a very slim figure.
+安娜: 对，我想再瘦一点儿，每天只吃一顿饭。 | Vâng, tôi muốn gầy thêm chút nữa, mỗi ngày chỉ ăn một bữa. | Yes, I wanted to get a bit thinner, so I only eat one meal a day.
+刘医生: 难怪！吃得太少，神经也会紧张，所以睡不好。 | Thảo nào! Ăn quá ít thì thần kinh cũng căng thẳng, nên mới ngủ không ngon. | No wonder! When you eat too little, your nerves get tense too, so you can't sleep well.
+安娜: 原来是这样，我还以为自己得了什么大病呢。 | Hóa ra là vậy, tôi còn tưởng mình mắc bệnh gì nặng cơ. | So that's it — I thought I had some serious illness.
+刘医生: 别皱着眉毛了，好好吃饭，两周以后再来复查。 | Đừng nhíu mày nữa, cứ ăn uống đầy đủ, hai tuần sau quay lại tái khám nhé. | Stop frowning — eat properly and come back for a check-up in two weeks.
+
+## 5-body-4
+title: 病房里的探望 | Thăm bạn ở phòng bệnh | A visit to the ward
+scene: Tiểu Lưu vào bệnh viện thăm đồng nghiệp Tiểu Vương vừa mổ xong. | Xiao Liu visits his colleague Xiao Wang in hospital after a minor operation.
+cast: 小刘, 小王
+小刘: 听说你做了个小手术，现在怎么样了？ | Nghe nói cậu vừa làm một ca mổ nhỏ, giờ thế nào rồi? | I heard you had a minor operation. How are you now?
+小王: 好多了。前几天胃疼得厉害，吃什么都吐。 | Đỡ nhiều rồi. Mấy hôm trước đau dạ dày dữ lắm, ăn gì cũng nôn ra. | Much better. A few days ago my stomach hurt terribly, and I threw up whatever I ate.
+小刘: 医生怎么说？是不是喝酒喝多了？ | Bác sĩ nói sao? Có phải do uống rượu nhiều quá không? | What did the doctor say? Was it from drinking too much?
+小王: 对，医生说喝酒对胃危害很大，还会影响心脏。 | Ừ, bác sĩ bảo rượu rất có hại cho dạ dày, còn ảnh hưởng đến tim nữa. | Yes, the doctor said alcohol does great harm to the stomach and affects the heart too.
+小刘: 那以后可得少喝点儿，身体好寿命才长。 | Thế sau này phải uống ít thôi, sức khỏe tốt thì mới sống lâu được. | Then you'd better drink less from now on — good health means a longer life.
+小王: 我知道了。哎，你的手指怎么包起来了？ | Tớ biết rồi. Ơ, ngón tay cậu sao lại băng lại thế? | I know. Hey, why is your finger bandaged?
+小刘: 昨天切菜时不小心受伤了，没什么大问题。 | Hôm qua thái rau không cẩn thận bị thương, không sao đâu. | I hurt it by accident while chopping vegetables yesterday. It's nothing serious.
+小王: 你也小心点儿！我现在只能吃些容易消化的东西。 | Cậu cũng cẩn thận chứ! Giờ tớ chỉ được ăn mấy thứ dễ tiêu thôi. | Be careful too! Right now I can only eat things that are easy to digest.
+小刘: 我给你带了一碗小米粥，你趁热慢慢喝。 | Tớ mang cho cậu một bát cháo kê đây, cậu ăn từ từ lúc còn nóng nhé. | I brought you a bowl of millet porridge. Have it slowly while it's warm.
+小王: 谢谢！喝了几口，胸口都暖和了。 | Cảm ơn cậu! Mới húp vài ngụm mà thấy ấm cả ngực. | Thanks! Just a few sips and my chest feels warm already.
+
+## 5-body-5
+title: 着凉了 | Bị cảm lạnh rồi | Caught a cold
+scene: Buổi sáng ở nhà, người chồng không muốn dậy vì thấy khó chịu. | At home one morning, a husband doesn't want to get up because he feels unwell.
+cast: 妻子, 丈夫
+妻子: 快起床吧，都八点了，你怎么还不睁开眼睛？ | Dậy đi anh, tám giờ rồi, sao anh còn chưa mở mắt ra? | Get up, it's already eight. Why haven't you even opened your eyes?
+丈夫: 我头有点儿晕，腰也疼，不想动。 | Anh hơi chóng mặt, lưng cũng đau, chẳng muốn cử động. | I feel a bit dizzy, and my lower back hurts. I don't want to move.
+妻子: 昨晚你开着窗户睡觉，是不是着凉了？ | Tối qua anh mở cửa sổ ngủ, có phải bị cảm lạnh rồi không? | You slept with the window open last night. Did you catch a cold?
+丈夫: 可能吧，嗓子也有点儿痒。 | Chắc vậy, cổ họng cũng hơi ngứa. | Maybe. My throat is a bit itchy too.
+妻子: 腰疼大概是因为你天天坐在电脑前，姿势不对。 | Đau lưng chắc là do ngày nào anh cũng ngồi trước máy tính, tư thế không đúng. | Your back pain is probably because you sit at the computer every day with bad posture.
+丈夫: 那我今天请假去医院，让医生诊断一下。 | Vậy hôm nay anh xin nghỉ đi bệnh viện, để bác sĩ chẩn đoán xem sao. | Then I'll take the day off and go to the hospital to let a doctor diagnose it.
+妻子: 好，听医生的，该治疗就好好治疗，别拖着。 | Ừ, nghe lời bác sĩ, cần điều trị thì điều trị cho tử tế, đừng để lâu. | Good. Listen to the doctor, and if you need treatment, get it properly — don't put it off.
+丈夫: 以后我一定注意坐姿，睡觉前也关好窗户。 | Sau này anh nhất định sẽ chú ý tư thế ngồi, trước khi ngủ cũng đóng cửa sổ cẩn thận. | From now on I'll mind how I sit and close the window before bed.
+妻子: 对，预防比治疗更重要。我先给你倒杯热水。 | Đúng đấy, phòng bệnh quan trọng hơn chữa bệnh. Em rót cho anh cốc nước nóng trước đã. | Right, prevention is better than cure. Let me get you a glass of hot water first.
+
+## 5-food-1
+title: 第一次吃中餐 | Lần đầu ăn món Trung | A first Chinese meal
+scene: Tiểu Trương dẫn Anna đến một nhà hàng Trung Quốc ăn tối. | Xiao Zhang takes Anna to a Chinese restaurant for dinner.
+cast: 小张, 安娜
+小张: 这家餐厅的菜很地道，你想吃点儿什么？ | Món ở nhà hàng này rất chuẩn vị, bạn muốn ăn gì? | The food at this restaurant is really authentic. What would you like?
+安娜: 我想试试宫保鸡丁，听说很有名。 | Mình muốn thử món gà Cung Bảo thái hạt lựu, nghe nói nổi tiếng lắm. | I'd like to try kung pao chicken cubes — I hear it's famous.
+小张: 好，再来一个麻婆豆腐，再炒个青菜。 | Được, gọi thêm một đĩa đậu phụ Ma Bà, rồi xào thêm đĩa rau xanh. | OK, and let's get mapo tofu and a stir-fried green vegetable.
+安娜: 我还不太会用筷子，可以要一把叉子吗？ | Mình vẫn chưa dùng đũa giỏi lắm, có thể xin một cái nĩa không? | I'm still not very good with chopsticks. Can I ask for a fork?
+小张: 没问题。对了，这儿的包子特别好吃，蘸点儿醋更香。 | Không vấn đề gì. À, bánh bao ở đây ngon lắm, chấm chút giấm còn thơm hơn. | No problem. Oh, the steamed buns here are great — they're even better dipped in a little vinegar.
+安娜: 我口味比较淡，菜别太咸就行。 | Mình ăn khá nhạt, món ăn đừng mặn quá là được. | I prefer light flavours, so just make sure the dishes aren't too salty.
+小张: 放心吧。吃完我们再点几样点心。 | Yên tâm đi. Ăn xong mình gọi thêm mấy món điểm tâm nữa. | Don't worry. After the meal we'll order some pastries too.
+安娜: 太好了！我天天在家吃罐头，今天终于能吃顿好的了。 | Tuyệt quá! Ngày nào ở nhà mình cũng ăn đồ hộp, hôm nay cuối cùng cũng được ăn một bữa ngon. | Great! I eat canned food at home every day — finally a proper meal today.
+
+## 5-food-2
+title: 准备一桌菜 | Chuẩn bị một mâm cơm | Planning a dinner
+scene: Người con trai bàn với mẹ về bữa tối mời bạn học đến nhà. | A son talks with his mother about dinner for a classmate who is coming over.
+cast: 儿子, 妈妈
+儿子: 妈，明天我同学来家里吃饭，我们做什么菜？ | Mẹ ơi, mai bạn học con đến nhà ăn cơm, mình nấu món gì ạ? | Mum, my classmate is coming for dinner tomorrow. What shall we cook?
+妈妈: 你同学口味怎么样？能吃辣吗？ | Khẩu vị bạn con thế nào? Ăn cay được không? | What does your classmate like? Can he eat spicy food?
+儿子: 他特别喜欢吃辣椒，不过对海鲜过敏。 | Bạn ấy rất thích ăn ớt, nhưng lại dị ứng hải sản. | He loves chili peppers, but he's allergic to seafood.
+妈妈: 那就不做鱼了。我煎几个鸡蛋，再拌个黄瓜，放点儿酱油。 | Vậy thì không làm cá nữa. Mẹ rán mấy quả trứng, trộn thêm đĩa dưa chuột, cho chút xì dầu. | Then no fish. I'll fry a few eggs and make a cucumber salad with a little soy sauce.
+儿子: 再买半只烤鸭吧，他一直想尝尝。 | Mua thêm nửa con vịt quay nữa đi mẹ, bạn ấy vẫn luôn muốn nếm thử. | Let's also buy half a roast duck — he's always wanted to try it.
+妈妈: 行，我再炒一盘花生，你们边聊边吃。 | Được, mẹ rang thêm một đĩa lạc, các con vừa ăn vừa trò chuyện. | Fine. I'll also stir-fry a plate of peanuts for you to nibble while you chat.
+儿子: 饭后再来点儿水果吧，买些桔子怎么样？ | Ăn xong thì có thêm ít hoa quả, mua mấy quả quýt được không mẹ? | Some fruit after the meal, too — how about some tangerines?
+妈妈: 好，你明天顺便去超市搬一箱矿泉水回来。 | Ừ, mai con tiện đường ghé siêu thị khuân một thùng nước khoáng về nhé. | Sure. Tomorrow, while you're at it, bring back a case of mineral water from the supermarket.
+儿子: 没问题，妈，你真是太好了！ | Không thành vấn đề, mẹ ơi, mẹ tuyệt nhất luôn! | No problem, Mum — you're the best!
+
+## 5-food-3
+title: 老两口的午饭 | Bữa trưa của hai ông bà | The old couple's lunch
+scene: Ông bà cùng nhau chuẩn bị bữa trưa trong bếp. | Grandpa and Grandma make lunch together in the kitchen.
+cast: 奶奶, 爷爷
+奶奶: 老伴儿，医生说你最近要吃得清淡些。 | Ông nó ơi, bác sĩ bảo dạo này ông phải ăn thanh đạm một chút. | Dear, the doctor said you should eat lighter food for a while.
+爷爷: 我知道，所以中午就吃蔬菜和馒头。 | Tôi biết rồi, nên trưa nay chỉ ăn rau với màn thầu thôi. | I know, so for lunch it's just vegetables and steamed buns.
+奶奶: 光吃这些也不行。我买了条鱼，肉很嫩，蒸着吃正好。 | Chỉ ăn thế thôi cũng không được. Tôi mua một con cá, thịt mềm lắm, hấp lên là vừa. | That alone won't do. I bought a fish with very tender meat — perfect for steaming.
+爷爷: 好啊。你把姜切成丝，我来洗菜。 | Được đấy. Bà thái gừng thành sợi, tôi đi rửa rau. | Great. You cut the ginger into strips, and I'll wash the vegetables.
+奶奶: 还有，别总吃孙子留下的零食，那些食物油太多。 | Còn nữa, đừng có suốt ngày ăn đồ ăn vặt cháu để lại, mấy thứ đồ ăn đó nhiều dầu mỡ lắm. | And stop eating the snacks our grandson leaves behind — that food is too oily.
+爷爷: 好好好。剩下的馒头别扔，粮食可不能浪费。 | Được rồi, được rồi. Màn thầu còn thừa đừng vứt đi nhé, lương thực không được lãng phí đâu. | All right, all right. Don't throw away the leftover buns — we mustn't waste food.
+奶奶: 知道了。饭后我再给你煮个梨汤喝。 | Biết rồi. Ăn xong tôi nấu thêm cho ông bát canh lê. | I know. After lunch I'll make you some pear soup.
+爷爷: 那你记得拿个勺子，我慢慢喝。 | Thế bà nhớ lấy cái thìa nhé, tôi uống từ từ. | Then remember to bring me a spoon, and I'll drink it slowly.
+
+## 5-food-4
+title: 夜市小吃 | Đồ ăn vặt chợ đêm | Night-market snacks
+scene: Tiểu Vương dẫn David đi chợ đêm ăn đồ ăn vặt. | Xiao Wang takes David to a night market for snacks.
+cast: 小王, 大卫
+小王: 昨天公司的宴会怎么样？听说你喝醉了？ | Bữa tiệc công ty hôm qua thế nào? Nghe nói cậu say rồi hả? | How was the company banquet yesterday? I heard you got drunk?
+大卫: 别提了，大家一直敬酒，我很快就醉了。 | Đừng nhắc nữa, mọi người cứ mời rượu liên tục, tớ say nhanh lắm. | Don't ask. Everyone kept toasting me, and I got drunk in no time.
+小王: 所以今天带你来吃点儿小吃，换换口味。 | Thế nên hôm nay tớ dẫn cậu đi ăn đồ ăn vặt, đổi món chút. | That's why I brought you for some street food today — something different.
+大卫: 好啊，不过别吃油炸的，我胃不太舒服。 | Được đấy, nhưng đừng ăn đồ chiên rán nhé, dạ dày tớ hơi khó chịu. | Sounds good, but nothing deep-fried — my stomach isn't great.
+小王: 那来根煮玉米，再要一碗土豆汤，又好吃又有营养。 | Thế ăn bắp ngô luộc, gọi thêm bát canh khoai tây, vừa ngon vừa bổ dưỡng. | Then let's have a boiled corn cob and a bowl of potato soup — tasty and nutritious.
+大卫: 哇，玉米刚出锅，好烫！ | Oa, ngô vừa mới vớt ra, nóng bỏng tay! | Wow, the corn's just out of the pot — it's so hot!
+小王: 慢点儿吃，别把嘴烫了。 | Ăn từ từ thôi, kẻo bỏng miệng đấy. | Eat slowly, don't burn your mouth.
+大卫: 吃完我们买点儿桃吧，现在正是季节。 | Ăn xong mình mua ít đào nhé, giờ đang đúng mùa. | Let's buy some peaches afterwards — they're in season now.
+小王: 好，这儿的桃又大又甜，你肯定喜欢。 | Được, đào ở đây vừa to vừa ngọt, cậu chắc chắn sẽ thích. | Sure, the peaches here are big and sweet. You'll love them.
+
+## 5-home-1
+title: 布置新家 | Sắp xếp nhà mới | Setting up the new home
+scene: Hai vợ chồng vừa chuyển đến nhà mới và đang sắp xếp đồ đạc. | A married couple has just moved into a new home and is arranging their things.
+cast: 妻子, 丈夫
+妻子: 新家的窗帘我已经挂好了，你看颜色怎么样？ | Rèm cửa nhà mới em treo xong rồi, anh xem màu thế nào? | I've hung the curtains in the new place. What do you think of the colour?
+丈夫: 挺好的，是布的吧？看起来比原来那种温暖。 | Đẹp lắm, rèm vải phải không? Trông ấm cúng hơn loại cũ. | Very nice. They're cloth, right? They look warmer than the old ones.
+妻子: 对。地毯摆在沙发前面，还是摆在床边？ | Vâng. Tấm thảm đặt trước sofa hay đặt cạnh giường? | Yes. Should the rug go in front of the sofa or by the bed?
+丈夫: 放在沙发前面吧。这张玻璃桌子也得小心搬。 | Đặt trước sofa đi. Cái bàn kính này cũng phải khiêng cẩn thận. | In front of the sofa. And we need to be careful moving this glass table.
+妻子: 知道了。厨房的灯什么时候安装？ | Em biết rồi. Khi nào thì lắp đèn bếp? | Got it. When will the kitchen light be installed?
+丈夫: 明天师傅来装。门铃要换电池，我放在抽屉里了。 | Mai thợ đến lắp. Chuông cửa phải thay pin, anh để pin trong ngăn kéo rồi. | The technician comes tomorrow. The doorbell needs new batteries — I put them in the drawer.
+妻子: 被子还在车库里，你一会儿去拿上来吧。 | Chăn vẫn còn ở ga-ra, lát nữa anh mang lên nhé. | The quilts are still in the garage. Can you bring them up in a bit?
+丈夫: 好。今晚先把必需的东西整理好，其他的慢慢来。 | Ừ. Tối nay cứ sắp xếp mấy thứ thiết yếu trước, còn lại từ từ tính. | OK. Tonight let's sort out the essentials first and do the rest bit by bit.
+
+## 5-home-2
+title: 看房子 | Đi xem nhà | Viewing a flat
+scene: Tiểu Trương đến xem một căn hộ cho thuê, chủ nhà dẫn đi xem. | Xiao Zhang comes to view an apartment for rent, and the landlord shows him around.
+cast: 小张, 房东
+小张: 您好，我是来看公寓的，就是这一套吗？ | Chào chú, cháu đến xem căn hộ, có phải căn này không ạ? | Hello, I've come to see the apartment. Is it this one?
+房东: 对，房子有点儿旧，不过很干净，桌上一点儿灰都没有。 | Đúng rồi, nhà hơi cũ nhưng rất sạch, trên bàn không có tí bụi nào. | Yes. It's a bit old but very clean — there's not a speck of dust on the table.
+小张: 厨房里有锅和水壶吗？我平时自己做饭。 | Trong bếp có nồi với ấm đun nước không ạ? Cháu hay tự nấu ăn. | Is there a pot and a kettle in the kitchen? I usually cook for myself.
+房东: 都有。煤气灶点不着的话，抽屉里有火柴。 | Có đủ cả. Nếu bếp ga không bật được thì trong ngăn kéo có diêm. | Yes, both. If the gas stove won't light, there are matches in the drawer.
+小张: 卫生间的管子好像在漏水，墙上还有个小洞。 | Ống nước trong nhà vệ sinh hình như bị rò, trên tường còn có một cái lỗ nhỏ. | The pipe in the bathroom seems to be leaking, and there's a small hole in the wall.
+房东: 我明天就找人来修。肥皂和毛巾我也给你准备好了。 | Mai chú gọi người đến sửa ngay. Xà phòng với khăn mặt chú cũng chuẩn bị sẵn cho cháu rồi. | I'll get someone to fix it tomorrow. I've also put out soap and towels for you.
+小张: 太好了。我是做服装设计的，阳台能晾衣服吗？ | Tốt quá ạ. Cháu làm thiết kế thời trang, ngoài ban công phơi quần áo được không ạ? | Great. I work in clothing design — can I hang clothes on the balcony?
+房东: 能，阳台上有绳子和夹子，随便用。 | Được chứ, ngoài ban công có dây phơi và kẹp, cháu cứ dùng thoải mái. | Yes, there's a line and pegs on the balcony. Use them as you like.
+小张: 您真是个好房东，那我就租下来了！ | Chú đúng là một chủ nhà tốt, vậy cháu thuê luôn ạ! | You're a really good landlord. I'll take it!
+
+## 5-home-3
+title: 结婚纪念日的惊喜 | Bất ngờ ngày kỷ niệm cưới | An anniversary surprise
+scene: Ở nhà, cô con gái thấy bố đang bí mật chuẩn bị bất ngờ cho mẹ. | At home, a daughter finds her father secretly preparing a surprise for her mother.
+cast: 女儿, 爸爸
+女儿: 爸，今天怎么这么积极，一个人把家务都做完了？ | Bố, hôm nay sao chăm thế, một mình làm hết việc nhà rồi à? | Dad, why so keen today? You've done all the housework by yourself?
+爸爸: 小声点儿，今天是我和你妈结婚二十周年，我想给她个惊喜。 | Nói nhỏ thôi, hôm nay là kỷ niệm hai mươi năm ngày cưới của bố mẹ, bố muốn tạo bất ngờ cho mẹ. | Keep it down — today is your mum's and my twentieth anniversary, and I want to surprise her.
+女儿: 原来如此！要我帮忙吗？客厅已经很干净了。 | Ra là vậy! Có cần con giúp không? Phòng khách sạch lắm rồi. | So that's it! Do you need help? The living room is already spotless.
+爸爸: 你帮我把这些蜡烛摆在那张木头桌子上。 | Con giúp bố bày mấy cây nến này lên cái bàn gỗ kia nhé. | Help me arrange these candles on that wooden table.
+女儿: 好。哎，这个盒子里是戒指吗？好漂亮！ | Vâng. Ơ, trong hộp này là nhẫn ạ? Đẹp quá! | OK. Oh, is that a ring in this box? It's beautiful!
+爸爸: 嘘！我还想用剪刀和胶水给她做张卡片。 | Suỵt! Bố còn định dùng kéo với keo dán làm cho mẹ một tấm thiệp. | Shh! I also want to make her a card with scissors and glue.
+女儿: 卡片我来做吧，你快把那条旧牛仔裤换了。 | Thiệp để con làm cho, bố mau thay cái quần bò cũ kia đi. | I'll make the card. You go and change out of those old jeans.
+爸爸: 对对对。厨房水管有点儿漏，我先放个盆接着。 | Phải phải. Ống nước trong bếp hơi rò, bố đặt cái chậu hứng trước đã. | Right, right. The kitchen pipe is leaking a little — I'll put a basin under it first.
+女儿: 门铃响了！妈妈回来了，快把蜡烛点上！ | Chuông cửa reo rồi! Mẹ về rồi, bố mau thắp nến lên! | The doorbell! Mum's home — quick, light the candles!
+
+## 5-home-4
+title: 换季收拾 | Dọn đồ khi chuyển mùa | Seasonal tidy-up
+scene: Trời bắt đầu nóng, hai mẹ con cùng dọn dẹp đồ mùa đông ở nhà. | As the weather turns warm, a mother and her daughter put away winter things at home.
+cast: 妈妈, 小李
+妈妈: 天气热了，把你的围巾和手套收起来吧。 | Trời nóng rồi, con cất khăn quàng cổ với găng tay đi. | It's getting hot — put away your scarf and gloves.
+小李: 好，我先拿到阳台上晒一晒，再放进柜子里。 | Vâng, con mang ra ban công phơi nắng một chút rồi mới cất vào tủ. | OK, I'll air them in the sun on the balcony first, then put them in the wardrobe.
+妈妈: 阳台上那根绳子不够长，再拿一根来。 | Sợi dây ngoài ban công không đủ dài đâu, lấy thêm một sợi nữa. | The line on the balcony isn't long enough — get another one.
+小李: 妈，我那双黑皮鞋放哪儿了？明天面试要穿。 | Mẹ ơi, đôi giày da đen của con để đâu rồi ạ? Mai con đi phỏng vấn phải đi. | Mum, where are my black leather shoes? I need them for an interview tomorrow.
+妈妈: 在门口的鞋柜里。对了，书架上的扇子是谁的？ | Ở trong tủ giày cạnh cửa ấy. À này, cái quạt trên giá sách là của ai thế? | In the shoe cabinet by the door. By the way, whose fan is that on the bookshelf?
+小李: 是同学送我的，夏天正好用得上。 | Bạn học tặng con đấy ạ, mùa hè dùng là vừa. | A classmate gave it to me — it'll come in handy this summer.
+妈妈: 你一会儿去超市买些日用品吧，卫生间的牙膏快用完了。 | Lát nữa con ra siêu thị mua ít đồ dùng hằng ngày nhé, kem đánh răng trong nhà tắm sắp hết rồi. | Go to the supermarket later for some daily necessities — the toothpaste in the bathroom is almost gone.
+小李: 好，顺便再买一把新梳子，旧的已经坏了。 | Vâng, tiện thể con mua thêm một cái lược mới, cái cũ hỏng rồi. | Sure, and I'll get a new comb while I'm there — the old one is broken.
+妈妈: 出门记得锁门，我一会儿也要出去。 | Ra ngoài nhớ khóa cửa nhé, lát nữa mẹ cũng đi ra ngoài. | Remember to lock the door when you leave — I'm going out soon too.
+
+## 5-home-5
+title: 出门参加婚礼 | Chuẩn bị đi đám cưới | Off to a wedding
+scene: Hai vợ chồng đang sửa soạn ở nhà trước khi đi dự đám cưới. | A husband and wife get ready at home before going to a wedding.
+cast: 丈夫, 妻子
+丈夫: 老婆，你能帮我系领带吗？我总是系不好。 | Em ơi, em thắt cà vạt giúp anh được không? Anh thắt mãi không đẹp. | Honey, can you help me tie my tie? I never get it right.
+妻子: 来，站好。你看墙上的钟，我们还有二十分钟。 | Lại đây, đứng yên nào. Anh nhìn đồng hồ trên tường kìa, mình còn hai mươi phút nữa. | Come here, stand still. Look at the clock on the wall — we have twenty minutes left.
+丈夫: 来得及。你今天戴的项链真好看，是新买的吗？ | Kịp mà. Sợi dây chuyền em đeo hôm nay đẹp thật, mới mua à? | We'll make it. The necklace you're wearing today is lovely — is it new?
+妻子: 是我妈送的。给新人的礼金装进信封了吗？ | Mẹ em tặng đấy. Tiền mừng cô dâu chú rể anh cho vào phong bì chưa? | My mum gave it to me. Have you put the gift money for the couple in an envelope?
+丈夫: 装好了，放在卧室的桌子上。 | Cho vào rồi, để trên bàn trong phòng ngủ ấy. | Done. It's on the table in the bedroom.
+妻子: 对了，屋子太乱了，回来以后得收拾一下。 | À này, phòng ốc bừa bộn quá, về rồi phải dọn dẹp một chút. | Oh, and the place is a mess — we need to tidy up when we get back.
+丈夫: 好，我还想把阳台装饰一下，摆几盆花。 | Ừ, anh còn muốn trang trí lại ban công, đặt mấy chậu hoa. | Sure, and I'd like to decorate the balcony with a few pots of flowers.
+妻子: 好主意。那个旧枕头也换了吧，都睡扁了。 | Ý hay đấy. Cái gối cũ kia cũng thay luôn đi, nằm đến xẹp lép rồi. | Good idea. Let's replace that old pillow too — it's gone completely flat.
+丈夫: 扔了可惜，给小狗当垫子，也算有点儿用途。 | Vứt thì tiếc, cho con chó làm đệm nằm, cũng coi như có chút công dụng. | It's a shame to throw it out — it can be a cushion for the dog, so it'll still have a use.
+
+## 5-shop-1
+title: 给父亲买礼物 | Mua quà cho bố | A gift for Dad
+scene: Một khách hàng đến cửa hàng đồng hồ trong trung tâm thương mại mua quà. | A customer visits a watch shop in a mall to buy a present.
+cast: 售货员, 顾客
+售货员: 欢迎光临！您想看看什么？ | Chào mừng quý khách! Anh muốn xem gì ạ? | Welcome! What would you like to see?
+顾客: 我想给父亲买块手表，要高档一点儿的。 | Tôi muốn mua cho bố một chiếc đồng hồ, loại cao cấp một chút. | I'd like to buy my father a watch — something fairly high-end.
+售货员: 您看这款怎么样？现在买还送一条皮带，绝对不会让您吃亏。 | Anh xem mẫu này thế nào ạ? Mua bây giờ còn được tặng một chiếc thắt lưng, chắc chắn anh không bị thiệt đâu. | How about this one? If you buy now, you also get a free leather belt — you won't lose out.
+顾客: 不错，就要这块。在哪儿付款？ | Được đấy, lấy chiếc này. Thanh toán ở đâu nhỉ? | Nice, I'll take this one. Where do I pay?
+售货员: 请到那边的柜台，现金和刷卡都可以。 | Mời anh ra quầy bên kia, tiền mặt hay quẹt thẻ đều được ạ. | Please go to the counter over there. Cash or card are both fine.
+顾客: 麻烦给我开张发票。另外，能帮我寄到外地吗？ | Phiền chị xuất cho tôi một hóa đơn. Ngoài ra, có thể gửi giúp tôi đi tỉnh khác không? | Please give me a receipt. Also, can you send it to another city for me?
+售货员: 可以，我们帮您打成包裹寄过去，费用由我们出。 | Được ạ, chúng tôi sẽ đóng thành bưu kiện gửi đi giúp anh, chi phí do bên tôi chịu. | Yes, we'll pack it as a parcel and send it, and we'll cover the cost.
+顾客: 太好了。我的背包能先存在这儿吗？我想去楼上逛逛。 | Tốt quá. Tôi gửi tạm ba lô ở đây được không? Tôi muốn lên tầng trên dạo một vòng. | Great. Can I leave my backpack here for now? I'd like to look around upstairs.
+售货员: 当然可以，您回来时到柜台取就行。 | Tất nhiên là được ạ, lúc quay lại anh đến quầy lấy là được. | Of course. Just collect it from the counter when you come back.
+
+## 5-shop-2
+title: 逛街不上当 | Đi mua sắm không mắc lừa | Shopping smart
+scene: Anna và Tiểu Lưu cùng nhau đi dạo trung tâm thương mại vào cuối tuần. | Anna and Xiao Liu go round a shopping mall together at the weekend.
+cast: 安娜, 小刘
+安娜: 你这件外套真时髦，是名牌吧？ | Áo khoác này của cậu sành điệu thật, hàng hiệu phải không? | Your jacket is so trendy — is it a designer brand?
+小刘: 不是，是网上买的，才一百块。 | Không phải đâu, mua trên mạng đấy, có một trăm tệ thôi. | No, I bought it online for just a hundred yuan.
+安娜: 我上次在网上买了件衣服，跟照片完全不一样，上当了。 | Lần trước tớ mua một cái áo trên mạng, chẳng giống ảnh tí nào, bị lừa rồi. | Last time I bought clothes online, they looked nothing like the photo — I got taken in.
+小刘: 网上的商品要先看评价。这家店很时尚，我们进去看看吧。 | Hàng trên mạng phải xem đánh giá trước. Cửa hàng này thời trang lắm, mình vào xem thử đi. | You have to check reviews for things sold online. This shop is very stylish — let's go in.
+安娜: 好啊。不过这个月我还欠我姐姐五百块钱呢。 | Ừ. Nhưng tháng này tớ vẫn còn nợ chị gái năm trăm tệ đấy. | OK. But I still owe my older sister five hundred yuan this month.
+小刘: 那就少买点儿。用信用卡分期还要付利息，不划算。 | Thế thì mua ít thôi. Trả góp bằng thẻ tín dụng còn phải trả lãi, không đáng đâu. | Then buy less. Paying in instalments on a credit card means paying interest — not worth it.
+安娜: 对，我只买条裙子，结账的时候用现金。 | Đúng vậy, tớ chỉ mua một chiếc váy, lúc tính tiền sẽ trả tiền mặt. | Right, I'll just buy one skirt and pay cash at the till.
+小刘: 我这儿有零钱，不够的话先借你。 | Tớ có tiền lẻ đây, không đủ thì tớ cho cậu mượn trước. | I have some change here — if you're short, I'll lend you some.
+安娜: 谢谢！这样我又欠你钱了，哈哈。 | Cảm ơn nhé! Thế là tớ lại nợ cậu rồi, haha. | Thanks! So now I owe you money too, haha.

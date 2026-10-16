@@ -1,0 +1,210 @@
+## 5-fun-2
+title: 俱乐部的聚会 | Buổi họp mặt của câu lạc bộ | The club get-together
+scene: Tiểu Vương rủ Tiểu Lý tham gia buổi họp mặt cuối tuần của câu lạc bộ. | Xiao Wang invites Xiao Li to the club's weekend get-together.
+cast: 小王, 小李
+小王: 周末俱乐部要办一次聚会，你来不来？ | Cuối tuần câu lạc bộ tổ chức một buổi họp mặt, cậu có đến không? | The club is having a get-together this weekend. Are you coming?
+小李: 在哪儿办？不会又去酒吧吧？那儿太吵了。 | Tổ chức ở đâu thế? Không lại đi quán bar nữa chứ? Ở đó ồn lắm. | Where is it? Not at a bar again, I hope? It's too noisy there.
+小王: 这次去公园，上午划船，下午去旁边的冰场滑冰。 | Lần này đi công viên, buổi sáng chèo thuyền, buổi chiều sang sân băng bên cạnh trượt băng. | This time it's the park: rowing in the morning, then skating at the rink next door in the afternoon.
+小李: 我不会滑冰，到时候只能站在旁边看了。 | Mình không biết trượt băng, đến lúc đó chỉ đứng bên cạnh xem thôi. | I can't skate, so I'll just have to stand on the side and watch.
+小王: 别担心，我们请了健身房的教练来教大家。 | Đừng lo, bọn mình đã mời huấn luyện viên phòng gym đến dạy mọi người. | Don't worry, we've invited a coach from the gym to teach everyone.
+小李: 太好了！除了教练，还有别的嘉宾吗？ | Hay quá! Ngoài huấn luyện viên ra, còn khách mời nào khác không? | Great! Besides the coach, are there any other guests?
+小王: 还有一位体育节目的解说员，他年轻时打破过全国纪录呢。 | Còn có một bình luận viên chương trình thể thao, hồi trẻ anh ấy từng phá kỷ lục toàn quốc đấy. | There's also a sports commentator — he broke a national record when he was young.
+小李: 那活动结束的时候，我一定要跟他合影！ | Vậy lúc kết thúc buổi họp mặt, mình nhất định phải chụp ảnh chung với anh ấy! | Then when it's over, I definitely have to get a photo with him!
+
+## 5-fun-3
+title: 遥控器之争 | Tranh nhau cái điều khiển | The battle for the remote
+scene: Buổi tối ở nhà, hai vợ chồng muốn xem hai chương trình khác nhau. | At home one evening, a husband and wife want to watch different programmes.
+cast: 妻子, 丈夫
+妻子: 快八点了，我要看那部连续剧，把遥控器给我吧。 | Sắp tám giờ rồi, em muốn xem bộ phim dài tập đó, đưa điều khiển cho em đi. | It's almost eight. I want to watch that series — give me the remote.
+丈夫: 今天不行，体育频道要直播女子排球决赛！ | Hôm nay không được, kênh thể thao phát trực tiếp trận chung kết bóng chuyền nữ! | Not tonight — the sports channel is showing the women's volleyball final live!
+妻子: 你什么时候成了排球球迷了？ | Anh thành fan bóng chuyền từ bao giờ thế? | Since when are you a volleyball fan?
+丈夫: 从运动会开幕式那天开始的，连射击比赛我都没落下。 | Từ hôm lễ khai mạc đại hội thể thao đấy, đến cả thi bắn súng anh cũng không bỏ sót trận nào. | Since the day of the Games' opening ceremony — I haven't even missed the shooting events.
+妻子: 可连续剧里那个明星今天第一次出场，我不想错过。 | Nhưng ngôi sao đó hôm nay lần đầu xuất hiện trong phim, em không muốn bỏ lỡ. | But that star appears in the series for the first time tonight, and I don't want to miss it.
+丈夫: 你先在手机上看吧。等她们赢了，我请你出去吃饭庆祝。 | Em xem tạm trên điện thoại đi. Đợi các cô ấy thắng, anh mời em đi ăn ăn mừng. | Watch it on your phone for now. When they win, I'll take you out to dinner to celebrate.
+妻子: 你怎么就知道她们一定能取得胜利？ | Sao anh biết chắc các cô ấy sẽ giành chiến thắng? | How do you know for sure they'll win?
+丈夫: 我有信心！再说就算输了，进了决赛也值得庆祝嘛。 | Anh tin mà! Hơn nữa dù có thua thì vào được chung kết cũng đáng ăn mừng chứ. | I'm confident! Besides, even if they lose, reaching the final is worth celebrating.
+
+## 5-fun-4
+title: 公园里的爷爷 | Ông cụ trong công viên | The grandpa in the park
+scene: Sáng Tết Dương lịch, một phóng viên phỏng vấn một ông cụ đang tập thể dục trong công viên. | On New Year's Day morning, a reporter interviews an old man exercising in the park.
+cast: 记者, 爷爷
+记者: 大爷，元旦一大早您就来公园练太极拳啊？ | Ông ơi, Tết Dương lịch mà mới sáng sớm ông đã ra công viên tập thái cực quyền ạ? | Sir, you're out in the park doing tai chi first thing on New Year's Day?
+爷爷: 是啊，退休以后，这就是我最喜欢的休闲方式。 | Ừ, từ khi nghỉ hưu, đây là cách thư giãn ông thích nhất. | Yes, since I retired this has been my favourite way to relax.
+记者: 您的动作这么标准，以前专门训练过吗？ | Động tác của ông chuẩn thế, trước đây ông có tập luyện bài bản không ạ? | Your movements are so precise — did you train specially before?
+爷爷: 年轻时业余学过几年武术，没当过专业运动员。 | Hồi trẻ ông học võ thuật nghiệp dư vài năm thôi, chưa từng làm vận động viên chuyên nghiệp. | I studied martial arts as a hobby for a few years when I was young, but I was never a professional athlete.
+记者: 除了锻炼，您平时还有什么娱乐活动？ | Ngoài tập thể dục, ngày thường ông còn có hoạt động giải trí gì nữa ạ? | Apart from exercise, what else do you do for fun?
+爷爷: 下午跟老邻居下象棋，晚上陪孙子玩玩具。这样的日子，我很享受。 | Buổi chiều ông đánh cờ tướng với mấy ông hàng xóm cũ, buổi tối chơi đồ chơi với cháu. Những ngày như thế, ông tận hưởng lắm. | In the afternoon I play Chinese chess with my old neighbours, and in the evening I play with toys with my grandson. I really enjoy days like these.
+记者: 听说今晚社区的新年晚会也是您主持？ | Nghe nói đêm văn nghệ mừng năm mới tối nay của khu phố cũng do ông dẫn chương trình ạ? | I heard you're also hosting the neighbourhood New Year party tonight?
+爷爷: 没错！你有空的话，也来热闹热闹吧！ | Đúng vậy! Nếu cháu rảnh thì cũng đến vui cùng mọi người nhé! | That's right! If you're free, come and join the fun!
+
+## 5-arts-1
+title: 一本老小说 | Một cuốn tiểu thuyết cũ | An old novel
+scene: Sau giờ học, một học sinh hỏi thầy Trương cách viết bài cảm nhận về một cuốn tiểu thuyết. | After class, a student asks Mr. Zhang how to write a report on a novel.
+cast: 学生, 张老师
+学生: 张老师，我想写一篇这本小说的读书报告，从哪儿开始好？ | Thầy Trương ơi, em muốn viết bài cảm nhận về cuốn tiểu thuyết này, nên bắt đầu từ đâu ạ? | Mr. Zhang, I want to write a report on this novel. Where should I start?
+张老师: 先了解它的背景。你知道这本书是什么时候出版的吗？ | Trước hết hãy tìm hiểu bối cảnh của nó. Em có biết cuốn sách này xuất bản khi nào không? | Start with its background. Do you know when this book was published?
+学生: 一百多年前。听说它的语言在当时是一场革命。 | Hơn một trăm năm trước ạ. Nghe nói ngôn ngữ của nó thời đó là cả một cuộc cách mạng. | Over a hundred years ago. I've heard its language was a revolution at the time.
+张老师: 对，它用的是普通人说的话，风格特别新。 | Đúng, nó dùng lời ăn tiếng nói của người bình thường, phong cách rất mới mẻ. | Right, it uses the language ordinary people speak, and its style was very new.
+学生: 我觉得书里很多地方挺好笑的。 | Em thấy nhiều chỗ trong sách khá buồn cười. | I found a lot of parts in the book quite funny.
+张老师: 好笑的背后是讽刺，作者在批评当时一些不好的风俗。 | Đằng sau cái buồn cười là sự châm biếm, tác giả đang phê phán một số phong tục không hay thời đó. | Behind the humour is satire — the author is criticising some bad customs of the time.
+学生: 可他写传统节日的时候，好像又很有感情。 | Nhưng khi viết về các ngày lễ truyền thống, hình như ông ấy lại rất có tình cảm. | But when he writes about traditional festivals, he seems full of feeling.
+张老师: 是啊，他认为好的东西应该保留下来，并不是全都反对。 | Đúng thế, ông ấy cho rằng những gì tốt đẹp thì nên giữ lại, chứ không phải phản đối tất cả. | Yes, he believed good things should be preserved; he wasn't against everything.
+学生: 开头那个传说是哪个朝代的？我查了半天也没找到。 | Truyền thuyết ở đầu sách là của triều đại nào ạ? Em tra mãi mà không thấy. | Which dynasty is the legend at the beginning from? I searched for ages and couldn't find out.
+张老师: 历史上本来就说不清，这一点你正好可以写进报告里。 | Trong lịch sử vốn đã không nói rõ được, điểm này em vừa hay có thể đưa vào bài viết. | History itself isn't clear on that — it's exactly the kind of point you can put in your report.
+
+## 5-arts-2
+title: 美术馆里的龙 | Con rồng trong bảo tàng mỹ thuật | The dragon in the art museum
+scene: Hướng dẫn viên dẫn Anna tham quan một bảo tàng mỹ thuật. | A tour guide shows Anna around an art museum.
+cast: 导游, 安娜
+导游: 欢迎来到美术馆，这一层展出的都是古代的画。 | Chào mừng chị đến bảo tàng mỹ thuật, tầng này trưng bày toàn tranh thời cổ đại. | Welcome to the art museum. This floor shows paintings from ancient times.
+安娜: 这幅画上的人穿得真漂亮，他们是谁？ | Những người trong bức tranh này mặc đẹp quá, họ là ai vậy? | The people in this painting are dressed so beautifully. Who are they?
+导游: 中间那位是皇帝，旁边是皇后。您看皇帝衣服上的龙。 | Người ở giữa là hoàng đế, bên cạnh là hoàng hậu. Chị nhìn con rồng trên áo hoàng đế xem. | The one in the middle is the emperor, and beside him is the empress. Look at the dragon on the emperor's robe.
+安娜: 为什么只有皇帝的衣服上有龙？ | Sao chỉ có áo của hoàng đế mới có rồng? | Why does only the emperor's robe have a dragon?
+导游: 在古代，龙代表皇帝，普通人是不能用的。 | Thời xưa, rồng đại diện cho hoàng đế, người thường không được dùng. | In ancient times the dragon stood for the emperor; ordinary people weren't allowed to use it.
+安娜: 那边那些画看起来新一些，风格也不太一样。 | Mấy bức tranh đằng kia trông mới hơn, phong cách cũng hơi khác. | Those paintings over there look newer, and the style is a bit different.
+导游: 那是近代的作品，既有古典的味道，又学了西方的方法。 | Đó là tác phẩm thời cận đại, vừa mang nét cổ điển, vừa học hỏi phương pháp phương Tây. | Those are from modern times — they have a classical flavour but also borrowed Western techniques.
+安娜: 这幅马的画我在课本上见过，是不是很有名？ | Bức tranh vẽ ngựa này tôi từng thấy trong sách giáo khoa, có phải nổi tiếng lắm không? | I've seen this painting of horses in a textbook. Is it very famous?
+导游: 对，这是经典作品，已经流传了一百多年了。 | Đúng vậy, đây là tác phẩm kinh điển, đã lưu truyền hơn một trăm năm rồi. | Yes, it's a classic, and it has been handed down for over a hundred years.
+安娜: 太好了，我要买一张它的明信片做纪念。 | Tuyệt quá, tôi sẽ mua một tấm bưu thiếp in bức tranh này làm kỷ niệm. | Great, I'll buy a postcard of it as a souvenir.
+
+## 5-arts-3
+title: 神仙的衣服 | Trang phục của thần tiên | Costumes for the immortals
+scene: Tiểu Vương gặp Tiểu Lưu đang bận làm trang phục cho câu lạc bộ kịch của trường. | Xiao Wang runs into Xiao Liu, who is busy making costumes for the school drama club.
+cast: 小王, 小刘
+小王: 你最近在忙什么？好几天没见到你了。 | Dạo này cậu bận gì thế? Mấy hôm rồi không thấy cậu đâu. | What have you been busy with? I haven't seen you for days.
+小刘: 我在帮学校的戏剧社设计演出服装。 | Mình đang giúp câu lạc bộ kịch của trường thiết kế trang phục biểu diễn. | I'm helping the school drama club design costumes for their show.
+小王: 是什么戏？现代的还是古代的？ | Vở gì thế? Hiện đại hay cổ trang? | What play is it? Modern or historical?
+小刘: 是一个古老的神话故事，里面的人物都是神仙。 | Là một câu chuyện thần thoại cổ, các nhân vật trong đó đều là thần tiên. | It's an old myth, and all the characters are immortals.
+小王: 那衣服肯定得特别漂亮，用什么料子做？ | Vậy trang phục chắc phải đẹp lắm, làm bằng chất liệu gì? | Then the costumes must be gorgeous. What fabric are you using?
+小刘: 主要是丝绸，上面的花都是我们手工绣的。 | Chủ yếu là lụa, hoa trên đó đều do bọn mình thêu tay. | Mostly silk, and the flowers on them are all embroidered by hand.
+小王: 可是谁也没见过神仙，你怎么知道他们穿什么？ | Nhưng có ai thấy thần tiên bao giờ đâu, sao cậu biết họ mặc gì? | But nobody has ever seen an immortal. How do you know what they wear?
+小刘: 我读了不少古诗和文学作品，里面描写得很详细。 | Mình đã đọc khá nhiều thơ cổ và tác phẩm văn học, trong đó miêu tả rất chi tiết. | I've read a lot of old poems and literary works, and they describe it in great detail.
+小王: 丝绸、诗歌、戏剧，都是古老文明留下来的宝贝啊。 | Lụa, thơ ca, kịch nghệ, đều là báu vật mà nền văn minh cổ xưa để lại đấy. | Silk, poetry, drama — they're all treasures left by an ancient civilization.
+小刘: 说得好！演出那天你一定要来看啊。 | Nói hay lắm! Hôm biểu diễn cậu nhất định phải đến xem nhé. | Well said! You must come to the show.
+
+## 5-arts-4
+title: 剪纸展览 | Triển lãm tranh cắt giấy | A paper-cutting exhibition
+scene: Tiểu Trương đưa David đi xem một triển lãm nghệ thuật cắt giấy. | Xiao Zhang takes David to an exhibition of paper-cut art.
+cast: 大卫, 小张
+大卫: 这个展览的作品都是剪纸吗？没想到纸能剪得这么细。 | Các tác phẩm trong triển lãm này đều là tranh cắt giấy à? Không ngờ giấy lại cắt được tinh xảo đến thế. | Are all the works in this exhibition paper cuts? I never imagined paper could be cut so finely.
+小张: 对，剪纸在中国历史很悠久，以前过年家家都贴。 | Đúng, cắt giấy ở Trung Quốc có lịch sử rất lâu đời, ngày xưa Tết nhà nào cũng dán. | Yes, paper cutting has a long history in China. In the past every family put them up at New Year.
+大卫: 这张红的上面有一条鱼，是什么意思？ | Tấm màu đỏ này có một con cá, nghĩa là gì vậy? | This red one has a fish on it. What does it mean?
+小张: 鱼象征“年年有余”，就是希望每年都过得富足。 | Con cá tượng trưng cho “năm nào cũng dư dả”, tức là mong năm nào cũng sung túc. | The fish symbolizes "abundance every year" — a wish for plenty year after year.
+大卫: 那张画着很多人的呢？好像跟宗教有关。 | Còn tấm vẽ nhiều người kia thì sao? Hình như có liên quan đến tôn giáo. | And that one with lots of people? It seems to be related to religion.
+小张: 是的。你仔细看，它是由几张小剪纸组合成的。 | Đúng vậy. Cậu nhìn kỹ xem, nó được ghép từ mấy tấm cắt giấy nhỏ. | Yes. Look closely — it's made by combining several small paper cuts.
+大卫: 制作一张这么复杂的，要花多长时间？ | Làm ra một tấm phức tạp thế này mất bao lâu? | How long does it take to make one this complicated?
+小张: 简单的几个小时，复杂的要好几个月呢。 | Tấm đơn giản thì vài tiếng, tấm phức tạp phải mấy tháng đấy. | A simple one takes a few hours; a complex one can take months.
+大卫: 那我得好好欣赏，再拍几张照片给家里人看。 | Vậy mình phải thưởng thức thật kỹ, rồi chụp vài tấm ảnh cho người nhà xem. | Then I'd better take my time appreciating them, and take some photos to show my family.
+
+## 5-talk-1
+title: 辩论赛之后 | Sau cuộc thi tranh biện | After the debate
+scene: Sau cuộc thi tranh biện, Tiểu Lý tìm thầy Trương để nói chuyện. | After a debate competition, Xiao Li goes to talk with Mr. Zhang.
+cast: 小李, 张老师
+小李: 张老师，不好意思，今天的辩论我没发挥好。 | Thầy Trương ơi, em xin lỗi, buổi tranh biện hôm nay em thể hiện không tốt. | Mr. Zhang, I'm sorry, I didn't do well in today's debate.
+张老师: 不要紧，第一次参加比赛，谁都会紧张。 | Không sao đâu, lần đầu đi thi thì ai cũng hồi hộp. | It doesn't matter. Everyone gets nervous at their first competition.
+小李: 对方提问的时候，我脑子一片空白，沉默了好久。 | Lúc đối phương đặt câu hỏi, đầu em trống rỗng, im lặng mất một lúc lâu. | When the other side asked a question, my mind went blank and I was silent for ages.
+张老师: 我注意到了。不过你后面的补充说得很好。 | Thầy có để ý. Nhưng phần bổ sung sau đó em nói rất tốt. | I noticed. But the points you added afterwards were very good.
+小李: 我只是想说明，这个问题的本质不是钱，而是时间。 | Em chỉ muốn nói rõ rằng bản chất của vấn đề này không phải là tiền, mà là thời gian. | I just wanted to show that the essence of this issue isn't money, but time.
+张老师: 你的发言包含了很多大家没想到的东西，评委也称赞了你。 | Bài phát biểu của em chứa đựng nhiều điều mọi người chưa nghĩ tới, ban giám khảo cũng khen em đấy. | Your speech contained many things nobody else had thought of, and the judges praised you too.
+小李: 真的吗？可我得承认，我对时间的把握还不够好。 | Thật ạ? Nhưng em phải thừa nhận là em nắm thời gian còn chưa tốt. | Really? But I have to admit I still didn't manage my time well.
+张老师: 这表明你清楚自己的问题在哪儿，下次一定会更好。 | Điều đó cho thấy em biết rõ vấn đề của mình nằm ở đâu, lần sau chắc chắn sẽ tốt hơn. | That shows you know where your weak points are. You'll certainly do better next time.
+
+## 5-talk-2
+title: 明天的发言 | Bài phát biểu ngày mai | Tomorrow's speech
+scene: Ở văn phòng, một đồng nghiệp nhắc Tiểu Trương chuẩn bị bài phát biểu cho cuộc họp ngày mai. | In the office, a colleague reminds Xiao Zhang to prepare his speech for tomorrow's meeting.
+cast: 同事, 小张
+同事: 小张，王经理一直在催你，明天会上的发言准备好了吗？ | Tiểu Trương, giám đốc Vương cứ giục cậu mãi, bài phát biểu cho cuộc họp ngày mai chuẩn bị xong chưa? | Xiao Zhang, Manager Wang keeps pushing you — is your speech for tomorrow's meeting ready?
+小张: 还差一点。我想打听一下，上次大家对新方案有什么反应？ | Còn thiếu một chút. Mình muốn hỏi thăm chút, lần trước mọi người phản ứng thế nào với phương án mới? | Almost. I wanted to ask — how did everyone react to the new plan last time?
+同事: 很多人觉得你说的有道理，就是做事的方式太复杂了。 | Nhiều người thấy cậu nói có lý, chỉ là cách làm phức tạp quá. | Many people thought what you said made sense, but the way of doing it was too complicated.
+小张: 那我明天把新旧两种方案做个对比，让大家看得更清楚。 | Vậy ngày mai mình sẽ so sánh phương án cũ và mới, để mọi người thấy rõ hơn. | Then tomorrow I'll compare the old and new plans so everyone can see more clearly.
+同事: 好主意。你还答应过要在公司网站上发表一篇文章，别忘了。 | Ý hay đấy. Cậu còn hứa sẽ đăng một bài viết trên trang web công ty, đừng quên nhé. | Good idea. You also promised to publish an article on the company website — don't forget.
+小张: 没忘。不过我想先跟经理打招呼，听听他的意见。 | Không quên đâu. Nhưng mình muốn báo trước với giám đốc một tiếng, nghe ý kiến của anh ấy đã. | I haven't. But I want to give the manager a heads-up first and hear what he thinks.
+同事: 也好，消息要及时传递，不然大家的工作容易重复。 | Cũng được, thông tin phải truyền đạt kịp thời, không thì công việc của mọi người dễ bị trùng lặp. | Fair enough. Information needs to be passed on promptly, or people end up duplicating work.
+小张: 谢谢提醒，今天晚上我就把发言稿写完。 | Cảm ơn cậu đã nhắc, tối nay mình sẽ viết xong bài phát biểu. | Thanks for the reminder. I'll finish writing my speech tonight.
+
+## 5-talk-3
+title: 讨论会上的争吵 | Cuộc cãi nhau trong buổi thảo luận | An argument at the discussion
+scene: Sau buổi thảo luận nhóm, một bạn cùng lớp nói chuyện với Tiểu Trương về chuyện cậu ấy vừa nổi nóng. | After a group discussion, a classmate talks with Xiao Zhang about his outburst.
+cast: 同学, 小张
+同学: 刚才讨论的时候你怎么喊那么大声？大家都吓了一跳。 | Lúc thảo luận ban nãy sao cậu hét to thế? Mọi người giật cả mình. | Why were you shouting so loudly during the discussion? Everyone got a fright.
+小张: 我不否认我太着急了。可听完他的话，我唯一的感想就是：全是废话。 | Mình không phủ nhận là mình nóng vội quá. Nhưng nghe xong cậu ấy nói, cảm nghĩ duy nhất của mình là: toàn lời thừa. | I don't deny I was too impatient. But after hearing him, my only thought was: it was all nonsense.
+同学: 你不同意他的观点，也不能一下子全部否定啊。 | Cậu không đồng ý với quan điểm của cậu ấy, cũng không thể phủ định sạch trơn ngay như thế được. | Even if you disagree with his view, you can't just reject all of it at once.
+小张: 我是觉得他根本没抓住核心问题。 | Mình thấy cậu ấy hoàn toàn không nắm được vấn đề cốt lõi. | I just felt he completely missed the core issue.
+同学: 那你可以冷静地分析他哪里不对，大家才听得进去。 | Thế thì cậu có thể bình tĩnh phân tích xem cậu ấy sai ở đâu, mọi người mới nghe lọt tai. | Then you could calmly analyse where he went wrong — that way people would actually listen.
+小张: 你说得对。不过我们俩的观念差别太大，很难沟通。 | Cậu nói đúng. Nhưng quan niệm của hai đứa mình khác nhau quá, rất khó nói chuyện với nhau. | You're right. But our ways of thinking are so different that it's hard to communicate.
+同学: 观念不同很正常，吵架的后果却是谁也不想跟谁合作了。 | Quan niệm khác nhau là chuyện bình thường, nhưng hậu quả của cãi nhau là chẳng ai muốn hợp tác với ai nữa. | Different ideas are normal, but the consequence of arguing is that no one wants to work with anyone.
+小张: 明白了，明天我去找他道个歉，再好好聊聊。 | Mình hiểu rồi, ngày mai mình sẽ đi xin lỗi cậu ấy, rồi nói chuyện đàng hoàng. | Got it. Tomorrow I'll go apologise to him and have a proper talk.
+
+## 5-talk-4
+title: 驾照没考过 | Thi bằng lái bị trượt | Failing the driving test
+scene: Tiểu Lý hỏi David về kỳ thi bằng lái xe hôm qua. | Xiao Li asks David about his driving test yesterday.
+cast: 小李, 大卫
+小李: 你昨天考驾照，结果怎么样？ | Hôm qua cậu thi bằng lái, kết quả thế nào? | You took your driving test yesterday — how did it go?
+大卫: 别提了，没过。我觉得考官是故意为难我。 | Đừng nhắc nữa, trượt rồi. Mình thấy giám khảo cố tình làm khó mình. | Don't ask. I failed. I think the examiner was being hard on me on purpose.
+小李: 胡说，人家为什么要为难你？别给自己找借口了。 | Nói bậy, người ta làm khó cậu làm gì? Đừng tự tìm cớ cho mình nữa. | Nonsense, why would he make things hard for you? Stop making excuses.
+大卫: 好吧，我太紧张了，把倒车的几条规定都忽视了。 | Thôi được, tại mình căng thẳng quá, nên bỏ qua mấy quy định khi lùi xe. | All right, I was too nervous and overlooked a few rules about reversing.
+小李: 换个角度想，这也是一次教训，下次就记住了。 | Nghĩ theo góc độ khác thì đây cũng là một bài học, lần sau sẽ nhớ thôi. | Look at it from another angle: it's a lesson, and next time you'll remember.
+大卫: 我的记忆力本来就不好，规定那么多，根本记不住。 | Trí nhớ của mình vốn đã kém, quy định nhiều như thế, nhớ sao nổi. | My memory is bad to begin with, and there are so many rules — I just can't remember them.
+小李: 我建议你每天练半个小时，总比幻想一次就过有用。 | Mình khuyên cậu mỗi ngày tập nửa tiếng, dù sao cũng có ích hơn là mơ tưởng thi một lần là đỗ. | I suggest you practise half an hour a day. It's more useful than dreaming of passing first time.
+大卫: 据说考第二次的人一般都能过，是真的吗？ | Nghe nói người thi lần hai thường đều đỗ, có thật không? | People say most people pass on their second try. Is that true?
+小李: 这个结论我可不敢下，关键还是看你自己。 | Kết luận này mình không dám đưa ra đâu, quan trọng vẫn là ở cậu. | I wouldn't dare draw that conclusion. It really depends on you.
+大卫: 行，不聊这个话题了，咱们先去吃饭吧！ | Được rồi, không nói chuyện này nữa, mình đi ăn trước đã! | OK, let's drop the subject and go get something to eat!
+
+## 5-talk-5
+title: 年底的评价表 | Phiếu đánh giá cuối năm | The year-end evaluation form
+scene: Ở văn phòng, Tiểu Vương và một đồng nghiệp bàn chuyện viết phiếu đánh giá cho nhân viên mới. | In the office, Xiao Wang and a colleague talk about writing evaluations for a new employee.
+cast: 小王, 同事
+小王: 劳驾，把桌上那份评价表递给我一下。 | Phiền cậu, đưa giúp mình tờ phiếu đánh giá trên bàn với. | Excuse me, could you pass me that evaluation form on the desk?
+同事: 给你。年底又要给新同事写评价了？ | Đây. Cuối năm lại phải viết nhận xét cho đồng nghiệp mới à? | Here. Time to write evaluations for the new colleagues again?
+小王: 是啊，经理的命令很明确：每个人都要写，周五以前交。 | Ừ, lệnh của giám đốc rất rõ ràng: ai cũng phải viết, nộp trước thứ Sáu. | Yes, the manager's order is clear: everyone has to write one and hand it in by Friday.
+同事: 你打算怎么写小刘？你平时可很少夸人。 | Cậu định viết về Tiểu Lưu thế nào? Bình thường cậu ít khi khen ai lắm. | What will you write about Xiao Liu? You rarely praise anyone.
+小王: 我得客观一点。他虽然常迟到，可做事很有逻辑。 | Mình phải khách quan một chút. Tuy cậu ấy hay đi muộn, nhưng làm việc rất logic. | I have to be objective. He's often late, but he works very logically.
+同事: 对，只看缺点太片面了。上次客户骂他，他也没生气。 | Đúng, chỉ nhìn khuyết điểm thì phiến diện quá. Lần trước khách hàng mắng cậu ấy, cậu ấy cũng không giận. | Right, looking only at the faults is too one-sided. Last time a client scolded him, he didn't get angry.
+小王: 而且他每次提意见，理由都很充分，我挺佩服的。 | Hơn nữa mỗi lần cậu ấy góp ý, lý do đều rất thuyết phục, mình khá nể. | And whenever he makes a suggestion, his reasons are solid. I really respect that.
+同事: 那就照实写吧。不过写了什么，可要保守秘密啊。 | Thế thì cứ viết đúng sự thật. Nhưng viết gì thì phải giữ bí mật đấy nhé. | Then write it as it is. But keep what you write a secret.
+小王: 放心，评价表我会直接交给经理的。 | Yên tâm, phiếu đánh giá mình sẽ nộp thẳng cho giám đốc. | Don't worry, I'll hand the form straight to the manager.
+
+## 5-talk-6
+title: 想开咖啡店的女儿 | Cô con gái muốn mở quán cà phê | A daughter who wants to open a café
+scene: Ở nhà, cô con gái kể với mẹ rằng mình muốn nghỉ việc để mở quán cà phê. | At home, a daughter tells her mother she wants to quit her job and open a café.
+cast: 女儿, 妈妈
+女儿: 妈，我想辞职开一家咖啡店，您先别急着反对。 | Mẹ ơi, con muốn nghỉ việc để mở một quán cà phê, mẹ đừng vội phản đối nhé. | Mum, I want to quit my job and open a café. Please don't object right away.
+妈妈: 我不反对，可是你确定自己想好了吗？ | Mẹ không phản đối, nhưng con chắc là mình đã nghĩ kỹ chưa? | I'm not objecting, but are you sure you've thought it through?
+女儿: 想好了。我思考了整整半年，不是一时冲动。 | Con nghĩ kỹ rồi. Con đã suy nghĩ suốt nửa năm, không phải bốc đồng nhất thời đâu. | I have. I've been thinking about it for a whole six months; it's not a sudden impulse.
+妈妈: 你爸知道了肯定要嚷起来，你打算怎么说服他？ | Bố con mà biết chắc chắn sẽ la lên, con định thuyết phục bố thế nào? | Your dad will definitely start shouting when he finds out. How will you convince him?
+女儿: 所以我有个请求：您能不能先帮我劝劝他？ | Nên con có một đề nghị: mẹ có thể khuyên bố giúp con trước được không? | So I have a request: could you talk him round for me first?
+妈妈: 劝可以，但你得跟他说实话，别光说好的。 | Khuyên thì được, nhưng con phải nói thật với bố, đừng chỉ nói chuyện tốt. | I can try, but you have to tell him the truth, not just the good parts.
+女儿: 我会把事实都摆出来，还要强调房租和风险我都算过了。 | Con sẽ trình bày hết sự thật, còn nhấn mạnh là tiền thuê nhà và rủi ro con đều đã tính cả rồi. | I'll lay out all the facts and stress that I've already worked out the rent and the risks.
+妈妈: 你这孩子，思想比我们年轻时独立多了。 | Con bé này, suy nghĩ độc lập hơn bố mẹ hồi trẻ nhiều. | You know, your thinking is much more independent than ours was at your age.
+女儿: 这还是您启发我的，您不是常说要做自己喜欢的事吗？ | Cũng là nhờ mẹ gợi ý cho con đấy, chẳng phải mẹ hay nói phải làm việc mình thích sao? | You're the one who inspired me. Don't you always say we should do what we love?
+妈妈: 好吧，晚上吃饭的时候，咱们一起跟你爸说。 | Thôi được, tối nay lúc ăn cơm, mẹ con mình cùng nói với bố. | All right, at dinner tonight we'll tell your dad together.
+
+## 5-talk-7
+title: 年会上的发言 | Bài phát biểu ở tiệc cuối năm | A speech at the annual party
+scene: Giám đốc Vương mời Tiểu Lý lên phát biểu ở tiệc tất niên của công ty. | Manager Wang asks Xiao Li to give a speech at the company's annual party.
+cast: 小李, 王经理
+小李: 王经理，您感冒好些了吗？组里的同事都让我代他们问候您。 | Giám đốc Vương ơi, anh đỡ cảm chưa ạ? Mọi người trong nhóm đều nhờ em gửi lời hỏi thăm anh. | Manager Wang, is your cold better? Everyone in the team asked me to send you their regards.
+王经理: 好多了，谢谢大家。正好，下个月的年会，我推荐你上台发言。 | Đỡ nhiều rồi, cảm ơn mọi người. Tiện đây, tiệc cuối năm tháng sau, anh đề cử em lên phát biểu. | Much better, thanks. By the way, I've recommended you to give a speech at next month's annual party.
+小李: 我？我从来没在那么多人面前讲过话。 | Em ạ? Em chưa bao giờ nói trước đông người như thế. | Me? I've never spoken in front of so many people.
+王经理: 别推辞了。上次你叙述那个项目的过程，讲得很清楚。 | Đừng từ chối nữa. Lần trước em kể lại quá trình làm dự án đó rất rõ ràng. | Don't turn it down. Last time you recounted how that project went, and you explained it very clearly.
+小李: 那这次要围绕什么来讲呢？ | Vậy lần này nên xoay quanh chủ đề gì ạ? | So what should this one centre on?
+王经理: 围绕团队合作。年会上还要宣布今年的优秀小组。 | Xoay quanh làm việc nhóm. Ở tiệc cuối năm còn công bố nhóm xuất sắc của năm nay nữa. | Teamwork. The party will also announce this year's best team.
+小李: 所谓团队合作，我觉得就是大家一起把难事做完。 | Cái gọi là làm việc nhóm, em nghĩ chính là mọi người cùng nhau làm xong những việc khó. | What we call teamwork, I think, is everyone getting the hard things done together.
+王经理: 说得好，这句话就体现了你们组的精神。 | Nói hay lắm, câu này thể hiện đúng tinh thần của nhóm em. | Well said. That sentence reflects your team's spirit.
+小李: 我们组加班的那几个晚上，那种感觉我都不知道怎么形容。 | Mấy buổi tối nhóm em tăng ca, cảm giác ấy em chẳng biết diễn tả thế nào. | Those nights our team worked late — I don't even know how to describe that feeling.
+王经理: 就讲现实中发生的事，比想象出来的故事更感人。 | Cứ kể những chuyện xảy ra trong thực tế, còn cảm động hơn những câu chuyện tưởng tượng ra. | Just talk about what really happened. It's more moving than any imagined story.
+
+## 5-talk-8
+title: 楼下种树的事 | Chuyện trồng cây dưới sân | Planting trees downstairs
+scene: Cô Lý và một người hàng xóm nói chuyện về kế hoạch trồng cây trong sân khu nhà. | Aunt Li and a neighbour chat about the plan to plant trees in the courtyard.
+cast: 李阿姨, 邻居
+李阿姨: 我给物业打了五次电话，一直占线，真着急。 | Cô gọi cho ban quản lý năm lần rồi, lúc nào cũng máy bận, sốt ruột quá. | I've called the property office five times and the line is always busy. It's so frustrating.
+邻居: 是为了楼下种树的事吧？最近大家都在议论。 | Là vì chuyện trồng cây dưới sân phải không cô? Dạo này mọi người đều đang bàn tán. | Is it about planting trees downstairs? Everyone has been talking about it lately.
+李阿姨: 对，我想询问一下到底什么时候开始种。 | Ừ, cô muốn hỏi xem rốt cuộc bao giờ bắt đầu trồng. | Yes, I want to ask when exactly they'll start planting.
+邻居: 上次开会，大家的意见很一致，都赞成种树。 | Lần họp trước, ý kiến mọi người rất thống nhất, ai cũng tán thành trồng cây. | At the last meeting everyone was in agreement — all in favour of planting trees.
+李阿姨: 孩子们还能认识不同的树，我觉得很有意义。 | Bọn trẻ còn được biết thêm nhiều loại cây, cô thấy rất có ý nghĩa. | The children can also learn about different trees. I think it's really worthwhile.
+邻居: 不过三楼那家有点疑问，怕树长高了挡住阳光。 | Nhưng nhà tầng ba còn hơi thắc mắc, sợ cây lớn lên che mất ánh nắng. | But the family on the third floor has some doubts — they're afraid the trees will block the sun once they grow.
+李阿姨: 这确实是要考虑的因素。可他那天说话的语气不太好。 | Đó đúng là yếu tố cần cân nhắc. Nhưng hôm đó giọng điệu anh ấy nói chuyện không được hay lắm. | That's certainly a factor to consider. But his tone that day wasn't very nice.
+邻居: 您别责备他了，他家老人身体不好，需要多晒太阳。 | Cô đừng trách anh ấy nữa, nhà anh ấy có người già sức khỏe yếu, cần phơi nắng nhiều. | Don't blame him. There's an elderly person in his family in poor health who needs plenty of sun.
+李阿姨: 原来是这样。那在他家窗前种矮一点的树，不就行了？ | Hóa ra là vậy. Thế thì trồng cây thấp một chút trước cửa sổ nhà anh ấy là được chứ gì? | I see. Then we could just plant shorter trees in front of his window, couldn't we?
+邻居: 好主意！到时候大家肯定都会赞美您想得周到。 | Ý hay quá! Đến lúc đó chắc chắn mọi người sẽ khen cô chu đáo. | Great idea! Everyone will surely praise you for being so thoughtful.

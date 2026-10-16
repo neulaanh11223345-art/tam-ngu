@@ -92,3 +92,29 @@ test('chuỗi ngày học', () => {
   assert.equal(streak(log, T0), 3);
   assert.equal(streak({}, T0), 0);
 });
+
+test('bản lưu cũ chỉ có HSK 3–4 được thêm HSK 5; ai đã chọn riêng thì giữ nguyên', () => {
+  assert.deepEqual(normalize({ version: 1, settings: { levels: [3, 4] } }).settings.levels, [3, 4, 5]);
+  assert.deepEqual(normalize({ version: 1, settings: { levels: [4] } }).settings.levels, [4]);
+  assert.deepEqual(normalize({ version: 2, settings: { levels: [3, 4] } }).settings.levels, [3, 4]);
+});
+
+test('hội thoại tự nhập: lưu, xóa, gộp giữa hai máy', () => {
+  let t = 1000;
+  const a = createStore(memory(), () => t);
+  const id = a.saveMine(null, { title: 'Bài 1', text: 'A：你好！' });
+  t = 2000;
+  a.recordDialogue('4-ppl-1', 0.5);
+  a.recordDialogue('4-ppl-1', 1);
+  assert.equal(a.state.dialogues['4-ppl-1'].reads, 2);
+  assert.equal(a.state.dialogues['4-ppl-1'].best, 1);
+  const before = structuredClone(a.state);
+  t = 3000;
+  a.deleteMine(id);
+  assert.equal(a.state.mine[id].deleted, true);
+  const m = mergeStates(before, a.state);
+  assert.equal(m.mine[id].deleted, true, 'xóa ở một máy thì máy kia cũng xóa');
+  a.reset();
+  assert.ok(a.state.mine[id], 'xóa tiến độ vẫn giữ hội thoại tự nhập');
+  assert.deepEqual(a.state.dialogues, {});
+});

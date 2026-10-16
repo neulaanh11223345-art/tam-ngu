@@ -30,8 +30,11 @@ export function hasChineseVoice() {
   return Boolean(voice || (canSpeak() && pickVoice()));
 }
 
-/** Đọc một đoạn tiếng Trung. Trả về Promise kết thúc khi đọc xong (hoặc lỗi). */
-export function speak(text, rate = 0.9) {
+/**
+ * Đọc một đoạn tiếng Trung. Trả về Promise kết thúc khi đọc xong (hoặc lỗi).
+ * pitch: cao độ giọng (dùng để phân biệt hai người trong hội thoại).
+ */
+export function speak(text, rate = 0.9, pitch = 1) {
   return new Promise((resolve) => {
     if (!canSpeak()) return resolve(false);
     if (!ready) initSpeech();
@@ -42,11 +45,12 @@ export function speak(text, rate = 0.9) {
       u.lang = 'zh-CN';
       if (voice) u.voice = voice;
       u.rate = rate;
+      u.pitch = pitch;
       u.onend = () => resolve(true);
       u.onerror = () => resolve(false);
       synth.speak(u);
       // một số trình duyệt không gọi onend
-      setTimeout(() => resolve(true), 6000);
+      setTimeout(() => resolve(true), Math.max(6000, (text.length * 450) / rate));
     } catch {
       resolve(false);
     }

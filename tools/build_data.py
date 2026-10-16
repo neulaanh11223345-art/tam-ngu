@@ -1,9 +1,11 @@
 #!/usr/bin/env python3
-"""Dựng data/words.json và data/strokes/*.json cho app Tam Ngữ.
+"""Dựng dữ liệu cho app Tam Ngữ: data/words.json, data/strokes/*.json, data/dialogues.json, data/lexicon.json.
 
 Nguồn:
   data-src/hsk-old*.json   danh sách từ HSK 2.0 (complete-hsk-vocabulary, MIT)
-  data-src/hsk3.txt, hsk4-*.txt   nghĩa Việt/Anh, chủ đề, câu ví dụ (soạn tay)
+  data-src/hsk3.txt, hsk4-*.txt, hsk5-*.txt   nghĩa Việt/Anh, chủ đề, câu ví dụ (soạn tay)
+  data-src/hsk5-readings.tsv   âm đọc đã chọn cho từ HSK 5 có nhiều cách đọc
+  data-src/dialogues/*.txt     hội thoại theo bài (soạn mới cho app)
   Hán Việt: gói npm hanviet-pinyin-words (MIT), có bảng sửa tay bên dưới
   Bộ thủ: Make Me a Hanzi dictionary.txt (LGPL-3.0)
   Nét chữ: gói npm hanzi-writer-data (Arphic Public License)
@@ -35,13 +37,17 @@ TOPICS = [
     ('food', 'Ăn uống', 'Food & drink', '食'),
     ('home', 'Nhà cửa & đồ dùng', 'Home & things', '家'),
     ('shop', 'Mua sắm & tiền bạc', 'Shopping & money', '买'),
+    ('econ', 'Kinh tế & kinh doanh', 'Economy & business', '商'),
     ('study', 'Học tập & ngôn ngữ', 'Study & language', '学'),
     ('work', 'Công việc & xã hội', 'Work & society', '工'),
+    ('soc', 'Xã hội & pháp luật', 'Society & law', '法'),
     ('travel', 'Đi lại & du lịch', 'Travel & transport', '行'),
     ('place', 'Nơi chốn & phương hướng', 'Places & directions', '方'),
     ('time', 'Thời gian', 'Time', '时'),
     ('nature', 'Thiên nhiên & thời tiết', 'Nature & weather', '天'),
+    ('sci', 'Khoa học & công nghệ', 'Science & technology', '科'),
     ('fun', 'Giải trí & văn hóa', 'Leisure & culture', '乐'),
+    ('arts', 'Văn học, lịch sử & nghệ thuật', 'Literature, history & arts', '艺'),
     ('talk', 'Giao tiếp & suy nghĩ', 'Communication & thinking', '说'),
     ('act', 'Hành động thường ngày', 'Everyday actions', '做'),
     ('desc', 'Tính chất & trạng thái', 'Qualities & states', '好'),
@@ -50,8 +56,9 @@ TOPICS = [
 ]
 TOPIC_IDS = [t[0] for t in TOPICS]
 LESSON_MAX = 12
-# nét chữ gom thành 64 tệp nhỏ (chữ nằm ở tệp mã-Unicode % 64) để ít tệp mà vẫn tải nhẹ
-STROKE_BUCKETS = 64
+# nét chữ gom thành 128 tệp nhỏ (chữ nằm ở tệp mã-Unicode % 128) để ít tệp mà vẫn tải nhẹ
+STROKE_BUCKETS = 128
+LEVELS = (3, 4, 5)
 
 POS_VI = {
     'n': 'danh từ', 'nr': 'danh từ', 'ns': 'danh từ', 'nz': 'danh từ', 'ng': 'danh từ',
@@ -65,7 +72,8 @@ POS_VI = {
 }
 
 # Từ loại cho các từ mà danh sách gốc để trống
-POS_FIX = {'而': 'c', '翻译': 'v', '放暑假': 'v', '于是': 'c', '著名': 'a', '做生意': 'v'}
+POS_FIX = {'而': 'c', '翻译': 'v', '放暑假': 'v', '于是': 'c', '著名': 'a', '做生意': 'v',
+           '丙': 'n', '导演': 'n', '短信': 'n', '铃': 'n', '使劲儿': 'v', '系领带': 'v', '以及': 'c', '油炸': 'v'}
 
 # Âm đọc chọn cho từ có nhiều cách đọc (theo nghĩa dùng trong HSK)
 PINYIN_CHOICE = {
@@ -84,6 +92,10 @@ HV_CHAR_FIX = {
     '箱': 'tương', '爬': 'ba', '啤': 'bi', '笨': 'bổn', '饼': 'bính', '戴': 'đái', '哭': 'khốc',
     '跟': 'căn', '油': 'du', '推': 'thôi', '袜': 'miệt', '冷': 'lãnh', '饺': 'giảo', '允': 'doãn',
     '彩': 'thải', '虑': 'lự', '钥': 'thược',
+    # HSK 5
+    '慰': 'úy', '曾': 'tằng', '尺': 'xích', '喷': 'phún', '嚏': 'đế', '呆': 'ngai', '霉': 'mai', '堆': 'đôi',
+    '扶': 'phù', '煎': 'tiễn', '卷': 'quyển', '幕': 'mạc', '颗': 'khỏa', '摸': 'mô', '抢': 'thương', '绳': 'thằng',
+    '丝': 'ti', '烫': 'thãng', '炸': 'tạc',
 }
 # Hán Việt: chọn một âm khi chữ có nhiều âm
 HV_CHAR_PREF = {
@@ -104,6 +116,9 @@ HV_WORD = {
 
 # Tên bộ thủ (Hán Việt) theo dạng bộ mà Make Me a Hanzi ghi
 RADICAL_VI = {
+    '癶': 'bát', '犬': 'khuyển', '舛': 'suyễn', '玄': 'huyền', '彐': 'kệ', '匚': 'phương', '廴': 'dẫn', '臼': 'cữu',
+    '非': 'phi', '艮': 'cấn', '鬼': 'quỷ', '鬲': 'cách', '髟': 'tiêu', '巳': 'tị', '乛': 'ất', '臣': 'thần',
+    '色': 'sắc', '肀': 'duật', '⺊': 'bốc',
     '⺀': 'băng', '⺌': 'tiểu', '⺗': 'tâm', '⺮': 'trúc', '⺼': 'nhục', '㔾': 'tiết', '一': 'nhất',
     '丨': 'cổn', '丬': 'tường', '丶': 'chủ', '丷': 'bát', '丿': 'phiệt', '乚': 'ất', '乙': 'ất',
     '亅': 'quyết', '二': 'nhị', '亠': 'đầu', '人': 'nhân', '亻': 'nhân đứng', '儿': 'nhân đi',
@@ -145,6 +160,22 @@ PROPER = {
     '中文', '英语', '母亲节', '儿童节', '北京大学', '汉字', '普通话',
 }
 SURNAME_BEFORE = ('老师', '教授', '经理', '先生', '小姐')
+# tên nhân vật trong hội thoại: pinyin viết hoa, tách thành từ như sách
+NAMES = {
+    '小王': ['Xiǎo', 'Wáng'], '小李': ['Xiǎo', 'Lǐ'], '小张': ['Xiǎo', 'Zhāng'], '小刘': ['Xiǎo', 'Liú'],
+    '张老师': ['Zhāng', 'lǎo|shī'], '王经理': ['Wáng', 'jīng|lǐ'], '李阿姨': ['Lǐ', 'ā|yí'],
+    '刘医生': ['Liú', 'yī|shēng'], '大卫': ['Dà|wèi'], '安娜': ['Ān|nà'],
+}
+CAST_VI = {
+    '小王': 'Tiểu Vương', '小李': 'Tiểu Lý', '小张': 'Tiểu Trương', '小刘': 'Tiểu Lưu', '张老师': 'thầy Trương',
+    '王经理': 'giám đốc Vương', '李阿姨': 'cô Lý', '刘医生': 'bác sĩ Lưu', '大卫': 'David', '安娜': 'Anna',
+    '妈妈': 'mẹ', '爸爸': 'bố', '儿子': 'con trai', '女儿': 'con gái', '丈夫': 'chồng', '妻子': 'vợ', '爷爷': 'ông',
+    '奶奶': 'bà', '同事': 'đồng nghiệp', '朋友': 'bạn', '邻居': 'hàng xóm', '同学': 'bạn học', '学生': 'học sinh',
+    '老师': 'giáo viên', '服务员': 'phục vụ', '售货员': 'người bán hàng', '顾客': 'khách hàng', '司机': 'tài xế',
+    '乘客': 'hành khách', '导游': 'hướng dẫn viên', '记者': 'phóng viên', '医生': 'bác sĩ', '护士': 'y tá',
+    '病人': 'bệnh nhân', '警察': 'cảnh sát', '律师': 'luật sư', '老板': 'ông chủ', '秘书': 'thư ký',
+    '教练': 'huấn luyện viên', '房东': 'chủ nhà', '经理': 'giám đốc',
+}
 
 TONE_MARKS = {
     'a': 'āáǎà', 'e': 'ēéěè', 'i': 'īíǐì', 'o': 'ōóǒò', 'u': 'ūúǔù', 'ü': 'ǖǘǚǜ',
@@ -281,7 +312,16 @@ def form_penalty(f):
     return score
 
 
+def fix_umlaut(word):
+    """Một số mục gốc viết ü thành u: (lu:è) → lüè."""
+    for f in word['forms']:
+        t = f['transcriptions']
+        t['pinyin'] = t['pinyin'].replace('u:', 'ü').replace('U:', 'Ü')
+    return word
+
+
 def choose_form(word):
+    fix_umlaut(word)
     forms = [f for f in word['forms']]
     want = PINYIN_CHOICE.get(word['simplified'])
     if want:
@@ -299,6 +339,10 @@ def choose_form(word):
             continue
         good.append(f)
     readings = {f['transcriptions']['pinyin'] for f in good}
+    if not good:
+        # mọi dạng đều là "variant of …" (纪录): lấy dạng ít bị trừ điểm nhất
+        f = sorted(forms, key=form_penalty)[0]
+        return f, f['transcriptions']['pinyin']
     if len(readings) != 1:
         raise SystemExit(f"Cần chọn âm đọc cho {word['simplified']}: {[f['transcriptions']['pinyin'] for f in forms]}")
     return good[0], good[0]['transcriptions']['pinyin']
@@ -364,9 +408,10 @@ EXTRA_WORDS = '''
 气温 月底 年底 钱包 父母 国外 轻易 旅行 想法 逛街 长期 大小 之间 之前 美好 感到 大声 院子
 垃圾 行李 箱子 房子 到期 收到 睡着 越来越 现代化 饭菜 姓名 长久 家人 饭店 红色 蓝色 南方 东方
 西方 海边 暑假 出门 各地 分钟 回事 看看 尝尝 猜猜 谈谈 走走 试试 想想 听听 说说 问问 慢慢
-好好 深深 常常 打开 关上
+好好 深深 常常 打开 关上 这样 那样 怎样 这边 那边 收银台 不少 好久不见 一下儿 怎么办 没关系 不好意思
+差不多 有的 有些 那么 这么 什么样 为了 不过 只好 不用 别人 对不起 一定 一直 一样
 '''.split()
-NOT_WORDS = {'一个', '个人', '这是', '有人', '去世', '手指', '电子邮件', '看起来', '天气预报', '北京大学'}
+NOT_WORDS = {'没收', '一个', '个人', '这是', '有人', '去世', '手指', '电子邮件', '看起来', '天气预报', '北京大学'}
 # Âm đọc cho từ không có trong danh sách HSK (giữ thanh nhẹ như giáo trình)
 EXTRA_PY = {
     '行李': 'xíng li', '房子': 'fáng zi', '箱子': 'xiāng zi', '院子': 'yuàn zi', '东西': 'dōng xi',
@@ -380,8 +425,10 @@ EXTRA_PY = {
     '点儿': 'diǎn r', '一点儿': 'yì diǎn r', '有点儿': 'yǒu diǎn r', '这儿': 'zhè r', '那儿': 'nà r',
     '哪儿': 'nǎ r', '这些': 'zhè xiē', '那些': 'nà xiē', '哪些': 'nǎ xiē', '一些': 'yì xiē',
     '大学': 'dà xué', '父母': 'fù mǔ', '姓名': 'xìng míng', '垃圾': 'lā jī', '家人': 'jiā rén',
+    '放假': 'fàng jià', '假期': 'jià qī', '适当': 'shì dàng', '当天': 'dàng tiān', '相机': 'xiàng jī',
+    '摔倒': 'shuāi dǎo', '乐队': 'yuè duì', '查查': 'chá cha', '只是': 'zhǐ shì', '只有': 'zhǐ yǒu', '晕车': 'yùn chē', '有空': 'yǒu kòng', '课本': 'kè běn', '切成': 'qiē chéng',
 }
-AA_VERBS = set('看尝猜谈走试想听说问')
+AA_VERBS = set('看尝猜谈走试想听说问查')
 NUMERALS = set('〇零一二两三四五六七八九十百千万亿')
 DIGITS = set('〇零一二三四五六七八九十')
 MEASURE_AFTER = set('一两三四五六七八九十几这那哪每半上下')
@@ -433,6 +480,9 @@ def segment(zh, lexicon):
         c = zh[i]
         if not is_han(c):
             return 1
+        for name in NAMES_BY_LEN:
+            if zh.startswith(name, i):
+                return len(name)
         if c == '第' and i + 1 < n and zh[i + 1] in NUMERALS:
             j = i + 1
             while j < n and zh[j] in NUMERALS:
@@ -475,7 +525,7 @@ def segment(zh, lexicon):
         # "一个人": 个 là lượng từ, không ghép thành 个人
         fixed = []
         for t in best:
-            if len(t) > 1 and t[0] in '个只' and fixed and fixed[-1][-1:] in MEASURE_AFTER:
+            if len(t) > 1 and t[0] in '个只' and t not in ADVERB_ZHI and fixed and fixed[-1][-1:] in MEASURE_AFTER:
                 fixed.extend([t[0], t[1:]])
             else:
                 fixed.append(t)
@@ -483,7 +533,11 @@ def segment(zh, lexicon):
     return toks
 
 
-SENTENCE_FIX = {}
+NAMES_BY_LEN = sorted(NAMES, key=len, reverse=True)
+ADVERB_ZHI = {'只是', '只有', '只要', '只好', '只能'}
+SENTENCE_FIX = {
+    '他说话幽默，很有个人魅力。': 'Tā shuō|huà yōu|mò, hěn yǒu gè|rén mèi|lì.',
+}
 
 
 def sentence_pinyin(zh, lookup, target, target_syls, lexicon):
@@ -498,7 +552,9 @@ def sentence_pinyin(zh, lookup, target, target_syls, lexicon):
     spans = []
     for tok in tokens:
         n = len(tok)
-        if tok == target and len(target_syls) == n:
+        if tok in NAMES:
+            readings[pos:pos + n] = [x for part in NAMES[tok] for x in part.split('|')]
+        elif tok == target and len(target_syls) == n:
             readings[pos:pos + n] = target_syls
         elif tok in lookup and len(lookup[tok]) == n:
             readings[pos:pos + n] = lookup[tok]
@@ -539,6 +595,34 @@ def sentence_pinyin(zh, lookup, target, target_syls, lexicon):
             readings[i] = 'hái'
         elif ch == '为' and readings[i] == 'wéi':
             readings[i] = 'wèi'
+        elif ch == '场':
+            readings[i] = 'cháng' if nxt in '雨雪病仗' or zh[i + 1:i + 3] in ('大雨', '大雪', '大病') else 'chǎng'
+        elif ch == '量':
+            readings[i] = 'liáng' if nxt and nxt in '了一过量' else 'liàng'
+        elif ch == '调':
+            readings[i] = 'tiáo' if nxt and nxt in '成到好整' else 'diào'
+        elif ch == '结':
+            readings[i] = 'jiē' if nxt and nxt in '满果' else 'jié'
+        elif ch == '倒':
+            readings[i] = 'dǎo' if nxt and nxt in '了下' else 'dào'
+        elif ch == '假':
+            readings[i] = 'jià' if prev and prev in '天请放休' else 'jiǎ'
+        elif ch == '觉':
+            readings[i] = 'jiào' if prev and prev in '着个睡午' else 'jué'
+        elif ch == '嗯':
+            readings[i] = 'ng'
+        elif ch == '教':
+            readings[i] = 'jiāo'
+        elif ch == '脏':
+            readings[i] = 'zāng'
+        elif ch == '谁':
+            readings[i] = 'shéi'
+        elif ch == '分' and prev not in NUMERALS:
+            readings[i] = 'fēn'
+        elif ch == '切':
+            readings[i] = 'qiē'
+        elif ch == '落':
+            readings[i] = 'luò'
         elif ch == '种':
             readings[i] = 'zhòng' if nxt in '水树花菜' and prev not in MEASURE_AFTER else 'zhǒng'
     # đưa 一/不 về thanh gốc rồi biến điệu theo quy tắc
@@ -558,6 +642,9 @@ def sentence_pinyin(zh, lookup, target, target_syls, lexicon):
                     words.append(['open', mark])
                 else:
                     words.append(['punct', mark])
+            continue
+        if tok in NAMES:
+            words.extend(['word', part] for part in NAMES[tok])
             continue
         syls = readings[a:b]
         if tok in PROPER or (tok == '王' and (b < len(chars) and zh[b:].startswith(SURNAME_BEFORE) or (a > 0 and chars[a - 1] == '老'))):
@@ -596,12 +683,138 @@ def sentence_pinyin(zh, lookup, target, target_syls, lexicon):
     return out
 
 
+def build_dialogues(lessons, words, lookup, lexicon, problems):
+    """Đọc data-src/dialogues/*.txt: mỗi khối là hội thoại của một bài, thêm pinyin cho từng câu."""
+    by_id = {l['id']: l for l in lessons}
+    word_by_id = {w['id']: w for w in words}
+    out = []
+    for path in sorted((SRC / 'dialogues').glob('*.txt')):
+        text = path.read_text(encoding='utf-8')
+        for block in re.split(r'\n\s*\n', text.strip()):
+            lines = [l.strip() for l in block.splitlines() if l.strip() and not l.startswith('# ')]
+            if not lines or not lines[0].startswith('## '):
+                continue
+            lid = lines[0][3:].strip()
+            where = f'{path.name} [{lid}]'
+            lesson = by_id.get(lid)
+            if not lesson:
+                problems.append(f'{where}: không có bài này')
+                continue
+            if lesson.get('dlg'):
+                problems.append(f'{where}: bài đã có hội thoại')
+                continue
+            meta, body = {}, []
+            for l in lines[1:]:
+                m = re.match(r'^(title|scene|cast):\s*(.*)$', l)
+                if m:
+                    meta[m.group(1)] = m.group(2)
+                else:
+                    body.append(l)
+            try:
+                title = [x.strip() for x in meta['title'].split('|')]
+                scene = [x.strip() for x in meta['scene'].split('|')]
+                cast = [c.strip() for c in meta['cast'].replace('，', ',').split(',') if c.strip()]
+                assert len(title) == 3 and len(scene) == 2
+            except (KeyError, AssertionError):
+                problems.append(f'{where}: thiếu hoặc sai dòng title/scene/cast')
+                continue
+            for c in cast:
+                if c not in CAST_VI:
+                    problems.append(f'{where}: nhân vật lạ {c}')
+            lesson_words = [word_by_id[i] for i in lesson['words']]
+            lex = lexicon | {w['hanzi'] for w in lesson_words}
+            dl = []
+            for l in body:
+                m = re.match(r'^([^:：|]+)[:：]\s*(.*)$', l)
+                parts = [x.strip() for x in m.group(2).split('|')] if m else []
+                if not m or len(parts) != 3 or m.group(1).strip() not in cast:
+                    problems.append(f'{where}: câu sai dạng: {l[:50]}')
+                    continue
+                zh, vi, en = parts
+                dl.append({'s': cast.index(m.group(1).strip()), 'zh': zh, 'py': sentence_pinyin(zh, lookup, '', [], lex), 'vi': vi, 'en': en})
+            used = [w['id'] for w in lesson_words if any(w['hanzi'] in x['zh'] for x in dl)]
+            if len(used) < min(5, len(lesson_words)):
+                problems.append(f'{where}: hội thoại chỉ dùng {len(used)} từ của bài')
+            lesson['dlg'] = True
+            out.append({
+                'id': lid,
+                'level': lesson['level'],
+                'topic': lesson['topic'],
+                'title': {'zh': title[0], 'vi': title[1], 'en': title[2]},
+                'scene': {'vi': scene[0], 'en': scene[1]},
+                'cast': [{'zh': c, 'vi': CAST_VI.get(c, c)} for c in cast],
+                'lines': dl,
+                'words': used,
+            })
+    order = {l['id']: i for i, l in enumerate(lessons)}
+    out.sort(key=lambda d: order[d['id']])
+    return out
+
+
+def build_lexicon(lookup, words, mmah):
+    """Từ điển nhỏ để app tự thêm pinyin cho hội thoại người học tự nhập."""
+    w = {s: '|'.join(syls) for s, syls in lookup.items()}
+    for x in words:
+        w[x['hanzi']] = '|'.join(x['py'])
+    for name, parts in NAMES.items():
+        w[name] = ' '.join(parts)
+    # các cụm hay bị ghép nhầm (一个 + 人, 这 + 是); giữ 个人/去世/手指 vì cũng hay là từ thật
+    for x in ('一个', '这是', '有人'):
+        w.pop(x, None)
+    c = {}
+    gloss = {}
+    gloss6 = {}
+    for lv in (1, 2, 3, 4, 5, 6):
+        for item in json.loads((SRC / f'hsk-old{lv}.json').read_text(encoding='utf-8')):
+            s = item['simplified']
+            try:
+                _, p = choose_form(item)
+            except SystemExit:
+                p = sorted(item['forms'], key=form_penalty)[0]['transcriptions']['pinyin']
+            if lv in (1, 2, 6) and s not in gloss and s not in gloss6:
+                meaning = sorted(item['forms'], key=form_penalty)[0]['meanings'][0]
+                (gloss6 if lv == 6 else gloss)[s] = re.sub(r'\s*\(.*?\)\s*', ' ', meaning).strip()[:40]
+    # cách đọc mặc định từng chữ: lấy theo pypinyin (cách đọc phổ biến nhất), giống khi dựng câu ví dụ
+    for ch in mmah:
+        if is_han(ch):
+            r = lazy_pinyin(ch, style=Style.TONE, errors=lambda x: [''])[0]
+            if r:
+                c[ch] = r
+    # từ ghép thông dụng ngoài danh sách HSK
+    for x in EXTRA_WORDS:
+        if x not in w:
+            w[x] = '|'.join(lazy_pinyin(x, style=Style.TONE))
+    # các chữ đa âm hay gặp: chọn cách đọc thường dùng nhất khi đứng riêng
+    c.update({'的': 'de', '了': 'le', '着': 'zhe', '得': 'de', '地': 'de', '个': 'ge', '都': 'dōu', '还': 'hái',
+              '为': 'wèi', '长': 'cháng', '种': 'zhǒng', '只': 'zhǐ', '吗': 'ma', '呢': 'ne', '吧': 'ba', '啊': 'a',
+              '么': 'me', '们': 'men', '和': 'hé', '会': 'huì', '行': 'xíng', '要': 'yào', '没': 'méi', '一': 'yī', '不': 'bù',
+              '累': 'lèi', '好': 'hǎo', '少': 'shǎo', '难': 'nán', '便': 'biàn', '差': 'chà', '重': 'zhòng', '数': 'shù',
+              '教': 'jiāo', '觉': 'jué', '空': 'kōng', '相': 'xiāng', '调': 'diào', '发': 'fā', '乐': 'lè', '干': 'gàn',
+              '背': 'bèi', '倒': 'dào', '量': 'liàng', '应': 'yīng', '当': 'dāng', '正': 'zhèng', '中': 'zhōng', '看': 'kàn',
+              '转': 'zhuǎn', '处': 'chù', '朝': 'cháo', '薄': 'báo', '传': 'chuán', '弹': 'tán', '将': 'jiāng', '似': 'sì',
+              '血': 'xuè', '落': 'luò', '尽': 'jìn', '省': 'shěng', '兴': 'xìng', '得': 'de', '地': 'de', '大': 'dà',
+              '还': 'hái', '只': 'zhǐ', '给': 'gěi', '哪': 'nǎ', '那': 'nà', '这': 'zhè', '说': 'shuō', '觉': 'jué',
+              '假': 'jià', '分': 'fēn', '几': 'jǐ', '长': 'cháng', '着': 'zhe', '了': 'le', '吗': 'ma', '把': 'bǎ',
+              '乘': 'chéng', '冲': 'chōng', '谁': 'shéi', '场': 'chǎng', '嗯': 'ng', '教': 'jiāo', '脏': 'zāng', '切': 'qiē', '降': 'jiàng', '盛': 'shèng', '宿': 'sù', '恶': 'è', '结': 'jié', '模': 'mó'})
+    # g: nghĩa tiếng Anh từ HSK 1–2 (từ rất cơ bản), g6: từ HSK 6 (khó hơn, nên gạch chân để tra)
+    return {'v': 1, 'w': w, 'c': c, 'g': gloss, 'g6': gloss6}
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument('--hv', required=True)
     ap.add_argument('--mmah', required=True)
     ap.add_argument('--strokes', required=True)
+    ap.add_argument('--levels', default=','.join(map(str, LEVELS)), help='ví dụ 3,4 khi đang soạn dở cấp 5')
     args = ap.parse_args()
+    levels = tuple(int(x) for x in args.levels.split(','))
+
+    readings_file = SRC / 'hsk5-readings.tsv'
+    if readings_file.exists():
+        for line in readings_file.read_text(encoding='utf-8').splitlines():
+            if line.strip() and not line.startswith('#'):
+                k, v = line.split('\t')[:2]
+                PINYIN_CHOICE.setdefault(k.strip(), v.strip())
 
     hvdata = load_hanviet(args.hv)
     mmah = {}
@@ -609,18 +822,19 @@ def main():
         d = json.loads(line)
         mmah[d['character']] = d
 
-    datasets = {lv: {w['simplified']: w for w in json.loads((SRC / f'hsk-old{lv}.json').read_text(encoding='utf-8'))} for lv in (3, 4)}
+    datasets = {lv: {w['simplified']: w for w in json.loads((SRC / f'hsk-old{lv}.json').read_text(encoding='utf-8'))} for lv in levels}
     lookup = build_lookup((1, 2, 3, 4, 5, 6))
     lexicon = (set(lookup) | set(EXTRA_WORDS) | PROPER) - NOT_WORDS
 
     authored = {
         3: parse_authored(SRC / 'hsk3.txt'),
         4: parse_authored(SRC / 'hsk4-1.txt') + parse_authored(SRC / 'hsk4-2.txt'),
+        5: [row for path in sorted(SRC.glob('hsk5-*.txt')) for row in parse_authored(path)],
     }
 
     words = []
     problems = []
-    for lv in (3, 4):
+    for lv in levels:
         seen = set()
         for i, row in enumerate(authored[lv], 1):
             h = row['hanzi']
@@ -667,7 +881,7 @@ def main():
 
     # bài học: theo cấp → chủ đề, mỗi bài tối đa LESSON_MAX từ
     lessons = []
-    for lv in (3, 4):
+    for lv in levels:
         for tid in TOPIC_IDS:
             group = [w for w in words if w['level'] == lv and w['topic'] == tid]
             if not group:
@@ -725,6 +939,14 @@ def main():
     for b, group in sorted(buckets.items()):
         (stroke_dir / f'{b:02x}.json').write_text(json.dumps(dict(sorted(group.items())), ensure_ascii=False, separators=(',', ':')), encoding='utf-8')
 
+    dialogues = build_dialogues(lessons, words, lookup, lexicon, problems)
+    if problems:
+        print('\n'.join(problems))
+        raise SystemExit(f'{len(problems)} lỗi dữ liệu hội thoại')
+    (OUT / 'dialogues.json').write_text(json.dumps({'version': 1, 'dialogues': dialogues}, ensure_ascii=False, separators=(',', ':')), encoding='utf-8')
+    lex = build_lexicon(lookup, words, mmah)
+    (OUT / 'lexicon.json').write_text(json.dumps(lex, ensure_ascii=False, separators=(',', ':')), encoding='utf-8')
+
     out = {
         'version': 1,
         'topics': [{'id': t[0], 'vi': t[1], 'en': t[2], 'icon': t[3]} for t in TOPICS],
@@ -734,7 +956,7 @@ def main():
     }
     OUT.mkdir(exist_ok=True)
     (OUT / 'words.json').write_text(json.dumps(out, ensure_ascii=False, separators=(',', ':')), encoding='utf-8')
-    print(f"{len(words)} từ, {len(lessons)} bài, {len(chars)} chữ ({len(buckets)} tệp nét) → data/words.json, data/strokes/")
+    print(f"{len(words)} từ, {len(lessons)} bài, {len(chars)} chữ ({len(buckets)} tệp nét), {len(dialogues)} hội thoại, từ điển {len(lex['w'])} từ")
 
 
 if __name__ == '__main__':

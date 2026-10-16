@@ -4,14 +4,14 @@ let HanziWriter = null;
 const buckets = new Map();
 
 // phải khớp STROKE_BUCKETS trong tools/build_data.py
-const STROKE_BUCKETS = 64;
+const STROKE_BUCKETS = 128;
 
 export async function loadHanziWriter() {
   if (!HanziWriter) HanziWriter = (await import('../vendor/hanzi-writer.esm.js')).default;
   return HanziWriter;
 }
 
-/** Tệp chứa nét của chữ: các chữ được gom theo mã Unicode % 64. */
+/** Tệp chứa nét của chữ: các chữ được gom theo mã Unicode % 128. */
 export function strokeUrl(char) {
   return `data/strokes/${(char.codePointAt(0) % STROKE_BUCKETS).toString(16).padStart(2, '0')}.json`;
 }

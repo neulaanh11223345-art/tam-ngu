@@ -11,6 +11,11 @@ const routes = [
   { re: /^\/lessons$/, view: () => import('./views/lessons.js'), tab: 'lessons' },
   { re: /^\/lesson\/([\w-]+)$/, view: () => import('./views/lesson.js'), tab: 'lessons' },
   { re: /^\/word\/([\w-]+)$/, view: () => import('./views/word.js'), tab: 'lessons' },
+  { re: /^\/dialogues$/, view: () => import('./views/dialogues.js'), tab: 'lessons' },
+  { re: /^\/(dialogue)\/([\w-]+)$/, view: () => import('./views/dialogue.js'), tab: 'lessons' },
+  { re: /^\/mine\/(new)$/, view: () => import('./views/mine-edit.js'), tab: 'lessons' },
+  { re: /^\/mine\/([\w-]+)\/edit$/, view: () => import('./views/mine-edit.js'), tab: 'lessons' },
+  { re: /^\/(mine)\/([\w-]+)$/, view: () => import('./views/dialogue.js'), tab: 'lessons' },
   { re: /^\/review$/, view: () => import('./views/review.js'), tab: 'review' },
   { re: /^\/review\/(lesson|word|words|saved)\/?([\w,-]*)$/, view: () => import('./views/review.js'), tab: 'review' },
   { re: /^\/quiz$/, view: () => import('./views/quiz.js'), tab: 'review' },
@@ -28,7 +33,7 @@ const TABS = [
   ['write', '#/write', 'pen', 'Luyện viết'],
   ['stats', '#/stats', 'chart', 'Thống kê'],
 ];
-const TAB_ROOTS = new Set(['', '/', '/lessons', '/review', '/write', '/stats']);
+const TAB_ROOTS = new Set(['', '/', '/lessons', '/dialogues', '/review', '/write', '/stats']);
 
 const store = createStore();
 // giao diện sáng/tối do trang chứa app đặt (ví dụ khi mở trong Claude); app chỉ ghi đè khi người học tự chọn Sáng/Tối

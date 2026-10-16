@@ -1,4 +1,4 @@
-import { data, word } from '../data.js';
+import { data, levelsAvailable, word } from '../data.js';
 import { bar, button, h, icon, pinyinWord, segmented, zh } from '../dom.js';
 import { dayKey } from '../srs.js';
 import { streak } from '../store.js';
@@ -99,7 +99,7 @@ export function render(ctx) {
     h(
       'div',
       { style: { display: 'flex', flexDirection: 'column', gap: '14px' } },
-      [3, 4].map((lv) => {
+      levelsAvailable().map((lv) => {
         const ids = db.lessonsByLevel[lv].flatMap((l) => l.words);
         const n = learnedCount(store, ids);
         const learning = ids.filter((id) => {

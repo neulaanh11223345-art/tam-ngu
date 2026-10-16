@@ -5,7 +5,7 @@ import { chromium } from 'playwright';
 
 const ROOT = new URL('../', import.meta.url);
 const CHAR = '语';
-const bucket = (CHAR.codePointAt(0) % 64).toString(16).padStart(2, '0');
+const bucket = (CHAR.codePointAt(0) % 128).toString(16).padStart(2, '0');
 const strokes = JSON.parse(await readFile(new URL(`data/strokes/${bucket}.json`, ROOT), 'utf8'))[CHAR].strokes;
 
 /** size: cạnh ảnh; glyph: tỉ lệ ô chữ; round: bo góc (0 cho ảnh maskable / iOS tự bo). */

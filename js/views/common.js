@@ -1,6 +1,6 @@
 // Khối giao diện dùng chung giữa các màn hình.
 import { lesson, lessonTitle, topic } from '../data.js';
-import { h, icon, meaningRow, pinyinSentence, pinyinWord, sentenceWithWord, zh } from '../dom.js';
+import { h, icon, meaningRow, pinyinSentence, pinyinWord, segmented, sentenceWithWord, zh } from '../dom.js';
 import { speak } from '../speech.js';
 
 /** Nút loa: đọc chữ Hán, có hiệu ứng khi đang đọc. */
@@ -129,4 +129,44 @@ export function confetti() {
   }
   document.body.append(box);
   setTimeout(() => box.remove(), 2600);
+}
+
+/** Hai thẻ đầu trang Bài học: Từ vựng | Hội thoại. */
+export function lessonsTabs(active, navigate) {
+  return segmented(
+    [
+      ['words', 'Từ vựng'],
+      ['dialogues', 'Hội thoại'],
+    ],
+    active,
+    (v) => navigate(v === 'words' ? '#/lessons' : '#/dialogues'),
+    'Phần học',
+  );
+}
+
+/**
+ * Bảng nhỏ trượt lên từ dưới để tra nhanh một từ.
+ * info: {hanzi, py (mảng âm tiết hoặc chuỗi), vi?, en?, id?}
+ */
+export function wordPeek(info, store) {
+  document.querySelector('.sheet-wrap')?.remove();
+  const close = () => {
+    wrap.classList.add('closing');
+    setTimeout(() => wrap.remove(), 220);
+    document.removeEventListener('keydown', onKey);
+  };
+  const onKey = (e) => e.key === 'Escape' && close();
+  const py = Array.isArray(info.py) ? pinyinWord(info.py) : info.py ? pinyinSentence(info.py) : null;
+  const sheet = h(
+    'div',
+    { class: 'sheet', role: 'dialog', 'aria-modal': 'true', 'aria-label': `Nghĩa của ${info.hanzi}` },
+    h('div', { class: 'sheet-head' }, h('div', null, zh(info.hanzi, 'sheet-hz'), h('div', { class: 'sheet-py' }, py, info.level ? h('span', { class: 'badge-soft badge-gray' }, `HSK ${info.level}`) : null)), speakButton(info.hanzi, store)),
+    h('div', { class: 'mrows' }, info.vi ? meaningRow('VI', info.vi, { class: 'vi' }) : null, info.en ? meaningRow('EN', info.en, { lang: 'en' }) : null, !info.vi && !info.en ? h('p', { class: 'small muted' }, 'Chưa có nghĩa của từ này trong từ điển của app.') : null),
+    h('div', { class: 'sheet-actions' }, info.id ? h('a', { class: 'btn btn-secondary btn-sm', href: `#/word/${info.id}`, onclick: close }, 'Xem chi tiết từ') : null, h('button', { type: 'button', class: 'btn btn-primary btn-sm', onclick: close }, 'Đóng')),
+  );
+  const wrap = h('div', { class: 'sheet-wrap' }, h('div', { class: 'sheet-backdrop', onclick: close }), sheet);
+  document.body.append(wrap);
+  document.addEventListener('keydown', onKey);
+  sheet.querySelector('.btn-primary').focus({ preventScroll: true });
+  return close;
 }

@@ -84,6 +84,9 @@ await step('bài học: đổi cấp, tìm theo pinyin không dấu', async () =
   await page.waitForTimeout(300);
   const hsk4 = await page.locator('.row-link').count();
   assert.ok(hsk4 >= 50, `HSK 4 có ${hsk4} bài`);
+  await page.getByRole('radio', { name: 'HSK 5' }).click();
+  await page.waitForTimeout(300);
+  assert.ok((await page.locator('.row-link').count()) >= 100, 'HSK 5 thiếu bài');
   await noSideScroll(page, 'bài học');
   await shot(page, '02-lessons');
   const target = raw.words.find((w) => w.hanzi.length === 2 && /[ǖǘǚǜü]/.test(w.py.join('')));
@@ -167,7 +170,7 @@ await step('kiểm tra nhanh: 10 câu, có phản hồi và tổng kết', async
 
 async function writeCurrentChar(pg, input = 'mouse') {
   const ch = await pg.evaluate(() => document.querySelector('.ww-hz .on').textContent);
-  const bucket = JSON.parse(await readFile(new URL(`data/strokes/${(ch.codePointAt(0) % 64).toString(16).padStart(2, '0')}.json`, ROOT), 'utf8'));
+  const bucket = JSON.parse(await readFile(new URL(`data/strokes/${(ch.codePointAt(0) % 128).toString(16).padStart(2, '0')}.json`, ROOT), 'utf8'));
   const { medians } = bucket[ch];
   const svg = pg.locator('.hw svg').first();
   const box = await svg.boundingBox();
@@ -239,6 +242,93 @@ await step('luyện viết: xem nét, tự viết từng nét bằng chuột, đ
   const status = await page.locator('.write-status').innerText();
   assert.match(status, /Sai:\s*1/);
   await shot(page, '12-write-trace');
+});
+
+const dialogues = JSON.parse(await readFile(new URL('data/dialogues.json', ROOT), 'utf8')).dialogues;
+
+/** Đáp án điền từ theo đúng cách màn hình chọn chỗ trống (mỗi từ một lần, chỗ xuất hiện đầu tiên). */
+function clozeAnswers(d) {
+  const targets = d.words.map((id) => raw.words.find((w) => w.id === id)).sort((a, b) => b.hanzi.length - a.hanzi.length);
+  const used = new Set();
+  const out = [];
+  for (const line of d.lines) {
+    let rest = line.zh;
+    while (rest) {
+      let best = null;
+      for (const w of targets) {
+        if (used.has(w.id)) continue;
+        const i = rest.indexOf(w.hanzi);
+        if (i >= 0 && (!best || i < best.i)) best = { i, w };
+      }
+      if (!best) break;
+      used.add(best.w.id);
+      out.push(best.w.hanzi);
+      rest = rest.slice(best.i + best.w.hanzi.length);
+    }
+  }
+  return out;
+}
+
+await step('hội thoại theo bài: đọc, tra từ, nhập vai, điền từ đúng hết', async () => {
+  const d = dialogues[0];
+  await go(page, '#/dialogues');
+  await page.getByRole('radio', { name: `HSK ${d.level}` }).click();
+  await page.waitForSelector(`a[href="#/dialogue/${d.id}"]`);
+  await noSideScroll(page, 'danh sách hội thoại');
+  await shot(page, '18-dialogues');
+  await page.click(`a[href="#/dialogue/${d.id}"]`);
+  await page.waitForSelector('.bubble');
+  assert.equal(await page.locator('.chat .bubble').count(), d.lines.length);
+  await page.locator('.wtap.hl').first().click();
+  await page.waitForSelector('.sheet');
+  await page.keyboard.press('Escape');
+  await page.waitForTimeout(300);
+  await noSideScroll(page, 'hội thoại');
+  await shot(page, '19-dialogue-read');
+  await page.getByRole('radio', { name: 'Nhập vai' }).click();
+  for (let i = 0; i < 30; i++) {
+    const b = page.locator('.role-controls .btn').first();
+    if (/Xong/.test(await b.innerText())) {
+      await b.click();
+      break;
+    }
+    await b.click();
+    await page.waitForTimeout(80);
+  }
+  await page.waitForSelector('.role-controls >> text=Đổi vai');
+  await page.getByRole('radio', { name: 'Điền từ' }).click();
+  await page.waitForSelector('.blank-slot');
+  const answers = clozeAnswers(d);
+  assert.equal(await page.locator('.blank-slot').count(), answers.length);
+  for (let i = 0; i < answers.length; i++) {
+    await page.locator('.blank-slot').nth(i).click();
+    await page.locator('.bank-chip', { hasText: answers[i] }).first().click();
+  }
+  await shot(page, '19b-dialogue-cloze');
+  await page.getByRole('button', { name: 'Chấm điểm' }).click();
+  await page.waitForSelector('.feedback.ok');
+  assert.match(await page.locator('.feedback').innerText(), new RegExp(`Đúng ${answers.length}/${answers.length}`));
+  // tiến độ được lưu sau một nhịp ngắn
+  await page.waitForFunction((id) => JSON.parse(localStorage.getItem('tamngu:v1') || '{}').dialogues?.[id]?.best === 1, d.id, { timeout: 3000 });
+});
+
+await step('hội thoại tự nhập: dán từ sách, tự thêm pinyin, đọc, xóa', async () => {
+  await go(page, '#/mine/new');
+  await page.fill('#mine-title', 'Bài thử');
+  await page.fill('#mine-text', '小林：你好，好久不见！最近忙什么呢？ | Chào bạn, lâu quá không gặp!\n大卫：我在准备考试，每天都要复习到很晚。\n小林：别太累了，一起去喝杯咖啡吧。');
+  await page.waitForFunction(() => document.querySelectorAll('.preview .b-py').length === 3);
+  await shot(page, '19c-mine-edit');
+  await page.getByRole('button', { name: 'Lưu' }).click();
+  await page.waitForSelector('.chat .bubble');
+  const py = (await page.locator('.b-py').allInnerTexts()).join(' ');
+  assert.match(py, /Nǐ hǎo/);
+  assert.match(py, /lèi/);
+  assert.match(py, /fùxí/);
+  await shot(page, '19d-mine-read');
+  await page.click('a[aria-label="Sửa hội thoại"]');
+  await page.getByRole('button', { name: 'Xóa hội thoại này' }).click();
+  await page.getByRole('button', { name: 'Xóa', exact: true }).click();
+  await page.waitForSelector('.mine-empty');
 });
 
 await step('luyện viết: màn chọn chữ có các tab', async () => {
@@ -407,7 +497,7 @@ const narrow = await open({ width: 360, height: 740, reducedMotion: 'reduce' });
 await step('màn 360px không bị tràn ngang ở mọi trang', async () => {
   await narrow.page.goto(BASE);
   await narrow.page.waitForSelector('.hero');
-  for (const hash of ['#/', '#/lessons', `#/lesson/${firstLesson.id}`, `#/word/${firstWord.id}`, '#/review', '#/quiz', '#/write', `#/write/word/${firstWord.id}`, '#/stats', '#/settings']) {
+  for (const hash of ['#/', '#/lessons', '#/dialogues', `#/dialogue/${dialogues[0].id}`, '#/mine/new', `#/lesson/${firstLesson.id}`, `#/word/${firstWord.id}`, '#/review', '#/quiz', '#/write', `#/write/word/${firstWord.id}`, '#/stats', '#/settings']) {
     await go(narrow.page, hash);
     await narrow.page.waitForTimeout(250);
     await noSideScroll(narrow.page, hash);

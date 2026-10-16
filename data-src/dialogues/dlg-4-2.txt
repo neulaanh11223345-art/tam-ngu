@@ -1,0 +1,199 @@
+## 4-shop-2
+title: 买三送一 | Mua ba tặng một | Buy three, get one free
+scene: Ở quầy bán tất trong một trung tâm thương mại, David hỏi chuyện cô nhân viên bán hàng. | At the sock counter of a department store, David talks with a salesperson.
+cast: 大卫, 售货员
+大卫: 你好，刚才那位售货员说，今天袜子买三送一，是吗？ | Chào em, bạn nhân viên bán hàng lúc nãy bảo hôm nay tất mua ba tặng một, đúng không? | Hi, the salesperson I talked to earlier said socks are buy three, get one free today. Is that right?
+售货员: 是的，这款是今年市场上卖得最好的，质量也特别好。 | Dạ đúng ạ, mẫu này bán chạy nhất trên thị trường năm nay, chất lượng cũng rất tốt. | Yes. This style is the best seller on the market this year, and the quality is excellent too.
+大卫: 那我拿四双吧，这样能省不少钱。 | Vậy anh lấy bốn đôi, như thế tiết kiệm được kha khá. | Then I'll take four pairs. That way I'll save quite a bit.
+售货员: 好的，一共九十块人民币，等于有一双是免费的。 | Vâng, tổng cộng chín mươi nhân dân tệ, coi như được miễn phí một đôi. | Sure. That's ninety yuan in total, so one pair is basically free.
+大卫: 我现金不够，可以用信用卡吗？ | Anh không đủ tiền mặt, trả bằng thẻ tín dụng được không em? | I don't have enough cash. Can I pay by credit card?
+售货员: 可以，您到那边收银台付就行。需要塑料袋吗？ | Được ạ, anh ra quầy thu ngân bên kia thanh toán là được. Anh có cần túi ni-lông không ạ? | Yes, just pay at the checkout over there. Do you need a plastic bag?
+大卫: 塑料袋要钱吗？要钱的话就算了。 | Túi ni-lông có mất tiền không? Mất tiền thì thôi vậy. | Do plastic bags cost money? If they do, never mind.
+售货员: 一个两毛钱。袜子不多，您直接放包里也可以。 | Hai hào một cái ạ. Tất cũng không nhiều, anh cho thẳng vào túi xách cũng được. | It's twenty fen each. It's only a few socks, so you could just put them in your bag.
+大卫: 好，那就不要了，谢谢你！ | Ừ, vậy anh không lấy túi nữa, cảm ơn em nhé! | Okay, I'll skip it then. Thank you!
+
+## 4-study-1
+title: 报名翻译班 | Đăng ký lớp phiên dịch | Signing up for a translation class
+scene: Trong thư viện trường, Tiểu Trương và Anna nói chuyện về kỳ nghỉ hè sắp tới. | In the school library, Xiao Zhang and Anna talk about the coming summer vacation.
+cast: 小张, 安娜
+小张: 安娜，马上就要放暑假了，你有什么计划？ | Anna, sắp được nghỉ hè rồi, bạn có dự định gì chưa? | Anna, summer vacation is almost here. Do you have any plans?
+安娜: 我想报名参加一个翻译班，毕业以后我想当翻译。 | Mình muốn đăng ký một lớp phiên dịch, tốt nghiệp xong mình muốn làm phiên dịch viên. | I want to sign up for a translation class. After I graduate, I'd like to be a translator.
+小张: 听说那个班要先考试，成绩合格才能参加。 | Nghe nói lớp đó phải thi trước, điểm đạt yêu cầu mới được vào học. | I heard there's a test first, and you can only join if your score is up to standard.
+安娜: 我知道，寒假我就开始准备了，可是有些练习找不到答案。 | Mình biết, từ kỳ nghỉ đông mình đã bắt đầu ôn rồi, nhưng có mấy bài tập mình không tìm được đáp án. | I know. I started preparing during the winter vacation, but I can't find the answers to some of the exercises.
+小张: 我姐姐是博士，以前教过翻译，有不少好方法，我帮你问问她。 | Chị gái mình là tiến sĩ, trước đây từng dạy dịch, có nhiều phương pháp hay lắm, để mình hỏi chị ấy giúp bạn. | My sister has a PhD and used to teach translation. She knows a lot of good methods, so I'll ask her for you.
+安娜: 太好了！对了，你那本汉英词典能借我用几天吗？ | Tuyệt quá! À này, cuốn từ điển Hán–Anh của bạn cho mình mượn mấy hôm được không? | Great! Oh, by the way, could I borrow your Chinese–English dictionary for a few days?
+小张: 词典在宿舍，明天给你。这个笔记本你先拿去，上面有我记的重点。 | Từ điển để ở ký túc xá, mai mình đưa. Cuốn sổ này bạn cầm về trước đi, trong đó có những ý chính mình ghi lại. | The dictionary's in my dorm, so I'll give it to you tomorrow. Take this notebook for now; it has the key points I wrote down.
+安娜: 谢谢你！等我考试合格了，一定请你吃饭！ | Cảm ơn bạn nhé! Đợi mình thi đạt, nhất định mình sẽ mời bạn đi ăn! | Thank you! Once I pass the test, I'll definitely treat you to a meal!
+
+## 4-study-2
+title: 用汉语写日记 | Viết nhật ký bằng tiếng Trung | Keeping a diary in Chinese
+scene: Trong văn phòng khoa, thầy Trương trò chuyện với David, một du học sinh. | In the department office, Teacher Zhang chats with David, an international student.
+cast: 张老师, 大卫
+张老师: 大卫，你来中国留学才一年，汉语就说得这么流利了！ | David, em sang Trung Quốc du học mới một năm mà đã nói tiếng Trung lưu loát thế này rồi! | David, you've only been studying in China for a year, and your Chinese is already so fluent!
+大卫: 谢谢老师！我每天都用汉语写日记，慢慢积累了不少词语。 | Em cảm ơn thầy! Ngày nào em cũng viết nhật ký bằng tiếng Trung, dần dần tích lũy được khá nhiều từ ngữ. | Thank you! I write a diary in Chinese every day, and little by little I've built up quite a lot of vocabulary.
+张老师: 这个办法很科学。你的日记一般都写些什么内容？ | Cách này rất khoa học. Nhật ký của em thường viết những nội dung gì? | That's a very scientific method. What do you usually write about in your diary?
+大卫: 什么都写，比如上了什么课、认识了哪些新朋友。 | Em viết đủ thứ, ví dụ hôm đó học những môn gì, quen thêm những bạn mới nào. | All sorts of things, like what classes I had and which new friends I made.
+张老师: 难怪你的基础这么好。明年有什么打算？ | Thảo nào nền tảng của em tốt như vậy. Năm sau em có dự định gì? | No wonder your foundation is so good. What are your plans for next year?
+大卫: 我想在这儿读教育专业的硕士，以后回国当汉语老师。 | Em muốn học thạc sĩ ngành giáo dục ở đây, sau này về nước làm giáo viên tiếng Trung. | I'd like to do a master's in education here, and later go back home to teach Chinese.
+张老师: 好啊！我们学院有位教授就是研究语言教育的，我帮你介绍。 | Hay đấy! Khoa mình có một giáo sư chuyên nghiên cứu giáo dục ngôn ngữ, thầy sẽ giới thiệu cho em. | Great! There's a professor in our school who specializes in language education. I'll introduce you.
+大卫: 太感谢您了！不知道入学考试难不难？ | Em cảm ơn thầy nhiều lắm! Không biết kỳ thi đầu vào có khó không ạ? | Thank you so much! I wonder whether the entrance exam is difficult?
+张老师: 不算太难，题目大多是阅读和填空，多练练就没问题。 | Không khó lắm đâu, đề chủ yếu là đọc hiểu và điền vào chỗ trống, em luyện nhiều là được. | Not too hard. It's mostly reading and fill-in-the-blank questions, so with some practice you'll be fine.
+
+## 4-study-3
+title: 课前预习 | Chuẩn bị bài trước giờ học | Previewing before class
+scene: Ở quán cà phê, Tiểu Vương giúp Anna học tiếng Trung. | At a café, Xiao Wang helps Anna with her Chinese.
+cast: 安娜, 小王
+安娜: 小王，谢谢你来帮我！听说你是研究生，学什么专业的？ | Tiểu Vương, cảm ơn bạn đã đến giúp mình! Nghe nói bạn là học viên cao học, bạn học chuyên ngành gì thế? | Xiao Wang, thanks for coming to help me! I heard you're a graduate student. What's your major?
+小王: 我是学对外汉语的，教你中文正合适。 | Mình học ngành dạy tiếng Trung cho người nước ngoài, dạy bạn tiếng Trung là hợp nhất rồi. | I study teaching Chinese as a foreign language, so I'm just the right person to teach you Chinese.
+安娜: 太好了！明天老师要讲一篇文章，我预习了半天还是看不太懂。 | Tốt quá! Mai giáo viên sẽ giảng một bài văn, mình chuẩn bị bài cả buổi mà vẫn chưa hiểu lắm. | Great! Tomorrow the teacher is going over an article. I spent ages previewing it, but I still don't really understand it.
+小王: 我看看……这篇文章介绍了一些文化知识，重点是两个新语法点。 | Để mình xem… Bài này giới thiệu một số kiến thức văn hóa, trọng điểm là hai điểm ngữ pháp mới. | Let me see... This article introduces some cultural knowledge, and the key points are two new grammar points.
+安娜: 生词我都查了，可是句子连起来就看不懂了。 | Từ mới mình tra hết rồi, nhưng ghép thành câu là lại không hiểu. | I've looked up all the new words, but once they're put together into sentences, I can't understand them.
+小王: 阅读的时候别一个字一个字地看，先抓住大概意思。 | Khi đọc đừng xem từng chữ một, trước hết hãy nắm lấy ý chính. | When you read, don't go word by word. First grasp the general meaning.
+安娜: 可是这样，我总怕漏掉重要的地方。 | Nhưng làm vậy mình cứ sợ bỏ sót những chỗ quan trọng. | But if I do that, I'm always afraid of missing something important.
+小王: 别担心，学语言就得慢慢来，读多了自然就能看懂了。 | Đừng lo, học ngôn ngữ phải từ từ, đọc nhiều rồi tự nhiên sẽ hiểu thôi. | Don't worry. Learning a language takes time; read enough and you'll naturally understand.
+
+## 4-work-1
+title: 出差之前 | Trước chuyến công tác | Before the business trip
+scene: Trong văn phòng, giám đốc Vương dặn thư ký chuẩn bị cho chuyến công tác. | In the office, Manager Wang asks his secretary to get things ready for a business trip.
+cast: 王经理, 秘书
+王经理: 明天我要去上海出差，你帮我安排一下，好吗？ | Mai anh đi công tác Thượng Hải, em sắp xếp giúp anh nhé? | I'm going on a business trip to Shanghai tomorrow. Could you make the arrangements for me?
+秘书: 好的，机票和酒店我已经订好了，下午把行程发给您。 | Dạ vâng, vé máy bay với khách sạn em đặt xong rồi, chiều nay em gửi lịch trình cho anh. | Sure. I've already booked your flight and hotel. I'll send you the itinerary this afternoon.
+王经理: 开会用的材料都打印好了吗？ | Tài liệu cho cuộc họp in xong hết chưa em? | Have all the materials for the meeting been printed?
+秘书: 打印好了，一共二十份，市场调查的结果也放进去了。 | Dạ in xong rồi ạ, tổng cộng hai mươi bộ, em cũng cho cả kết quả khảo sát thị trường vào rồi. | Yes, twenty copies in all, and I've put the market survey results in too.
+王经理: 很好。对方要的那张表格，你发传真过去了吗？ | Tốt lắm. Cái biểu mẫu bên kia cần, em đã gửi fax qua chưa? | Good. Did you fax over the form they wanted?
+秘书: 已经发了。对方说，法律方面还有几个问题要再谈谈。 | Em gửi rồi ạ. Bên đó nói về mặt pháp luật vẫn còn vài vấn đề cần bàn thêm. | I sent it. They said there are still a few legal issues to talk over.
+王经理: 没关系，这次我代表公司去谈，到时候当面说清楚。 | Không sao, lần này anh thay mặt công ty đi đàm phán, đến lúc đó sẽ nói rõ trực tiếp. | That's fine. I'm going to negotiate on behalf of the company this time, so we'll sort it out face to face.
+秘书: 这次合作对公司的发展很重要，祝您谈判成功！ | Lần hợp tác này rất quan trọng cho sự phát triển của công ty, chúc anh đàm phán thành công! | This partnership matters a lot for the company's development. I hope the negotiations are a success!
+
+## 4-work-2
+title: 上班第一天 | Ngày đầu đi làm | First day at work
+scene: Trong văn phòng, Tiểu Trương hướng dẫn Tiểu Lưu, nhân viên mới đến. | In the office, Xiao Zhang shows Xiao Liu, a new employee, the ropes.
+cast: 小刘, 小张
+小刘: 小张，今天是我第一天上班，有什么要注意的吗？ | Anh Tiểu Trương ơi, hôm nay là ngày đầu tiên em đi làm, có gì em cần chú ý không ạ? | Xiao Zhang, it's my first day at work. Is there anything I should pay attention to?
+小张: 欢迎欢迎！咱们部门负责公司的广告，去年还获得过国际大奖呢。 | Chào mừng em! Phòng mình phụ trách mảng quảng cáo của công ty, năm ngoái còn giành được một giải thưởng quốc tế lớn đấy. | Welcome! Our department is in charge of the company's advertising. Last year we even won a big international award.
+小刘: 真厉害！对了，我想复印几份资料，复印机能直接用吗？ | Giỏi thật đấy! À, em muốn photo mấy bản tài liệu, máy photo có dùng luôn được không anh? | Impressive! Oh, I want to photocopy a few documents. Can I just use the copier?
+小张: 公司规定，复印前要先登记。这儿管理得挺严的。 | Công ty quy định trước khi photo phải đăng ký trước. Ở đây quản lý khá chặt đấy. | Company rules say you have to sign in before you photocopy anything. Management here is pretty strict.
+小刘: 明白了。做设计用的工具，电脑里都装好了吗？ | Em hiểu rồi. Các công cụ để làm thiết kế đã cài sẵn trong máy tính hết chưa anh? | Got it. Are the design tools all installed on the computer?
+小张: 都装好了，不会用的话随时问我。 | Cài hết rồi, có gì không biết dùng thì cứ hỏi anh bất cứ lúc nào. | They're all installed. If you don't know how to use something, just ask me anytime.
+小刘: 谢谢！听说咱们每个月十五号发工资，是吗？ | Em cảm ơn anh! Nghe nói công ty mình phát lương vào ngày mười lăm hằng tháng, phải không anh? | Thanks! I heard we get paid on the fifteenth of every month. Is that right?
+小张: 对。下周经理会把新广告的计划发给你，你先跟着我熟悉整个过程。 | Đúng rồi. Tuần sau quản lý sẽ gửi kế hoạch quảng cáo mới cho em, giờ em cứ theo anh làm quen với toàn bộ quy trình đã. | Yes. Next week the manager will send you the plan for the new ad. For now, follow me and get to know the whole process.
+
+## 4-work-3
+title: 又加班了 | Lại tăng ca rồi | Overtime again
+scene: Buổi tối ở nhà, người vợ làm phóng viên đi làm về muộn, chồng hỏi han. | One evening at home, a husband talks with his wife, a journalist, who has come home late.
+cast: 丈夫, 妻子
+丈夫: 怎么这么晚才回来？今天又加班了？ | Sao giờ này em mới về? Hôm nay lại tăng ca à? | Why are you home so late? Did you work overtime again today?
+妻子: 是啊，市里举办新技术展览会，我们记者都忙坏了。 | Vâng, thành phố tổ chức triển lãm công nghệ mới, cánh phóng viên bọn em bận tối mắt tối mũi. | Yes. The city held a new technology exhibition, and all of us journalists were run off our feet.
+丈夫: 人一定很多吧？ | Chắc là đông người lắm nhỉ? | There must have been a lot of people, right?
+妻子: 多极了！门口禁止停车，好几个警察在那儿指挥交通。 | Đông kinh khủng! Trước cổng cấm đỗ xe, mấy anh cảnh sát đứng đó điều khiển giao thông. | Packed! Parking was banned at the entrance, and several police officers were there directing traffic.
+丈夫: 你这么辛苦，年底的奖金应该不少吧？ | Em vất vả thế này, tiền thưởng cuối năm chắc không ít đâu nhỉ? | You work so hard, so your year-end bonus should be pretty generous, right?
+妻子: 难说。今年经济不太好，报社之间的竞争也越来越厉害。 | Khó nói lắm. Năm nay kinh tế không khá lắm, cạnh tranh giữa các tòa soạn cũng ngày càng gay gắt. | Hard to say. The economy isn't doing great this year, and competition between newspapers keeps getting fiercer.
+丈夫: 别担心，你有这么多年的经验，领导心里有数。 | Đừng lo, em có bao nhiêu năm kinh nghiệm như thế, lãnh đạo đều biết cả mà. | Don't worry. You've got so many years of experience, and your bosses know it.
+妻子: 还是你们当律师的好，每天都能准时下班。 | Vẫn là làm luật sư như các anh sướng, ngày nào cũng tan làm đúng giờ. | You lawyers have it better. You get off work on time every day.
+丈夫: 哪有！明天我要去法院，今晚还得看材料呢。 | Làm gì có! Mai anh phải ra tòa, tối nay còn phải đọc hồ sơ đây này. | Hardly! I have to be in court tomorrow, and I still have to go through the case files tonight.
+
+## 4-work-4
+title: 网上申请 | Nộp đơn trên mạng | Applying online
+scene: Buổi tối ở nhà, người bố thấy con gái đang ngồi làm đơn đăng ký trên máy tính. | One evening at home, a father sees his daughter filling in an application on the computer.
+cast: 爸爸, 女儿
+爸爸: 都这么晚了，还在电脑前忙什么呢？ | Muộn thế này rồi, con còn ngồi máy tính làm gì thế? | It's so late. What are you still doing at the computer?
+女儿: 我在申请暑假的社会实践，可是登录密码忘了，急死我了！ | Con đang nộp đơn tham gia hoạt động thực tế xã hội dịp hè, mà lại quên mật khẩu đăng nhập, sốt ruột chết mất! | I'm applying for a summer social-practice program, but I've forgotten my login password. It's driving me crazy!
+爸爸: 别着急，可以重新设一个密码。参加这个活动有什么条件？ | Đừng cuống, có thể đặt lại mật khẩu mà. Tham gia hoạt động này cần điều kiện gì? | Don't panic, you can reset the password. What are the requirements for this program?
+女儿: 条件不高，主要看能力。他们提供吃住，不过没有收入。 | Điều kiện không cao, chủ yếu là xem năng lực. Bên đó cung cấp chỗ ăn ở, nhưng không có thu nhập. | The requirements aren't high; it mainly depends on ability. They provide food and lodging, but there's no income.
+爸爸: 没收入也没关系。你参加的目的是什么？ | Không có thu nhập cũng không sao. Con tham gia với mục đích gì? | No income is fine. What's your purpose in taking part?
+女儿: 我想多接触一下社会，锻炼自己。任务是去农村教孩子们读书。 | Con muốn tiếp xúc với xã hội nhiều hơn, rèn luyện bản thân. Nhiệm vụ là về nông thôn dạy các em nhỏ học. | I want to see more of society and challenge myself. The task is to go to the countryside and teach children.
+爸爸: 这个想法不错！要是申请失败了呢？ | Ý tưởng hay đấy! Thế nếu nộp đơn không thành công thì sao? | That's a good idea! But what if your application fails?
+女儿: 失败了就明年再试。不过面试那天有课，我得先跟老师请假。 | Không thành công thì sang năm con thử lại. Nhưng hôm phỏng vấn con có tiết học, con phải xin phép giáo viên nghỉ trước đã. | If it fails, I'll try again next year. But I have class on the day of the interview, so I need to ask my teacher for leave first.
+
+## 4-work-5
+title: 招不到人 | Không tuyển được người | Can't find workers
+scene: Trong văn phòng một xưởng sản xuất nhỏ, ông chủ bàn chuyện tuyển người với Tiểu Lưu. | In the office of a small factory, the boss discusses hiring with Xiao Liu.
+cast: 老板, 小刘
+老板: 小刘，上个月在网站上招聘，效果怎么样？ | Tiểu Lưu, tháng trước mình đăng tuyển dụng trên trang web, hiệu quả thế nào rồi? | Xiao Liu, how did last month's recruiting on the website go?
+小刘: 不太好，只来了三个人，都没做过制造方面的工作。 | Không tốt lắm sếp ạ, chỉ có ba người đến, mà đều chưa từng làm công việc sản xuất. | Not great. Only three people came, and none of them had worked in manufacturing.
+老板: 是不是我们对年龄的限制太严了？ | Có phải mình giới hạn độ tuổi chặt quá không? | Are our age limits too strict?
+小刘: 有一点儿。另外，现在不少年轻人不愿意选工人这个职业。 | Cũng có phần đó ạ. Ngoài ra, bây giờ nhiều bạn trẻ không muốn chọn nghề công nhân. | A little. Also, these days a lot of young people don't want to take up factory work as an occupation.
+老板: 唉，做生意这么多年，我发现找对人比赚钱还难。 | Haizz, làm ăn bao nhiêu năm nay, anh thấy tìm được đúng người còn khó hơn kiếm tiền. | Sigh. After all these years in business, I've found that finding the right people is even harder than making money.
+小刘: 是啊。这份工作责任很大，得找个认真的人。 | Đúng vậy ạ. Công việc này trách nhiệm rất lớn, phải tìm người làm việc cẩn thận. | True. This job carries a lot of responsibility, so we need someone conscientious.
+老板: 那这样吧，年龄放宽到四十五岁，下周你再组织一次招聘会。 | Vậy thế này đi, nới độ tuổi lên bốn mươi lăm, tuần sau em tổ chức thêm một buổi tuyển dụng nữa. | Let's do this: raise the age limit to forty-five, and next week you organize another job fair.
+小刘: 好的。招聘会结束以后，我写个总结交给您。 | Vâng ạ. Buổi tuyển dụng xong, em sẽ viết bản tổng kết nộp sếp. | Okay. After the job fair, I'll write a summary and hand it to you.
+
+## 4-travel-1
+title: 明天去长城 | Ngày mai đi Vạn Lý Trường Thành | Off to the Great Wall tomorrow
+scene: Buổi tối ở sảnh khách sạn, chị hướng dẫn viên dặn David lịch trình mấy ngày tới. | In the hotel lobby one evening, the tour guide goes over the next few days' schedule with David.
+cast: 导游, 大卫
+导游: 大卫，明天我们乘坐大巴去长城，早上七点出发。 | David, ngày mai chúng ta đi xe khách lên Vạn Lý Trường Thành, bảy giờ sáng xuất phát. | David, tomorrow we're taking the coach to the Great Wall. We set off at seven in the morning.
+大卫: 导游，这么早啊？晚一点儿不行吗？ | Chị hướng dẫn viên ơi, sớm thế ạ? Muộn hơn một chút không được sao? | That early? Can't we leave a bit later?
+导游: 八点以后路上容易堵车，早点儿走能多参观一会儿。 | Sau tám giờ đường hay tắc, đi sớm thì được tham quan lâu hơn một chút. | After eight the roads get jammed easily. If we leave early, we'll have more time for sightseeing.
+大卫: 也对。听说秋天长城的风景特别美，我得多拍几张照片。 | Cũng đúng. Nghe nói mùa thu phong cảnh Vạn Lý Trường Thành đẹp lắm, tôi phải chụp thêm mấy tấm ảnh mới được. | Fair enough. I hear the scenery at the Great Wall is especially beautiful in autumn. I'll have to take plenty of photos.
+导游: 没错。后天上午你们代表团还要访问一所大学，别忘了。 | Đúng vậy. Sáng ngày kia đoàn đại biểu của anh còn đến thăm một trường đại học, anh đừng quên nhé. | Right. And don't forget, the morning after tomorrow your delegation is visiting a university.
+大卫: 忘不了。访问结束以后，我想去一趟大使馆，来得及吗？ | Không quên đâu. Sau buổi thăm, tôi muốn ghé đại sứ quán một chuyến, có kịp không? | I won't forget. After the visit, I'd like to stop by the embassy. Will there be time?
+导游: 您的航班是晚上几点的？ | Chuyến bay của anh là mấy giờ tối? | What time in the evening is your flight?
+大卫: 晚上九点，时间应该够吧。 | Chín giờ tối, chắc là đủ thời gian nhỉ. | Nine p.m., so there should be enough time, right?
+导游: 没问题，我给您安排一辆车，办完事直接送您去机场。 | Không vấn đề gì, tôi sẽ sắp xếp cho anh một chiếc xe, xong việc đưa anh thẳng ra sân bay. | No problem. I'll arrange a car for you, and once you're done it'll take you straight to the airport.
+
+## 4-travel-2
+title: 去机场的路上 | Trên đường ra sân bay | On the way to the airport
+scene: Trên taxi ra sân bay, người tài xế trò chuyện với Anna. | In a taxi on the way to the airport, the driver chats with Anna.
+cast: 司机, 安娜
+司机: 姑娘，你几点的飞机？前面我得去加油站加点儿油。 | Cháu ơi, máy bay của cháu mấy giờ? Phía trước chú phải ghé trạm xăng đổ ít xăng. | Miss, what time is your flight? I need to stop at the gas station up ahead to get some fuel.
+安娜: 十一点起飞。师傅，时间够吗？ | Mười một giờ cất cánh ạ. Chú ơi, có đủ thời gian không ạ? | It takes off at eleven. Will we have enough time?
+司机: 放心吧，现在交通挺顺的，半个小时就到。 | Yên tâm đi, bây giờ giao thông thông suốt lắm, nửa tiếng là tới. | Don't worry. Traffic's moving smoothly right now; we'll be there in half an hour.
+安娜: 那就好。哇，这座桥好长啊！ | Thế thì tốt rồi. Ôi, cây cầu này dài quá! | Good. Wow, this bridge is so long!
+司机: 桥下面就是长江。你来中国玩儿多久了？ | Dưới cầu chính là sông Trường Giang đấy. Cháu sang Trung Quốc chơi được bao lâu rồi? | That's the Yangtze River under the bridge. How long have you been traveling in China?
+安娜: 一个月了，在北京还爬了长城，可惜签证快到期了。 | Một tháng rồi ạ, cháu còn leo Vạn Lý Trường Thành ở Bắc Kinh nữa, tiếc là visa sắp hết hạn rồi. | A month. I even climbed the Great Wall in Beijing, but unfortunately my visa is about to expire.
+司机: 那下次再来！你的座位选好了吗？靠窗能看到长江。 | Vậy lần sau lại sang nhé! Cháu chọn chỗ ngồi chưa? Ngồi cạnh cửa sổ là nhìn thấy sông Trường Giang đấy. | Then come back next time! Have you picked your seat? From a window seat you can see the Yangtze.
+安娜: 早就在网上选好了，就是靠窗的！ | Cháu chọn trên mạng từ lâu rồi, đúng chỗ cạnh cửa sổ luôn ạ! | I picked it online ages ago, and it's a window seat!
+
+## 4-place-1
+title: 打电话租房 | Gọi điện thuê nhà | Phoning about a flat
+scene: Tiểu Vương gọi điện cho cô chủ nhà để hỏi về căn hộ cho thuê. | Xiao Wang phones a landlady to ask about a flat for rent.
+cast: 小王, 房东
+小王: 您好，我在网上看到您的房子要出租，能告诉我地址吗？ | Cháu chào cô, cháu thấy trên mạng cô có nhà cho thuê, cô cho cháu xin địa chỉ được không ạ? | Hello, I saw online that you have a flat for rent. Could you tell me the address?
+房东: 我一会儿把地址发给你。房子就在火车站对面，很好找。 | Lát nữa cô gửi địa chỉ cho cháu. Nhà ở ngay đối diện ga tàu hỏa, dễ tìm lắm. | I'll send you the address in a moment. The flat is right across from the train station, so it's very easy to find.
+小王: 我每天坐地铁上班，那儿距离地铁站有多远？ | Ngày nào cháu cũng đi tàu điện ngầm đi làm, chỗ đó cách ga tàu điện ngầm bao xa ạ? | I take the subway to work every day. How far is it from the subway station?
+房东: 很近，出门一直往右走，五分钟就到，不会走错方向的。 | Gần lắm, ra khỏi cửa cứ đi thẳng về bên phải, năm phút là tới, không đi nhầm hướng được đâu. | Very close. Go out the door and keep heading right; you'll be there in five minutes. You can't go the wrong way.
+小王: 太好了。附近吃饭方便吗？我不太会做饭。 | Tốt quá. Gần đó ăn uống có tiện không cô? Cháu không giỏi nấu ăn lắm. | Great. Is it easy to get food nearby? I'm not much of a cook.
+房东: 方便极了！周围到处都是小饭馆，当地的小吃也很有名。 | Tiện lắm! Xung quanh đâu đâu cũng có quán ăn nhỏ, đồ ăn vặt địa phương cũng rất nổi tiếng. | Very easy! There are little restaurants everywhere around there, and the local snacks are famous too.
+小王: 听起来不错！我月底就要搬家，什么时候能去看看房子？ | Nghe hay quá! Cuối tháng cháu phải chuyển nhà rồi, khi nào cháu đến xem nhà được ạ? | Sounds great! I have to move at the end of the month. When could I come and see the flat?
+房东: 明天下午吧，你到了楼下给我打电话。 | Chiều mai nhé, cháu đến dưới nhà thì gọi điện cho cô. | Tomorrow afternoon. Call me when you get downstairs.
+
+## 4-place-2
+title: 逛博物馆 | Đi tham quan bảo tàng | A trip to the museum
+scene: Một người mẹ đưa con trai đi bảo tàng ở Bắc Kinh. | A mother takes her son to a museum in Beijing.
+cast: 儿子, 妈妈
+儿子: 妈妈，博物馆的入口在哪儿？我怎么没看到？ | Mẹ ơi, lối vào bảo tàng ở đâu ạ? Sao con không thấy? | Mom, where's the museum entrance? How come I can't see it?
+妈妈: 往前走，过了那个红色的大门就是。 | Đi thẳng về phía trước, qua cái cổng lớn màu đỏ kia là tới. | Go straight ahead. It's just past that big red gate.
+儿子: 老师说这是亚洲最大的博物馆之一，是真的吗？ | Cô giáo bảo đây là một trong những bảo tàng lớn nhất châu Á, có thật không mẹ? | My teacher said this is one of the biggest museums in Asia. Is that true?
+妈妈: 是真的。北京是首都，好的博物馆特别多。 | Thật đấy con. Bắc Kinh là thủ đô mà, có rất nhiều bảo tàng hay. | Yes, it's true. Beijing is the capital, so it has lots of great museums.
+儿子: 我最想看农村生活的展览，爷爷小时候就住在农村。 | Con muốn xem nhất là triển lãm về cuộc sống nông thôn, hồi nhỏ ông nội sống ở nông thôn mà. | What I want to see most is the exhibition on country life. Grandpa lived in the countryside when he was little.
+妈妈: 在二楼。不过记住，馆内不能拍照。 | Ở tầng hai. Nhưng nhớ nhé, trong bảo tàng không được chụp ảnh. | It's on the second floor. But remember, no taking photos inside the museum.
+儿子: 知道了。看完以后，我们能在周围逛逛吗？ | Con biết rồi ạ. Xem xong mình đi dạo quanh đây được không mẹ? | Okay. After we're done, can we walk around the area?
+妈妈: 当然可以，旁边有条小街，我们去买点儿纪念品。 | Tất nhiên là được, bên cạnh có một con phố nhỏ, mình đi mua ít quà lưu niệm. | Of course. There's a little street next door; let's go buy some souvenirs.
+
+## 4-time-1
+title: 地铁出问题了 | Tàu điện ngầm gặp sự cố | The subway broke down
+scene: Buổi sáng ở công ty, Tiểu Lý hớt hải chạy vào, Tiểu Vương hỏi chuyện. | One morning at the office, Xiao Li rushes in, and Xiao Wang asks what happened.
+cast: 小王, 小李
+小王: 你怎么才来？经理刚刚还在找你呢。 | Sao giờ bạn mới đến? Quản lý vừa mới tìm bạn đấy. | Why are you only getting in now? The manager was looking for you just now.
+小李: 别提了！地铁出了问题，在车站停了半个小时。 | Đừng nhắc nữa! Tàu điện ngầm gặp sự cố, dừng ở ga nửa tiếng đồng hồ. | Don't ask! The subway had a problem and sat at a station for half an hour.
+小王: 难怪。你平时都按时到，我还以为你病了。 | Thảo nào. Bình thường bạn toàn đến đúng giờ, mình còn tưởng bạn bị ốm. | No wonder. You're usually on time, so I thought you might be sick.
+小李: 当时车上的人都急坏了，我也以为上午的会肯定来不及了。 | Lúc đó mọi người trên tàu sốt ruột lắm, mình cũng tưởng chắc chắn không kịp cuộc họp sáng nay rồi. | Everyone on the train was frantic at the time. I was sure I'd be too late for the morning meeting.
+小王: 那后来呢？你是怎么过来的？ | Thế sau đó thì sao? Bạn đến đây bằng cách nào? | So what happened after that? How did you get here?
+小李: 我出站打了辆出租车，幸亏司机开得快，才及时赶到。 | Mình ra khỏi ga bắt taxi, may mà tài xế lái nhanh nên mới đến kịp lúc. | I left the station and grabbed a taxi. Luckily the driver was quick, so I got here in time.
+小王: 别着急，会议十点才开始，现在还来得及。 | Đừng vội, mười giờ cuộc họp mới bắt đầu, bây giờ vẫn còn kịp. | Relax, the meeting doesn't start until ten. There's still time.
+小李: 那就好。地铁偶尔出一次问题也正常，偏偏是今天！ | Thế thì may quá. Tàu điện thỉnh thoảng trục trặc một lần cũng bình thường, thế mà lại đúng vào hôm nay! | That's a relief. The subway breaking down once in a while is normal, but why did it have to be today?
+小王: 哈哈，看来将来你得自己买辆车了。 | Haha, xem ra sau này bạn phải tự mua một chiếc ô tô rồi. | Haha, looks like you'll have to buy your own car in the future.
+
+## 4-time-2
+title: 金婚纪念日 | Kỷ niệm đám cưới vàng | Golden wedding anniversary
+scene: Ở nhà, ông bà nói chuyện về bữa tiệc kỷ niệm ngày cưới mà các con chuẩn bị. | At home, Grandpa and Grandma chat about the anniversary dinner their children have planned.
+cast: 奶奶, 爷爷
+奶奶: 老头子，儿子刚来电话，说晚饭推迟到七点半。 | Ông nó ơi, con trai vừa gọi điện, bảo bữa tối hoãn đến bảy rưỡi. | Dear, our son just called. He says dinner's been pushed back to half past seven.
+爷爷: 年轻人工作忙，往往很晚才下班，没办法。 | Bọn trẻ bận việc, thường phải muộn lắm mới tan làm, biết làm sao được. | Young people are busy with work. They often don't finish until late, and there's nothing we can do about it.
+奶奶: 他说饭店是提前订好的，让我们别着急。 | Nó bảo nhà hàng đã đặt trước rồi, bảo mình đừng sốt ruột. | He said the restaurant was booked in advance, so we shouldn't worry.
+爷爷: 是那家新开的饭店吗？听说装修得特别现代。 | Có phải cái nhà hàng mới mở kia không? Nghe nói trang trí hiện đại lắm. | Is it that newly opened restaurant? I hear it's decorated in a very modern style.
+奶奶: 对。孩子们还准备了礼物，不过暂时不告诉我们。 | Đúng rồi. Các con còn chuẩn bị quà nữa, nhưng tạm thời chưa cho mình biết. | That's the one. The kids have prepared a present too, but they're not telling us what it is for now.
+爷爷: 一转眼，咱们结婚五十年了，那还是上个世纪的事呢。 | Thoáng cái mà mình đã cưới nhau năm mươi năm rồi, đó còn là chuyện từ thế kỷ trước đấy. | In the blink of an eye we've been married fifty years. That was back in the last century!
+奶奶: 我永远忘不了那天，你骑着自行车来接我。 | Tôi mãi mãi không quên được hôm ấy, ông đạp xe đạp đến đón tôi. | I'll never forget that day. You came to fetch me on a bicycle.
+爷爷: 哈哈，最后还差点儿迟到了！今天咱们可得准时到。 | Haha, cuối cùng còn suýt nữa thì đến muộn! Hôm nay mình phải đến đúng giờ đấy nhé. | Haha, and in the end I was almost late! Today we'd better be on time.

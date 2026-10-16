@@ -1,0 +1,205 @@
+## 5-shop-3
+title: 退一件外套 | Trả lại chiếc áo khoác | Returning a jacket
+scene: Một khách hàng mang áo khoác đến cửa hàng quần áo để trả lại. | A customer brings a jacket back to a clothing shop to return it.
+cast: 顾客, 售货员
+顾客: 你好，这件外套我想退，样式跟网上的图片不太一样。 | Chào em, chị muốn trả lại chiếc áo khoác này, kiểu dáng không giống lắm với ảnh trên mạng. | Hi, I'd like to return this jacket; the style isn't quite like the picture online.
+售货员: 没问题，请问您带收据了吗？ | Dạ được ạ, chị có mang theo biên lai không ạ? | No problem. Did you bring the receipt?
+顾客: 带了。我当时付的是现金，能退现金吗？ | Có đây. Lúc đó chị trả bằng tiền mặt, có hoàn lại tiền mặt được không em? | Yes, here it is. I paid in cash at the time; can I get the refund in cash?
+售货员: 可以。不过新到的几件正好有优惠，打八折，您要不要先看看？ | Được ạ. Nhưng mấy chiếc mới về đang có ưu đãi, giảm hai mươi phần trăm, chị có muốn xem qua trước không ạ? | Sure. But a few new arrivals are on offer at twenty percent off; would you like to have a look first?
+顾客: 这件灰色的样式不错。价格是不是又涨了？ | Chiếc màu xám này kiểu dáng đẹp đấy. Giá có phải lại tăng rồi không em? | This grey one has a nice design. Has the price gone up again?
+售货员: 没涨，原价五百，打完折正好四百。 | Dạ không tăng ạ, giá gốc năm trăm, giảm xong còn đúng bốn trăm. | No, it's five hundred originally, exactly four hundred after the discount.
+顾客: 那就换这件吧，麻烦你了。 | Vậy chị đổi sang chiếc này nhé, phiền em rồi. | Then I'll exchange it for this one. Sorry for the trouble.
+售货员: 好的。您那件四百零五，这件四百，找您五个一块的硬币。 | Dạ vâng. Chiếc của chị bốn trăm lẻ năm, chiếc này bốn trăm, em gửi lại chị năm đồng xu một tệ ạ. | All right. Yours was four hundred and five, this one is four hundred, so here are five one-yuan coins back.
+顾客: 谢谢！对了，你们晚上营业到几点？ | Cảm ơn em! À đúng rồi, buổi tối cửa hàng mở cửa đến mấy giờ? | Thanks! By the way, how late are you open in the evening?
+售货员: 我们每天营业到晚上十点，欢迎您再来！ | Ngày nào bọn em cũng mở cửa đến mười giờ tối, mời chị lần sau lại ghé ạ! | We're open until ten every evening. You're welcome to come again!
+
+## 5-econ-1
+title: 要不要贷款 | Có nên vay tiền không | To borrow or not
+scene: Tiểu Vương kể với Tiểu Lý về kế hoạch mở rộng xưởng trà của mình. | Xiao Wang tells Xiao Li about his plan to expand his tea workshop.
+cast: 小李, 小王
+小李: 听说你最近想去银行贷款，是要扩大工厂吗？ | Nghe nói dạo này cậu định vay ngân hàng, là để mở rộng xưởng à? | I hear you want to take out a bank loan. Is it to expand your factory?
+小王: 对，我们的茶叶产品出口到国外，订单越来越多了。 | Ừ, sản phẩm trà của bọn mình xuất khẩu ra nước ngoài, đơn hàng ngày càng nhiều. | Yes, our tea products are exported abroad, and orders keep growing.
+小李: 生意繁荣是好事，不过借这么多钱，风险也不小啊。 | Làm ăn thịnh vượng là chuyện tốt, nhưng vay nhiều tiền thế thì rủi ro cũng không nhỏ đâu. | Booming business is a good thing, but borrowing that much money is quite a risk.
+小王: 我知道，所以我先给工厂和机器都买了保险。 | Mình biết, nên mình đã mua bảo hiểm cho cả xưởng lẫn máy móc trước rồi. | I know, so I've already insured both the factory and the machines.
+小李: 这样比较保险。那你以前买的那些股票呢？ | Thế thì chắc ăn hơn. Còn mấy cổ phiếu cậu mua trước đây thì sao? | That's the safer way. And what about those stocks you bought before?
+小王: 早就卖了。家里的房子是我们唯一的财产，我可不敢乱冒险。 | Bán lâu rồi. Căn nhà là tài sản duy nhất của nhà mình, mình đâu dám liều bừa. | Sold them long ago. Our house is our only property, so I don't dare take wild risks.
+小李: 也对。现在网络这么发达，网上卖茶也方便多了。 | Cũng phải. Giờ mạng internet phát triển thế này, bán trà trên mạng cũng tiện hơn nhiều. | True. With the internet so developed now, selling tea online is much easier too.
+小王: 是啊，网上销售能促进出口，这也是我敢扩大规模的原因。 | Đúng thế, bán hàng trên mạng có thể thúc đẩy xuất khẩu, đó cũng là lý do mình dám mở rộng quy mô. | Exactly. Online sales can boost exports, which is also why I dare to scale up.
+
+## 5-econ-2
+title: 进口水果的合同 | Hợp đồng nhập khẩu trái cây | The fruit import contract
+scene: Tiểu Trương báo cáo với giám đốc Vương về hợp đồng với một công ty trái cây nước ngoài. | Xiao Zhang reports to Manager Wang on a contract with a foreign fruit company.
+cast: 王经理, 小张
+王经理: 小张，和那家水果公司的合同准备好了吗？ | Tiểu Trương, hợp đồng với công ty trái cây đó chuẩn bị xong chưa? | Xiao Zhang, is the contract with that fruit company ready?
+小张: 准备好了，就等您签字。这次我们从他们那儿进口三十吨水果。 | Xong rồi ạ, chỉ chờ anh ký thôi. Lần này chúng ta nhập khẩu ba mươi tấn trái cây từ bên họ. | It's ready, just waiting for your signature. This time we're importing thirty tons of fruit from them.
+王经理: 最近汇率变化很大，价格都算清楚了吗？ | Dạo này tỷ giá biến động lớn, giá cả đã tính kỹ hết chưa? | The exchange rate has been changing a lot lately. Have you worked out the prices carefully?
+小张: 算过了，就算汇率再变，我们的利润也有百分之十五左右。 | Tính rồi ạ, dù tỷ giá có biến động nữa thì lợi nhuận của mình cũng được khoảng mười lăm phần trăm. | Yes. Even if the rate changes again, our profit will still be around fifteen percent.
+王经理: 不错。他们公司规模大吗？经营多少年了？ | Tốt. Công ty họ quy mô có lớn không? Kinh doanh được bao nhiêu năm rồi? | Good. Is their company large? How many years have they been in business?
+小张: 规模不算大，不过已经经营了二十多年，一直做农业贸易。 | Quy mô không lớn lắm, nhưng đã kinh doanh hơn hai mươi năm, chuyên làm thương mại nông sản. | Not very big, but they've been operating for over twenty years, always in agricultural trade.
+王经理: 这样的老公司信得过。这次合作的价值不只是一笔生意。 | Công ty lâu năm như vậy thì đáng tin. Giá trị của lần hợp tác này không chỉ là một thương vụ. | An old company like that can be trusted. The value of this partnership goes beyond a single deal.
+小张: 我明白，以后还可以长期合作。 | Em hiểu ạ, sau này còn có thể hợp tác lâu dài. | I understand; we can work together long-term.
+王经理: 对。现在正是卖水果的黄金季节，下午就把合同送过去吧。 | Đúng vậy. Bây giờ đang là mùa vàng bán trái cây, chiều nay mang hợp đồng sang luôn nhé. | Right. It's the golden season for selling fruit, so take the contract over this afternoon.
+
+## 5-econ-3
+title: 谈判之后 | Sau cuộc đàm phán | After the negotiation
+scene: Giám đốc Vương vừa đàm phán xong với nhà cung cấp, một đồng nghiệp hỏi kết quả. | Manager Wang has just finished talks with a supplier, and a colleague asks how it went.
+cast: 同事, 王经理
+同事: 王经理，今天的谈判怎么样？对方愿意赔偿吗？ | Giám đốc Vương, cuộc đàm phán hôm nay thế nào ạ? Bên kia có chịu bồi thường không? | Manager Wang, how did today's negotiation go? Are they willing to compensate us?
+王经理: 愿意。他们承认是工厂生产出了问题，耽误了我们交货。 | Có. Họ thừa nhận khâu sản xuất ở nhà máy có vấn đề, làm chậm việc giao hàng của chúng ta. | Yes. They admitted there was a production problem at their factory that delayed our deliveries.
+同事: 那我们的损失能全部拿回来吗？ | Vậy tổn thất của chúng ta có lấy lại được hết không ạ? | So can we recover all our losses?
+王经理: 大部分吧。他们是家小企业，赔太多的话可能会破产。 | Phần lớn thôi. Họ là doanh nghiệp nhỏ, đền nhiều quá có khi phá sản mất. | Most of them. They're a small business; if they paid too much, they might go bankrupt.
+同事: 也是，大家都不容易。那新产品的推广还按原计划吗？ | Cũng phải, ai cũng khó khăn cả. Thế việc quảng bá sản phẩm mới vẫn theo kế hoạch cũ chứ ạ? | True, it's hard for everyone. Is the promotion of the new product still on the original schedule?
+王经理: 照常进行。另外，有一家公司想投资我们，下周见面谈。 | Vẫn tiến hành bình thường. Ngoài ra, có một công ty muốn đầu tư vào chúng ta, tuần sau gặp mặt nói chuyện. | It goes ahead as planned. Also, a company wants to invest in us; we're meeting next week.
+同事: 太好了！那我先让会计算一下今年要交多少税。 | Tuyệt quá! Vậy em nhờ kế toán tính trước xem năm nay phải nộp bao nhiêu thuế. | Great! Then I'll have the accountant work out how much tax we owe this year.
+王经理: 好。做商业就是这样，有损失也有机会。 | Được. Làm kinh doanh là thế, có tổn thất thì cũng có cơ hội. | Good. That's business: there are losses, but there are also opportunities.
+
+## 5-econ-4
+title: 资金有点儿紧 | Vốn hơi eo hẹp | Funds are a bit tight
+scene: Trong văn phòng, thư ký báo cho giám đốc Vương mấy việc cần giải quyết. | In the office, the secretary updates Manager Wang on several matters.
+cast: 秘书, 王经理
+秘书: 王经理，总裁请您下午三点去他办公室，谈这个季度的销售情况。 | Giám đốc Vương, tổng giám đốc mời anh ba giờ chiều đến văn phòng ông ấy để bàn về doanh số quý này. | Manager Wang, the CEO would like you in his office at three this afternoon to discuss this quarter's sales.
+王经理: 好。最近市场形势不太好，大家消费都比较谨慎。 | Được. Dạo này tình hình thị trường không tốt lắm, mọi người chi tiêu đều khá dè dặt. | All right. The market situation isn't great lately; people are being careful about spending.
+秘书: 是的，所以市场部建议加大宣传，在网上多做广告。 | Vâng, nên phòng thị trường đề nghị tăng cường quảng bá, quảng cáo nhiều hơn trên mạng. | Yes, so the marketing department suggests more publicity and more online ads.
+王经理: 可宣传要花钱，现在公司的资金有点儿紧张。 | Nhưng quảng bá thì tốn tiền, bây giờ vốn của công ty đang hơi eo hẹp. | But publicity costs money, and the company's funds are a bit tight right now.
+秘书: 对了，原料供应商来电话，说上个月的货款还没收到。 | À, nhà cung cấp nguyên liệu gọi điện, nói vẫn chưa nhận được tiền hàng tháng trước. | Oh, and the raw-material supplier called; they say they haven't received last month's payment.
+王经理: 我上周就开了支票寄过去了，你帮我查一下。 | Tuần trước tôi đã viết séc gửi qua rồi, em kiểm tra giúp tôi nhé. | I wrote a cheque and mailed it last week. Please check on it for me.
+秘书: 好的。他们还说以后不想通过中介了，想直接跟我们合作。 | Vâng ạ. Họ còn nói sau này không muốn qua trung gian nữa, muốn hợp tác trực tiếp với chúng ta. | Okay. They also said they'd rather not go through an agent anymore and want to deal with us directly.
+王经理: 那更好，能省下中介费。让他们把账户信息发给你吧。 | Thế càng tốt, tiết kiệm được phí môi giới. Bảo họ gửi thông tin tài khoản cho em nhé. | Even better, we'll save the agency fee. Ask them to send you their account details.
+
+## 5-study-1
+title: 明天要考成语 | Mai kiểm tra thành ngữ | An idiom quiz tomorrow
+scene: Buổi tối ở nhà, cô con gái học sinh trung học ôn bài với mẹ. | One evening at home, a middle-school girl reviews her lessons with her mother.
+cast: 女儿, 妈妈
+女儿: 妈妈，明天有语文测验，班主任让我们背二十个成语。 | Mẹ ơi, mai có bài kiểm tra ngữ văn, cô chủ nhiệm bắt bọn con học thuộc hai mươi thành ngữ. | Mom, there's a Chinese quiz tomorrow, and our homeroom teacher told us to memorize twenty idioms.
+妈妈: 二十个？你现在背了几个了？ | Hai mươi cái à? Giờ con thuộc được mấy cái rồi? | Twenty? How many have you learned so far?
+女儿: 才一半。我把每个都抄了五遍，还是记不住。 | Mới được một nửa. Con chép mỗi cái năm lần rồi mà vẫn không nhớ. | Only half. I copied each one out five times and still can't remember them.
+妈妈: 光抄没用，你可以参考书上的小故事，理解了就好记了。 | Chỉ chép thôi thì vô ích, con có thể tham khảo mấy câu chuyện nhỏ trong sách, hiểu rồi sẽ dễ nhớ. | Copying alone won't help. Look at the little stories in the book for reference; once you understand them, they're easy to remember.
+女儿: 对，很多成语里还有历史常识，挺有意思的。 | Đúng ạ, nhiều thành ngữ còn chứa kiến thức lịch sử phổ thông, khá thú vị. | Right, a lot of idioms contain bits of general history knowledge. They're quite interesting.
+妈妈: 我给你买的那本初级成语故事书呢？ | Quyển truyện thành ngữ sơ cấp mẹ mua cho con đâu rồi? | Where's that beginner's book of idiom stories I bought you?
+女儿: 在书包里，压在尺子下面。老师说写的时候标点也不能错。 | Trong cặp ạ, nằm dưới cái thước kẻ. Cô bảo khi viết thì dấu câu cũng không được sai. | In my school bag, under my ruler. The teacher says we can't get the punctuation wrong when we write them either.
+妈妈: 认真点儿。你哥哥念本科的时候，写文章常用成语，老师都夸他。 | Cẩn thận vào nhé. Hồi anh con học đại học, viết bài hay dùng thành ngữ, thầy cô ai cũng khen. | Be careful. When your brother was an undergraduate, he often used idioms in his writing, and his teachers all praised him.
+
+## 5-study-2
+title: 地理没及格 | Môn địa lý không qua | Failing geography
+scene: Một học sinh đến văn phòng gặp thầy Trương sau bài thi địa lý. | A student visits Teacher Zhang's office after a geography exam.
+cast: 学生, 张老师
+学生: 张老师，这次地理考试我又没及格，心里特别难受。 | Thầy Trương ơi, lần thi địa lý này em lại không đủ điểm, trong lòng buồn lắm ạ. | Mr. Zhang, I failed the geography exam again, and I feel terrible.
+张老师: 别灰心。我看了你的卷子，主要是几个基本概念没弄清楚。 | Đừng nản. Thầy xem bài của em rồi, chủ yếu là mấy khái niệm cơ bản em chưa nắm rõ. | Don't lose heart. I looked at your paper; mainly, you're unclear on a few basic concepts.
+学生: 是第三单元的内容吗？我看教材的时候总是记不住。 | Là nội dung phần thứ ba ạ? Lúc đọc giáo trình em toàn không nhớ được. | Is it the material in Unit Three? I can never remember it when I read the textbook.
+张老师: 对。你可以先把每课的结构画出来，再用自己的话概括一下。 | Đúng. Em có thể vẽ ra cấu trúc của từng bài trước, rồi dùng lời của mình tóm tắt lại. | Yes. Try drawing out the structure of each lesson first, then summarize it in your own words.
+学生: 好的。我上课有时候注意力不集中，老是走神。 | Vâng ạ. Trong giờ học em đôi khi không tập trung, hay bị lơ đãng. | Okay. Sometimes I can't concentrate in class and my mind wanders.
+张老师: 那以后每周三下午来我办公室，我给你辅导一个小时。 | Vậy từ giờ chiều thứ Tư hằng tuần em đến văn phòng thầy, thầy kèm em một tiếng. | Then come to my office every Wednesday afternoon, and I'll tutor you for an hour.
+学生: 太感谢您了！我会先把卷子上的错误都改正过来。 | Em cảm ơn thầy nhiều lắm! Em sẽ sửa hết các lỗi sai trong bài trước đã. | Thank you so much! First I'll correct all the mistakes on my paper.
+张老师: 好。另外，周五图书馆有个地理讲座，也推荐你去听听。 | Tốt. Ngoài ra, thứ Sáu thư viện có một buổi nói chuyện về địa lý, thầy cũng khuyên em đi nghe. | Good. Also, there's a geography lecture at the library on Friday; I recommend you go.
+
+## 5-study-3
+title: 被录取了 | Được nhận vào học rồi | Accepted at last
+scene: Tiểu Lý chúc mừng Anna vừa trúng tuyển cao học ở Bắc Kinh. | Xiao Li congratulates Anna on being accepted into a master's program in Beijing.
+cast: 小李, 安娜
+小李: 安娜，恭喜你被北京的大学录取了，要去读研究生了！ | Anna, chúc mừng cậu được một trường đại học ở Bắc Kinh nhận rồi, sắp đi học cao học rồi nhé! | Anna, congratulations on being admitted to a university in Beijing. You're going to grad school!
+安娜: 谢谢！这两年学汉语挺刻苦的，总算有点儿进步。 | Cảm ơn cậu! Hai năm nay mình học tiếng Trung khá chịu khó, cuối cùng cũng có chút tiến bộ. | Thanks! I've studied Chinese really hard these two years, and I've finally made some progress.
+小李: 你每天早上都念课文、听录音，我们都看在眼里。 | Sáng nào cậu cũng đọc bài khóa, nghe ghi âm, bọn mình đều thấy cả. | You read your lessons aloud and listened to recordings every morning; we all saw it.
+安娜: 可下学期的课程好像很难，理论课特别多。 | Nhưng chương trình học kỳ sau có vẻ khó lắm, môn lý thuyết rất nhiều. | But next semester's courses look tough, with lots of theory classes.
+小李: 理论要和实际结合起来才好懂，你可以多去公司实习。 | Lý thuyết phải kết hợp với thực tế thì mới dễ hiểu, cậu có thể đi thực tập ở công ty nhiều hơn. | Theory is easier to understand when you combine it with real practice; you could do more internships at companies.
+安娜: 好主意。导师还让我先读几篇论文，写写读后感。 | Ý hay đấy. Thầy hướng dẫn còn bảo mình đọc trước mấy bài báo khoa học rồi viết cảm nhận. | Good idea. My supervisor also wants me to read a few papers first and write my reflections.
+小李: 读书的时候，先看一遍目录，就知道哪部分最重要了。 | Khi đọc sách, cậu xem lướt mục lục trước là biết phần nào quan trọng nhất. | When you read a book, look through the table of contents first; then you'll know which parts matter most.
+安娜: 对。听说这个专业很重视培养学生的研究能力。 | Đúng. Nghe nói ngành này rất chú trọng bồi dưỡng năng lực nghiên cứu của sinh viên. | Right. I hear this program puts great emphasis on developing students' research skills.
+小李: 你那么努力，一定没问题，加油！ | Cậu chăm thế, chắc chắn không vấn đề gì đâu, cố lên! | You work so hard, you'll be fine. Go for it!
+
+## 5-study-4
+title: 演讲前一天晚上 | Đêm trước buổi thuyết trình | The night before the speech
+scene: Đêm khuya ở ký túc xá, Tiểu Vương thấy David vẫn đang chuẩn bị bài. | Late at night in the dorm, Xiao Wang finds David still preparing.
+cast: 小王, 大卫
+小王: 大卫，这么晚了还不睡，在宿舍里写什么呢？ | David, muộn thế này còn chưa ngủ, cậu đang viết gì trong ký túc xá thế? | David, it's so late and you're still up. What are you writing in the dorm?
+大卫: 明天口语课要演讲，我在写提纲。 | Mai lớp khẩu ngữ phải thuyết trình, mình đang viết dàn ý. | I have to give a speech in speaking class tomorrow, so I'm writing an outline.
+小王: 题目是什么？ | Đề tài là gì thế? | What's the topic?
+大卫: “我在中国的收获”。讲完以后，同学们还要提问。 | "Những điều tôi thu được ở Trung Quốc". Nói xong các bạn trong lớp còn đặt câu hỏi nữa. | "What I've gained in China." After I finish, my classmates will ask questions.
+小王: 你那么勤奋，肯定没问题。你的声调现在比以前准多了。 | Cậu chăm chỉ thế, chắc chắn không sao. Thanh điệu của cậu giờ chuẩn hơn trước nhiều rồi. | You're so diligent, you'll be fine. Your tones are much more accurate than before.
+大卫: 谢谢！不过上次的试卷上，老师说我的句子都太长了。 | Cảm ơn cậu! Nhưng ở bài thi lần trước, cô giáo bảo câu của mình đều dài quá. | Thanks! But on the last exam paper, the teacher said all my sentences were too long.
+小王: 说话的时候很多词可以省略，这个主要靠实践。 | Khi nói thì nhiều từ có thể lược bỏ, cái này chủ yếu dựa vào thực hành. | When speaking, lots of words can be left out. That mainly comes with practice.
+大卫: 是啊。来中国以后接触了很多新事物，我都想写进去。 | Đúng thế. Từ khi đến Trung Quốc mình đã tiếp xúc với rất nhiều sự vật mới, mình muốn viết hết vào. | True. Since coming to China I've encountered so many new things, and I want to put them all in.
+小王: 别写太多，挑两三件最有意思的就够了。 | Đừng viết nhiều quá, chọn hai ba chuyện thú vị nhất là đủ rồi. | Don't write too much; pick the two or three most interesting ones and that's enough.
+
+## 5-study-5
+title: 买文具 | Mua đồ dùng học tập | Buying stationery
+scene: Ở cửa hàng văn phòng phẩm của trường, Tiểu Trương gặp Tiểu Lưu đang mua đồ. | At the campus stationery shop, Xiao Zhang runs into Xiao Liu doing some shopping.
+cast: 小张, 小刘
+小张: 小刘，你买这么多文具干什么？又是本子又是橡皮的。 | Tiểu Lưu, cậu mua nhiều đồ dùng học tập thế làm gì? Nào vở nào tẩy. | Xiao Liu, why are you buying so much stationery? Notebooks, erasers...
+小刘: 这学期我选了一门物理课，要画很多图，画错了得用橡皮擦。 | Học kỳ này mình chọn một môn vật lý, phải vẽ nhiều hình, vẽ sai thì phải dùng tẩy để xóa. | This semester I signed up for a physics course. I have to draw lots of diagrams, and I need an eraser for mistakes.
+小张: 你不是中文系的吗？怎么还学物理？ | Cậu không phải học khoa Trung văn à? Sao còn học vật lý? | Aren't you in the Chinese department? Why are you studying physics?
+小刘: 我们老师说，做学问不能只看本专业的书，要多吸收别的知识。 | Thầy bọn mình nói, muốn có học vấn thật sự thì không thể chỉ đọc sách chuyên ngành mình, phải tiếp thu thêm kiến thức khác. | Our teacher says that to be a real scholar you can't just read books in your own field; you need to take in other knowledge too.
+小张: 有道理。对了，你那篇学术文章写完了吗？ | Có lý đấy. À mà bài viết học thuật của cậu viết xong chưa? | Makes sense. By the way, have you finished that academic article of yours?
+小刘: 还在修改。老师说内容不错，就是形式不太规范。 | Vẫn đang sửa. Thầy bảo nội dung tốt, chỉ có hình thức chưa đúng chuẩn lắm. | I'm still revising it. My teacher says the content is good, but the format isn't quite standard.
+小张: 别太累了。我听说你上次考试成绩有点儿退步。 | Đừng làm mệt quá nhé. Mình nghe nói lần thi trước điểm của cậu hơi sa sút. | Don't wear yourself out. I heard your grades slipped a bit on the last exam.
+小刘: 是啊，所以这学期我得好好安排时间了。 | Ừ, nên học kỳ này mình phải sắp xếp thời gian cho thật hợp lý. | Yeah, so this semester I need to plan my time properly.
+
+## 5-study-6
+title: 什么是智慧 | Trí tuệ là gì | What is wisdom
+scene: Buổi tối, người mẹ ngồi cạnh cậu con trai học tiểu học đang làm bài tập làm văn. | In the evening, a mother sits beside her primary-school son as he works on an essay.
+cast: 妈妈, 儿子
+妈妈: 儿子，写作业要专心，别一边写一边玩手机。 | Con trai, làm bài thì phải tập trung, đừng vừa viết vừa nghịch điện thoại. | Son, focus on your homework. Don't play on your phone while you write.
+儿子: 我在查资料呢！老师让我们写一篇作文，题目是“什么是智慧”。 | Con đang tra tài liệu mà! Cô giáo bắt bọn con viết một bài văn, đề là "Trí tuệ là gì". | I'm looking up information! The teacher wants us to write an essay called "What is wisdom."
+妈妈: 这个题目可不简单。你打算怎么写？ | Đề này không đơn giản đâu. Con định viết thế nào? | That's not an easy topic. How are you going to write it?
+儿子: 网上说有个哲学家讲过，知道自己不知道，就是智慧。 | Trên mạng nói có một nhà triết học từng bảo, biết rằng mình không biết, chính là trí tuệ. | Online it says a philosopher once said that knowing you don't know is wisdom.
+妈妈: 说得好。很多真理其实很简单，关键是会不会运用到生活里。 | Hay đấy. Nhiều chân lý thật ra rất đơn giản, quan trọng là có biết vận dụng vào cuộc sống hay không. | Well put. Many truths are actually simple; the key is whether you can apply them in life.
+儿子: 那我写写妹妹吧，她在幼儿园学会了不懂就问老师。 | Vậy con viết về em gái nhé, ở trường mẫu giáo em ấy học được là không hiểu thì hỏi cô. | Then I'll write about my little sister. At kindergarten she learned to ask the teacher when she doesn't understand.
+妈妈: 这个例子好！哲学的道理用小故事讲，大家都能懂。 | Ví dụ này hay! Đạo lý triết học mà kể bằng câu chuyện nhỏ thì ai cũng hiểu. | That's a good example! When you explain a philosophical idea with a little story, everyone can understand it.
+儿子: 写完你能帮我指导一下吗？我还没掌握怎么写结尾。 | Viết xong mẹ hướng dẫn giúp con được không? Con vẫn chưa nắm được cách viết đoạn kết. | Can you give me some guidance when I'm done? I still haven't mastered how to write an ending.
+妈妈: 当然可以，写完拿来给我看。 | Tất nhiên rồi, viết xong mang lại cho mẹ xem. | Of course. Bring it to me when you're finished.
+
+## 5-work-1
+title: 第一次独立采访 | Lần đầu tự đi phỏng vấn | First solo interview
+scene: Ở tòa soạn tạp chí, giám đốc Vương giao cho phóng viên mới Tiểu Trương một nhiệm vụ. | At a magazine office, Manager Wang gives new reporter Xiao Zhang an assignment.
+cast: 王经理, 小张
+王经理: 小张，你来我们部门一个月了，表现很不错。 | Tiểu Trương, em về phòng mình được một tháng rồi, thể hiện rất tốt. | Xiao Zhang, you've been in our department for a month now, and you've done very well.
+小张: 谢谢王经理！我还有很多本领要学呢。 | Em cảm ơn giám đốc Vương! Em còn nhiều kỹ năng phải học lắm ạ. | Thank you, Manager Wang! I still have a lot of skills to learn.
+王经理: 明天有家科技公司开发布会，你去采访一下。 | Mai có một công ty công nghệ tổ chức buổi ra mắt, em đi phỏng vấn nhé. | A tech company is holding a launch event tomorrow. I'd like you to go and interview them.
+小张: 太好了！我需要先办理记者证吗？ | Tuyệt quá! Em có cần làm thẻ phóng viên trước không ạ? | Great! Do I need to apply for a press pass first?
+王经理: 已经帮你办好了。那家公司今年取得了不少成就，你重点问问。 | Đã làm giúp em rồi. Công ty đó năm nay đạt được nhiều thành tựu, em tập trung hỏi về mấy cái đó. | It's already been taken care of. That company has had a lot of achievements this year, so focus on those.
+小张: 明白。稿子写完以后，先交给编辑看吗？ | Em hiểu rồi. Viết bài xong thì nộp cho biên tập viên xem trước ạ? | Understood. When I finish the article, should I give it to the editor first?
+王经理: 对。明天下午的会我没法出席，你回来再给我写个简单的报告。 | Đúng. Cuộc họp chiều mai anh không dự được, em về rồi viết cho anh một bản báo cáo ngắn nhé. | Yes. I can't attend tomorrow afternoon's meeting, so write me a short report when you get back.
+小张: 好的。要是现场出了什么问题，我该怎么处理？ | Vâng ạ. Nếu ở hiện trường có vấn đề gì thì em nên xử lý thế nào ạ? | Okay. If anything goes wrong on site, how should I handle it?
+王经理: 小事你自己处理，大事给我打电话，责任我来承担。 | Chuyện nhỏ em tự xử lý, chuyện lớn thì gọi cho anh, trách nhiệm anh sẽ gánh. | Handle small things yourself; for big things, call me. I'll take responsibility.
+
+## 5-work-2
+title: 我辞职了 | Mình nghỉ việc rồi | I quit my job
+scene: Tiểu Lưu và Tiểu Lý ngồi quán cà phê nói chuyện về việc Tiểu Lý vừa nghỉ việc. | Xiao Liu and Xiao Li chat at a café about Xiao Li quitting her job.
+cast: 小刘, 小李
+小刘: 小李，听说你辞职了？那个单位的待遇不是挺好的吗？ | Tiểu Lý, nghe nói cậu nghỉ việc rồi à? Chỗ cơ quan đó đãi ngộ chẳng phải khá tốt sao? | Xiao Li, I heard you quit. Wasn't the pay at that place pretty good?
+小李: 待遇是不错，可是我一直担任行政工作，专业根本发挥不了。 | Đãi ngộ thì tốt thật, nhưng mình cứ đảm nhiệm công việc hành chính mãi, chuyên môn chẳng phát huy được gì. | The pay was fine, but I was always doing administrative work and could never use my training.
+小刘: 我还以为你在那儿干得挺开心的。 | Mình còn tưởng cậu làm ở đó vui lắm chứ. | I thought you were happy there.
+小李: 而且工作分配也不合理，我经常一个人干两个人的活儿。 | Hơn nữa phân công công việc cũng không hợp lý, mình thường một mình làm việc của hai người. | Also, the work wasn't fairly assigned. I often did two people's jobs alone.
+小刘: 那你以后打算从事什么工作？ | Thế sau này cậu định làm nghề gì? | So what kind of work do you plan to do next?
+小李: 我想做设计。有家小公司已经让我交一份设计方案了。 | Mình muốn làm thiết kế. Có một công ty nhỏ đã bảo mình nộp một phương án thiết kế rồi. | I want to do design. A small company has already asked me to submit a design proposal.
+小刘: 不错啊！不过刚开始收入可能会少一点儿吧？ | Hay đấy! Nhưng lúc đầu thu nhập chắc sẽ ít hơn một chút nhỉ? | Nice! But your income will probably be lower at first, right?
+小李: 是的，所以我周末先去打工，也得调整一下花钱的习惯。 | Ừ, nên cuối tuần mình sẽ đi làm thêm, cũng phải điều chỉnh lại thói quen tiêu tiền. | Yes, so I'll work part-time on weekends, and I'll have to adjust my spending habits.
+小刘: 年轻的时候就该为自己喜欢的事奋斗！ | Còn trẻ thì nên phấn đấu vì việc mình yêu thích chứ! | When you're young, you should strive for what you love!
+小李: 对，我的目标是三年内达到高级设计师的水平。 | Đúng vậy, mục tiêu của mình là trong ba năm đạt tới trình độ nhà thiết kế cao cấp. | Exactly. My goal is to reach the level of a senior designer within three years.
+
+## 5-work-3
+title: 参观工厂 | Tham quan nhà máy | A factory visit
+scene: Tiểu Trương sắp tốt nghiệp đến tham quan một nhà máy và được giám đốc Vương tiếp. | Soon-to-graduate Xiao Zhang visits a factory and is shown around by Manager Wang.
+cast: 王经理, 小张
+王经理: 欢迎你来我们工厂参观，今天由我来接待你。 | Chào mừng em đến tham quan nhà máy của chúng tôi, hôm nay tôi sẽ tiếp em. | Welcome to our factory. I'll be showing you around today.
+小张: 谢谢王经理！这是我的简历，我学的是机械，想应聘工程师。 | Em cảm ơn giám đốc Vương! Đây là sơ yếu lý lịch của em, em học ngành cơ khí, muốn ứng tuyển vị trí kỹ sư. | Thank you, Manager Wang! Here's my résumé. I studied mechanical engineering and I'd like to apply as an engineer.
+王经理: 好。我们工厂雇佣了三百多名工人，大家干活儿都很认真。 | Tốt. Nhà máy chúng tôi thuê hơn ba trăm công nhân, ai làm việc cũng rất chăm chỉ. | Good. Our factory employs more than three hundred workers, and they all work very conscientiously.
+小张: 我看到墙上贴着每天的生产记录，写得特别清楚。 | Em thấy trên tường có dán biên bản sản xuất hằng ngày, ghi rất rõ ràng. | I saw the daily production records posted on the wall. They're very clear.
+王经理: 对，我们每天都记录，方便发现问题，改进生产方法。 | Đúng, ngày nào chúng tôi cũng ghi chép, để dễ phát hiện vấn đề và cải tiến cách sản xuất. | Yes, we record everything daily so we can spot problems and improve our production methods.
+小张: 我在学校跟同学合作改进过一台机器，还得了奖。 | Hồi ở trường em từng hợp tác với bạn cải tiến một cái máy, còn được giải nữa ạ. | At school I worked with classmates to improve a machine, and we even won a prize.
+王经理: 很好。工程师就要具备这种合作能力。 | Rất tốt. Kỹ sư cần phải có năng lực hợp tác như vậy. | Very good. An engineer needs to have that kind of teamwork ability.
+小张: 请问，你们只招工程师吗？我有个同学是学会计的。 | Cho em hỏi, nhà máy chỉ tuyển kỹ sư thôi ạ? Em có một bạn học ngành kế toán. | May I ask, are you only hiring engineers? I have a classmate who studied accounting.
+王经理: 财务部正好缺一个会计，让她把简历发过来吧。 | Phòng tài chính đang thiếu một kế toán, bảo bạn ấy gửi sơ yếu lý lịch qua nhé. | The finance department happens to need an accountant. Have her send her résumé over.
+
+## 5-work-4
+title: 第一次出差 | Chuyến công tác đầu tiên | The first business trip
+scene: Trong giờ nghỉ, một đồng nghiệp hỏi Tiểu Lưu về chuyến công tác sắp tới. | During a break, a colleague asks Xiao Liu about her upcoming business trip.
+cast: 同事, 小刘
+同事: 小刘，听说领导要派你去上海出差？ | Tiểu Lưu, nghe nói lãnh đạo định cử em đi công tác Thượng Hải à? | Xiao Liu, I hear the boss is sending you on a business trip to Shanghai?
+小刘: 是啊，经理已经批准了，下周一出发。 | Vâng ạ, giám đốc đã phê duyệt rồi, thứ Hai tuần sau xuất phát. | Yes, the manager has approved it. I leave next Monday.
+同事: 你才来半年就被派出去，真是前途无量啊！ | Em mới vào nửa năm đã được cử đi, đúng là tiền đồ rộng mở đấy! | You've only been here six months and they're already sending you out. You have a bright future!
+小刘: 别开玩笑了。我这次的目标就是把合同顺利谈下来。 | Chị đừng đùa ạ. Mục tiêu lần này của em chỉ là đàm phán hợp đồng cho suôn sẻ thôi. | Don't tease me. My goal this time is just to get the contract negotiated smoothly.
+同事: 你这半年天天加班，付出的劳动大家都看在眼里。 | Nửa năm nay ngày nào em cũng tăng ca, công sức em bỏ ra mọi người đều thấy cả. | You've worked overtime every day for six months; everyone has seen the work you've put in.
+小刘: 谢谢。秘书说出差的费用单要老板签字才能报销。 | Em cảm ơn chị. Thư ký nói phiếu chi phí công tác phải có sếp ký tên mới được thanh toán. | Thanks. The secretary said the travel expense form needs the boss's signature before I can be reimbursed.
+同事: 对。老板要求严格，不过人很能干，跟他学东西快。 | Đúng. Sếp yêu cầu nghiêm khắc, nhưng rất giỏi giang, học hỏi từ ông ấy nhanh lắm. | Right. The boss is strict, but he's very capable, and you learn fast from him.
+小刘: 那边的同事也会配合我，应该没什么问题。 | Đồng nghiệp bên đó cũng sẽ phối hợp với em, chắc không có vấn đề gì đâu ạ. | The colleagues there will work with me too, so it should be fine.
+同事: 记得多带些名片，见客户的时候用得着。 | Nhớ mang theo nhiều danh thiếp, lúc gặp khách hàng sẽ cần đến. | Remember to bring plenty of business cards; you'll need them when you meet clients.

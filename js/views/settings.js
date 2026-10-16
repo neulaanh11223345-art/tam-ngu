@@ -1,4 +1,4 @@
-import { data } from '../data.js';
+import { data, levelsAvailable } from '../data.js';
 import { button, h, icon, segmented, toast, toggle } from '../dom.js';
 import { onSyncStatus, saveTextFile, syncStatus } from '../host.js';
 import { hasChineseVoice, speak } from '../speech.js';
@@ -15,10 +15,10 @@ export function render(ctx) {
 
   const row = (label, desc, control) => h('div', { class: 'set-row' }, h('span', { class: 'set-label' }, h('span', null, label), desc ? h('small', null, desc) : null), control);
 
-  const levelToggles = [3, 4].map((lv) =>
+  const levelToggles = levelsAvailable().map((lv) =>
     toggle(`HSK ${lv}`, s().levels.includes(lv), (on) => {
       let levels = s().levels.filter((x) => x !== lv);
-      if (on) levels = [...levels, lv].sort();
+      if (on) levels = [...levels, lv].sort((a, b) => a - b);
       if (!levels.length) {
         toast('Cần chọn ít nhất một cấp');
         levels = [lv];
@@ -132,7 +132,7 @@ export function render(ctx) {
   function drawReset(asking) {
     if (!asking) {
       resetSlot.replaceChildren(
-        h('span', { class: 'set-label' }, h('span', null, 'Xóa tiến độ học'), h('small', null, 'Đưa tất cả thẻ về chưa học, giữ nguyên cài đặt')),
+        h('span', { class: 'set-label' }, h('span', null, 'Xóa tiến độ học'), h('small', null, 'Đưa tất cả thẻ về chưa học, giữ nguyên cài đặt và hội thoại bạn tự nhập')),
         button('Xóa', { icon: 'trash', variant: 'ghost', size: 'sm', onclick: () => drawReset(true) }),
       );
       return;
@@ -186,8 +186,8 @@ export function render(ctx) {
     'section',
     { class: 'card section about' },
     h('h2', { style: { fontSize: '16px', marginBottom: '8px', color: 'var(--ink)' } }, 'Giới thiệu'),
-    h('p', null, 'Tam Ngữ (三语) giúp học 896 từ HSK 3–4 (chuẩn HSK 2.0) với pinyin, âm Hán Việt, nghĩa tiếng Anh và tiếng Việt, kèm câu ví dụ.'),
-    h('p', null, 'Nguồn dữ liệu: danh sách từ HSK từ dự án complete-hsk-vocabulary (MIT); âm Hán Việt từ hanviet-pinyin-words (MIT) có hiệu đính; bộ thủ từ Make Me a Hanzi (LGPL); nét chữ từ hanzi-writer-data (Arphic Public License); bảng viết dùng thư viện Hanzi Writer (MIT). Nghĩa Việt, nghĩa Anh và câu ví dụ được biên soạn riêng cho app.'),
+    h('p', null, `Tam Ngữ (三语) giúp học ${data().words.length} từ HSK ${levelsAvailable()[0]}–${levelsAvailable().at(-1)} (chuẩn HSK 2.0) với pinyin, âm Hán Việt, nghĩa tiếng Anh và tiếng Việt, kèm câu ví dụ và hội thoại theo bài.`),
+    h('p', null, 'Nguồn dữ liệu: danh sách từ HSK từ dự án complete-hsk-vocabulary (MIT); âm Hán Việt từ hanviet-pinyin-words (MIT) có hiệu đính; bộ thủ từ Make Me a Hanzi (LGPL); nét chữ từ hanzi-writer-data (Arphic Public License); bảng viết dùng thư viện Hanzi Writer (MIT). Nghĩa Việt, nghĩa Anh, câu ví dụ và hội thoại được biên soạn riêng cho app; hội thoại không lấy từ giáo trình nào.'),
   );
 
   const el = h(
