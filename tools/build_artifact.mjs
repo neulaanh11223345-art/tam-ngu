@@ -46,7 +46,7 @@ if (process.argv.includes('--preview')) {
 /** Danh sách tệp cần xuất bản kèm trang. */
 export async function artifactFiles() {
   const { readdir } = await import('node:fs/promises');
-  const list = ['css/app.css', 'vendor/hanzi-writer.esm.js', 'data/words.json'];
+  const list = ['css/app.css', 'vendor/hanzi-writer.esm.js', 'data/words.json', 'data/dialogues.json', 'data/lexicon.json'];
   for (const dir of ['js', 'js/views', 'data/strokes']) {
     for (const f of await readdir(new URL(`${dir}/`, ROOT))) if (/\.(js|json)$/.test(f)) list.push(`${dir}/${f}`);
   }

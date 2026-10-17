@@ -1,0 +1,209 @@
+## 5-desc-8
+title: 布置画展 | Bày triển lãm tranh | Setting up the exhibition
+scene: Tiểu Vương và Tiểu Lý đang treo tranh cho một triển lãm nhỏ. | Xiao Wang and Xiao Li are hanging paintings for a small exhibition.
+cast: 小王, 小李
+小王: 你看，这幅画是不是挂歪了？左边好像低了一点儿。 | Cậu xem, bức tranh này có phải treo lệch rồi không? Bên trái hình như thấp hơn một chút. | Look, is this painting hanging crooked? The left side seems a bit lower.
+小李: 是有点儿歪。我慢慢往上抬，你看准了再说，别瞎猜。 | Đúng là hơi lệch. Tớ từ từ nâng lên, cậu nhìn kỹ rồi hãy nói, đừng đoán bừa nhé. | It is a bit crooked. I'll lift it slowly — look carefully before you say anything, don't just guess.
+小王: 停！现在正了。这幅画颜色真鲜艳，挂在中间特别突出。 | Dừng! Giờ thẳng rồi. Màu sắc bức tranh này rực rỡ thật, treo ở giữa rất nổi bật. | Stop! It's straight now. The colors of this painting are so vivid; it really stands out in the middle.
+小李: 这是我们这次唯一的一幅油画，它的特征就是用色大胆。 | Đây là bức tranh sơn dầu duy nhất của chúng ta lần này, đặc trưng của nó là dùng màu táo bạo. | It's the only oil painting in this show; its distinctive feature is the bold use of color.
+小王: 画的是黄河吧？看着它，我觉得大自然真伟大。 | Vẽ sông Hoàng Hà phải không? Nhìn nó, tớ thấy thiên nhiên thật vĩ đại. | It's the Yellow River, right? Looking at it, I feel how great nature is.
+小李: 可惜画框上的玻璃不够透明，看起来有点儿灰。 | Tiếc là kính trên khung tranh không đủ trong, nhìn hơi xám. | Too bad the glass in the frame isn't very clear; it looks a bit gray.
+小王: 世界上哪有完美的东西？画本身完整，一个角都没坏，就很好了。 | Trên đời làm gì có thứ gì hoàn hảo? Bản thân bức tranh còn nguyên vẹn, không hỏng góc nào là tốt lắm rồi. | Nothing in the world is perfect. The painting itself is intact, not a single corner damaged — that's good enough.
+小李: 说得对。不过作品介绍还不够完善，晚上我再改一改。 | Cậu nói đúng. Nhưng phần giới thiệu tác phẩm vẫn chưa hoàn thiện lắm, tối nay tớ sửa thêm. | True. But the descriptions of the works still aren't complete; I'll revise them tonight.
+小王: 还有，这几盏灯的光不太稳定，一闪一闪的，明天得换掉。 | Còn nữa, ánh sáng của mấy cái đèn này không ổn định lắm, cứ nhấp nháy, mai phải thay thôi. | Also, the light from these lamps isn't very steady — it keeps flickering. We'll have to replace them tomorrow.
+
+## 5-desc-9
+title: 长城的照片 | Ảnh chụp Trường Thành | Photos of the Great Wall
+scene: Anna xem những bức ảnh Tiểu Trương chụp khi đi Trường Thành. | Anna is looking at the photos Xiao Zhang took at the Great Wall.
+cast: 安娜, 小张
+安娜: 这是你们去长城拍的照片吗？长城真雄伟啊！ | Đây là ảnh các cậu chụp lúc đi Trường Thành à? Trường Thành thật hùng vĩ! | Are these the photos you took at the Great Wall? It's so magnificent!
+小张: 是啊，那天我们运气特别好，一点儿雾都没有。 | Ừ, hôm đó bọn tớ gặp may lắm, không có chút sương mù nào. | Yes, we were really lucky that day — there wasn't any fog at all.
+安娜: 这个穿白衬衫的是你哥哥吧？显得特别英俊。 | Người mặc áo sơ mi trắng này là anh trai cậu à? Trông đẹp trai quá. | This guy in the white shirt is your brother, right? He looks really handsome.
+小张: 哈哈，那是我！可惜这张拍斜了，城墙好像要倒了似的。 | Haha, là tớ đấy! Tiếc là tấm này chụp bị nghiêng, tường thành trông như sắp đổ vậy. | Haha, that's me! Too bad this one is tilted — the wall looks like it's about to fall over.
+安娜: 斜一点儿也挺有意思。这两张很相似，有什么区别？ | Nghiêng một chút cũng hay mà. Hai tấm này rất giống nhau, khác nhau ở chỗ nào? | A bit of a tilt is kind of interesting. These two look very similar — what's the difference?
+小张: 第二张里山的形状更清楚，线条也更优美。 | Tấm thứ hai hình dáng núi rõ hơn, đường nét cũng đẹp hơn. | In the second one the shape of the mountains is clearer and the lines are more graceful.
+安娜: 你拍照进步得真迅速，以前可没这么好。 | Cậu chụp ảnh tiến bộ nhanh thật, trước đây đâu có đẹp thế này. | Your photography has improved so quickly — it wasn't this good before.
+小张: 我在一家旅游杂志实习，工作性质跟摄影相关，天天都在练。 | Tớ đang thực tập ở một tạp chí du lịch, tính chất công việc liên quan đến nhiếp ảnh nên ngày nào cũng luyện. | I'm interning at a travel magazine. The nature of the work is related to photography, so I practice every day.
+安娜: 那太好了，这对你以后找工作很有利。 | Thế thì tốt quá, điều này rất có lợi cho việc tìm việc của cậu sau này. | That's great — it'll work in your favor when you look for a job later.
+
+## 5-desc-10
+title: 去医院看奶奶 | Vào viện thăm bà | Visiting Grandma in the hospital
+scene: Tiểu Lưu vào bệnh viện thăm bà và nói chuyện với một chị y tá. | Xiao Liu visits his grandmother in the hospital and talks with a nurse.
+cast: 护士, 小刘
+护士: 你是来看三号床奶奶的吧？她今天状态不错。 | Em đến thăm bà ở giường số ba phải không? Hôm nay bà khá khỏe. | You're here to see the grandma in bed three, right? She's in good shape today.
+小刘: 太好了！医生说她的身体状况怎么样？ | Tốt quá! Bác sĩ nói tình trạng sức khỏe của bà thế nào ạ? | Great! What did the doctor say about her condition?
+护士: 比上周好多了，病不算重，再住几天就能出院。 | Tốt hơn tuần trước nhiều rồi, bệnh không nặng lắm, nằm thêm vài ngày là xuất viện được. | Much better than last week. The illness isn't serious; a few more days and she can go home.
+小刘: 谢谢你们照顾得这么周到。我带了一束紫色的花，奶奶最喜欢紫色。 | Cảm ơn các chị đã chăm sóc chu đáo thế này. Em mang một bó hoa màu tím, bà thích màu tím nhất. | Thank you for taking such good care of her. I brought a bunch of purple flowers — Grandma loves purple.
+护士: 真漂亮！不过病房里不能放太多花。 | Đẹp quá! Nhưng trong phòng bệnh không được để nhiều hoa quá đâu. | They're lovely! But you can't keep too many flowers in the ward.
+小刘: 糟糕，我在楼下又买了一盆，那我先放在护士站吧。 | Chết rồi, em còn mua thêm một chậu ở dưới tầng, vậy em để tạm ở quầy y tá nhé. | Oh no, I bought a potted one downstairs too. I'll leave it at the nurses' station for now.
+护士: 可以。对了，奶奶总说在医院不自由，天天想回家。 | Được. À, bà cứ nói ở viện không được tự do, ngày nào cũng muốn về nhà. | Sure. By the way, Grandma keeps saying she has no freedom in the hospital and wants to go home every day.
+小刘: 她在家也闲不住。这是她真实的想法，你别介意。 | Ở nhà bà cũng chẳng chịu ngồi yên đâu. Đó là suy nghĩ thật của bà, chị đừng để bụng. | She can't sit still at home either. That's honestly how she feels — please don't mind.
+护士: 没关系。还好有大学生自愿来陪老人聊天，她每天都很开心。 | Không sao đâu. May mà có các bạn sinh viên tự nguyện đến trò chuyện với người già, ngày nào bà cũng rất vui. | No problem. Luckily some college students volunteer to chat with the elderly, so she's happy every day.
+
+## 5-num-1
+title: 整理捐来的书 | Sắp xếp sách quyên góp | Sorting donated books
+scene: Thầy Trương và một học sinh sắp xếp số sách được tặng cho thư viện trường. | Teacher Zhang and a student sort books donated to the school library.
+cast: 学生, 张老师
+学生: 张老师，图书馆门口那一大堆书是哪儿来的？ | Thầy Trương ơi, đống sách lớn ở cửa thư viện từ đâu ra vậy ạ? | Mr. Zhang, where did that big pile of books at the library entrance come from?
+张老师: 是一家公司送的，一共两千册，差不多有一吨重呢。 | Là một công ty tặng đấy, tổng cộng hai nghìn cuốn, nặng gần một tấn. | A company donated them — two thousand volumes in all, nearly a ton.
+学生: 这么多！我们要怎么分呢？ | Nhiều thế ạ! Chúng em phải chia thế nào ạ? | So many! How should we sort them?
+张老师: 按阅读程度分成三类，最简单的放进丙类，给低年级。 | Chia làm ba loại theo trình độ đọc, sách dễ nhất xếp vào loại C, dành cho các lớp nhỏ. | Divide them into three groups by reading level; the easiest go in group C for the lower grades.
+学生: 有的书里还夹着几幅画，要拿出来吗？ | Có cuốn còn kẹp mấy bức tranh, có cần lấy ra không ạ? | Some books have a few pictures tucked inside. Should we take them out?
+张老师: 拿出来挂在走廊上吧。小心，别让窗户上的水滴到书上。 | Lấy ra treo ở hành lang đi. Cẩn thận, đừng để nước trên cửa sổ nhỏ xuống sách. | Take them out and hang them in the hallway. Careful — don't let water from the window drip onto the books.
+学生: 好的。老师，有个别书坏了，少了好几页。 | Vâng ạ. Thầy ơi, có một vài cuốn bị hỏng, mất mấy trang. | OK. Sir, a few individual books are damaged and missing several pages.
+张老师: 坏书的比例高吗？ | Tỉ lệ sách hỏng có cao không? | Is the proportion of damaged books high?
+学生: 不高，一百本里只有两本，等于百分之二。 | Không cao ạ, một trăm cuốn chỉ có hai cuốn, bằng hai phần trăm. | No, only two in a hundred — that equals two percent.
+张老师: 那就放一边。你再去拿几根绳子，把旧报纸绑起来。 | Vậy để sang một bên. Em đi lấy thêm mấy sợi dây, buộc chỗ báo cũ lại. | Then set them aside. Go get a few pieces of string and tie up the old newspapers.
+
+## 5-num-2
+title: 课间算数学题 | Giải toán giờ ra chơi | Math between classes
+scene: Giờ ra chơi, Tiểu Vương giúp bạn cùng lớp Tiểu Lý làm bài tập toán. | During a break, Xiao Wang helps his classmate Xiao Li with math homework.
+cast: 小王, 小李
+小王: 下节课就要交作业了，你都做完了吗？ | Tiết sau là phải nộp bài rồi, cậu làm xong hết chưa? | Homework is due next class — have you finished it all?
+小李: 还差一道，要计算房间的面积，我老是算错。 | Còn một bài, phải tính diện tích căn phòng, tớ cứ tính sai mãi. | One more problem left — calculating the area of a room. I keep getting it wrong.
+小王: 长五百厘米就是五米，宽四米，面积是二十平方米。 | Dài năm trăm xăng-ti-mét tức là năm mét, rộng bốn mét, diện tích là hai mươi mét vuông. | Five hundred centimeters long is five meters; it's four meters wide, so the area is twenty square meters.
+小李: 明白了！房间高三米的话，就是六十立方，对吧？ | Hiểu rồi! Nếu phòng cao ba mét thì là sáu mươi mét khối, đúng không? | Got it! If the room is three meters high, that's sixty cubic meters, right?
+小王: 对。还有，这一届的科学比赛你报名了吗？ | Đúng. Còn nữa, cuộc thi khoa học kỳ này cậu đăng ký chưa? | Right. Also, have you signed up for this year's science competition?
+小李: 报了，我选的是甲类题目，比较两种种子哪个长得快。 | Đăng ký rồi, tớ chọn đề tài loại A, so sánh xem hai loại hạt giống loại nào mọc nhanh hơn. | Yes, I picked a category A topic: comparing which of two kinds of seeds grows faster.
+小王: 听起来很有意思。一颗种子有多重？ | Nghe thú vị đấy. Một hạt giống nặng bao nhiêu? | Sounds interesting. How heavy is one seed?
+小李: 很轻，十颗加起来才一克。 | Nhẹ lắm, mười hạt cộng lại mới được một gam. | Very light — ten of them together weigh just one gram.
+小王: 这么小？那跟一粒米差不多啊。 | Nhỏ thế à? Vậy cũng chỉ cỡ một hạt gạo nhỉ. | That small? About the size of a grain of rice, then.
+
+## 5-num-3
+title: 农场骑马 | Cưỡi ngựa ở nông trại | Horse riding at the farm
+scene: Một chị hướng dẫn viên dẫn David đi tham quan nông trại. | A tour guide shows David around a farm.
+cast: 导游, 大卫
+导游: 您看，前面这片草地就是农场，有两万平方米。 | Anh nhìn kìa, bãi cỏ phía trước chính là nông trại, rộng hai mươi nghìn mét vuông. | Look, the meadow ahead is the farm — twenty thousand square meters.
+大卫: 真大啊！草地上有多少匹马？ | Rộng thật! Trên bãi cỏ có bao nhiêu con ngựa vậy? | It's huge! How many horses are on the meadow?
+导游: 一共二十匹，上个月又来了一批小马。 | Tổng cộng hai mươi con, tháng trước lại có thêm một đợt ngựa con. | Twenty in all; a new batch of foals arrived last month.
+大卫: 可以骑吗？我还从来没骑过马呢。 | Có cưỡi được không? Tôi chưa cưỡi ngựa bao giờ. | Can we ride them? I've never ridden a horse.
+导游: 可以，绕着小湖骑一圈，平均要二十分钟。 | Được ạ, cưỡi một vòng quanh hồ nhỏ, trung bình mất hai mươi phút. | Yes — one lap around the little lake takes twenty minutes on average.
+大卫: 时间能缩短一点儿吗？下午我还要去参观一所小学。 | Rút ngắn thời gian một chút được không? Chiều nay tôi còn phải đi thăm một trường tiểu học. | Could it be shorter? This afternoon I'm visiting a primary school.
+导游: 没问题，骑半圈就行。您先把这套骑马服穿上吧。 | Không vấn đề gì, cưỡi nửa vòng là được. Anh mặc bộ đồ cưỡi ngựa này vào trước đã. | No problem, half a lap is fine. Put on this riding outfit first.
+大卫: 这里风景真美，草地一直都这么大吗？ | Phong cảnh ở đây đẹp thật, bãi cỏ lúc nào cũng rộng thế này à? | The scenery is beautiful. Has the meadow always been this big?
+导游: 不是，以前这儿缺乏水源，草地一年比一年缩小，这几年才好起来。 | Không đâu, trước đây chỗ này thiếu nguồn nước, bãi cỏ năm sau thu hẹp hơn năm trước, mấy năm gần đây mới khá lên. | No. It used to lack water, and the meadow shrank year after year; it's only improved in recent years.
+
+## 5-num-4
+title: 给客户寄样品 | Gửi hàng mẫu cho khách | Sending samples to the client
+scene: Trong văn phòng, cô thư ký báo cáo với giám đốc Vương về việc gửi hàng mẫu. | In the office, the secretary updates Manager Wang on sending samples.
+cast: 秘书, 王经理
+秘书: 王经理，寄给乙方的样品都包好了，一共三个箱子。 | Giám đốc Vương, hàng mẫu gửi cho bên B đã đóng gói xong, tất cả ba thùng ạ. | Mr. Wang, the samples for Party B are all packed — three boxes.
+王经理: 好。快递是按体积收费还是按重量收费？ | Tốt. Chuyển phát tính phí theo thể tích hay theo trọng lượng? | Good. Does the courier charge by volume or by weight?
+秘书: 按重量，三个箱子总共四十公斤。 | Theo trọng lượng ạ, ba thùng tổng cộng bốn mươi cân. | By weight. The three boxes come to forty kilos in total.
+王经理: 对了，那支新设计的笔放进去了吗？ | À phải, cây bút mới thiết kế đã cho vào chưa? | By the way, did you put in the newly designed pen?
+秘书: 放了，在第一个箱子里。快递员说刚下了一阵大雨，可能晚点儿到。 | Cho rồi ạ, ở thùng thứ nhất. Nhân viên chuyển phát nói vừa có một trận mưa to, có thể đến muộn một chút. | Yes, it's in the first box. The courier said there was a heavy downpour just now, so he may be a bit late.
+王经理: 没关系。合同里还有一项没写清楚，你再检查一下整个合同。 | Không sao. Trong hợp đồng còn một mục chưa ghi rõ, em kiểm tra lại toàn bộ hợp đồng nhé. | No problem. One item in the contract isn't clear; please check the whole contract again.
+秘书: 好的，我下午就看。为了这个项目，大家开了无数次会。 | Vâng, chiều nay em xem luôn. Vì dự án này mà mọi người đã họp không biết bao nhiêu lần. | Sure, I'll do it this afternoon. We've had countless meetings for this project.
+王经理: 是啊，不过从整体来看，这次准备得很不错。 | Đúng vậy, nhưng nhìn tổng thể thì lần này chuẩn bị rất tốt. | True, but overall our preparation this time has been very good.
+
+## 5-link-1
+title: 下雨天的周末 | Cuối tuần trời mưa | A rainy weekend
+scene: Tiểu Trương và Tiểu Lưu bàn kế hoạch cuối tuần khi trời đổ mưa. | Xiao Zhang and Xiao Liu discuss weekend plans on a rainy day.
+cast: 小张, 小刘
+小张: 唉，又下雨了，周末去爬山的计划恐怕要取消了。 | Haizz, lại mưa rồi, kế hoạch leo núi cuối tuần e là phải hủy rồi. | Sigh, it's raining again. Our weekend hiking plan will probably have to be canceled.
+小刘: 不必这么失望，天气预报也不见得准。 | Không cần thất vọng thế, dự báo thời tiết cũng chưa chắc đã đúng. | No need to be so disappointed — the forecast isn't necessarily right.
+小张: 可是雨后山路很滑，不免有点儿危险。 | Nhưng sau mưa đường núi rất trơn, khó tránh khỏi có chút nguy hiểm. | But mountain paths are slippery after rain; it's bound to be a bit dangerous.
+小刘: 那不如换个计划。除了爬山，周末能做的事多着呢。 | Vậy chi bằng đổi kế hoạch. Ngoài leo núi ra, cuối tuần còn bao nhiêu việc để làm. | Then we might as well change plans. Besides hiking, there's plenty to do on weekends.
+小张: 比如呢？电影我上周刚看过。 | Ví dụ như gì? Phim thì tuần trước tớ vừa xem rồi. | Like what? I just saw a movie last week.
+小刘: 比如去博物馆，或者趁商场打折买几件冬天的衣服。 | Chẳng hạn đi bảo tàng, hoặc tranh thủ lúc trung tâm thương mại giảm giá mua mấy bộ quần áo mùa đông. | Like going to a museum, or buying some winter clothes while the mall has a sale.
+小张: 买衣服可以，毕竟天越来越冷了。 | Mua quần áo được đấy, dù sao trời cũng ngày càng lạnh rồi. | Shopping works — after all, it's getting colder and colder.
+小刘: 那我们早点儿去，不然人会很多。 | Vậy mình đi sớm một chút, không thì sẽ đông người lắm. | Then let's go early, or else it'll be crowded.
+小张: 行，周六上午十点，我一到便给你打电话。 | Được, mười giờ sáng thứ bảy, tớ đến nơi là gọi cho cậu ngay. | OK, Saturday at ten a.m. — I'll call you as soon as I arrive.
+
+## 5-link-2
+title: 顾客变多了 | Khách hàng đông hơn | More customers
+scene: Giám đốc Vương và một đồng nghiệp bàn về kết quả bán hàng tháng này. | Manager Wang and a colleague discuss this month's sales results.
+cast: 同事, 王经理
+同事: 王经理，这个月来店里的顾客比上个月多了一倍。 | Giám đốc Vương, khách đến cửa hàng tháng này tăng gấp đôi so với tháng trước. | Mr. Wang, twice as many customers came to the store this month as last month.
+王经理: 的确不错。多亏大家改进了服务，从而提高了效率。 | Quả thật rất tốt. Nhờ mọi người cải thiện dịch vụ, từ đó nâng cao được hiệu suất. | That really is good. Thanks to everyone improving the service, we've become more efficient.
+同事: 对于老顾客，我们还准备了小礼物，凡是买两件以上的都送。 | Đối với khách quen, chúng em còn chuẩn bị quà nhỏ, hễ ai mua từ hai món trở lên đều được tặng. | For regular customers we also prepared small gifts — anyone who buys two or more items gets one.
+王经理: 好办法。此外，上次网站出问题，导致很多人下不了单，修好了吗？ | Cách hay đấy. Ngoài ra, lần trước trang web gặp sự cố khiến nhiều người không đặt hàng được, sửa xong chưa? | Good idea. Also, last time the website problem meant many people couldn't place orders — has it been fixed?
+同事: 修好了。奇怪的是，出问题以后顾客反而更多了。 | Sửa xong rồi ạ. Lạ là sau khi gặp sự cố, khách hàng lại còn đông hơn. | Yes. Strangely, after the problem we actually had more customers.
+王经理: 大家仿佛都在等这次打折。反正结果是好的。 | Cứ như mọi người đều đang chờ đợt giảm giá này vậy. Dù sao thì kết quả cũng tốt. | It's as if everyone had been waiting for this sale. Anyway, the result is good.
+同事: 那下个月还这样做吗？ | Vậy tháng sau có tiếp tục làm như thế không ạ? | So shall we do the same next month?
+王经理: 除非有特别情况，不然就继续。你把这些办法写成报告给我。 | Trừ khi có tình huống đặc biệt, nếu không thì cứ tiếp tục. Em viết những cách này thành báo cáo gửi tôi. | Unless something special comes up, we'll continue. Write these methods up in a report for me.
+同事: 好的，周五之前交给您。 | Vâng, trước thứ sáu em sẽ nộp cho giám đốc ạ. | Sure, I'll hand it to you before Friday.
+
+## 5-link-3
+title: 第一场雪 | Trận tuyết đầu mùa | The first snow
+scene: Ở ký túc xá, David và Tiểu Vương thấy trời bắt đầu có tuyết. | In the dorm, David and Xiao Wang see it starting to snow.
+cast: 大卫, 小王
+大卫: 哈，下雪了！你快看窗外！ | Ha, tuyết rơi rồi! Cậu mau nhìn ra ngoài cửa sổ đi! | Ha, it's snowing! Look out the window, quick!
+小王: 真的！怪不得今天格外冷。 | Thật này! Thảo nào hôm nay lạnh khác thường. | Really! No wonder it's especially cold today.
+大卫: 楼下的同学纷纷跑出去拍照了，我们也赶紧下去吧！ | Các bạn dưới tầng lần lượt chạy ra ngoài chụp ảnh rồi, bọn mình cũng mau xuống thôi! | Students downstairs are running out one after another to take photos — let's hurry down too!
+小王: 等等，你根本没穿外套，会感冒的。 | Khoan đã, cậu còn chưa mặc áo khoác gì cả, sẽ bị cảm đấy. | Wait, you're not wearing a coat at all — you'll catch a cold.
+大卫: 没事，我非出去看看不可，这是我第一次见到雪！ | Không sao, tớ nhất định phải ra xem, đây là lần đầu tiên tớ thấy tuyết! | I don't care, I have to go out and see — this is the first time I've ever seen snow!
+小王: 那你赶快把外套穿上，再戴顶帽子。 | Vậy cậu mau mặc áo khoác vào, đội thêm cái mũ nữa. | Then quickly put on your coat, and a hat too.
+大卫: 穿好了！我们干脆叫上大家一起去堆雪人吧？ | Mặc xong rồi! Hay mình gọi luôn mọi người cùng đi đắp người tuyết nhé? | Done! Why don't we just get everyone together to build a snowman?
+小王: 行啊，人多更加热闹。玩完以后大家各自回宿舍洗个热水澡。 | Được đấy, đông người càng vui. Chơi xong thì ai về phòng nấy tắm nước nóng. | Sure, more people makes it even livelier. Afterwards everyone goes back to their own room for a hot shower.
+
+## 5-link-4
+title: 丈夫第一次做饭 | Lần đầu chồng nấu cơm | The husband cooks for the first time
+scene: Buổi tối, người vợ về nhà thấy chồng đã nấu xong cả bữa cơm. | One evening, a wife comes home to find her husband has cooked a whole dinner.
+cast: 妻子, 丈夫
+妻子: 你居然自己做了一桌菜？简直不敢相信！ | Anh mà lại tự nấu cả một mâm cơm à? Đúng là không thể tin nổi! | You actually cooked a whole table of dishes yourself? I can hardly believe it!
+丈夫: 我跟着手机上的视频学的，先炒鸡蛋，接着做鱼。 | Anh học theo video trên điện thoại, xào trứng trước, sau đó làm cá. | I learned from videos on my phone — first scrambled eggs, then the fish.
+妻子: 味道真不错！看来你挺会做饭的嘛。 | Ngon thật đấy! Xem ra anh cũng khá biết nấu ăn nhỉ. | It tastes great! Looks like you're quite a cook.
+丈夫: 别夸了，刚才鱼差点儿糊了，我急忙把火关了。 | Đừng khen vội, lúc nãy cá suýt bị cháy, anh vội vàng tắt bếp. | Don't praise me yet — the fish almost burned just now, and I hurried to turn off the heat.
+妻子: 何必做这么多？我们两个人哪儿吃得完。 | Cần gì phải nấu nhiều thế? Hai đứa mình sao ăn hết được. | Why bother making so much? The two of us can't possibly finish it.
+丈夫: 今天是你生日嘛，何况你这个星期加班那么累。 | Hôm nay là sinh nhật em mà, huống chi tuần này em tăng ca mệt như thế. | It's your birthday today, not to mention how tired you've been from working overtime this week.
+妻子: 原来你都记得，可见你是真用心了。 | Hóa ra anh nhớ hết, đủ thấy anh thật sự để tâm. | So you remembered everything — clearly you really put your heart into it.
+丈夫: 假如你喜欢，以后每个周末我都尽量做一次。 | Nếu em thích, sau này cuối tuần nào anh cũng cố gắng nấu một lần. | If you like it, I'll do my best to cook once every weekend from now on.
+妻子: 这句话我绝对记住了，你可不能忘！ | Câu này em nhất định nhớ kỹ đấy, anh không được quên đâu! | I'm absolutely going to remember that — don't you forget it!
+
+## 5-link-5
+title: 悄悄准备生日会 | Bí mật chuẩn bị tiệc sinh nhật | Secretly planning a birthday party
+scene: Tiểu Trương và một người bạn bàn chuyện tổ chức sinh nhật bất ngờ cho Tiểu Lý. | Xiao Zhang and a friend plan a surprise birthday party for Xiao Li.
+cast: 朋友, 小张
+朋友: 下周六是小李的生日，我们悄悄给她办个晚会吧。 | Thứ bảy tuần sau là sinh nhật Tiểu Lý, bọn mình lặng lẽ tổ chức cho cậu ấy một bữa tiệc nhé. | Next Saturday is Xiao Li's birthday. Let's secretly throw her a party.
+小张: 好啊！可是如何才能不让她发现呢？ | Hay đấy! Nhưng làm thế nào để cậu ấy không phát hiện ra? | Great! But how do we keep her from finding out?
+朋友: 我偶然听她说过，那天晚上她没什么安排。 | Tớ tình cờ nghe cậu ấy nói, tối hôm đó cậu ấy không có kế hoạch gì. | I happened to hear her say she has no plans that evening.
+小张: 对，刚才她还问我周六有没有空，我连忙说有。 | Đúng rồi, lúc nãy cậu ấy còn hỏi tớ thứ bảy có rảnh không, tớ vội nói có. | Right, she just asked me whether I'm free on Saturday, and I quickly said yes.
+朋友: 太好了，那你亲自请她吃饭，其余的人先去餐厅准备。 | Tốt quá, vậy cậu đích thân mời cậu ấy đi ăn, những người còn lại đến nhà hàng chuẩn bị trước. | Perfect — you invite her to dinner yourself, and the rest of us will go ahead to the restaurant to get ready.
+小张: 就去学校对面那家吧，凭学生证可以打八折。 | Đi quán đối diện trường nhé, có thẻ sinh viên được giảm hai mươi phần trăm. | Let's go to the one across from school — with a student card you get twenty percent off.
+朋友: 难怪你天天去那儿吃饭！蛋糕谁去买？ | Thảo nào ngày nào cậu cũng ăn ở đó! Bánh kem ai đi mua? | No wonder you eat there every day! Who's buying the cake?
+小张: 我来买。她说过某家店的水果蛋糕特别好吃，可惜我忘了店名。 | Để tớ mua. Cậu ấy từng nói bánh kem trái cây của một tiệm nào đó rất ngon, tiếc là tớ quên tên tiệm rồi. | I'll get it. She once said some shop's fruit cake was really good, but I've forgotten the name.
+朋友: 我去问她室友。我宁可多花点儿钱，也要买她喜欢的。 | Để tớ hỏi bạn cùng phòng của cậu ấy. Tớ thà tốn thêm chút tiền, cũng phải mua cái cậu ấy thích. | I'll ask her roommate. I'd rather spend a bit more and get the one she likes.
+小张: 好，哪怕那天下大雨，我们也要让她过个难忘的生日。 | Được, dù hôm đó mưa to, bọn mình cũng phải cho cậu ấy một sinh nhật khó quên. | OK, even if it pours that day, we'll give her an unforgettable birthday.
+
+## 5-link-6
+title: 找回雨伞 | Tìm lại chiếc ô | Getting the umbrella back
+scene: Một chị khách quay lại quán cà phê để tìm chiếc ô bỏ quên hôm qua. | A customer returns to a café to look for the umbrella she left there yesterday.
+cast: 顾客, 服务员
+顾客: 你好，我昨天好像把一把蓝色的伞落在这儿了。 | Chào em, hôm qua hình như chị để quên một chiếc ô màu xanh ở đây. | Hi, I think I left a blue umbrella here yesterday.
+服务员: 您似乎很着急，先别急。您还记得坐在哪张桌子吗？ | Chị có vẻ đang vội lắm, chị cứ bình tĩnh. Chị còn nhớ đã ngồi bàn nào không ạ? | You seem to be in a hurry — don't worry. Do you remember which table you sat at?
+顾客: 靠窗那张。那把伞对我来说相当重要，是我妈妈送的。 | Bàn cạnh cửa sổ. Chiếc ô đó khá quan trọng với chị, là mẹ chị tặng. | The one by the window. That umbrella is quite important to me — my mother gave it to me.
+服务员: 我们收了好几把蓝伞，我拿来给您看看，确认一下是否属于您。 | Bọn em giữ mấy chiếc ô xanh liền, em mang ra cho chị xem, xác nhận xem có phải của chị không. | We've collected several blue umbrellas. I'll bring them out so you can check whether one belongs to you.
+顾客: 就是这把！丝毫没坏，我高兴得像个孩子似的。 | Đúng là chiếc này! Không hỏng chút nào, chị vui như một đứa trẻ vậy. | This is it! Not damaged in the slightest — I'm as happy as a child.
+服务员: 昨天下大雨，忘了拿伞的客人显然比平时多。 | Hôm qua mưa to, khách quên ô rõ ràng nhiều hơn mọi khi. | It poured yesterday, so obviously more customers than usual forgot their umbrellas.
+顾客: 我今天特意早点儿出门，万一被别人拿走就麻烦了。 | Hôm nay chị cố ý ra khỏi nhà sớm một chút, lỡ bị người khác cầm mất thì phiền lắm. | I left home early today on purpose — it would be a pain if someone took it by mistake.
+服务员: 下次在伞上写个名字吧，说不定能帮您找回来。 | Lần sau chị viết tên lên ô nhé, biết đâu lại giúp chị tìm lại được. | Next time write your name on it — it might help you get it back.
+顾客: 写了也未必有用，我常常连忘在哪儿都想不起来，哈哈。 | Viết rồi cũng chưa chắc có ích, chị thường còn chẳng nhớ nổi mình để quên ở đâu nữa, haha. | Even that won't necessarily help — I often can't even remember where I left things, haha.
+
+## 5-link-7
+title: 停电以后 | Sau trận mất điện | After the power cut
+scene: Sáng hôm sau trận mất điện, Tiểu Vương gặp chị hàng xóm ở cửa tòa nhà. | The morning after a blackout, Xiao Wang runs into a neighbor at the building entrance.
+cast: 邻居, 小王
+邻居: 昨晚停电了，你家冰箱里的东西没事吧？ | Tối qua mất điện, đồ trong tủ lạnh nhà em không sao chứ? | The power went out last night — is the food in your fridge OK?
+小王: 幸亏天气不热，肉和鱼都还好。 | May mà trời không nóng, thịt với cá vẫn ổn chị ạ. | Luckily it isn't hot, so the meat and fish are still fine.
+邻居: 听说是电线太旧的缘故，下周要全部换新的。 | Nghe nói là do dây điện cũ quá, tuần sau sẽ thay mới toàn bộ. | I heard it was because the wiring is too old; they're replacing all of it next week.
+小王: 一旦开始换线，是不是要停一整天电？ | Một khi bắt đầu thay dây thì có phải mất điện cả ngày không chị? | Once they start rewiring, will the power be off for a whole day?
+邻居: 对，通知上写了停电时间以及注意事项。 | Đúng rồi, thông báo có ghi thời gian mất điện cùng với những điều cần lưu ý. | Yes, the notice lists the outage times as well as things to watch out for.
+小王: 要是那天我在家，就太不方便了。要不我去公司加班算了。 | Nếu hôm đó em ở nhà thì bất tiện lắm. Hay là em đến công ty tăng ca cho xong. | If I'm home that day, it'll be really inconvenient. Maybe I'll just go work overtime at the office.
+邻居: 我也这么想。与其在家干等，不如带孩子出去玩。 | Chị cũng nghĩ thế. Thay vì ở nhà ngồi chờ, chi bằng đưa con đi chơi. | I was thinking the same. Rather than sit around waiting at home, I'd better take the kids out.
+小王: 我们这栋楼相对新一些，旁边那栋则更旧，因而问题更多。 | Tòa nhà mình còn tương đối mới, còn tòa bên cạnh thì cũ hơn, vì thế vấn đề cũng nhiều hơn. | Our building is relatively new, whereas the one next door is older, so it has more problems.
+邻居: 是啊，那边的老人家依然用着很旧的电器，换完线就放心了。 | Đúng vậy, các cụ bên đó vẫn dùng đồ điện rất cũ, thay dây xong thì yên tâm rồi. | Yes, the elderly folks over there still use very old appliances; once the wiring is replaced we can relax.
+
+## 5-link-8
+title: 健身计划 | Kế hoạch tập thể hình | A workout plan
+scene: Ở phòng tập, huấn luyện viên bàn với học viên về kế hoạch tập tiếp theo. | At the gym, a coach talks with a trainee about the next stage of training.
+cast: 教练, 学生
+教练: 自从你开始每周来三次，体重总算降下来了。 | Từ khi em bắt đầu đến tập mỗi tuần ba buổi, cuối cùng cân nặng cũng giảm rồi. | Since you started coming three times a week, your weight has finally come down.
+学生: 是啊，我正想问您，接下来该怎么练？ | Vâng ạ, em đang định hỏi thầy, tiếp theo nên tập thế nào ạ? | Yes, I was just about to ask you — how should I train from here?
+教练: 你的腰不太好，我会针对这个问题设计一些新动作。 | Lưng em không được tốt lắm, thầy sẽ thiết kế vài động tác mới nhắm vào vấn đề này. | Your lower back isn't great, so I'll design some new exercises aimed at that problem.
+学生: 那要不要马上增加重量？ | Vậy có cần tăng mức tạ ngay không ạ? | So should I increase the weights right away?
+教练: 不用急，要逐步增加，一次加太多容易受伤。 | Không cần vội, phải tăng từ từ, tăng nhiều một lúc dễ bị chấn thương. | No rush — increase gradually. Adding too much at once makes it easy to get hurt.
+学生: 那吃的方面呢？我还能吃甜的吗？ | Thế còn chuyện ăn uống ạ? Em còn được ăn đồ ngọt không? | What about food? Can I still eat sweets?
+教练: 至于饮食，偶尔吃一点儿没关系，别天天吃就行。 | Còn về ăn uống, thỉnh thoảng ăn một chút không sao, đừng ngày nào cũng ăn là được. | As for diet, a little now and then is fine — just not every day.
+学生: 明白了。作为您的学生，我一定按计划来。 | Em hiểu rồi. Là học viên của thầy, em nhất định sẽ tập theo kế hoạch. | Got it. As your student, I'll definitely stick to the plan.
+教练: 总之，坚持最重要。下周三见！ | Tóm lại, kiên trì là quan trọng nhất. Thứ tư tuần sau gặp lại nhé! | In short, sticking with it is what matters most. See you next Wednesday!

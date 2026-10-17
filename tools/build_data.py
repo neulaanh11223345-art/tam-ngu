@@ -536,6 +536,7 @@ def segment(zh, lexicon):
 NAMES_BY_LEN = sorted(NAMES, key=len, reverse=True)
 ADVERB_ZHI = {'只是', '只有', '只要', '只好', '只能'}
 SENTENCE_FIX = {
+    '放心，刚才是我扶奶奶回房间的，还给她盖好了被子。': 'Fàng|xīn, gāng|cái shì wǒ fú nǎi|nai huí fáng|jiān de, hái gěi tā gài hǎo le bèi|zi.',
     '他说话幽默，很有个人魅力。': 'Tā shuō|huà yōu|mò, hěn yǒu gè|rén mèi|lì.',
 }
 
@@ -609,6 +610,10 @@ def sentence_pinyin(zh, lookup, target, target_syls, lexicon):
             readings[i] = 'jià' if prev and prev in '天请放休' else 'jiǎ'
         elif ch == '觉':
             readings[i] = 'jiào' if prev and prev in '着个睡午' else 'jué'
+        elif ch == '的':
+            readings[i] = 'de'
+        elif ch == '没':
+            readings[i] = 'méi'
         elif ch == '嗯':
             readings[i] = 'ng'
         elif ch == '教':
