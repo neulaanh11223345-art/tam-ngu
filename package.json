@@ -2,7 +2,7 @@
   "name": "tam-ngu",
   "version": "1.0.0",
   "private": true,
-  "description": "Tam Ngữ — học 2.194 từ HSK 3–5 với pinyin, Hán Việt, nghĩa Anh và Việt; ôn tập ngắt quãng, kiểm tra và luyện viết chữ Hán.",
+  "description": "Hán Lộ 汉路 — học tiếng Trung và tiếng Anh song ngữ: 2.194 từ HSK 3–5 với pinyin, Hán Việt, nghĩa Anh và Việt, bài khóa nghe được Trung – Anh, ôn tập ngắt quãng và luyện viết chữ Hán.",
   "type": "module",
   "scripts": {
     "serve": "node tools/serve.mjs",

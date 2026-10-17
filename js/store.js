@@ -12,12 +12,18 @@ export const DEFAULT_SETTINGS = {
   theme: 'system',
   autoSpeak: true,
   rate: 0.9,
+  // tiếng Anh: giọng Anh-Mỹ/Anh-Anh, tốc độ riêng, tự đọc nghĩa tiếng Anh sau tiếng Trung khi lật thẻ
+  enAccent: 'en-US',
+  enRate: 0.95,
+  autoSpeakEn: false,
   dailyGoal: 15,
-  // các lớp hiện trong hội thoại
-  dlg: { py: true, vi: true, en: false },
+  // các lớp hiện trong hội thoại và bài khóa
+  dlg: { zh: true, py: true, vi: true, en: true },
+  // nghe cả bài: chỉ tiếng Trung, chỉ tiếng Anh, hoặc tiếng Trung rồi tiếng Anh từng câu
+  playLang: 'zh',
 };
 
-const STATE_VERSION = 2;
+const STATE_VERSION = 3;
 
 function emptyState() {
   return {
@@ -75,6 +81,8 @@ export function normalize(raw) {
   if ((Number(raw.version) || 1) < 2) {
     if (out.settings.levels.length === 2 && out.settings.levels.includes(3) && out.settings.levels.includes(4)) out.settings.levels = [3, 4, 5];
   }
+  // bản 3 (Hán Lộ) đọc được tiếng Anh: bật sẵn lớp tiếng Anh trong bài khóa cho người học cũ
+  if ((Number(raw.version) || 1) < 3) out.settings.dlg.en = true;
   out.version = STATE_VERSION;
   return out;
 }
@@ -282,11 +290,12 @@ export function createStore(storage = safeStorage(), now = () => Date.now()) {
       return state.log[dayKey(now())] || { reviews: 0, fresh: 0, good: 0, bad: 0, ms: 0, writes: 0 };
     },
     exportJSON() {
+      // giữ mã 'tam-ngu' (tên cũ của app) để bản sao lưu cũ và mới đều nhập được
       return JSON.stringify({ app: 'tam-ngu', exported: new Date(now()).toISOString(), ...state }, null, 1);
     },
     importJSON(text) {
       const raw = JSON.parse(text);
-      if (!raw || raw.app !== 'tam-ngu') throw new Error('Tệp không phải bản sao lưu của Tam Ngữ');
+      if (!raw || raw.app !== 'tam-ngu') throw new Error('Tệp không phải bản sao lưu của Hán Lộ (Tam Ngữ)');
       delete raw.app;
       delete raw.exported;
       state = normalize(raw);

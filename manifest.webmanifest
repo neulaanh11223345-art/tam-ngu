@@ -1,24 +1,23 @@
 {
-  "name": "Tam Ngữ · Học từ vựng Trung · Anh · Việt",
-  "short_name": "Tam Ngữ",
-  "description": "Học 2.194 từ HSK 3–5 với pinyin, Hán Việt, nghĩa tiếng Anh và tiếng Việt. Hội thoại theo bài, ôn tập ngắt quãng, kiểm tra nhanh và luyện viết chữ Hán.",
+  "name": "Hán Lộ · Học tiếng Trung & tiếng Anh song ngữ",
+  "short_name": "Hán Lộ",
+  "description": "Hán Lộ 汉路: học tiếng Trung và tiếng Anh song ngữ. 2.194 từ HSK 3–5 với pinyin, Hán Việt, nghĩa Anh – Việt, bài khóa nghe được cả tiếng Trung và tiếng Anh, ôn tập ngắt quãng và luyện viết chữ Hán.",
   "lang": "vi",
   "dir": "ltr",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",
   "orientation": "portrait",
-  "background_color": "#f3f5f8",
-  "theme_color": "#1f5bd6",
+  "background_color": "#f5eee2",
+  "theme_color": "#9b1b1b",
   "categories": ["education"],
   "icons": [
     { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png" },
     { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png" },
-    { "src": "icons/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" },
-    { "src": "icons/icon.svg", "sizes": "any", "type": "image/svg+xml" }
+    { "src": "icons/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
   ],
   "shortcuts": [
-    { "name": "Ôn tập hôm nay", "url": "./#/review", "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }] },
+    { "name": "Ôn thẻ hôm nay", "url": "./#/review", "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }] },
     { "name": "Luyện viết chữ Hán", "url": "./#/write", "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }] }
   ]
 }

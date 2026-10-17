@@ -1,7 +1,6 @@
-// Danh sách hội thoại: hội thoại tự nhập của bạn và hội thoại theo bài HSK 4–5.
-import { lesson, lessonTitle, loadDialogues, topic } from '../data.js';
-import { button, emptyState, h, icon, segmented, zh } from '../dom.js';
-import { lessonsTabs } from './common.js';
+// Thư viện: hội thoại tự nhập của bạn, sổ từ đã lưu và bài khóa (hội thoại) theo bài HSK 4–5.
+import { lesson, lessonTitle, loadDialogues, topic, word } from '../data.js';
+import { button, emptyState, h, icon, pinyinWord, segmented, zh } from '../dom.js';
 
 let lastLevel = null;
 
@@ -75,13 +74,34 @@ export function render(ctx) {
     })
     .catch((e) => list.replaceChildren(emptyState('Không tải được hội thoại', `${e.message}. Hãy kiểm tra mạng rồi mở lại.`)));
 
+  const savedIds = Object.entries(store.state.saved)
+    .sort((a, b) => b[1] - a[1])
+    .map(([id]) => word(id))
+    .filter(Boolean);
+  const savedSec = h(
+    'section',
+    { class: 'section' },
+    h('div', { class: 'section-head' }, h('h2', null, `Sổ từ${savedIds.length ? ` (${savedIds.length})` : ''}`), savedIds.length ? h('a', { href: '#/review/saved' }, 'Ôn sổ từ') : null),
+    savedIds.length
+      ? h(
+          'div',
+          { class: 'list' },
+          savedIds.slice(0, 6).map((w) =>
+            h('a', { href: `#/word/${w.id}`, class: 'row-link word-row' }, h('span', { class: 'row-main' }, h('span', { class: 'row-title' }, zh(w.hanzi), pinyinWord(w.py)), h('span', { class: 'row-sub' }, `${w.vi} · ${w.en}`)), icon('chevron', 18)),
+          ),
+          savedIds.length > 6 ? h('p', { class: 'small muted' }, `và ${savedIds.length - 6} từ khác. Bấm Ôn sổ từ để ôn hết.`) : null,
+        )
+      : h('p', { class: 'card small muted' }, 'Bấm biểu tượng ', icon('star', 14), ' ở một từ để lưu vào sổ từ và ôn lại sau.'),
+  );
+
   const el = h(
     'div',
     { class: 'view' },
-    h('header', { class: 'topbar' }, h('h1', { class: 'grow' }, 'Bài học')),
-    lessonsTabs('dialogues', ctx.navigate),
-    mineArea,
-    h('section', { class: 'section' }, h('div', { class: 'section-head' }, h('h2', null, 'Hội thoại theo bài')), h('p', { class: 'small muted' }, 'Mỗi bài từ vựng HSK 4–5 có một hội thoại dùng chính các từ của bài, soạn riêng cho Tam Ngữ.'), levelArea, list),
+    h('header', { class: 'topbar' }, h('h1', { class: 'grow' }, 'Thư viện')),
+    h('div', { class: 'grid-2' },
+      h('div', { class: 'col' }, h('section', { class: 'section' }, h('div', { class: 'section-head' }, h('h2', null, 'Bài khóa theo bài')), h('p', { class: 'small muted' }, 'Mỗi bài từ vựng HSK 4–5 có một bài khóa hội thoại dùng chính các từ của bài, soạn riêng cho Hán Lộ. Nghe được cả tiếng Trung và tiếng Anh.'), levelArea, list)),
+      h('div', { class: 'col' }, mineArea, savedSec),
+    ),
   );
-  return { el, title: 'Hội thoại' };
+  return { el, title: 'Thư viện' };
 }

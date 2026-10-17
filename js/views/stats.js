@@ -1,5 +1,5 @@
 import { data, levelsAvailable, word } from '../data.js';
-import { bar, button, h, icon, pinyinWord, segmented, zh } from '../dom.js';
+import { bar, brandSeal, button, h, icon, pinyinWord, segmented, zh } from '../dom.js';
 import { dayKey } from '../srs.js';
 import { streak } from '../store.js';
 import { learnedCount } from './common.js';
@@ -137,17 +137,24 @@ export function render(ctx) {
     'section',
     { class: 'card section', style: { display: 'flex', alignItems: 'center', gap: '14px' } },
     h('span', { class: 'tile current', 'aria-hidden': 'true' }, icon('bookmark', 22)),
-    h('span', { class: 'row-main' }, h('span', { class: 'row-title' }, 'Sổ từ đã lưu'), h('span', { class: 'row-sub' }, savedIds.length ? `${savedIds.length} từ` : 'Bấm biểu tượng dấu trang ở trang chi tiết từ để lưu')),
+    h('span', { class: 'row-main' }, h('span', { class: 'row-title' }, 'Sổ từ đã lưu'), h('span', { class: 'row-sub' }, savedIds.length ? `${savedIds.length} từ` : 'Bấm biểu tượng ngôi sao ở một từ để lưu')),
     savedIds.length ? button('Ôn', { href: '#/review/saved', size: 'sm', icon: 'play' }) : null,
   );
 
   const el = h(
     'div',
     { class: 'view' },
+    h('header', { class: 'topbar' }, h('h1', { class: 'grow' }, 'Tôi'), h('a', { class: 'icon-btn', href: '#/settings', 'aria-label': 'Cài đặt', title: 'Cài đặt' }, icon('settings', 22))),
     h(
-      'header',
-      { class: 'topbar' },
-      h('h1', { class: 'grow' }, 'Thống kê'),
+      'section',
+      { class: 'card me-card' },
+      brandSeal('seal-lg'),
+      h('div', { class: 'row-main' }, h('strong', { class: 'me-name' }, 'Hành trình của bạn'), h('span', { class: 'small muted' }, `${learned} từ đã thuộc · chuỗi ${days} ngày`)),
+    ),
+    h(
+      'div',
+      { class: 'section-head', style: { marginTop: '20px' } },
+      h('h2', null, 'Thống kê'),
       segmented(
         [
           ['week', 'Tuần'],
@@ -164,5 +171,5 @@ export function render(ctx) {
     h('div', { class: 'stagger' }, tiles, h('section', { class: 'card section' }, chartBox), h('div', { class: 'grid-2', style: { marginTop: '0' } }, h('div', { class: 'col' }, levels, savedSec), h('div', { class: 'col' }, forgotSec))),
   );
   drawChart();
-  return { el, title: 'Thống kê' };
+  return { el, title: 'Tôi' };
 }

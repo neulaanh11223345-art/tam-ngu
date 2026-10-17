@@ -1,6 +1,6 @@
 # Nguồn dữ liệu và thư viện
 
-Tam Ngữ dùng các dữ liệu và thư viện mở sau. Toàn văn giấy phép nằm cạnh từng phần.
+Hán Lộ (tên cũ: Tam Ngữ) dùng các dữ liệu và thư viện mở sau. Toàn văn giấy phép nằm cạnh từng phần.
 
 | Thành phần | Dùng để | Giấy phép | Tệp giấy phép |
 | --- | --- | --- | --- |
@@ -10,6 +10,6 @@ Tam Ngữ dùng các dữ liệu và thư viện mở sau. Toàn văn giấy ph�
 | [hanzi-writer-data](https://github.com/chanind/hanzi-writer-data) | Nét viết từng chữ (`data/strokes/`) | Arphic Public License | `data/LICENSE-stroke-data-ARPHICPL.txt` |
 | [Hanzi Writer](https://hanziwriter.org) 3.7.3 (David Chanin) | Bảng viết, hoạt hình thứ tự nét, chấm nét | MIT | `vendor/LICENSE-hanzi-writer.txt` |
 | [pypinyin](https://github.com/mozillazg/python-pinyin) | Chú âm câu ví dụ và hội thoại khi dựng dữ liệu, cách đọc mặc định trong `data/lexicon.json` | MIT | |
-| Be Vietnam Pro, Noto Serif SC (Google Fonts) | Phông chữ giao diện | SIL Open Font License | |
+| Be Vietnam Pro, Noto Serif, Noto Serif SC (Google Fonts) | Phông chữ giao diện và biểu tượng app | SIL Open Font License | |
 
-Nghĩa tiếng Việt, nghĩa tiếng Anh, chủ đề, câu ví dụ (`data-src/hsk*.txt`) và hội thoại theo bài (`data-src/dialogues/`) được soạn riêng cho Tam Ngữ, không lấy từ giáo trình nào.
+Nghĩa tiếng Việt, nghĩa tiếng Anh, chủ đề, câu ví dụ (`data-src/hsk*.txt`) và hội thoại theo bài (`data-src/dialogues/`) được soạn riêng cho app, không lấy từ giáo trình nào. Tranh thủy mặc (núi, chùa, cành mai) và con dấu 汉路 được vẽ riêng cho app.

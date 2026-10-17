@@ -11,7 +11,7 @@ export function render(ctx) {
   const id = params[0] === 'new' ? null : params[0];
   const entry = id ? store.state.mine[id] : null;
   if (id && (!entry || entry.deleted)) {
-    ctx.navigate('#/dialogues', { replace: true });
+    ctx.navigate('#/library', { replace: true });
     return { el: h('div', { class: 'view' }) };
   }
 
@@ -85,7 +85,7 @@ export function render(ctx) {
         h('div', { class: 'confirm-actions' }, button('Giữ lại', { variant: 'secondary', size: 'sm', onclick: () => drawDelete(false) }), button('Xóa', { icon: 'trash', variant: 'danger', size: 'sm', onclick: () => {
           store.deleteMine(id);
           toast('Đã xóa hội thoại');
-          ctx.navigate('#/dialogues', { replace: true });
+          ctx.navigate('#/library', { replace: true });
         } })),
       ),
     );
@@ -95,7 +95,7 @@ export function render(ctx) {
   const el = h(
     'div',
     { class: 'view' },
-    h('header', { class: 'topbar' }, h('a', { class: 'icon-btn', href: id ? `#/mine/${id}` : '#/dialogues', 'aria-label': 'Quay lại' }, icon('back', 24)), h('h1', { class: 'grow' }, id ? 'Sửa hội thoại' : 'Thêm hội thoại')),
+    h('header', { class: 'topbar' }, h('a', { class: 'icon-btn', href: id ? `#/mine/${id}` : '#/library', 'aria-label': 'Quay lại' }, icon('back', 24)), h('h1', { class: 'grow' }, id ? 'Sửa hội thoại' : 'Thêm hội thoại')),
     h(
       'section',
       { class: 'card mine-form' },

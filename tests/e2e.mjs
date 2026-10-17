@@ -67,16 +67,16 @@ await step('trang chủ mở được, có thanh điều hướng và thẻ ôn 
   await page.goto(BASE);
   await page.waitForSelector('.nav a[aria-current="page"]');
   await page.waitForSelector('.hero');
-  assert.equal(await page.title(), 'Tam Ngữ');
+  assert.match(await page.title(), /^Hán Lộ/);
   const navText = await page.locator('.nav').innerText();
-  for (const label of ['Trang chủ', 'Bài học', 'Ôn tập', 'Luyện viết', 'Thống kê']) assert.ok(navText.includes(label), label);
+  for (const label of ['Hôm nay', 'Lộ trình', 'Luyện tập', 'Thư viện', 'Tôi']) assert.ok(navText.includes(label), label);
   await noSideScroll(page, 'trang chủ');
   await shot(page, '01-home-light');
 });
 
-await step('bài học: đổi cấp, tìm theo pinyin không dấu', async () => {
+await step('lộ trình: đổi cấp, tìm theo pinyin không dấu', async () => {
   await page.click('.nav a[href="#/lessons"]');
-  await page.waitForSelector('.topbar h1:text("Bài học")');
+  await page.waitForSelector('.topbar h1:text("Lộ trình")');
   await page.waitForTimeout(300);
   const hsk3 = await page.locator('.row-link').count();
   assert.ok(hsk3 >= 20, `HSK 3 có ${hsk3} bài`);
@@ -122,6 +122,46 @@ await step('trang bài học và chi tiết từ: pinyin, Hán Việt, câu ví 
   assert.equal(await saveBtn.getAttribute('aria-pressed'), 'true');
   await noSideScroll(page, 'chi tiết từ');
   await shot(page, '04-word');
+});
+
+await step('bài học có bài khóa: tab Bài học, Từ vựng (lọc tiếng Anh), Luyện tập, loa tiếng Anh', async () => {
+  const l = raw.lessons.find((x) => x.dlg && x.level === 4);
+  const d = JSON.parse(await readFile(new URL('data/dialogues.json', ROOT), 'utf8')).dialogues.find((x) => x.id === l.id);
+  await go(page, `#/lesson/${l.id}`);
+  await page.waitForSelector('.text-line');
+  assert.equal(await page.locator('.text-line').count(), d.lines.length);
+  assert.equal(await page.locator('.lh-zh').innerText(), d.title.zh);
+  assert.ok((await page.locator('.text-line .say-en').count()) === d.lines.length, 'thiếu loa tiếng Anh ở bài khóa');
+  await page.locator('.text-line .say-en').first().click();
+  await noSideScroll(page, 'bài học có bài khóa');
+  await shot(page, '03b-lesson-text');
+  await page.getByRole('radio', { name: 'Từ vựng' }).click();
+  await page.waitForSelector('.vocab-card');
+  assert.equal(await page.locator('.vocab-card').count(), l.words.length);
+  await page.getByRole('radio', { name: 'Tiếng Anh' }).click();
+  await page.waitForTimeout(200);
+  assert.equal(await page.locator('.vocab-card .vc-vi').count(), 0, 'lọc Tiếng Anh vẫn hiện nghĩa Việt');
+  assert.equal(await page.locator('.vocab-card .say-en').count(), l.words.length);
+  await page.locator('.vocab-card .star-btn').first().click();
+  assert.equal(await page.locator('.vocab-card .star-btn').first().getAttribute('aria-pressed'), 'true');
+  await page.locator('.vocab-card .star-btn').first().click();
+  await shot(page, '03c-lesson-words');
+  await page.getByRole('radio', { name: 'Tất cả' }).click();
+  await page.getByRole('radio', { name: 'Luyện tập' }).click();
+  await page.waitForSelector(`a[href="#/dialogue/${l.id}?mode=cloze"]`);
+});
+
+await step('luyện tập và thư viện mở được từ thanh điều hướng', async () => {
+  await page.click('.nav a[href="#/practice"]');
+  await page.waitForSelector('.topbar h1:text("Luyện tập")');
+  await page.waitForSelector('a[href="#/quiz"]');
+  await noSideScroll(page, 'luyện tập');
+  await shot(page, '03d-practice');
+  await page.click('.nav a[href="#/library"]');
+  await page.waitForSelector('.topbar h1:text("Thư viện")');
+  await page.waitForSelector('a[href^="#/dialogue/"]');
+  await page.click('.nav a[href="#/me"]');
+  await page.waitForSelector('.me-card');
 });
 
 await step('ôn tập: lật thẻ, chấm điểm, hoàn tác, xong buổi', async () => {
@@ -285,6 +325,30 @@ await step('hội thoại theo bài: đọc, tra từ, nhập vai, điền từ 
   await page.waitForTimeout(300);
   await noSideScroll(page, 'hội thoại');
   await shot(page, '19-dialogue-read');
+  // tùy chọn hiển thị: chỉ tiếng Anh thì ẩn chữ Hán, vẫn có loa tiếng Anh
+  await page.getByRole('button', { name: 'Tùy chọn hiển thị' }).first().click();
+  await page.waitForSelector('.opt-sheet');
+  await shot(page, '19a-display-sheet');
+  await page.locator('.radio-row', { hasText: 'Chỉ tiếng Anh' }).click();
+  await page.getByRole('button', { name: 'Áp dụng' }).click();
+  await page.waitForTimeout(300);
+  assert.equal(await page.locator('.chat .b-zh').count(), 0, 'chọn Chỉ tiếng Anh mà vẫn hiện chữ Hán');
+  assert.equal(await page.locator('.chat .b-en .say-en').count(), d.lines.length);
+  await page.getByRole('button', { name: 'Tùy chọn hiển thị' }).first().click();
+  await page.locator('.radio-row', { hasText: 'Đầy đủ' }).click();
+  await page.getByRole('button', { name: 'Áp dụng' }).click();
+  await page.waitForTimeout(300);
+  assert.equal(await page.locator('.chat .b-zh').count(), d.lines.length);
+  // từng câu: chuyển câu, có lớp tiếng Anh
+  await page.getByRole('radio', { name: 'Từng câu' }).click();
+  await page.waitForSelector('.line-card');
+  assert.equal(await page.locator('.line-tab').count(), d.lines.length);
+  await page.getByRole('button', { name: 'Câu tiếp theo' }).click();
+  await page.waitForTimeout(200);
+  assert.equal(await page.locator('.line-tab[aria-selected="true"]').innerText(), 'Câu 2');
+  assert.equal(await page.locator('.line-card .lang-en .layer-text').innerText(), d.lines[1].en);
+  await noSideScroll(page, 'từng câu');
+  await shot(page, '19e-dialogue-line');
   await page.getByRole('radio', { name: 'Nhập vai' }).click();
   for (let i = 0; i < 30; i++) {
     const b = page.locator('.role-controls .btn').first();
@@ -402,7 +466,7 @@ await step('giao diện tối theo hệ thống', async () => {
   await dark.page.goto(BASE);
   await dark.page.waitForSelector('.hero');
   const bg = await dark.page.evaluate(() => getComputedStyle(document.body).backgroundColor);
-  assert.equal(bg, 'rgb(15, 20, 28)');
+  assert.equal(bg, 'rgb(21, 16, 13)');
   await shot(dark.page, '20-home-dark');
   await go(dark.page, '#/review');
   await dark.page.waitForSelector('.fc');
@@ -492,12 +556,52 @@ await step('đồng bộ tiến độ: nhận tiến độ từ máy khác và l
 });
 await synced.context.close();
 
+// ---------------- phát âm (giả lập giọng đọc của máy) ----------------
+const voiced = await open();
+await step('phát âm: nghĩa tiếng Anh đọc bằng giọng Anh, nghe cả bài Trung + Anh, đổi Anh-Mỹ/Anh-Anh', async () => {
+  const p = voiced.page;
+  await p.addInitScript(() => {
+    const voices = [{ lang: 'zh-CN', name: 'Tingting', localService: true }, { lang: 'en-US', name: 'Samantha', localService: true }, { lang: 'en-GB', name: 'Daniel', localService: true }];
+    window.__said = [];
+    const synth = { getVoices: () => voices, cancel() {}, addEventListener() {}, speak(u) { window.__said.push({ text: u.text, lang: u.lang, voice: u.voice?.name }); setTimeout(() => u.onend?.(), 20); } };
+    Object.defineProperty(window, 'speechSynthesis', { value: synth });
+    window.SpeechSynthesisUtterance = function (t) { this.text = t; };
+  });
+  const d = dialogues[0];
+  const w = raw.words.find((x) => x.id === d.words[0]);
+  await p.goto(`${BASE}#/word/${w.id}`);
+  await p.waitForSelector('.meanings .say-en');
+  await p.locator('.meanings .say-en').click();
+  await p.waitForTimeout(100);
+  let said = await p.evaluate(() => window.__said);
+  assert.deepEqual(said.at(-1), { text: said.at(-1).text, lang: 'en-US', voice: 'Samantha' });
+  await go(p, '#/settings');
+  await p.getByRole('radio', { name: 'Anh-Anh' }).click();
+  await go(p, `#/dialogue/${d.id}`);
+  await p.waitForSelector('.bubble');
+  await p.getByRole('button', { name: 'Tùy chọn hiển thị' }).first().click();
+  await p.getByRole('radio', { name: 'Trung + Anh' }).click();
+  await p.getByRole('button', { name: 'Áp dụng' }).click();
+  await p.evaluate(() => (window.__said = []));
+  await p.getByRole('button', { name: /Nghe cả bài/ }).click();
+  await p.waitForFunction((n) => window.__said.length >= n, 4, { timeout: 8000 });
+  said = await p.evaluate(() => window.__said.slice(0, 4));
+  assert.deepEqual(said, [
+    { text: d.lines[0].zh, lang: 'zh-CN', voice: 'Tingting' },
+    { text: d.lines[0].en, lang: 'en-GB', voice: 'Daniel' },
+    { text: d.lines[1].zh, lang: 'zh-CN', voice: 'Tingting' },
+    { text: d.lines[1].en, lang: 'en-GB', voice: 'Daniel' },
+  ]);
+  assert.deepEqual(voiced.errors, []);
+});
+await voiced.context.close();
+
 // ---------------- màn hẹp 360px, giảm chuyển động ----------------
 const narrow = await open({ width: 360, height: 740, reducedMotion: 'reduce' });
 await step('màn 360px không bị tràn ngang ở mọi trang', async () => {
   await narrow.page.goto(BASE);
   await narrow.page.waitForSelector('.hero');
-  for (const hash of ['#/', '#/lessons', '#/dialogues', `#/dialogue/${dialogues[0].id}`, '#/mine/new', `#/lesson/${firstLesson.id}`, `#/word/${firstWord.id}`, '#/review', '#/quiz', '#/write', `#/write/word/${firstWord.id}`, '#/stats', '#/settings']) {
+  for (const hash of ['#/', '#/lessons', '#/practice', '#/library', '#/me', `#/lesson/${raw.lessons.find((x) => x.dlg).id}`, `#/dialogue/${dialogues[0].id}?mode=line`, '#/dialogues', `#/dialogue/${dialogues[0].id}`, '#/mine/new', `#/lesson/${firstLesson.id}`, `#/word/${firstWord.id}`, '#/review', '#/quiz', '#/write', `#/write/word/${firstWord.id}`, '#/stats', '#/settings']) {
     await go(narrow.page, hash);
     await narrow.page.waitForTimeout(250);
     await noSideScroll(narrow.page, hash);

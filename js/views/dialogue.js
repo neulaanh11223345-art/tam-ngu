@@ -4,8 +4,8 @@ import { dialogue, lesson, lessonTitle, loadDialogues, loadLexicon, word, wordBy
 import { button, emptyState, h, icon, pinyinSentence, segmented, toast, zh } from '../dom.js';
 import { annotate, parseDialogueText } from '../pygen.js';
 import { makeRng, shuffle } from '../quiz.js';
-import { hasChineseVoice, speak, stopSpeaking } from '../speech.js';
-import { confetti, speakButton, wordPeek } from './common.js';
+import { hasChineseVoice, hasVoice, speak, stopSpeaking } from '../speech.js';
+import { confetti, displaySheet, displaySummary, sayAs, speakButton, wordPeek } from './common.js';
 
 const PITCH = [1, 1.18, 0.9];
 
@@ -69,7 +69,7 @@ export function render(ctx) {
     if (kind === 'mine') {
       const entry = store.state.mine[id];
       if (!entry || entry.deleted) {
-        ctx.navigate('#/dialogues', { replace: true });
+        ctx.navigate('#/library', { replace: true });
         return;
       }
       model = await mineModel(id, entry);
@@ -89,18 +89,20 @@ export function render(ctx) {
 
   function draw(model) {
     const l = model.kind === 'lesson' ? lesson(model.id) : null;
-    const back = model.kind === 'lesson' ? `#/lesson/${model.id}` : '#/dialogues';
-    let mode = 'read';
+    const back = model.kind === 'lesson' ? `#/lesson/${model.id}` : '#/library';
+    let mode = ['line', 'role', 'cloze'].includes(ctx.query.get('mode')) ? ctx.query.get('mode') : 'read';
     let playing = false;
     let stopRequested = false;
+    let lineIndex = 0;
     const voice = hasChineseVoice();
 
     const head = h(
       'header',
       { class: 'topbar' },
       h('a', { class: 'icon-btn', href: back, 'aria-label': 'Quay lại' }, icon('back', 24)),
-      h('span', { class: 'topbar-title' }, model.kind === 'lesson' ? `Hội thoại · HSK ${model.level}` : 'Hội thoại của bạn'),
-      model.kind === 'mine' ? h('a', { class: 'icon-btn', href: `#/mine/${model.id}/edit`, 'aria-label': 'Sửa hội thoại' }, icon('pen', 22)) : h('span', { style: { width: '44px' } }),
+      h('span', { class: 'topbar-title' }, model.kind === 'lesson' ? `Bài khóa · HSK ${model.level}` : 'Hội thoại của bạn'),
+      h('button', { type: 'button', class: 'icon-btn', 'aria-label': 'Tùy chọn hiển thị', title: 'Tùy chọn hiển thị', onclick: () => openDisplay() }, icon('sliders', 22)),
+      model.kind === 'mine' ? h('a', { class: 'icon-btn', href: `#/mine/${model.id}/edit`, 'aria-label': 'Sửa hội thoại' }, icon('pen', 22)) : null,
     );
 
     const intro = h(
@@ -108,7 +110,8 @@ export function render(ctx) {
       { class: 'dlg-intro' },
       model.title.zh ? zh(model.title.zh, 'dlg-title-zh') : null,
       h('h1', { class: 'dlg-title' }, model.title.vi),
-      model.scene ? h('p', { class: 'muted' }, model.scene.vi) : null,
+      model.title.en ? h('p', { class: 'dlg-title-en', lang: 'en' }, model.title.en) : null,
+      model.scene ? h('p', { class: 'muted dlg-scene' }, model.scene.vi) : null,
       h(
         'div',
         { class: 'dlg-cast' },
@@ -117,38 +120,58 @@ export function render(ctx) {
       ),
     );
 
-    const modes = [['read', 'Đọc'], ['role', 'Nhập vai']];
+    const modes = [['read', 'Cả bài'], ['line', 'Từng câu'], ['role', 'Nhập vai']];
     if (model.kind === 'lesson' && model.words.length >= 3) modes.push(['cloze', 'Điền từ']);
     const modeSeg = segmented(modes, mode, (v) => setMode(v), 'Cách luyện');
     const body = h('div', { class: 'dlg-body' });
 
-    el.replaceChildren(head, intro, h('div', { style: { marginTop: '16px' } }, modeSeg), body);
+    el.replaceChildren(head, intro, h('div', { class: 'dlg-modes' }, modeSeg), body);
 
     function show() {
-      return store.state.settings.dlg;
+      return { zh: true, py: true, vi: true, en: false, ...store.state.settings.dlg };
     }
 
-    function bubble(line, i, { hideZh = false, segments = true } = {}) {
+    function openDisplay() {
+      displaySheet(store, () => redraw());
+    }
+
+    function redraw() {
+      if (mode === 'read') drawRead();
+      else if (mode === 'line') drawLine();
+    }
+
+    function sayBtn(text, lang, line, cls = 'mini-say', size = 18) {
+      return speakButton(text, store, { lang, cls, size, pitch: PITCH[line.s % 3] });
+    }
+
+    /** Chữ Hán của câu, từ của bài bấm được để tra nghĩa. */
+    function zhText(line, cls = 'b-zh') {
+      const textEl = h('p', { class: cls, lang: 'zh-CN' });
+      for (const seg of lineSegments(line, model)) {
+        if (typeof seg === 'string') textEl.append(seg);
+        else
+          textEl.append(
+            h('button', {
+              type: 'button',
+              class: `wtap ${seg.w ? 'hl' : 'soft'}`,
+              onclick: (e) => {
+                e.stopPropagation();
+                peek(seg);
+              },
+            }, seg.text),
+          );
+      }
+      return textEl;
+    }
+
+    function peek(seg) {
+      if (seg.w) wordPeek({ hanzi: seg.w.hanzi, py: seg.w.py, vi: seg.w.vi, en: seg.w.en, id: seg.w.id, level: seg.w.level }, store);
+      else wordPeek({ hanzi: seg.text, py: seg.py, en: seg.gloss, level: 6 }, store);
+    }
+
+    function bubble(line, i, { forceZh = false } = {}) {
       const s = show();
       const speaker = model.cast[line.s] || model.cast[0];
-      const textEl = h('p', { class: 'b-zh', lang: 'zh-CN' });
-      if (!hideZh) {
-        for (const seg of segments ? lineSegments(line, model) : [line.zh]) {
-          if (typeof seg === 'string') textEl.append(seg);
-          else
-            textEl.append(
-              h('button', {
-                type: 'button',
-                class: `wtap ${seg.w ? 'hl' : 'soft'}`,
-                onclick: (e) => {
-                  e.stopPropagation();
-                  if (seg.w) wordPeek({ hanzi: seg.w.hanzi, py: seg.w.py, vi: seg.w.vi, en: seg.w.en, id: seg.w.id, level: seg.w.level }, store);
-                  else wordPeek({ hanzi: seg.text, py: seg.py, en: seg.gloss, level: 6 }, store);
-                },
-              }, seg.text),
-            );
-        }
-      }
       return h(
         'article',
         { class: `bubble s${line.s % 3} ${line.s % 2 ? 'right' : 'left'}`, 'data-i': String(i) },
@@ -156,34 +179,36 @@ export function render(ctx) {
         h(
           'div',
           { class: 'b-main' },
-          h('div', { class: 'b-text' }, hideZh ? null : textEl, !hideZh && s.py && line.py ? h('p', { class: 'b-py' }, pinyinSentence(line.py)) : null, s.vi && line.vi ? h('p', { class: 'b-vi' }, line.vi) : null, s.en && line.en ? h('p', { class: 'b-en', lang: 'en' }, line.en) : null),
-          hideZh ? null : speakButton(line.zh, store, { label: 'Nghe câu', cls: 'icon-btn soft b-say' }),
+          h(
+            'div',
+            { class: 'b-text' },
+            s.zh || forceZh ? zhText(line) : null,
+            s.py && line.py ? h('p', { class: 'b-py' }, pinyinSentence(line.py)) : null,
+            s.vi && line.vi ? h('p', { class: 'b-vi b-layer' }, h('span', null, line.vi), sayBtn(line.vi, 'vi', line)) : null,
+            s.en && line.en ? h('p', { class: 'b-en b-layer', lang: 'en' }, h('span', null, line.en), sayBtn(line.en, 'en', line)) : null,
+          ),
+          sayBtn(line.zh, 'zh', line, 'icon-btn soft b-say', 20),
         ),
       );
     }
 
-    // ---------- Đọc ----------
+    function displayChip() {
+      return h('button', { type: 'button', class: 'chip chip-btn', onclick: () => openDisplay(), 'aria-label': `Tùy chọn hiển thị: ${displaySummary(show())}` }, icon('sliders', 14), displaySummary(show()));
+    }
+
+    function playLabel() {
+      const p = store.state.settings.playLang;
+      return p === 'en' ? 'Nghe cả bài (Anh)' : p === 'zh-en' ? 'Nghe cả bài (Trung + Anh)' : 'Nghe cả bài';
+    }
+
+    // ---------- Đọc cả bài ----------
     function drawRead() {
-      const s = show();
-      const chip = (key, label) => {
-        const b = h('button', { type: 'button', class: 'tchip', 'aria-pressed': String(Boolean(s[key])) }, icon('check', 14), h('span', null, label));
-        b.addEventListener('click', () => {
-          store.setSettings({ dlg: { ...show(), [key]: !show()[key] } });
-          drawRead();
-        });
-        return b;
-      };
-      const playBtn = button(playing ? 'Dừng' : 'Nghe cả bài', { icon: playing ? 'close' : 'play', size: 'sm', variant: voice ? 'primary' : 'secondary', disabled: !voice, onclick: () => (playing ? stopAll() : playAll()) });
+      const playBtn = button(playing ? 'Dừng' : playLabel(), { icon: playing ? 'close' : 'play', size: 'sm', variant: voice ? 'primary' : 'secondary', disabled: !voice && store.state.settings.playLang === 'zh', onclick: () => (playing ? stopAll() : playAll()) });
       const list = h('div', { class: 'chat' }, model.lines.map((line, i) => bubble(line, i)));
       const used = model.words.map(word).filter(Boolean);
       body.replaceChildren(
-        h(
-          'div',
-          { class: 'dlg-tools' },
-          h('div', { class: 'toggle-chips', role: 'group', 'aria-label': 'Lớp hiển thị' }, chip('py', 'Pinyin'), chip('vi', 'Tiếng Việt'), model.kind === 'lesson' ? chip('en', 'English') : null),
-          playBtn,
-        ),
-        voice ? null : h('p', { class: 'small muted', style: { marginTop: '8px' } }, 'Máy chưa có giọng đọc tiếng Trung nên chưa nghe được. Hãy cài giọng tiếng Trung (Trung Quốc) trong cài đặt máy.'),
+        h('div', { class: 'dlg-tools' }, displayChip(), playBtn),
+        voice ? null : h('p', { class: 'small muted', style: { marginTop: '8px' } }, 'Máy chưa có giọng đọc tiếng Trung nên chưa nghe được tiếng Trung. Hãy cài giọng tiếng Trung (Trung Quốc) trong cài đặt máy.'),
         list,
         used.length
           ? h('section', { class: 'section' }, h('div', { class: 'section-head' }, h('h2', null, 'Từ của bài trong hội thoại')), h('div', { class: 'word-chips' }, used.map((w) => h('a', { class: 'chip', href: `#/word/${w.id}` }, zh(w.hanzi), h('span', { class: 'muted' }, w.vi.split(/[;,]/)[0])))))
@@ -195,16 +220,28 @@ export function render(ctx) {
     }
 
     async function playAll() {
+      let langs = store.state.settings.playLang === 'zh-en' ? ['zh', 'en'] : [store.state.settings.playLang || 'zh'];
+      if (langs.includes('en') && !hasVoice('en')) {
+        toast('Máy chưa có giọng đọc tiếng Anh, chỉ đọc tiếng Trung.');
+        langs = ['zh'];
+      }
       playing = true;
       stopRequested = false;
       drawRead();
       const nodes = [...body.querySelectorAll('.bubble')];
       for (let i = 0; i < model.lines.length; i++) {
         if (stopRequested || mode !== 'read') break;
+        const line = model.lines[i];
         nodes.forEach((n) => n.classList.toggle('speaking', n === nodes[i]));
         nodes[i]?.scrollIntoView({ block: 'nearest', behavior: 'smooth' });
-        await speak(model.lines[i].zh, store.state.settings.rate, PITCH[model.lines[i].s % 3]);
-        await new Promise((r) => setTimeout(r, 250));
+        for (const lang of langs) {
+          if (stopRequested || mode !== 'read') break;
+          const text = lang === 'en' ? line.en : line.zh;
+          if (!text) continue;
+          await sayAs(store, text, lang, { pitch: PITCH[line.s % 3] });
+          await new Promise((r) => setTimeout(r, 200));
+        }
+        await new Promise((r) => setTimeout(r, 150));
       }
       const finished = !stopRequested && mode === 'read';
       playing = false;
@@ -229,6 +266,75 @@ export function render(ctx) {
       return model.kind === 'mine' ? `mine:${model.id}` : model.id;
     }
 
+    // ---------- Từng câu ----------
+    function drawLine() {
+      const n = model.lines.length;
+      lineIndex = Math.max(0, Math.min(lineIndex, n - 1));
+      const line = model.lines[lineIndex];
+      const s = show();
+      const speaker = model.cast[line.s] || model.cast[0];
+      const tabs = h(
+        'div',
+        { class: 'line-tabs', role: 'tablist', 'aria-label': 'Chọn câu' },
+        model.lines.map((_, i) =>
+          h('button', { type: 'button', role: 'tab', class: 'line-tab', 'aria-selected': String(i === lineIndex), onclick: () => go(i) }, `Câu ${i + 1}`),
+        ),
+      );
+      const layer = (key, badge, label, text, lang, content) =>
+        h(
+          'div',
+          { class: `layer-card lang-${key}` },
+          h('div', { class: 'layer-head' }, h('span', { class: `opt-badge lang-${key}`, 'aria-hidden': 'true' }, badge), h('span', null, label)),
+          h('div', { class: 'layer-body' }, h('div', { class: 'layer-text', lang: lang === 'en' ? 'en' : null }, content || text), sayBtn(lang === 'py' ? line.zh : text, lang === 'py' ? 'zh' : lang, line, 'icon-btn soft layer-say', 20)),
+        );
+      const words = lineSegments(line, model).filter((seg) => typeof seg !== 'string');
+      const seen = new Set();
+      const uniq = words.filter((seg) => !seen.has(seg.text) && seen.add(seg.text));
+      const card = h(
+        'article',
+        { class: 'card line-card' },
+        h('header', { class: `line-who s${line.s % 3}` }, h('i', { 'aria-hidden': 'true' }), speaker.vi, speaker.zh !== speaker.vi ? zh(speaker.zh) : null, h('span', { class: 'line-count' }, `${lineIndex + 1}/${n}`)),
+        h('div', { class: 'line-main' }, s.zh || (!s.py && !s.vi && !s.en) ? zhText(line, 'line-zh') : h('p', { class: 'line-hidden muted' }, 'Đã ẩn chữ Hán. Bấm loa để nghe, rồi tự nói lại.'), sayBtn(line.zh, 'zh', line, 'speak-btn', 22)),
+        h(
+          'div',
+          { class: 'layers' },
+          s.py && line.py ? layer('py', 'pīn', 'Pinyin', line.py, 'py', pinyinSentence(line.py)) : null,
+          s.vi && line.vi ? layer('vi', 'VI', 'Tiếng Việt', line.vi, 'vi') : null,
+          s.en && line.en ? layer('en', 'EN', 'Tiếng Anh', line.en, 'en') : null,
+        ),
+      );
+      const wordSec = uniq.length
+        ? h(
+            'section',
+            { class: 'line-words' },
+            h('h3', null, 'Từ trong câu'),
+            h(
+              'div',
+              { class: 'word-chips' },
+              uniq.map((seg) => h('button', { type: 'button', class: 'chip chip-btn', onclick: () => peek(seg) }, zh(seg.text), h('span', { class: 'muted' }, (seg.w ? seg.w.vi : seg.gloss || '').split(/[;,]/)[0]))),
+            ),
+          )
+        : null;
+      const last = lineIndex === n - 1;
+      const nav = h(
+        'div',
+        { class: 'line-nav' },
+        button('Câu trước', { icon: 'back', variant: 'secondary', disabled: lineIndex === 0, onclick: () => go(lineIndex - 1) }),
+        last
+          ? button('Hoàn thành', { icon: 'check', onclick: () => (finishRead(), confetti()) })
+          : button('Câu tiếp theo', { icon: 'steps', cls: 'icon-end', onclick: () => go(lineIndex + 1, true) }),
+      );
+      body.replaceChildren(h('div', { class: 'dlg-tools' }, displayChip()), tabs, card, wordSec, nav);
+      tabs.querySelector('[aria-selected="true"]')?.scrollIntoView({ block: 'nearest', inline: 'center' });
+    }
+
+    function go(i, autoplay = false) {
+      lineIndex = i;
+      drawLine();
+      body.querySelector('.line-card')?.classList.add('enter');
+      if (autoplay && voice) sayAs(store, model.lines[i].zh, 'zh', { pitch: PITCH[model.lines[i].s % 3] });
+    }
+
     // ---------- Nhập vai ----------
     function drawRole() {
       let me = 0;
@@ -250,7 +356,7 @@ export function render(ctx) {
       body.replaceChildren(h('p', { class: 'small muted', style: { margin: '14px 0 8px' } }, 'Chọn vai. Câu của người kia được đọc lên; đến lượt bạn thì nói câu tiếng Trung theo nghĩa gợi ý rồi bấm Hiện câu để so.'), roleSeg, chat, controls);
 
       function drawStep() {
-        chat.replaceChildren(...model.lines.slice(0, step + 1).map((line, i) => (line.s === me && i === step && !revealed ? promptBubble(line) : bubble(line, i))));
+        chat.replaceChildren(...model.lines.slice(0, step + 1).map((line, i) => (line.s === me && i === step && !revealed ? promptBubble(line) : bubble(line, i, { forceZh: true }))));
         const line = model.lines[step];
         chat.lastElementChild?.scrollIntoView({ block: 'nearest', behavior: 'smooth' });
         const last = step >= model.lines.length - 1;
@@ -411,11 +517,13 @@ export function render(ctx) {
       mode = m;
       modeSeg.querySelectorAll('.seg-btn').forEach((b, i) => b.setAttribute('aria-checked', String(modes[i][0] === m)));
       if (m === 'read') drawRead();
+      else if (m === 'line') drawLine();
       else if (m === 'role') drawRole();
       else drawCloze();
     }
 
-    drawRead();
+    if (mode === 'cloze' && !modes.some(([m]) => m === 'cloze')) mode = 'read';
+    setMode(mode);
     return () => {
       stopRequested = true;
       stopSpeaking();

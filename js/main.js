@@ -1,39 +1,40 @@
 // Khởi động app, điều hướng giữa các màn hình và chuyển cảnh mượt.
 import { loadData, studyOrder } from './data.js';
-import { h, icon } from './dom.js';
+import { brandSeal, h, icon } from './dom.js';
 import { startCloudSync } from './host.js';
-import { initSpeech, stopSpeaking } from './speech.js';
+import { initSpeech, setEnglishAccent, stopSpeaking } from './speech.js';
 import { buildQueue } from './srs.js';
 import { createStore } from './store.js';
 
 const routes = [
   { re: /^\/?$/, view: () => import('./views/home.js'), tab: 'home' },
-  { re: /^\/lessons$/, view: () => import('./views/lessons.js'), tab: 'lessons' },
-  { re: /^\/lesson\/([\w-]+)$/, view: () => import('./views/lesson.js'), tab: 'lessons' },
-  { re: /^\/word\/([\w-]+)$/, view: () => import('./views/word.js'), tab: 'lessons' },
-  { re: /^\/dialogues$/, view: () => import('./views/dialogues.js'), tab: 'lessons' },
-  { re: /^\/(dialogue)\/([\w-]+)$/, view: () => import('./views/dialogue.js'), tab: 'lessons' },
-  { re: /^\/mine\/(new)$/, view: () => import('./views/mine-edit.js'), tab: 'lessons' },
-  { re: /^\/mine\/([\w-]+)\/edit$/, view: () => import('./views/mine-edit.js'), tab: 'lessons' },
-  { re: /^\/(mine)\/([\w-]+)$/, view: () => import('./views/dialogue.js'), tab: 'lessons' },
-  { re: /^\/review$/, view: () => import('./views/review.js'), tab: 'review' },
-  { re: /^\/review\/(lesson|word|words|saved)\/?([\w,-]*)$/, view: () => import('./views/review.js'), tab: 'review' },
-  { re: /^\/quiz$/, view: () => import('./views/quiz.js'), tab: 'review' },
-  { re: /^\/quiz\/(lesson|words)\/([\w,-]+)$/, view: () => import('./views/quiz.js'), tab: 'review' },
-  { re: /^\/write$/, view: () => import('./views/write.js'), tab: 'write' },
-  { re: /^\/write\/(word|lesson|words)\/([\w,-]+)$/, view: () => import('./views/write.js'), tab: 'write' },
-  { re: /^\/stats$/, view: () => import('./views/stats.js'), tab: 'stats' },
-  { re: /^\/settings$/, view: () => import('./views/settings.js'), tab: 'home' },
+  { re: /^\/lessons$/, view: () => import('./views/lessons.js'), tab: 'path' },
+  { re: /^\/lesson\/([\w-]+)$/, view: () => import('./views/lesson.js'), tab: 'path' },
+  { re: /^\/word\/([\w-]+)$/, view: () => import('./views/word.js'), tab: 'path' },
+  { re: /^\/(?:library|dialogues)$/, view: () => import('./views/dialogues.js'), tab: 'library' },
+  { re: /^\/(dialogue)\/([\w-]+)$/, view: () => import('./views/dialogue.js'), tab: 'path' },
+  { re: /^\/mine\/(new)$/, view: () => import('./views/mine-edit.js'), tab: 'library' },
+  { re: /^\/mine\/([\w-]+)\/edit$/, view: () => import('./views/mine-edit.js'), tab: 'library' },
+  { re: /^\/(mine)\/([\w-]+)$/, view: () => import('./views/dialogue.js'), tab: 'library' },
+  { re: /^\/practice$/, view: () => import('./views/practice.js'), tab: 'practice' },
+  { re: /^\/review$/, view: () => import('./views/review.js'), tab: 'practice' },
+  { re: /^\/review\/(lesson|word|words|saved)\/?([\w,-]*)$/, view: () => import('./views/review.js'), tab: 'practice' },
+  { re: /^\/quiz$/, view: () => import('./views/quiz.js'), tab: 'practice' },
+  { re: /^\/quiz\/(lesson|words)\/([\w,-]+)$/, view: () => import('./views/quiz.js'), tab: 'practice' },
+  { re: /^\/write$/, view: () => import('./views/write.js'), tab: 'practice' },
+  { re: /^\/write\/(word|lesson|words)\/([\w,-]+)$/, view: () => import('./views/write.js'), tab: 'practice' },
+  { re: /^\/(?:me|stats)$/, view: () => import('./views/stats.js'), tab: 'me' },
+  { re: /^\/settings$/, view: () => import('./views/settings.js'), tab: 'me' },
 ];
 
 const TABS = [
-  ['home', '#/', 'home', 'Trang chủ'],
-  ['lessons', '#/lessons', 'book', 'Bài học'],
-  ['review', '#/review', 'cards', 'Ôn tập'],
-  ['write', '#/write', 'pen', 'Luyện viết'],
-  ['stats', '#/stats', 'chart', 'Thống kê'],
+  ['home', '#/', 'home', 'Hôm nay'],
+  ['path', '#/lessons', 'map', 'Lộ trình'],
+  ['practice', '#/practice', 'practice', 'Luyện tập'],
+  ['library', '#/library', 'library', 'Thư viện'],
+  ['me', '#/me', 'user', 'Tôi'],
 ];
-const TAB_ROOTS = new Set(['', '/', '/lessons', '/dialogues', '/review', '/write', '/stats']);
+const TAB_ROOTS = new Set(['', '/', '/lessons', '/practice', '/library', '/dialogues', '/me', '/stats']);
 
 const store = createStore();
 // giao diện sáng/tối do trang chứa app đặt (ví dụ khi mở trong Claude); app chỉ ghi đè khi người học tự chọn Sáng/Tối
@@ -100,14 +101,14 @@ function renderNav(activeTab = currentTab) {
   }
   const { total } = dueSummary();
   navEl.replaceChildren(
-    h('div', { class: 'nav-brand' }, h('div', { class: 'brand-seal', 'aria-hidden': 'true' }, '语'), h('div', { class: 'brand-name' }, h('strong', null, 'Tam Ngữ'), h('small', null, 'Trung · Anh · Việt'))),
+    h('div', { class: 'nav-brand' }, brandSeal(), h('div', { class: 'brand-name' }, h('strong', null, 'Hán Lộ'), h('small', null, 'Trung · Anh song ngữ'))),
     ...TABS.map(([key, href, ic, label]) =>
       h(
         'a',
         { href, 'aria-current': key === activeTab ? 'page' : null },
         icon(ic, 24),
         h('span', null, label),
-        key === 'review' && total > 0 ? h('span', { class: 'badge', 'aria-label': `${total} thẻ cần ôn` }, total > 99 ? '99+' : String(total)) : null,
+        key === 'practice' && total > 0 ? h('span', { class: 'badge', 'aria-label': `${total} thẻ cần ôn` }, total > 99 ? '99+' : String(total)) : null,
       ),
     ),
   );
@@ -163,7 +164,7 @@ async function route({ quiet = false } = {}) {
     const main = document.querySelector('.main');
     main.replaceChildren(result.el);
     document.body.classList.toggle('immersive', Boolean(result.immersive));
-    document.title = result.title ? `${result.title} · Tam Ngữ` : 'Tam Ngữ';
+    document.title = result.title ? `${result.title} · Hán Lộ` : 'Hán Lộ · Học tiếng Trung & tiếng Anh';
     current = { ...result, path };
     renderNav(r.tab);
     if (dir !== 'back' && !quiet) window.scrollTo(0, 0);
@@ -201,13 +202,15 @@ async function boot() {
     await loadData();
   } catch (e) {
     document.querySelector('.main').replaceChildren(
-      h('div', { class: 'boot' }, h('div', { class: 'brand-seal' }, '语'), h('p', null, 'Không tải được dữ liệu. Hãy kiểm tra mạng rồi tải lại trang.'), h('p', { class: 'small' }, String(e.message || e))),
+      h('div', { class: 'boot' }, brandSeal(), h('p', null, 'Không tải được dữ liệu. Hãy kiểm tra mạng rồi tải lại trang.'), h('p', { class: 'small' }, String(e.message || e))),
     );
     return;
   }
+  setEnglishAccent(store.state.settings.enAccent);
   initSpeech();
   store.subscribe(() => {
     applyTheme();
+    setEnglishAccent(store.state.settings.enAccent);
     queueNav();
   });
   window.matchMedia('(prefers-color-scheme: dark)').addEventListener?.('change', applyTheme);

@@ -1,5 +1,5 @@
 import { data, lessonWords, levelsAvailable, studyOrder, word } from '../data.js';
-import { bar, button, h, icon, ring, zh } from '../dom.js';
+import { bar, brandSeal, button, h, icon, ring, zh } from '../dom.js';
 import { dayKey } from '../srs.js';
 import { streak } from '../store.js';
 import { learnedCount, lessonRow, nextLesson, wordCard, wordState } from './common.js';
@@ -35,14 +35,16 @@ export function render(ctx) {
   const head = h(
     'header',
     { class: 'home-head' },
-    h('div', { class: 'brand' }, h('div', { class: 'brand-seal', 'aria-hidden': 'true' }, '语'), h('div', { class: 'brand-name' }, h('strong', null, 'Tam Ngữ'), h('small', null, 'Trung · Anh · Việt'))),
+    h('div', { class: 'brand' }, brandSeal(), h('div', { class: 'brand-name' }, h('strong', null, 'Hán Lộ'), h('small', null, 'Trung · Anh song ngữ'))),
     h('div', { style: { display: 'flex', alignItems: 'center', gap: '8px', marginLeft: 'auto' } }, h('span', { class: 'streak', title: 'Chuỗi ngày học liên tiếp' }, icon('flame', 18), h('span', null, `${days} ngày`)), h('a', { class: 'icon-btn', href: '#/settings', 'aria-label': 'Cài đặt', title: 'Cài đặt' }, icon('settings', 22))),
   );
 
   const greet = h(
     'section',
     { class: 'greet' },
+    h('div', { class: 'greet-art', 'aria-hidden': 'true' }),
     h('h1', null, `${greeting()}!`),
+    h('p', { class: 'quote' }, '“Ngôn ngữ là cây cầu, kết nối bạn với thế giới rộng lớn hơn.”'),
     h('p', null, `Mục tiêu ${s.dailyGoal} phút mỗi ngày · hôm nay đã học ${minutes} phút, ôn ${log.reviews} thẻ`),
     bar(Math.min(1, minutes / s.dailyGoal), '', 'Tiến độ mục tiêu hôm nay'),
   );
@@ -51,14 +53,14 @@ export function render(ctx) {
   const hero = h(
     'section',
     { class: 'hero' },
-    h('div', { class: 'hero-bg', 'aria-hidden': 'true' }, '习'),
+    h('div', { class: 'hero-art', 'aria-hidden': 'true' }),
     h('p', { class: 'eyebrow' }, 'Ôn tập hôm nay'),
     h('div', { class: 'hero-count' }, h('strong', null, allDone ? 'Xong rồi!' : `${sum.total} thẻ`), h('span', null, allDone ? 'Bạn đã ôn hết thẻ hôm nay' : `khoảng ${Math.max(1, Math.round(sum.total * 0.35))} phút`)),
     h(
       'div',
       { class: 'chips' },
-      h('span', { class: 'chip' }, h('span', { class: 'dot', style: { background: '#f29a8c' } }), `${sum.due} thẻ đến hạn`),
-      h('span', { class: 'chip' }, h('span', { class: 'dot', style: { background: '#6fd1b0' } }), `${sum.fresh} từ mới`),
+      h('span', { class: 'chip' }, h('span', { class: 'dot', style: { background: '#f5c86b' } }), `${sum.due} thẻ đến hạn`),
+      h('span', { class: 'chip' }, h('span', { class: 'dot', style: { background: '#bfe8d4' } }), `${sum.fresh} từ mới`),
     ),
     h(
       'div',
@@ -73,13 +75,13 @@ export function render(ctx) {
     ? h(
         'section',
         { class: 'section' },
-        h('div', { class: 'section-head' }, h('h2', null, 'Tiếp tục học'), h('a', { href: '#/lessons' }, 'Tất cả bài')),
+        h('div', { class: 'section-head' }, h('h2', null, 'Tiếp tục học'), h('a', { href: '#/lessons' }, 'Lộ trình')),
         h(
           'div',
           { class: 'list' },
           lessonRow(next, store, { current: true }),
           next.dlg
-            ? h('a', { href: `#/dialogue/${next.id}`, class: 'row-link' }, h('span', { class: 'tile', 'aria-hidden': 'true' }, icon('talk', 22)), h('span', { class: 'row-main' }, h('span', { class: 'row-title' }, 'Hội thoại của bài này'), h('span', { class: 'row-sub' }, store.state.dialogues[next.id] ? 'Đã đọc · luyện thêm nhập vai, điền từ' : 'Đọc, nghe và nhập vai với từ của bài')), icon('chevron', 18))
+            ? h('a', { href: `#/dialogue/${next.id}`, class: 'row-link' }, h('span', { class: 'tile', 'aria-hidden': 'true' }, icon('talk', 22)), h('span', { class: 'row-main' }, h('span', { class: 'row-title' }, 'Bài khóa của bài này'), h('span', { class: 'row-sub' }, store.state.dialogues[next.id] ? 'Đã đọc · luyện thêm nhập vai, điền từ' : 'Đọc, nghe và nhập vai với từ của bài')), icon('chevron', 18))
             : null,
         ),
       )

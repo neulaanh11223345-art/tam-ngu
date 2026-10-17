@@ -1,6 +1,6 @@
 import { data, levelsAvailable, search } from '../data.js';
 import { emptyState, h, icon, pinyinWord, ring, segmented, zh } from '../dom.js';
-import { learnedCount, lessonRow, lessonsTabs, nextLesson, wordState } from './common.js';
+import { learnedCount, lessonRow, nextLesson, wordState } from './common.js';
 
 let lastLevel = null;
 
@@ -62,9 +62,8 @@ export function render(ctx) {
   const el = h(
     'div',
     { class: 'view' },
-    h('header', { class: 'topbar' }, h('h1', { class: 'grow' }, 'Bài học')),
-    lessonsTabs('words', ctx.navigate),
-    h('label', { class: 'search', style: { marginTop: '14px' } }, icon('search', 20), input),
+    h('header', { class: 'topbar' }, h('h1', { class: 'grow' }, 'Lộ trình')),
+    h('label', { class: 'search', style: { marginTop: '4px' } }, icon('search', 20), input),
     h(
       'div',
       { style: { marginTop: '16px' } },
@@ -83,5 +82,5 @@ export function render(ctx) {
     results,
   );
   drawLevel();
-  return { el, title: 'Bài học' };
+  return { el, title: 'Lộ trình' };
 }

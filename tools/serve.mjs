@@ -39,5 +39,5 @@ export function startServer(port = 0) {
 
 if (process.argv[1] === fileURLToPath(import.meta.url)) {
   const server = await startServer(Number(process.argv[2]) || 8080);
-  console.log(`Tam Ngữ đang chạy ở http://localhost:${server.address().port}/`);
+  console.log(`Hán Lộ đang chạy ở http://localhost:${server.address().port}/`);
 }

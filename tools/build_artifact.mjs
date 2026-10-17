@@ -15,7 +15,7 @@ const keepHead = head
   .split('\n')
   .filter((line) => !/<meta charset|name="viewport"|name="theme-color"|apple-mobile-web-app|mobile-web-app-capable|rel="manifest"|rel="icon"|rel="apple-touch-icon"/.test(line))
   .join('\n')
-  .replace('<title>Tam Ngữ</title>', '<title>Tam Ngữ</title>\n<meta name="claude:viewport-fit-sides" content="cover">');
+  .replace('<title>Hán Lộ</title>', '<title>Hán Lộ</title>\n<meta name="claude:viewport-fit-sides" content="cover">');
 
 // khung Artifact đã chừa lề trên/dưới (:root), thanh điều hướng cố định vẫn tự chừa lề của nó
 const insetFix = `<style>

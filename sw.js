@@ -1,13 +1,13 @@
 // Service worker: lưu sẵn app để mở được khi không có mạng.
 // Mã và dữ liệu: ưu tiên mạng (luôn lấy bản mới), mất mạng thì dùng bản đã lưu.
 // Nét chữ và phông chữ: dùng bản đã lưu nếu có (nội dung không đổi).
-const VERSION = 'tam-ngu-v2';
+const VERSION = 'han-lo-v3';
 const SHELL = [
   './',
   'index.html',
   'manifest.webmanifest',
   'css/app.css',
-  'icons/icon.svg',
+  'icons/icon-192.png',
   'data/words.json',
   'data/dialogues.json',
   'js/data.js',
@@ -28,6 +28,7 @@ const SHELL = [
   'js/views/lesson.js',
   'js/views/lessons.js',
   'js/views/mine-edit.js',
+  'js/views/practice.js',
   'js/views/quiz.js',
   'js/views/review.js',
   'js/views/settings.js',

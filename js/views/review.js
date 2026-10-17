@@ -1,9 +1,9 @@
 // Ôn tập bằng thẻ: lật thẻ 3D, vuốt trái/phải để chấm, lặp lại ngắt quãng.
 import { lesson, lessonTitle, studyOrder, word } from '../data.js';
 import { button, emptyState, h, icon, meaningRow, pinyinWord, prefersReducedMotion, vibrate, zh } from '../dom.js';
-import { speak } from '../speech.js';
+import { hasVoice, speak } from '../speech.js';
 import { AGAIN, EASY, GOOD, HARD, buildQueue, isDueToday, previewLabels } from '../srs.js';
-import { confetti, exampleBlock, speakButton } from './common.js';
+import { confetti, exampleBlock, miniSay, sayAs, speakButton } from './common.js';
 
 const LAYERS = [
   ['py', 'Pinyin'],
@@ -109,12 +109,17 @@ export function render(ctx) {
     return 'Đang học';
   }
 
-  function layerBlock(w, show) {
+  function layerBlock(w, show, withSay = false) {
     return [
       show.py ? pinyinWord(w.py, 'fc-py') : null,
       show.hv ? h('div', { class: 'hv' }, w.hv) : null,
       show.vi || show.en
-        ? h('div', { class: 'fc-meanings' }, show.vi ? meaningRow('VI', w.vi, { class: 'vi' }) : null, show.en ? meaningRow('EN', w.en, { class: 'en', lang: 'en' }) : null)
+        ? h(
+            'div',
+            { class: 'fc-meanings' },
+            show.vi ? meaningRow('VI', w.vi, { class: 'vi', end: withSay ? miniSay(w.vi, store, 'vi') : null }) : null,
+            show.en ? meaningRow('EN', w.en, { class: 'en', lang: 'en', end: withSay ? miniSay(w.en, store, 'en') : null }) : null,
+          )
         : null,
     ];
   }
@@ -137,7 +142,7 @@ export function render(ctx) {
       'div',
       { class: 'fc-face fc-back' },
       h('div', { class: 'fc-head' }, h('span', { class: 'badge-soft badge-gray' }, `HSK ${w.level} · ${w.pos || 'từ'}`), speakButton(w.hanzi, store)),
-      h('div', { class: 'fc-center', style: { flex: 'none', padding: '8px 0' } }, zh(w.hanzi, `fc-hz ${long}`), layerBlock(w, { py: true, hv: true, en: true, vi: true })),
+      h('div', { class: 'fc-center', style: { flex: 'none', padding: '8px 0' } }, zh(w.hanzi, `fc-hz ${long}`), layerBlock(w, { py: true, hv: true, en: true, vi: true }, true)),
       exampleBlock(w, store),
       h('a', { href: `#/word/${w.id}`, class: 'small', style: { marginTop: '12px', alignSelf: 'center' } }, 'Xem chi tiết từ'),
     );
@@ -188,7 +193,18 @@ export function render(ctx) {
     wrap.querySelector('.fc').classList.add('flipped');
     wrap.querySelector('.fc').setAttribute('aria-label', `Mặt sau thẻ ${word(queue[index]).hanzi}`);
     drawBottom();
-    if (store.state.settings.autoSpeak) speak(word(queue[index]).hanzi, store.state.settings.rate);
+    readAloud(queue[index]);
+  }
+
+  /** Tự đọc khi lật thẻ: chữ Hán, rồi nghĩa tiếng Anh nếu người học bật. */
+  async function readAloud(id) {
+    const s = store.state.settings;
+    const w = word(id);
+    if (s.autoSpeak) await speak(w.hanzi, s.rate);
+    if (s.autoSpeakEn && hasVoice('en') && queue[index] === id && revealed) {
+      if (s.autoSpeak) await new Promise((r) => setTimeout(r, 250));
+      if (queue[index] === id && revealed) sayAs(store, w.en, 'en');
+    }
   }
 
   function rate(r) {

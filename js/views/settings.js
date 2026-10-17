@@ -1,7 +1,8 @@
 import { data, levelsAvailable } from '../data.js';
 import { button, h, icon, segmented, toast, toggle } from '../dom.js';
 import { onSyncStatus, saveTextFile, syncStatus } from '../host.js';
-import { hasChineseVoice, speak } from '../speech.js';
+import { hasChineseVoice, hasVoice, setEnglishAccent, speak } from '../speech.js';
+import { sayAs } from './common.js';
 
 const SYNC_TEXT = {
   on: 'Tiến độ được lưu vào tài khoản Claude của bạn, mở trên máy khác vẫn học tiếp được.',
@@ -82,13 +83,15 @@ export function render(ctx) {
   );
 
   const voice = hasChineseVoice();
+  const enVoice = hasVoice('en');
   const audio = h(
     'section',
     { class: 'card settings-group section' },
     h('div', { class: 'set-row' }, h('h2', { style: { fontSize: '16px' } }, 'Âm thanh')),
-    toggle('Tự đọc khi lật thẻ', s().autoSpeak, (on) => store.setSettings({ autoSpeak: on })),
+    toggle('Tự đọc chữ Hán khi lật thẻ', s().autoSpeak, (on) => store.setSettings({ autoSpeak: on })),
+    toggle('Đọc thêm nghĩa tiếng Anh khi lật thẻ', s().autoSpeakEn, (on) => store.setSettings({ autoSpeakEn: on }), 'Nghe chữ Hán rồi nghe luôn nghĩa tiếng Anh'),
     row(
-      'Tốc độ đọc',
+      'Tốc độ đọc tiếng Trung',
       voice ? null : 'Máy chưa có giọng tiếng Trung. Hãy cài giọng đọc tiếng Trung (Trung Quốc) trong cài đặt máy.',
       segmented(
         [
@@ -101,7 +104,41 @@ export function render(ctx) {
           store.setSettings({ rate: v });
           speak('你好，我们一起学习中文吧。', v);
         },
-        'Tốc độ đọc',
+        'Tốc độ đọc tiếng Trung',
+      ),
+    ),
+    row(
+      'Giọng tiếng Anh',
+      enVoice ? null : 'Máy chưa có giọng tiếng Anh. Hãy thêm giọng tiếng Anh trong cài đặt máy.',
+      segmented(
+        [
+          ['en-US', 'Anh-Mỹ'],
+          ['en-GB', 'Anh-Anh'],
+        ],
+        s().enAccent,
+        (v) => {
+          store.setSettings({ enAccent: v });
+          setEnglishAccent(v);
+          sayAs(store, "Hello! Let's learn Chinese together.", 'en');
+        },
+        'Giọng tiếng Anh',
+      ),
+    ),
+    row(
+      'Tốc độ đọc tiếng Anh',
+      null,
+      segmented(
+        [
+          [0.75, 'Chậm'],
+          [0.95, 'Vừa'],
+          [1.1, 'Nhanh'],
+        ],
+        s().enRate,
+        (v) => {
+          store.setSettings({ enRate: v });
+          sayAs(store, 'Practice makes perfect.', 'en', { rate: v });
+        },
+        'Tốc độ đọc tiếng Anh',
       ),
     ),
   );
@@ -115,7 +152,7 @@ export function render(ctx) {
       toast('Đã khôi phục tiến độ học');
       ctx.navigate('#/', { replace: true });
     } catch (e) {
-      toast(e instanceof SyntaxError ? 'Tệp này không đọc được. Hãy chọn tệp .json đã xuất từ Tam Ngữ.' : e.message);
+      toast(e instanceof SyntaxError ? 'Tệp này không đọc được. Hãy chọn tệp .json đã xuất từ Hán Lộ.' : e.message);
     }
     fileInput.value = '';
   });
@@ -172,7 +209,7 @@ export function render(ctx) {
         variant: 'secondary',
         size: 'sm',
         onclick: async () => {
-          const result = await saveTextFile(`tam-ngu-sao-luu-${new Date().toISOString().slice(0, 10)}.json`, store.exportJSON());
+          const result = await saveTextFile(`han-lo-sao-luu-${new Date().toISOString().slice(0, 10)}.json`, store.exportJSON());
           if (result === 'failed') toast('Chưa lưu được tệp. Hãy thử lại.');
         },
       }),
@@ -186,7 +223,7 @@ export function render(ctx) {
     'section',
     { class: 'card section about' },
     h('h2', { style: { fontSize: '16px', marginBottom: '8px', color: 'var(--ink)' } }, 'Giới thiệu'),
-    h('p', null, `Tam Ngữ (三语) giúp học ${data().words.length} từ HSK ${levelsAvailable()[0]}–${levelsAvailable().at(-1)} (chuẩn HSK 2.0) với pinyin, âm Hán Việt, nghĩa tiếng Anh và tiếng Việt, kèm câu ví dụ và hội thoại theo bài.`),
+    h('p', null, `Hán Lộ (汉路, trước đây là Tam Ngữ) giúp học tiếng Trung và tiếng Anh song ngữ: ${data().words.length} từ HSK ${levelsAvailable()[0]}–${levelsAvailable().at(-1)} (chuẩn HSK 2.0) với pinyin, âm Hán Việt, nghĩa tiếng Anh và tiếng Việt, câu ví dụ và bài khóa nghe được cả tiếng Trung lẫn tiếng Anh.`),
     h('p', null, 'Nguồn dữ liệu: danh sách từ HSK từ dự án complete-hsk-vocabulary (MIT); âm Hán Việt từ hanviet-pinyin-words (MIT) có hiệu đính; bộ thủ từ Make Me a Hanzi (LGPL); nét chữ từ hanzi-writer-data (Arphic Public License); bảng viết dùng thư viện Hanzi Writer (MIT). Nghĩa Việt, nghĩa Anh, câu ví dụ và hội thoại được biên soạn riêng cho app; hội thoại không lấy từ giáo trình nào.'),
   );
 

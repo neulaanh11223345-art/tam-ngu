@@ -118,3 +118,12 @@ test('hội thoại tự nhập: lưu, xóa, gộp giữa hai máy', () => {
   assert.ok(a.state.mine[id], 'xóa tiến độ vẫn giữ hội thoại tự nhập');
   assert.deepEqual(a.state.dialogues, {});
 });
+
+test('bản lưu trước Hán Lộ được bật sẵn lớp tiếng Anh trong bài khóa', () => {
+  assert.equal(normalize({ version: 2, settings: { dlg: { py: true, vi: true, en: false } } }).settings.dlg.en, true);
+  assert.equal(normalize({ version: 3, settings: { dlg: { py: true, vi: true, en: false } } }).settings.dlg.en, false);
+  const fresh = normalize({ version: 3, settings: {} }).settings;
+  assert.deepEqual(fresh.dlg, { zh: true, py: true, vi: true, en: true });
+  assert.equal(fresh.enAccent, 'en-US');
+  assert.equal(fresh.playLang, 'zh');
+});

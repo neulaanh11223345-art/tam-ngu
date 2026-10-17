@@ -3,7 +3,7 @@ import { button, h, icon, pinyinWord, toast, zh } from '../dom.js';
 import { speak } from '../speech.js';
 import { formatGap } from '../srs.js';
 import { createWriter } from '../writer.js';
-import { exampleBlock, speakButton } from './common.js';
+import { exampleBlock, miniSay, sayAs, speakButton } from './common.js';
 
 function statusText(store, id) {
   const c = store.state.cards[id];
@@ -25,7 +25,7 @@ export function render(ctx) {
   const writers = [];
   const l = lesson(w.lesson);
 
-  const saveBtn = h('button', { type: 'button', class: 'icon-btn', 'aria-label': 'Lưu vào sổ từ', title: 'Lưu vào sổ từ', 'aria-pressed': String(Boolean(store.state.saved[w.id])) }, icon('bookmark', 22));
+  const saveBtn = h('button', { type: 'button', class: 'icon-btn', 'aria-label': 'Lưu vào sổ từ', title: 'Lưu vào sổ từ', 'aria-pressed': String(Boolean(store.state.saved[w.id])) }, icon('star', 22));
   saveBtn.addEventListener('click', () => {
     const on = store.toggleSaved(w.id);
     saveBtn.setAttribute('aria-pressed', String(on));
@@ -53,6 +53,7 @@ export function render(ctx) {
       { class: 'actions' },
       button('Nghe', { icon: 'sound', onclick: () => speak(w.hanzi, store.state.settings.rate) }),
       button('Nghe chậm', { icon: 'slow', variant: 'secondary', onclick: () => speak(w.hanzi, 0.55) }),
+      button('English', { icon: 'sound', variant: 'secondary', ariaLabel: `Nghe tiếng Anh: ${w.en}`, onclick: () => sayAs(store, w.en, 'en') }),
       button('Tập viết', { icon: 'pen', variant: 'secondary', href: `#/write/word/${w.id}` }),
     ),
   );
@@ -60,8 +61,8 @@ export function render(ctx) {
   const meanings = h(
     'section',
     { class: 'card meanings', style: { marginTop: '20px', padding: '4px 16px' } },
-    h('div', { class: 'mrow' }, h('span', { class: 'tag' }, 'VI'), h('span', { class: 'mrow-text' }, h('small', null, 'Tiếng Việt'), h('b', null, w.vi))),
-    h('div', { class: 'mrow' }, h('span', { class: 'tag' }, 'EN'), h('span', { class: 'mrow-text', lang: 'en' }, h('small', null, 'English'), h('b', null, w.en))),
+    h('div', { class: 'mrow has-end' }, h('span', { class: 'tag' }, 'VI'), h('span', { class: 'mrow-text' }, h('small', null, 'Tiếng Việt'), h('b', null, w.vi)), miniSay(w.vi, store, 'vi')),
+    h('div', { class: 'mrow has-end' }, h('span', { class: 'tag' }, 'EN'), h('span', { class: 'mrow-text', lang: 'en' }, h('small', null, 'English'), h('b', null, w.en)), miniSay(w.en, store, 'en')),
     h('div', { class: 'mrow' }, h('span', { class: 'tag' }, 'HV'), h('span', { class: 'mrow-text' }, h('small', null, 'Âm Hán Việt'), h('b', { class: 'hv', style: { fontSize: '15px' } }, w.hv))),
   );
 
