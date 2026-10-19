@@ -29,7 +29,10 @@ body { min-height: calc(100dvh - env(safe-area-inset-top, 0px) - env(safe-area-i
 }
 </style>`;
 
-const page = `${keepHead.trim()}\n${insetFix}\n${body.trim()}\n`;
+// link Claude: không dùng máy chủ tài khoản lớp học (trang Claude có thể không gọi được Google Apps Script),
+// tiến độ đồng bộ theo tài khoản Claude như trước
+const noAccounts = `<script>window.HANLO_ACCOUNT_URL = '';</script>`;
+const page = `${keepHead.trim()}\n${insetFix}\n${noAccounts}\n${body.trim()}\n`;
 await mkdir(OUT, { recursive: true });
 await writeFile(new URL('index.html', OUT), page);
 console.log('đã tạo dist/artifact/index.html');

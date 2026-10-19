@@ -29,6 +29,10 @@ async function step(name, fn) {
 
 async function open({ width = 390, height = 844, scheme = 'light', reducedMotion = 'no-preference', serviceWorkers = 'allow' } = {}) {
   const context = await browser.newContext({ viewport: { width, height }, deviceScaleFactor: 2, locale: 'vi-VN', colorScheme: scheme, reducedMotion, hasTouch: width < 700, serviceWorkers });
+  // mặc định chạy thử không có máy chủ lớp học (các bước tài khoản tự gắn máy chủ giả)
+  await context.addInitScript(() => {
+    if (window.HANLO_ACCOUNT_URL === undefined) window.HANLO_ACCOUNT_URL = '';
+  });
   const page = await context.newPage();
   const errors = [];
   page.on('pageerror', (e) => errors.push(`pageerror: ${e.message}`));

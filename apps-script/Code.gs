@@ -368,13 +368,17 @@ function ensureSheets_() {
     progress.setFrozenRows(1);
     progress.getRange(2, 10, 499, 1).setNumberFormat('0%');
     progress.getRange(2, 13, 499, 1).setNumberFormat('dd/mm/yyyy hh:mm');
-    // tô cam học viên quá 3 ngày chưa học
-    const rule = SpreadsheetApp.newConditionalFormatRule()
-      .whenFormulaSatisfied('=AND($A2<>"", OR($M2="", NOW()-$M2>3))')
-      .setBackground('#fde7c8')
-      .setRanges([progress.getRange(2, 1, 499, PROGRESS_HEADERS.length)])
-      .build();
-    progress.setConditionalFormatRules([rule]);
+    // tô cam học viên quá 3 ngày chưa học (bỏ qua nếu Sheet không nhận công thức, bảng vẫn dùng được)
+    try {
+      const rule = SpreadsheetApp.newConditionalFormatRule()
+        .whenFormulaSatisfied('=AND($A2<>"", OR($M2="", NOW()-$M2>3))')
+        .setBackground('#fde7c8')
+        .setRanges([progress.getRange(2, 1, 499, PROGRESS_HEADERS.length)])
+        .build();
+      progress.setConditionalFormatRules([rule]);
+    } catch (e) {
+      console.warn('Không tạo được tô màu cho trang Tiến độ', e);
+    }
   }
   let settings = ss.getSheetByName(SHEET_SETTINGS);
   if (!settings) {
