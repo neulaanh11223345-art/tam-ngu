@@ -253,6 +253,18 @@ async function boot() {
   }
 
   if ('serviceWorker' in navigator && location.protocol.startsWith('http')) {
+    // có bản mới (service worker mới vừa nhận quyền): mời tải lại để dùng bản mới
+    let hadController = Boolean(navigator.serviceWorker.controller);
+    navigator.serviceWorker.addEventListener('controllerchange', () => {
+      if (!hadController) {
+        hadController = true;
+        return;
+      }
+      if (document.querySelector('.update-bar')) return;
+      document.body.append(
+        h('div', { class: 'update-bar', role: 'status' }, h('span', null, 'Đã có bản mới của Hán Lộ.'), h('button', { type: 'button', class: 'btn btn-primary btn-sm', onclick: () => location.reload() }, 'Tải lại')),
+      );
+    });
     navigator.serviceWorker.register('sw.js').catch(() => {});
   }
 }

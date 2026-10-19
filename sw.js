@@ -1,7 +1,7 @@
 // Service worker: lưu sẵn app để mở được khi không có mạng.
 // Mã và dữ liệu: ưu tiên mạng (luôn lấy bản mới), mất mạng thì dùng bản đã lưu.
 // Nét chữ và phông chữ: dùng bản đã lưu nếu có (nội dung không đổi).
-const VERSION = 'han-lo-v4';
+const VERSION = 'han-lo-v5';
 const SHELL = [
   './',
   'index.html',
@@ -48,7 +48,8 @@ self.addEventListener('install', (event) => {
   event.waitUntil(
     caches
       .open(VERSION)
-      .then((cache) => cache.addAll(SHELL))
+      // bỏ qua bộ nhớ đệm HTTP của trình duyệt để không lưu nhầm bản cũ
+      .then((cache) => cache.addAll(SHELL.map((url) => new Request(url, { cache: 'reload' }))))
       .then(() => self.skipWaiting()),
   );
 });
@@ -73,7 +74,8 @@ async function cacheFirst(request) {
 
 async function networkFirst(request, fallbackUrl) {
   const cache = await caches.open(VERSION);
-  const network = fetch(request).then((res) => {
+  // hỏi lại máy chủ mỗi lần (GitHub Pages cho trình duyệt giữ tệp 10 phút), tệp không đổi thì vẫn nhanh
+  const network = fetch(request, { cache: 'no-cache' }).then((res) => {
     if (res.ok) cache.put(request, res.clone());
     return res;
   });

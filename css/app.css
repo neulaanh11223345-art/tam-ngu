@@ -4473,3 +4473,32 @@ html.nav-tab::view-transition-new(root) {
   gap: 6px;
   flex: none;
 }
+
+/* thanh báo có bản mới */
+.update-bar {
+  position: fixed;
+  left: 50%;
+  bottom: calc(var(--nav-h) + env(safe-area-inset-bottom, 0px) + 14px);
+  z-index: 60;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  width: max-content;
+  max-width: calc(100vw - 32px);
+  padding: 8px 8px 8px 16px;
+  border-radius: 16px;
+  background: var(--ink);
+  color: var(--bg);
+  font-size: 14px;
+  font-weight: 600;
+  box-shadow: var(--shadow-lg);
+  transform: translateX(-50%);
+  animation: rise 0.35s var(--ease);
+}
+
+@media (min-width: 960px) {
+  .update-bar {
+    left: calc(50% + 124px);
+    bottom: 24px;
+  }
+}

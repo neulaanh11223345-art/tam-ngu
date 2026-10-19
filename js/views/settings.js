@@ -1,3 +1,5 @@
+import { accountsEnabled } from '../accounts.js';
+import { APP_VERSION } from '../config.js';
 import { data, levelsAvailable } from '../data.js';
 import { button, h, icon, segmented, toast, toggle } from '../dom.js';
 import { onSyncStatus, saveTextFile, syncStatus } from '../host.js';
@@ -227,6 +229,7 @@ export function render(ctx) {
     'section',
     { class: 'card section about' },
     h('h2', { style: { fontSize: '16px', marginBottom: '8px', color: 'var(--ink)' } }, 'Giới thiệu'),
+    h('p', { class: 'small' }, `Phiên bản ${APP_VERSION}${accountsEnabled() ? ' · có tài khoản lớp học' : ''}`),
     h('p', null, `Hán Lộ (汉路, trước đây là Tam Ngữ) giúp học tiếng Trung và tiếng Anh song ngữ: ${data().words.length} từ HSK ${levelsAvailable()[0]}–${levelsAvailable().at(-1)} (chuẩn HSK 2.0) với pinyin, âm Hán Việt, nghĩa tiếng Anh và tiếng Việt, câu ví dụ và bài khóa nghe được cả tiếng Trung lẫn tiếng Anh.`),
     h('p', null, 'Nguồn dữ liệu: danh sách từ HSK từ dự án complete-hsk-vocabulary (MIT); âm Hán Việt từ hanviet-pinyin-words (MIT) có hiệu đính; bộ thủ từ Make Me a Hanzi (LGPL); nét chữ từ hanzi-writer-data (Arphic Public License); bảng viết dùng thư viện Hanzi Writer (MIT). Nghĩa Việt, nghĩa Anh, câu ví dụ và hội thoại được biên soạn riêng cho app; hội thoại không lấy từ giáo trình nào.'),
   );
