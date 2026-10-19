@@ -3138,10 +3138,10 @@ html.nav-tab::view-transition-new(root) {
 }
 
 .boot .brand-seal {
-  width: 64px;
-  height: 64px;
-  border-radius: 18px;
-  font-size: 34px;
+  width: 58px;
+  height: 68px;
+  border-radius: 12px;
+  font-size: 25px;
   animation: breathe 1.4s ease-in-out infinite;
 }
 
@@ -3232,17 +3232,43 @@ html.nav-tab::view-transition-new(root) {
   color: var(--accent);
 }
 
-.greet .quote {
-  max-width: 30ch;
-  margin-top: 4px;
-  font-family: var(--font-serif);
-  font-style: italic;
-  font-size: 14px;
+/* câu đề tựa và chữ ký ở màn hình mở đầu */
+.motto {
+  display: inline-flex;
+  flex-direction: column;
+  margin: 0;
+  font-family: var(--font-zh);
+}
+
+.motto blockquote {
+  margin: 0;
+  font-size: 14.5px;
+  font-weight: 500;
+  letter-spacing: 0.04em;
   color: var(--ink-2);
 }
 
-.greet .quote + p {
+.motto figcaption {
+  align-self: flex-end;
+  margin-top: 2px;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  color: var(--accent);
+}
+
+.greet .motto {
+  max-width: 64%;
+  margin-top: 6px;
+}
+
+.greet .motto + p {
   margin-top: 10px;
+}
+
+.boot .motto {
+  margin-top: 6px;
+  text-align: center;
 }
 
 /* ---------- Hán Lộ: tiêu đề, thẻ, nút ---------- */

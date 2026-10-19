@@ -74,6 +74,11 @@ export function brandSeal(cls = '') {
   return h('span', { class: `brand-seal ${cls}`.trim(), lang: 'zh-CN', 'aria-hidden': 'true' }, h('span', null, '汉'), h('span', null, '路'));
 }
 
+/** Câu đề tựa ở màn hình mở đầu: "Học một ngôn ngữ là sống thêm một cuộc đời", ký tên 裴文终. */
+export function motto(cls = '') {
+  return h('figure', { class: `motto ${cls}`.trim(), lang: 'zh-CN', title: 'Học một ngôn ngữ là sống thêm một cuộc đời' }, h('blockquote', null, '学一门语言，就是多活一次人生。'), h('figcaption', null, '裴文终'));
+}
+
 /** Biểu tượng nét mảnh (aria-hidden). */
 export function icon(name, size = 22, extraClass = '') {
   const span = document.createElement('span');

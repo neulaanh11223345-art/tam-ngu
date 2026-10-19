@@ -1,5 +1,5 @@
 import { data, lessonWords, levelsAvailable, studyOrder, word } from '../data.js';
-import { bar, brandSeal, button, h, icon, ring, zh } from '../dom.js';
+import { bar, brandSeal, button, h, icon, motto, ring, zh } from '../dom.js';
 import { dayKey } from '../srs.js';
 import { streak } from '../store.js';
 import { learnedCount, lessonRow, nextLesson, wordCard, wordState } from './common.js';
@@ -44,7 +44,7 @@ export function render(ctx) {
     { class: 'greet' },
     h('div', { class: 'greet-art', 'aria-hidden': 'true' }),
     h('h1', null, `${greeting()}!`),
-    h('p', { class: 'quote' }, '“Ngôn ngữ là cây cầu, kết nối bạn với thế giới rộng lớn hơn.”'),
+    motto(),
     h('p', null, `Mục tiêu ${s.dailyGoal} phút mỗi ngày · hôm nay đã học ${minutes} phút, ôn ${log.reviews} thẻ`),
     bar(Math.min(1, minutes / s.dailyGoal), '', 'Tiến độ mục tiêu hôm nay'),
   );
