@@ -2,7 +2,7 @@ import { data, lessonWords, levelsAvailable, studyOrder, word } from '../data.js
 import { bar, brandSeal, button, h, icon, motto, ring, zh } from '../dom.js';
 import { dayKey } from '../srs.js';
 import { streak } from '../store.js';
-import { learnedCount, lessonRow, nextLesson, wordCard, wordState } from './common.js';
+import { accountSeal, learnedCount, lessonRow, nextLesson, wordCard, wordState } from './common.js';
 
 function greeting() {
   const hr = new Date().getHours();
@@ -36,7 +36,7 @@ export function render(ctx) {
     'header',
     { class: 'home-head' },
     h('div', { class: 'brand' }, brandSeal(), h('div', { class: 'brand-name' }, h('strong', null, 'Hán Lộ'), h('small', null, 'Trung · Anh song ngữ'))),
-    h('div', { style: { display: 'flex', alignItems: 'center', gap: '8px', marginLeft: 'auto' } }, h('span', { class: 'streak', title: 'Chuỗi ngày học liên tiếp' }, icon('flame', 18), h('span', null, `${days} ngày`)), h('a', { class: 'icon-btn', href: '#/settings', 'aria-label': 'Cài đặt', title: 'Cài đặt' }, icon('settings', 22))),
+    h('div', { style: { display: 'flex', alignItems: 'center', gap: '8px', marginLeft: 'auto' } }, h('span', { class: 'streak', title: 'Chuỗi ngày học liên tiếp' }, icon('flame', 18), h('span', null, `${days} ngày`)), ctx.account ? h('a', { class: 'acc-chip', href: '#/account', 'aria-label': `Tài khoản ${ctx.account.name}`, title: ctx.account.name }, accountSeal(ctx.account)) : h('a', { class: 'icon-btn', href: '#/settings', 'aria-label': 'Cài đặt', title: 'Cài đặt' }, icon('settings', 22))),
   );
 
   const greet = h(

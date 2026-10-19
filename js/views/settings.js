@@ -159,6 +159,10 @@ export function render(ctx) {
 
   const syncNote = h('small');
   const drawSync = (st) => {
+    if (ctx.account) {
+      syncNote.textContent = `Tiến độ được lưu vào tài khoản lớp học "${ctx.account.user}". Tệp sao lưu chỉ cần khi muốn giữ thêm một bản riêng.`;
+      return;
+    }
     syncNote.textContent = SYNC_TEXT[st] || 'Tiến độ chỉ lưu trên trình duyệt này. Hãy xuất tệp để chuyển sang máy khác hoặc phòng khi xóa dữ liệu trình duyệt.';
   };
   drawSync(syncStatus());

@@ -23,6 +23,7 @@ Chạy hoàn toàn trên trình duyệt, không cần máy chủ riêng, cài đ
 | Kiểm tra | 5 dạng câu: chọn nghĩa, chọn chữ Hán, chọn pinyin đúng thanh, nghe chọn từ, điền từ vào câu. Ôn lại ngay các từ làm sai. |
 | Luyện viết | Ô 田字格, xem thứ tự nét (nét bộ thủ tô màu riêng), tô theo mẫu, tự viết từ trí nhớ, chấm từng nét, gợi ý, chấm sao. Viết bằng ngón tay hoặc chuột. |
 | Thống kê | Chuỗi ngày học, số từ đã thuộc, tỉ lệ trả lời đúng, biểu đồ thời gian học theo tuần/tháng, từ hay quên, chữ hay viết sai. |
+| Tài khoản lớp học | Khi gắn máy chủ Google Apps Script của giáo viên: học viên đăng nhập, tiến độ đồng bộ giữa các máy, nhiều tài khoản trên một máy (có mã PIN), giáo viên xem bảng tiến độ cả lớp trong Google Sheet, đặt cấp HSK, khóa tài khoản, đặt lại mật khẩu. Xem `apps-script/HUONG-DAN.md`. |
 | Khác | Giao diện sáng/tối, chuyển cảnh mượt (View Transitions), tôn trọng chế độ giảm chuyển động, xuất/nhập tệp sao lưu tiến độ. |
 
 ## Chạy trên máy
@@ -48,12 +49,21 @@ Mở link trên điện thoại rồi chọn **Thêm vào Màn hình chính** (i
 - Trên web thường: lưu trong trình duyệt (localStorage) của máy đang dùng. Vào **Tôi → Cài đặt → Sao lưu tiến độ** để xuất tệp `.json` và nhập lại trên máy khác. Bản sao lưu từ thời còn tên Tam Ngữ vẫn nhập được.
 - Khi mở qua link Claude: tiến độ còn được lưu vào tài khoản Claude của bạn, mở trên máy khác sẽ học tiếp được.
 
+## Tài khoản lớp học (tùy chọn)
+
+Mặc định app không có đăng nhập: ai cũng học như khách, tiến độ lưu trên máy. Muốn có tài khoản cho lớp học:
+
+1. Làm theo `apps-script/HUONG-DAN.md`: tạo Google Sheet, dán `apps-script/Code.gs`, triển khai thành ứng dụng web.
+2. Dán link ứng dụng web (`https://script.google.com/macros/s/…/exec`) vào `js/config.js`.
+
+Học viên vẫn chọn được **Học không cần tài khoản**. Mỗi tài khoản trên máy có chỗ lưu riêng (`tamngu:v1@<tên đăng nhập>`), nên tiến độ của các học viên dùng chung máy không lẫn vào nhau.
+
 ## Kiểm thử
 
 ```bash
 npm install          # cài Playwright để chạy thử trên trình duyệt
-npm test             # kiểm thử lịch ôn, pinyin, câu hỏi, lưu tiến độ, đọc tiếng Anh, dữ liệu 2.194 từ và hội thoại
-npm run e2e          # mở app trong Chromium, bấm thử mọi màn hình, viết thử một chữ, giả lập giọng đọc Trung/Anh
+npm test             # kiểm thử lịch ôn, pinyin, câu hỏi, lưu tiến độ, đọc tiếng Anh, máy chủ tài khoản (trên Sheet/Drive giả lập), dữ liệu 2.194 từ và hội thoại
+npm run e2e          # mở app trong Chromium, bấm thử mọi màn hình, viết thử một chữ, giả lập giọng đọc Trung/Anh, hai máy hai học viên đăng nhập lớp học
 SCREENS=1 npm run e2e   # như trên, lưu ảnh chụp vào tests/screens/
 ```
 
@@ -67,6 +77,8 @@ js/srs.js, js/quiz.js, js/pinyin.js       lịch ôn, tạo câu hỏi, xử lý
 js/speech.js                              đọc tiếng Trung, tiếng Anh, tiếng Việt bằng giọng của máy
 js/pygen.js                               tự thêm pinyin cho hội thoại tự nhập
 js/store.js, js/host.js                   lưu tiến độ, sao lưu, đồng bộ khi mở qua Claude
+js/accounts.js, js/config.js              tài khoản lớp học: đăng nhập, PIN, đồng bộ với máy chủ Apps Script
+apps-script/                              máy chủ tài khoản (Code.gs) và hướng dẫn cài cho giáo viên
 js/writer.js, vendor/                     bảng viết chữ Hán (Hanzi Writer)
 js/views/                                 từng màn hình
 data/words.json, data/strokes/            dữ liệu từ vựng và nét chữ (do tools/build_data.py tạo ra)

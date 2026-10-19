@@ -4,6 +4,7 @@ import assert from 'node:assert/strict';
 import { mkdir, readFile } from 'node:fs/promises';
 import { chromium } from 'playwright';
 import { startServer } from '../tools/serve.mjs';
+import { createBackend } from './gas-fake.mjs';
 
 const ROOT = new URL('../', import.meta.url);
 const SHOTS = process.env.SCREENS ? new URL('tests/screens/', ROOT) : null;
@@ -26,8 +27,8 @@ async function step(name, fn) {
   }
 }
 
-async function open({ width = 390, height = 844, scheme = 'light', reducedMotion = 'no-preference' } = {}) {
-  const context = await browser.newContext({ viewport: { width, height }, deviceScaleFactor: 2, locale: 'vi-VN', colorScheme: scheme, reducedMotion, hasTouch: width < 700 });
+async function open({ width = 390, height = 844, scheme = 'light', reducedMotion = 'no-preference', serviceWorkers = 'allow' } = {}) {
+  const context = await browser.newContext({ viewport: { width, height }, deviceScaleFactor: 2, locale: 'vi-VN', colorScheme: scheme, reducedMotion, hasTouch: width < 700, serviceWorkers });
   const page = await context.newPage();
   const errors = [];
   page.on('pageerror', (e) => errors.push(`pageerror: ${e.message}`));
@@ -35,7 +36,7 @@ async function open({ width = 390, height = 844, scheme = 'light', reducedMotion
     if (m.type() !== 'error') return;
     const text = m.text();
     // phông chữ Google có thể không tải được khi chạy thử không có mạng
-    if (/fonts\.(googleapis|gstatic)\.com|ERR_NAME_NOT_RESOLVED|ERR_TUNNEL|ERR_CONNECTION/.test(text + (m.location()?.url || ''))) return;
+    if (/fonts\.(googleapis|gstatic)\.com|ERR_NAME_NOT_RESOLVED|ERR_TUNNEL|ERR_CONNECTION|ERR_INTERNET_DISCONNECTED/.test(text + (m.location()?.url || ''))) return;
     errors.push(`console: ${text}`);
   });
   return { context, page, errors };
@@ -595,6 +596,185 @@ await step('phát âm: nghĩa tiếng Anh đọc bằng giọng Anh, nghe cả b
   assert.deepEqual(voiced.errors, []);
 });
 await voiced.context.close();
+
+// ---------------- tài khoản lớp học (máy chủ Apps Script giả lập) ----------------
+const CLASS_URL = 'https://script.google.com/macros/s/TEST/exec';
+const school = createBackend();
+school.run('setup');
+school.setCell('Cài đặt lớp', 2, 2, 'Lớp HSK tối thứ Ba');
+const lanRow = school.addStudent('lan', 'Trần Lan', 'lan12345', 4);
+school.addStudent('minh', 'Lê Minh', 'minh1234');
+
+/** Một "máy" của học viên: app trỏ tới máy chủ lớp giả; offline() để giả mất mạng. */
+async function device(seedGuest = false) {
+  const d = await open({ serviceWorkers: 'block' });
+  let offline = false;
+  await d.context.addInitScript(
+    ({ url, seed }) => {
+      window.HANLO_ACCOUNT_URL = url;
+      if (seed && !localStorage.getItem('tamngu:v1')) localStorage.setItem('tamngu:v1', JSON.stringify(seed));
+    },
+    { url: CLASS_URL, seed: seedGuest ? { version: 3, cards: { [firstWord.id]: { id: firstWord.id, state: 'review', due: Date.now() + 9e8, ivl: 10, ease: 2.5, reps: 4, lapses: 0, step: 0, last: Date.now() - 864e5 } } } : null },
+  );
+  await d.context.route(`${CLASS_URL}**`, async (route) => {
+    if (offline) return route.abort('internetdisconnected');
+    const res = school.post(JSON.parse(route.request().postData() || '{}'));
+    await route.fulfill({ status: 200, contentType: 'application/json', headers: { 'access-control-allow-origin': '*' }, body: JSON.stringify(res) });
+  });
+  d.setOffline = (v) => (offline = v);
+  return d;
+}
+
+async function loginAs(p, user, pass, { adopt } = {}) {
+  await p.waitForSelector('#login-user');
+  await p.fill('#login-user', user);
+  await p.fill('#login-pass', pass);
+  if (adopt !== undefined) await p.setChecked('#login-adopt', adopt);
+  await Promise.all([p.waitForEvent('load'), p.getByRole('button', { name: 'Đăng nhập', exact: true }).click()]);
+  await p.waitForSelector('.hero');
+}
+
+const stored = (p, user) => p.evaluate((u) => JSON.parse(localStorage.getItem(`tamngu:v1@${u}`) || 'null'), user);
+
+async function syncButton(p) {
+  await go(p, '#/account');
+  await p.getByRole('button', { name: 'Đồng bộ ngay' }).click();
+  await p.waitForFunction(() => /Đã đồng bộ|Chưa đồng bộ được|hết hạn/.test(document.querySelector('.acc-sync')?.textContent || ''), null, { timeout: 8000 });
+  return p.locator('.acc-sync').innerText();
+}
+
+const devA = await device(true);
+const devB = await device();
+await step('tài khoản: màn đăng nhập, sai mật khẩu, đăng nhập và chuyển tiến độ khách vào tài khoản, cấp HSK do giáo viên đặt', async () => {
+  const p = devA.page;
+  await p.goto(BASE);
+  await p.waitForSelector('.login-view');
+  await p.waitForFunction(() => document.querySelector('.login-class')?.textContent === 'Lớp HSK tối thứ Ba');
+  assert.ok(await p.locator('.login-view .motto').count(), 'màn đăng nhập thiếu câu đề tựa');
+  assert.equal(await p.locator('.nav').isVisible().catch(() => false), false, 'màn đăng nhập không được hiện thanh điều hướng');
+  await shot(p, '50-login');
+  await p.fill('#login-user', 'lan');
+  await p.fill('#login-pass', 'sai-mat-khau');
+  await p.getByRole('button', { name: 'Đăng nhập', exact: true }).click();
+  await p.waitForFunction(() => /Sai tên đăng nhập/.test(document.querySelector('.login-error')?.textContent || ''));
+  assert.equal(await p.isChecked('#login-adopt'), true, 'nên mặc định chuyển tiến độ khách vào tài khoản đầu tiên');
+  await loginAs(p, 'lan', 'lan12345');
+  assert.equal(await p.locator('.acc-chip').innerText(), 'TL');
+  await p.waitForFunction(() => JSON.parse(localStorage.getItem('tamngu:v1@lan') || '{}').settings?.levels?.join() === '4', null, { timeout: 8000 });
+  const lan = await stored(p, 'lan');
+  assert.equal(lan.cards[firstWord.id]?.state, 'review', 'tiến độ khách chưa được chuyển vào tài khoản');
+  await shot(p, '51-home-account');
+  assert.deepEqual(devA.errors, []);
+});
+
+await step('tài khoản: học trên máy A, đồng bộ; giáo viên thấy bảng tiến độ; máy B đăng nhập thấy đúng tiến độ', async () => {
+  const p = devA.page;
+  await go(p, '#/review');
+  await p.waitForSelector('.fc');
+  for (let i = 0; i < 3; i++) {
+    await p.click('.fc');
+    await p.waitForSelector('.rate-btn');
+    await p.keyboard.press('3');
+    await p.waitForTimeout(350);
+  }
+  assert.match(await syncButton(p), /Đã đồng bộ/);
+  await shot(p, '52-account');
+  const r = school.rowOf('Tiến độ', 'lan');
+  assert.ok(r > 1, 'giáo viên chưa thấy dòng tiến độ của Lan');
+  const row = school.sheets.get('Tiến độ').data[r - 1];
+  assert.equal(row[1], 'Trần Lan');
+  assert.ok(row[8] >= 3, `số thẻ đã ôn trên bảng là ${row[8]}`);
+  assert.ok(row[2] >= 1, 'chưa tính từ HSK 3 đã thuộc');
+  const cardsA = Object.keys((await stored(p, 'lan')).cards).sort();
+  const q = devB.page;
+  await q.goto(BASE);
+  await loginAs(q, 'lan', 'lan12345');
+  await q.waitForFunction((n) => Object.keys(JSON.parse(localStorage.getItem('tamngu:v1@lan') || '{}').cards || {}).length >= n, cardsA.length, { timeout: 8000 });
+  assert.deepEqual(Object.keys((await stored(q, 'lan')).cards).sort(), cardsA);
+});
+
+await step('tài khoản: hai học viên trên một máy không lẫn tiến độ; mã PIN chặn người khác', async () => {
+  const q = devB.page;
+  await go(q, '#/account');
+  await q.getByRole('link', { name: 'Thêm tài khoản' }).click();
+  await loginAs(q, 'minh', 'minh1234');
+  assert.equal(await q.locator('.acc-chip').innerText(), 'LM');
+  assert.equal(Object.keys((await stored(q, 'minh'))?.cards || {}).length, 0, 'tài khoản Minh lại có thẻ của Lan');
+  await go(q, '#/account');
+  await q.getByRole('button', { name: 'Đặt PIN' }).click();
+  for (const k of '24682468') {
+    await q.locator('.sheet .pin-key', { hasText: k }).click();
+    await q.waitForTimeout(60);
+  }
+  await q.waitForSelector('.sheet-wrap', { state: 'detached' });
+  assert.match(await q.locator('.set-row', { hasText: 'Mã PIN' }).innerText(), /Đã bật/);
+  // mở app ở thẻ mới (phiên mới): phải nhập PIN
+  const q2 = await devB.context.newPage();
+  await q2.goto(BASE);
+  await q2.waitForSelector('.pin-pad');
+  for (const k of '1111') await q2.locator('.pin-key', { hasText: k }).click();
+  await q2.waitForFunction(() => /chưa đúng/.test(document.querySelector('.pin-msg')?.textContent || ''));
+  await shot(q2, '53-pin');
+  for (const k of '2468') await q2.locator('.pin-key', { hasText: k }).click();
+  await q2.waitForSelector('.hero');
+  assert.equal(await q2.locator('.acc-chip').innerText(), 'LM');
+  await q2.close();
+  // đổi sang Lan (không có PIN) ngay trong tab Tài khoản
+  await go(q, '#/account');
+  await Promise.all([q.waitForEvent('load'), q.locator('.acc-pick', { hasText: 'Trần Lan' }).click()]);
+  await q.waitForSelector('.hero');
+  assert.equal(await q.locator('.acc-chip').innerText(), 'TL');
+  assert.deepEqual(devB.errors, []);
+});
+
+await step('tài khoản: mất mạng vẫn học, có mạng lại thì gửi lên; máy kia gộp được', async () => {
+  const p = devA.page;
+  devA.setOffline(true);
+  await go(p, '#/review');
+  await p.waitForSelector('.fc');
+  await p.click('.fc');
+  await p.waitForSelector('.rate-btn');
+  await p.keyboard.press('4');
+  await p.waitForTimeout(350);
+  assert.match(await syncButton(p), /Chưa đồng bộ được/);
+  devA.setOffline(false);
+  assert.match(await syncButton(p), /Đã đồng bộ/);
+  const cardsA = Object.keys((await stored(p, 'lan')).cards).sort();
+  const q = devB.page;
+  await syncButton(q);
+  assert.deepEqual(Object.keys((await stored(q, 'lan')).cards).sort(), cardsA, 'máy B chưa nhận phần học lúc mất mạng của máy A');
+});
+
+await step('tài khoản: giáo viên khóa tài khoản thì máy đang dùng phải đăng nhập lại; đăng xuất xóa tài khoản khỏi máy', async () => {
+  const p = devA.page;
+  school.setCell('Học viên', lanRow, 5, true);
+  await go(p, '#/account');
+  await p.getByRole('button', { name: 'Đồng bộ ngay' }).click();
+  await p.waitForSelector('.login-view', { timeout: 8000 });
+  await p.locator('.acc-pick', { hasText: 'Trần Lan' }).click();
+  await p.fill('#login-pass', 'lan12345');
+  await p.getByRole('button', { name: 'Đăng nhập', exact: true }).click();
+  await p.waitForFunction(() => /bị khóa/.test(document.querySelector('.login-error')?.textContent || ''));
+  school.setCell('Học viên', lanRow, 5, false);
+  // máy B: đăng xuất Lan, chỉ còn Minh trong danh sách
+  const q = devB.page;
+  await go(q, '#/account');
+  await q.getByRole('button', { name: 'Đăng xuất', exact: true }).click();
+  await Promise.all([q.waitForEvent('load'), q.locator('.confirm-box').getByRole('button', { name: 'Đăng xuất' }).click()]);
+  await q.waitForSelector('.login-view');
+  const names = await q.locator('.acc-pick').allInnerTexts();
+  assert.equal(names.length, 1);
+  assert.match(names[0], /Lê Minh/);
+  assert.equal(await stored(q, 'lan'), null, 'đăng xuất mà tiến độ của Lan vẫn nằm trên máy');
+  // học như khách vẫn được
+  await Promise.all([q.waitForEvent('load'), q.getByRole('button', { name: 'Học không cần tài khoản' }).click()]);
+  await q.waitForSelector('.hero');
+  assert.equal(await q.locator('.acc-chip').count(), 0);
+  assert.deepEqual(devA.errors, []);
+  assert.deepEqual(devB.errors, []);
+});
+await devA.context.close();
+await devB.context.close();
 
 // ---------------- màn hẹp 360px, giảm chuyển động ----------------
 const narrow = await open({ width: 360, height: 740, reducedMotion: 'reduce' });

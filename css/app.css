@@ -4097,3 +4097,379 @@ html.nav-tab::view-transition-new(root) {
   gap: 10px;
   margin-top: 22px;
 }
+
+/* ---------- Hán Lộ: tài khoản lớp học ---------- */
+.acc-seal {
+  width: 40px;
+  height: 40px;
+  flex: none;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  box-shadow: inset 0 0 0 2px rgba(255, 255, 255, 0.75), inset 0 0 0 3.5px rgba(0, 0, 0, 0.12);
+  color: #fff;
+  font-family: var(--font-serif);
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+}
+
+.acc-seal.seal-lg {
+  width: 56px;
+  height: 56px;
+  font-size: 20px;
+}
+
+.acc-chip {
+  display: inline-flex;
+  border-radius: 50%;
+}
+
+.acc-chip .acc-seal {
+  width: 38px;
+  height: 38px;
+  font-size: 14px;
+}
+
+.me-link {
+  color: inherit;
+  text-decoration: none;
+}
+
+.me-link:hover {
+  border-color: var(--accent-line);
+}
+
+.login-view {
+  max-width: 460px;
+  position: relative;
+  gap: 18px;
+}
+
+.login-back {
+  position: absolute;
+  top: 12px;
+  left: 8px;
+}
+
+.login-head {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+  padding-top: 20px;
+  text-align: center;
+}
+
+.login-head h1 {
+  margin-top: 6px;
+  font-size: 30px;
+  color: var(--accent);
+}
+
+.login-class {
+  font-family: var(--font-serif);
+  font-style: italic;
+  color: var(--ink-2);
+}
+
+.login-class:empty {
+  display: none;
+}
+
+.login-head .motto {
+  margin-top: 6px;
+}
+
+.login-panel {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.login-sub {
+  font-size: 18px;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 18px 16px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: var(--surface);
+  box-shadow: var(--shadow-sm);
+}
+
+.pw-form {
+  width: 100%;
+  padding: 4px 0;
+  border: 0;
+  background: none;
+  box-shadow: none;
+}
+
+.login-field {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  font-size: 13.5px;
+  font-weight: 600;
+  color: var(--ink-2);
+}
+
+.login-field .field {
+  min-height: 48px;
+  font-size: 16px;
+}
+
+.login-field.has-eye .field {
+  padding-right: 52px;
+}
+
+.eye-btn {
+  position: absolute;
+  right: 2px;
+  bottom: 2px;
+}
+
+.eye-btn[aria-pressed='true'] svg {
+  fill: none;
+}
+
+.login-error {
+  min-height: 1.2em;
+  font-size: 13.5px;
+  font-weight: 600;
+  color: var(--bad);
+}
+
+.login-error:empty {
+  min-height: 0;
+}
+
+.check-row {
+  position: relative;
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.check-input {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  opacity: 0;
+}
+
+.check-row .check {
+  width: 22px;
+  height: 22px;
+  flex: none;
+  display: grid;
+  place-items: center;
+  border: 2px solid var(--ink-3);
+  border-radius: 6px;
+  color: transparent;
+}
+
+.check-input:checked + .check {
+  border-color: var(--accent-bg);
+  background: var(--accent-bg);
+  color: var(--on-accent);
+}
+
+.check-input:focus-visible + .check {
+  outline: 3px solid var(--accent);
+  outline-offset: 2px;
+}
+
+.login-links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  text-align: center;
+}
+
+.login-foot {
+  margin-top: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
+  padding-top: 8px;
+  text-align: center;
+}
+
+.acc-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.acc-pick {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  width: 100%;
+  padding: 10px 14px 10px 10px;
+  border: 1px solid var(--line);
+  border-radius: 16px;
+  background: var(--surface);
+  color: var(--ink);
+  text-align: left;
+  transition: border-color 0.2s, transform 0.15s var(--ease);
+}
+
+.acc-pick:hover {
+  border-color: var(--accent-line);
+}
+
+.acc-pick:active {
+  transform: scale(0.985);
+}
+
+.settings-group .acc-pick {
+  margin: 4px 0;
+}
+
+.pin-who {
+  display: flex;
+  justify-content: center;
+}
+
+.pin-pad {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  outline: none;
+}
+
+.pin-title {
+  font-size: 19px;
+  text-align: center;
+}
+
+.pin-dots {
+  display: flex;
+  gap: 16px;
+}
+
+.pin-dots i {
+  width: 14px;
+  height: 14px;
+  border: 2px solid var(--accent-bg);
+  border-radius: 50%;
+  transition: background 0.15s;
+}
+
+.pin-dots i.on {
+  background: var(--accent-bg);
+}
+
+.pin-msg {
+  min-height: 1.3em;
+  font-size: 13.5px;
+  color: var(--ink-2);
+}
+
+.pin-pad.shake {
+  animation: shake 0.35s;
+}
+
+.pin-pad.shake .pin-msg {
+  color: var(--bad);
+  font-weight: 600;
+}
+
+@keyframes shake {
+  20%,
+  60% {
+    transform: translateX(-8px);
+  }
+  40%,
+  80% {
+    transform: translateX(8px);
+  }
+}
+
+.pin-keys {
+  display: grid;
+  grid-template-columns: repeat(3, 72px);
+  gap: 12px;
+}
+
+.pin-key {
+  height: 60px;
+  display: grid;
+  place-items: center;
+  border: 1px solid var(--line);
+  border-radius: 50%;
+  background: var(--surface);
+  color: var(--ink);
+  font-size: 24px;
+  font-weight: 600;
+  transition: background 0.15s, transform 0.12s var(--ease);
+}
+
+.pin-key:active {
+  transform: scale(0.92);
+  background: var(--accent-soft);
+}
+
+.pin-key.del {
+  border-color: transparent;
+  background: transparent;
+}
+
+.pin-sheet .pin-pad {
+  padding-bottom: 8px;
+}
+
+.acc-card {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.acc-top {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.acc-sync-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 12px;
+  border-radius: 12px;
+  background: var(--surface-2);
+  color: var(--ink-2);
+}
+
+.acc-sync {
+  flex: 1;
+  min-width: 0;
+}
+
+.acc-sync[data-state='error'],
+.acc-sync[data-state='signedout'] {
+  color: var(--bad);
+}
+
+.acc-sync[data-state='ok'] {
+  color: var(--good);
+}
+
+.row-actions {
+  display: flex;
+  gap: 6px;
+  flex: none;
+}

@@ -1,8 +1,9 @@
+import { accountsEnabled } from '../accounts.js';
 import { data, levelsAvailable, word } from '../data.js';
 import { bar, brandSeal, button, h, icon, pinyinWord, segmented, zh } from '../dom.js';
 import { dayKey } from '../srs.js';
 import { streak } from '../store.js';
-import { learnedCount } from './common.js';
+import { accountSeal, learnedCount } from './common.js';
 
 const WEEKDAYS = ['CN', 'T2', 'T3', 'T4', 'T5', 'T6', 'T7'];
 let period = 'week';
@@ -145,12 +146,20 @@ export function render(ctx) {
     'div',
     { class: 'view' },
     h('header', { class: 'topbar' }, h('h1', { class: 'grow' }, 'Tôi'), h('a', { class: 'icon-btn', href: '#/settings', 'aria-label': 'Cài đặt', title: 'Cài đặt' }, icon('settings', 22))),
-    h(
-      'section',
-      { class: 'card me-card' },
-      brandSeal('seal-lg'),
-      h('div', { class: 'row-main' }, h('strong', { class: 'me-name' }, 'Hành trình của bạn'), h('span', { class: 'small muted' }, `${learned} từ đã thuộc · chuỗi ${days} ngày`)),
-    ),
+    accountsEnabled()
+      ? h(
+          'a',
+          { class: 'card me-card me-link', href: '#/account', 'aria-label': ctx.account ? `Tài khoản ${ctx.account.name}` : 'Đăng nhập tài khoản lớp' },
+          ctx.account ? accountSeal(ctx.account, 'seal-lg') : brandSeal('seal-lg'),
+          h('div', { class: 'row-main' }, h('strong', { class: 'me-name' }, ctx.account ? ctx.account.name : 'Khách'), h('span', { class: 'small muted' }, ctx.account ? `@${ctx.account.user} · ${learned} từ đã thuộc · chuỗi ${days} ngày` : 'Đăng nhập để lưu tiến độ vào lớp học')),
+          icon('chevron', 18),
+        )
+      : h(
+          'section',
+          { class: 'card me-card' },
+          brandSeal('seal-lg'),
+          h('div', { class: 'row-main' }, h('strong', { class: 'me-name' }, 'Hành trình của bạn'), h('span', { class: 'small muted' }, `${learned} từ đã thuộc · chuỗi ${days} ngày`)),
+        ),
     h(
       'div',
       { class: 'section-head', style: { marginTop: '20px' } },

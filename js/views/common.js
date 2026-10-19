@@ -1,4 +1,5 @@
 // Khối giao diện dùng chung giữa các màn hình.
+import { initials } from '../accounts.js';
 import { lesson, lessonTitle, topic } from '../data.js';
 import { h, icon, meaningRow, pinyinSentence, pinyinWord, segmented, sentenceWithWord, toast, zh } from '../dom.js';
 import { hasVoice, say } from '../speech.js';
@@ -153,6 +154,11 @@ export function confetti() {
   }
   document.body.append(box);
   setTimeout(() => box.remove(), 2600);
+}
+
+/** Con dấu tròn của một tài khoản lớp học: chữ đầu của tên, màu riêng. */
+export function accountSeal(acc, cls = '') {
+  return h('span', { class: `acc-seal ${cls}`.trim(), style: { background: acc?.color || 'var(--seal)' }, 'aria-hidden': 'true' }, initials(acc?.name || acc?.user || '?'));
 }
 
 /** Bảng trượt lên từ dưới (trên máy tính hiện giữa màn hình). Trả về hàm đóng. */

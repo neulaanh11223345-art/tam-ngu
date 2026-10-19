@@ -154,10 +154,11 @@ export function stableJSON(value) {
   return JSON.stringify(value) ?? 'null';
 }
 
-export function createStore(storage = safeStorage(), now = () => Date.now()) {
+/** key: chỗ lưu trong localStorage (mỗi tài khoản lớp học một chỗ riêng, khách dùng chỗ mặc định). */
+export function createStore(storage = safeStorage(), now = () => Date.now(), key = KEY) {
   let state;
   try {
-    state = normalize(JSON.parse(storage.getItem(KEY) || 'null'));
+    state = normalize(JSON.parse(storage.getItem(key) || 'null'));
   } catch {
     state = emptyState();
   }
@@ -167,7 +168,7 @@ export function createStore(storage = safeStorage(), now = () => Date.now()) {
   function persist() {
     timer = null;
     try {
-      storage.setItem(KEY, JSON.stringify(state));
+      storage.setItem(key, JSON.stringify(state));
     } catch (e) {
       console.warn('Không lưu được tiến độ', e);
     }

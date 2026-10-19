@@ -1,4 +1,5 @@
 // Khởi động app, điều hướng giữa các màn hình và chuyển cảnh mượt.
+import { accountsEnabled, currentAccount, gateState, loadRegistry, startAccountSync, storeKey } from './accounts.js';
 import { loadData, studyOrder } from './data.js';
 import { brandSeal, h, icon } from './dom.js';
 import { startCloudSync } from './host.js';
@@ -25,6 +26,8 @@ const routes = [
   { re: /^\/write\/(word|lesson|words)\/([\w,-]+)$/, view: () => import('./views/write.js'), tab: 'practice' },
   { re: /^\/(?:me|stats)$/, view: () => import('./views/stats.js'), tab: 'me' },
   { re: /^\/settings$/, view: () => import('./views/settings.js'), tab: 'me' },
+  { re: /^\/login$/, view: () => import('./views/login.js'), tab: 'me' },
+  { re: /^\/account$/, view: () => import('./views/account.js'), tab: 'me' },
 ];
 
 const TABS = [
@@ -36,7 +39,10 @@ const TABS = [
 ];
 const TAB_ROOTS = new Set(['', '/', '/lessons', '/practice', '/library', '/dialogues', '/me', '/stats']);
 
-const store = createStore();
+// tài khoản lớp học đang dùng trên máy này (nếu lớp có máy chủ tài khoản); khách dùng chỗ lưu mặc định
+const account = accountsEnabled() ? currentAccount(loadRegistry()) : null;
+const activeAccount = account && account.token ? account : null;
+const store = createStore(undefined, undefined, storeKey(activeAccount));
 // giao diện sáng/tối do trang chứa app đặt (ví dụ khi mở trong Claude); app chỉ ghi đè khi người học tự chọn Sáng/Tối
 let hostTheme = document.documentElement.getAttribute('data-theme');
 let appliedTheme = hostTheme;
@@ -124,6 +130,8 @@ function trackActivity() {
 async function route({ quiet = false } = {}) {
   const token = ++renderToken;
   const { path, query } = parseHash();
+  // chưa đăng nhập (hoặc tài khoản có PIN chưa mở khóa): vào màn đăng nhập trước
+  if (path !== '/login' && gateState()) return navigate('#/login', { replace: true });
   const match = routes.map((r) => [r, path.match(r.re)]).find(([, m]) => m);
   if (!match) return navigate('#/', { replace: true });
   const [r, m] = match;
@@ -150,6 +158,7 @@ async function route({ quiet = false } = {}) {
     navigate,
     dueSummary,
     activity: trackActivity,
+    account: activeAccount,
     refreshNav: () => renderNav(r.tab),
   };
 
@@ -228,10 +237,20 @@ async function boot() {
   });
   route();
 
-  // mở qua link Claude: lưu tiến độ vào tài khoản; dữ liệu từ máy khác về thì vẽ lại màn hình
-  startCloudSync(store, () => {
+  const rerender = () => {
     if (current && !current.immersive) route({ quiet: true });
-  }).catch((e) => console.warn(e));
+  };
+  if (activeAccount) {
+    // tài khoản lớp học: đồng bộ với máy chủ của giáo viên (không dùng lưu theo tài khoản Claude)
+    if (!gateState())
+      startAccountSync(store, activeAccount, {
+        onRemote: rerender,
+        onSignedOut: () => navigate('#/login', { replace: true }),
+      }).catch((e) => console.warn(e));
+  } else if (!accountsEnabled() || loadRegistry().guest) {
+    // mở qua link Claude: lưu tiến độ vào tài khoản; dữ liệu từ máy khác về thì vẽ lại màn hình
+    startCloudSync(store, rerender).catch((e) => console.warn(e));
+  }
 
   if ('serviceWorker' in navigator && location.protocol.startsWith('http')) {
     navigator.serviceWorker.register('sw.js').catch(() => {});
